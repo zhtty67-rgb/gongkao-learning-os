@@ -1,0 +1,487 @@
+[
+  {
+    "question_id": "ZTR_QC_001",
+    "teacher_id": "teacher_zhoutairan",
+    "title": "认知申论与材料宏微观阅读理解示范",
+    "source_exam": "国考副省大纲与真题导引",
+    "question_type": "归纳概括",
+    "analysis": {
+      "core_task": "理解申论本质，掌握宏观抓结构与微观提炼词汇的解题思维",
+      "key_points": [
+        "破除玄学认知，立足采点赋分与阅卷逻辑；",
+        "宏观理清材料逻辑框架（观点+解释+例子）；",
+        "微观去除冗余描写，提炼动宾短语。"
+      ],
+      "descriptive_filters": [
+        "个人主观猜测",
+        "长篇大论叙事细节"
+      ]
+    },
+    "teacher_reasoning": "申论本质测查阅读理解能力，必须先宏观审定要素与材料结构，再微观精炼关键词。",
+    "case_kind": "classroom_exam_case",
+    "verification_status": "source_text_verified",
+    "source": [
+      {
+        "course": "ZTR01.txt",
+        "file": "transcripts/ZTR01.txt",
+        "line_start": 1,
+        "quote": "宏观阅读是为了让你找点找得更准，那微观阅读是什么作用呢？...是让你写得更好看。写得更精。因为很多同学啊，其实他得申论低分的一个原因就在于他的要点，关键词就算写上去阅卷，老师也看不出来"
+      }
+    ]
+  },
+  {
+    "question_id": "ZTR_QC_002",
+    "teacher_id": "teacher_zhoutairan",
+    "title": "贵州与陕西干部下基层办实事做法提炼示范",
+    "source_exam": "经典干部下基层作答对比实训",
+    "question_type": "归纳概括",
+    "analysis": {
+      "core_task": "从两地干部下基层具体案例中提炼可比性的规范举措短语",
+      "key_points": [
+        "贵州：深入一线走访摸排，建立常态化民意反馈机制；",
+        "陕西：精准对接群众需求，推行清单化限时督办结对帮扶。"
+      ],
+      "descriptive_filters": [
+        "具体干部张某李某",
+        "下乡遇到的泥泞道路情节",
+        "群众感谢信细节"
+      ]
+    },
+    "teacher_reasoning": "两地做法细节各异，但采分点均在“下基层、摸实情、解民忧、建机制”等动宾短语。",
+    "case_kind": "classroom_exam_case",
+    "verification_status": "source_text_verified",
+    "source": [
+      {
+        "course": "ZTR02.txt",
+        "file": "transcripts/ZTR02.txt",
+        "line_start": 1,
+        "quote": "对比贵州和陕西干部下基层做法，你认为哪一种更好？来看一下考试类的作答啊，这个题不需要你真做，你只需要看一下从阅卷的角度"
+      }
+    ]
+  },
+  {
+    "question_id": "ZTR_QC_003",
+    "teacher_id": "teacher_zhoutairan",
+    "title": "2024年江苏省考C卷促成群众由旁边看转变为共同干原因分析",
+    "source_exam": "2024年江苏省考C卷",
+    "question_type": "归纳概括",
+    "analysis": {
+      "core_task": "分析给定资料5中促成群众由“旁边看”转变为“共同干”的关键原因",
+      "key_points": [
+        "组织方式科学：以传统院落为中心，吸纳散居农户，搭建小院议事协商平台；",
+        "化解矛盾凝聚共识：耐心化解邻里历史积怨，增进团结互信；",
+        "解决问题务实有效：汇集群众建议，上下联动解决污水沟等急难愁盼民生难题，以实效赢得信任；",
+        "健全参与共治机制：激发群众主人翁责任感，形成共商共管共治氛围。"
+      ],
+      "descriptive_filters": [
+        "老罗老章老唐姓名",
+        "污水沟臭味",
+        "见面不打招呼细节"
+      ]
+    },
+    "teacher_reasoning": "本题为典型的语境转变原因题，从组织形式、矛盾化解、务实办事三个层面提炼机制性动因。",
+    "case_kind": "classroom_exam_case",
+    "verification_status": "source_text_verified",
+    "source": [
+      {
+        "course": "ZTR03.txt",
+        "file": "transcripts/ZTR03.txt",
+        "line_start": 1,
+        "quote": "旁边看转变为共同干了，是不是又来了一个语境？对吧，旁边看转变为共同干，虽然打了引号，但是并不抽象，你还是能用自己的一个含义去理解的...参与度高了，请对促成这一转变的原因加以分析"
+      }
+    ]
+  },
+  {
+    "question_id": "ZTR_QC_004",
+    "teacher_id": "teacher_zhoutairan",
+    "title": "2025年江苏省考C卷农村新职业及其推动作用归纳概括",
+    "source_exam": "2025年江苏省考C卷",
+    "question_type": "归纳概括",
+    "analysis": {
+      "core_task": "归纳概括农村不同领域新职业及其对乡村发展的推动作用（要求一段话）",
+      "key_points": [
+        "农村职业经理人：做好老字号文章，开发创新特色农产品，拓展伴手礼与文创市场；",
+        "乡村数字规划师/技术人才：运用数字技术赋能乡村规划与现代农业管理；",
+        "乡村文旅创客：深度挖掘乡村生态与文化资源，打造特色文旅IP，吸引青年返乡就业创业。"
+      ],
+      "descriptive_filters": [
+        "小周总小韩总姓名",
+        "棒棒糖具体品种",
+        "奥运会展会花絮"
+      ]
+    },
+    "teacher_reasoning": "题干明确要求“一段话”，作答必须句式紧凑，职业名称规范，推动作用紧随其后。",
+    "case_kind": "classroom_exam_case",
+    "verification_status": "source_text_verified",
+    "source": [
+      {
+        "course": "ZTR04.txt",
+        "file": "transcripts/ZTR04.txt",
+        "line_start": 1,
+        "quote": "新职业。及其打上三角符号，对乡村发展的推动作用，请用一段话对此进行归纳概括...乡村CEO打了一个引号明显第一个...近年来h市歪曲活跃着一批农村职业经理人，原来这才是他真正的一个职业"
+      }
+    ]
+  },
+  {
+    "question_id": "ZTR_QC_005",
+    "teacher_id": "teacher_zhoutairan",
+    "title": "窦家梁异地扶贫搬迁工作问题及解决措施提出",
+    "source_exam": "国考经典扶贫搬迁对策实训",
+    "question_type": "提出对策",
+    "analysis": {
+      "core_task": "梳理搬迁工作中干部小雷遇到的问题并提出针对性措施",
+      "key_points": [
+        "思想动员难：组织入户谈心，算好政策账与经济账，消除群众后顾之忧；",
+        "后续就业难：引进扶贫车间，开展技能培训，设立护林保洁等公益性岗位；",
+        "公共服务配套不足：加快完善安置点水电路讯及学校、卫生室等基础设施建设。"
+      ],
+      "descriptive_filters": [
+        "小雷走访时的鞋袜泥水",
+        "个别老人掉眼泪情节"
+      ]
+    },
+    "teacher_reasoning": "审清题干任务为“提出解决措施”，结合材料所反映的群众思想顾虑与生计难题进行精准反推。",
+    "case_kind": "classroom_exam_case",
+    "verification_status": "source_text_verified",
+    "source": [
+      {
+        "course": "ZTR05.txt",
+        "file": "transcripts/ZTR05.txt",
+        "line_start": 1,
+        "quote": "窦家梁异地扶贫搬迁工作中，村干部小雷遇到的一些问题，请你谈谈他是如何解决这些问题的...请你提出解决这些问题的措施，大家有没有发现？只是之字之差。题型已经不一样了"
+      }
+    ]
+  },
+  {
+    "question_id": "ZTR_QC_006",
+    "teacher_id": "teacher_zhoutairan",
+    "title": "2024年四川省考县乡卷公共座椅问题梳理与优化建议",
+    "source_exam": "2024年四川省考县乡卷",
+    "question_type": "提出对策",
+    "analysis": {
+      "core_task": "对C市公共座椅存在的问题进行梳理，并提出优化建议",
+      "key_points": [
+        "问题梳理：①分布不均与数量不足，无法满足群众休憩需求；②材质与设计不合理，破损老化严重；③管护缺位，后期运维资金与人员匮乏。",
+        "优化建议：①摸排需求科学规划，按人流密度合理补设；②因地制宜优化适老化与人性化设计；③建立多元管护机制，推行社会力量“认养”，强化日常巡检。"
+      ],
+      "descriptive_filters": [
+        "废旧轮胎、啤酒箱、棋盘木椅细节",
+        "大爷低头弯腰场景描写"
+      ]
+    },
+    "teacher_reasoning": "双任务结构题，先梳理出分类问题再逐条对应解决，突出“建管并重”与“社会认养”的长效治理思路。",
+    "case_kind": "classroom_exam_case",
+    "verification_status": "source_text_verified",
+    "source": [
+      {
+        "course": "ZTR06.txt",
+        "file": "transcripts/ZTR06.txt",
+        "line_start": 1,
+        "quote": "据给定资料二，对该市公共座椅存在的问题进行梳理。梳理两个字，又来了梳理，就说明这个问题逻辑肯定比较混乱，用草稿纸去写是没有问题的。b说明有两个问提出优化建议...建公共座椅还是容易的，后期的管护才是真正的难关。我看到有新闻报道s18栋社会力量对公共座椅进行认养"
+      }
+    ]
+  },
+  {
+    "question_id": "ZTR_QC_007",
+    "teacher_id": "teacher_zhoutairan",
+    "title": "2022年国考副省卷B公司科技创新案例启示分析",
+    "source_exam": "2022年国考副省卷",
+    "question_type": "综合分析",
+    "analysis": {
+      "core_task": "谈谈B公司的案例为企业科技创新提供了哪些启示",
+      "key_points": [
+        "树立自主创新意识：坚持关键核心技术自主可控，摆脱外部依赖；",
+        "加大研发资源投入：建立专业研发中心，保障创新资金与硬软件支撑；",
+        "完善人才激励与容错机制：包容失败、宽容试错，激发科研团队创新创造活力；",
+        "推动产学研用深度融合：以市场需求为导向，促进科技成果转化落地。"
+      ],
+      "descriptive_filters": [
+        "B公司董事长特定访谈口语",
+        "某款具体设备测试数值",
+        "卡车司机个别油耗案例"
+      ]
+    },
+    "teacher_reasoning": "启示题必须超越B公司个案，提炼出所有科技企业均可借鉴的战略、投入、机制与协同维度。",
+    "case_kind": "classroom_exam_case",
+    "verification_status": "source_text_verified",
+    "source": [
+      {
+        "course": "ZTR07.txt",
+        "file": "transcripts/ZTR07.txt",
+        "line_start": 1,
+        "quote": "借鉴经验的话，那就是要有普适性哦，所以它俩不是一回事...太过于个性化跟针对性了。所以咱们不写"
+      }
+    ]
+  },
+  {
+    "question_id": "ZTR_QC_008",
+    "teacher_id": "teacher_zhoutairan",
+    "title": "综合分析词句解释与观点评论题型训练（老潘放电影与贴春联整治）",
+    "source_exam": "国考与省考经典综合分析题型训练",
+    "question_type": "综合分析",
+    "analysis": {
+      "core_task": "掌握词句解释“三步走”作答与观点评论类“亮明态度”的核心范式",
+      "key_points": [
+        "词句解释：出处段前后定位含义，展开背景与原因影响分析，最后落实对策；",
+        "观点评论：首句明确态度（赞成/反对/辩证），辩证剖析积极意义与潜在弊端，提出包容审慎监管措施。"
+      ],
+      "descriptive_filters": [
+        "老潘放电影具体观众对话细节",
+        "春联尺寸材质无关描写"
+      ]
+    },
+    "teacher_reasoning": "词句解释要遵循就近出处段原则，观点评论要首句定调、辩证分析、对策回扣。",
+    "case_kind": "classroom_exam_case",
+    "verification_status": "source_text_verified",
+    "source": [
+      {
+        "course": "ZTR08.txt",
+        "file": "transcripts/ZTR08.txt",
+        "line_start": 1,
+        "quote": "基本都是按三个步骤走是什么？为什么？怎么办？在词句解释分析中，第一步就是解释这句话...老潘放电影，一个是贴春联诊治"
+      }
+    ]
+  },
+  {
+    "question_id": "ZTR_QC_009",
+    "teacher_id": "teacher_zhoutairan",
+    "title": "综合分析对比型分析与五大公文分类体系认知",
+    "source_exam": "国考与省考应用文理论认知实训",
+    "question_type": "公文题",
+    "analysis": {
+      "core_task": "掌握对比型分析作答流程，建立五大类公文体系的认知框架",
+      "key_points": [
+        "对比型分析：由评论分析延伸，分析两者异同，明确倾向，提出综合对策；",
+        "应用文本质：带着格式的概括题或对策题；",
+        "五大分类：宣传类、新闻类、建议倡议类、报告总结类、特殊类。"
+      ],
+      "descriptive_filters": [
+        "冷门机关文秘琐碎格式要求"
+      ]
+    },
+    "teacher_reasoning": "公文题本质是场景化作答，首重分类定性，次重内容踩点，格式随情境灵活变通。",
+    "case_kind": "classroom_exam_case",
+    "verification_status": "source_text_verified",
+    "source": [
+      {
+        "course": "ZTR09.txt",
+        "file": "transcripts/ZTR09.txt",
+        "line_start": 1,
+        "quote": "对比型分析啊，这个对比型分析的话是属于我们综合分析当中的第三大综合分析...五大类。其实，分法很多...五大类公文已经可以涵盖我们目前考过的所有公文了"
+      }
+    ]
+  },
+  {
+    "question_id": "ZTR_QC_010",
+    "teacher_id": "teacher_zhoutairan",
+    "title": "向江县文化旅游局临诗村专场推介会宣传材料草拟",
+    "source_exam": "国考与省考宣传推介公文实战经典",
+    "question_type": "公文题",
+    "analysis": {
+      "core_task": "以县文旅局人员身份草拟宣传材料向企业和游客推介临诗村",
+      "key_points": [
+        "标题与称谓：生动标题（畅游美丽渔村，感受渔家文化——临诗村推介材料），称呼（各位来宾、企业家、游客朋友们）；",
+        "生态与区位亮点：碧海蓝天特色渔港风情，交通便捷；",
+        "文化与体验亮点：传统渔俗非遗展示，特色海鲜美食，精品渔家民宿；",
+        "营商与合作亮点：政策扶持优惠，基础设施完备，诚邀共谋发展；",
+        "结语呼吁：发出热情做客与投资邀请。"
+      ],
+      "descriptive_filters": [
+        "行政审批繁琐流程",
+        "个别村民历史纠纷"
+      ]
+    },
+    "teacher_reasoning": "宣传材料突出文种感染力与分类结构，题干长背景信息要全面拆解应用。",
+    "case_kind": "classroom_exam_case",
+    "verification_status": "source_text_verified",
+    "source": [
+      {
+        "course": "ZTR10.txt",
+        "file": "transcripts/ZTR10.txt",
+        "line_start": 1,
+        "quote": "专场推介会。句号来在句号后面打一个斜线...宣传材料来把宣传材料这个文种圈起来"
+      }
+    ]
+  },
+  {
+    "question_id": "ZTR_QC_011",
+    "teacher_id": "teacher_zhoutairan",
+    "title": "建议倡议类与报告总结类公文题型演练",
+    "source_exam": "国考与省考建议总结类应用文实训",
+    "question_type": "公文题",
+    "analysis": {
+      "core_task": "掌握建议倡议类与报告总结类公文的主体架构与作答要领",
+      "key_points": [
+        "建议倡议类：背景起因 + 倡议/建议具体事项（分条对策） + 号召号角；",
+        "报告总结类：基本概况 + 做法成效 + 存在不足 + 下一步对策安排；",
+        "新闻评论类：事实引出 + 观点辨析 + 建设性治理举措。"
+      ],
+      "descriptive_filters": [
+        "无实质内容的道德感叹词"
+      ]
+    },
+    "teacher_reasoning": "建议倡议重在对策落实，报告总结重在结构分明，评论重在客观理性依托材料。",
+    "case_kind": "classroom_exam_case",
+    "verification_status": "source_text_verified",
+    "source": [
+      {
+        "course": "ZTR11.txt",
+        "file": "transcripts/ZTR11.txt",
+        "line_start": 1,
+        "quote": "两类文种，一个是建议倡议类，一个是报告总结类...他是要引导或要求对方做某件事，也就是他最后往往会落实到对策上"
+      }
+    ]
+  },
+  {
+    "question_id": "ZTR_QC_012",
+    "teacher_id": "teacher_zhoutairan",
+    "title": "疑难应用文题型深度训练与极限字数统筹实训",
+    "source_exam": "国考与省考疑难应用文极限字数实训",
+    "question_type": "公文题",
+    "analysis": {
+      "core_task": "掌握紧缩字数限制下的公文各板块篇幅配比与要点提炼技巧",
+      "key_points": [
+        "版面统筹：精算标题、开头、正文分条与落款字数配比；",
+        "要点精炼：长句变短句，去除无用修饰词，保证核心踩分动词入卷；",
+        "提纲化应变：识别提纲类任务，去除冗余形式，提高得分要点密度。"
+      ],
+      "descriptive_filters": [
+        "长篇背景铺垫",
+        "空洞道德抒情"
+      ]
+    },
+    "teacher_reasoning": "公文题难点不在死记格式而在字数统筹，考场上必须具备极限压缩文字与防爆格的实操能力。",
+    "case_kind": "classroom_exam_case",
+    "verification_status": "transcript_excerpt_verified",
+    "source": [
+      {
+        "course": "ZTR12.txt",
+        "file": "transcripts/ZTR12.txt",
+        "line_start": 1,
+        "gap_note": "原课件目录缺失对应PDF，仅以课堂录像转写文本为凭，标记待核实",
+        "quote": "公文题最难的不是什么形式格式，它最难就是字数字数，如果统筹不好的话，真的有可能一个公文题就废掉了"
+      }
+    ]
+  },
+  {
+    "question_id": "ZTR_QC_013",
+    "teacher_id": "teacher_zhoutairan",
+    "title": "申论大作文审题立意与总论点确立示范实战",
+    "source_exam": "国考与省考大作文立意破题实训",
+    "question_type": "文章写作",
+    "analysis": {
+      "core_task": "掌握审题立意三部曲，准确提炼符合大纲“准确规范，简明畅达”的总论点",
+      "key_points": [
+        "审题审主题词：锁定文章的核心关键词；",
+        "立意三部曲：审题干 + 看材料首尾脉络 + 定总论点；",
+        "总论点表述：主谓完整，观点鲜明，符合主流政策导向。"
+      ],
+      "descriptive_filters": [
+        "晦涩哲学玄学概念",
+        "纯文学感叹"
+      ]
+    },
+    "teacher_reasoning": "申论作文不是自由创作，核心在于以清晰的行政思维解读时代课题并提出鲜明观点。",
+    "case_kind": "classroom_exam_case",
+    "verification_status": "transcript_excerpt_verified",
+    "source": [
+      {
+        "course": "ZTR13.txt",
+        "file": "transcripts/ZTR13.txt",
+        "line_start": 1,
+        "gap_note": "原课件目录缺失对应PDF，仅以课堂录像转写文本为凭，标记待核实",
+        "quote": "大纲就已经看得出来了，最高的要求也只是准确规范，简明畅达而已...立意要搭建体系三部曲"
+      }
+    ]
+  },
+  {
+    "question_id": "ZTR_QC_014",
+    "teacher_id": "teacher_zhoutairan",
+    "title": "申论大作文分论点拆解与命题角度实战训练",
+    "source_exam": "国考与省考大作文分论点优化实训",
+    "question_type": "文章写作",
+    "analysis": {
+      "core_task": "掌握根据材料偏向确立政论/策论角度，并按科学维度拆解三分论点",
+      "key_points": [
+        "辨析文体：偏意义写政论，偏做法写策论；",
+        "拆解维度：理念认知、体制机制、实践行动三维递进；",
+        "首句提炼：分论点首句一句话亮明观点，句式对仗规整。"
+      ],
+      "descriptive_filters": [
+        "套路化“是什么为什么怎么办”"
+      ]
+    },
+    "teacher_reasoning": "分论点是议论文的承重墙，立柱必须粗壮分明，避免模糊重叠。",
+    "case_kind": "classroom_exam_case",
+    "verification_status": "transcript_excerpt_verified",
+    "source": [
+      {
+        "course": "ZTR14.txt",
+        "file": "transcripts/ZTR14.txt",
+        "line_start": 1,
+        "gap_note": "原课件目录缺失对应PDF，仅以课堂录像转写文本为凭，标记待核实",
+        "quote": "角度。这个文章的角度就是议论文当中的政论文跟策论文角度...总分论点也写出主题的作用，好出效果就可以了"
+      }
+    ]
+  },
+  {
+    "question_id": "ZTR_QC_015",
+    "teacher_id": "teacher_zhoutairan",
+    "source_exam": "国考与省考大作文破题开篇综合演练",
+    "question_type": "文章写作",
+    "analysis": {
+      "core_task": "熟练运用三大开头模式，在150-180字内精准亮明文章总论点",
+      "key_points": [
+        "现状联想法：时代背景 + 现实短板 + 导出总论点；",
+        "主题释义法：内涵界定 + 时代价值 + 导出总论点；",
+        "好坏分析法：正向益处 + 反向弊端 + 凸显紧迫总论点。"
+      ],
+      "descriptive_filters": [
+        "开篇通篇堆砌生僻古诗文"
+      ]
+    },
+    "teacher_reasoning": "开头首要任务是入题快、引点顺，三大方法二选一或三选一灵活匹配主题风格。",
+    "case_kind": "classroom_exam_case",
+    "verification_status": "transcript_excerpt_verified",
+    "source": [
+      {
+        "course": "ZTR15.txt",
+        "file": "transcripts/ZTR15.txt",
+        "line_start": 1,
+        "gap_note": "原课件目录缺失对应PDF，仅以课堂录像转写文本为凭，标记待核实",
+        "quote": "现状联想法，抓住和主题词相关的信息，疯狂展开现状联想的头脑风暴...主题释义法，主题释义法的方法就是把主题的三个分论点解释一遍...好坏分析好用，你觉得哪个好用你就用哪个"
+      }
+    ],
+    "title": "大作文开头三大模式（现状联想/主题释义/好坏分析）写作实训"
+  },
+  {
+    "question_id": "ZTR_QC_016",
+    "teacher_id": "teacher_zhoutairan",
+    "title": "大作文分论点论证段五步结构实战写作演练",
+    "source_exam": "国考与省考大作文主体论证段全景实训",
+    "question_type": "文章写作",
+    "analysis": {
+      "core_task": "掌握分论点首句提炼、五步论证链条（观点+阐释+例证+分析+回扣）及例理结合的综合布局",
+      "key_points": [
+        "首句观点：25字左右一行，鲜明对仗；",
+        "论证链条：严密衔接，举例后必须紧跟本质分析；",
+        "末尾回扣：收束段落，呼应全篇总论点。"
+      ],
+      "descriptive_filters": [
+        "个人主观煽情词汇"
+      ]
+    },
+    "teacher_reasoning": "议论文的硬核功夫在主体段的论证深度，五步法能确保即使考场紧张也能稳定输出高质量论述。",
+    "case_kind": "classroom_exam_case",
+    "verification_status": "transcript_excerpt_verified",
+    "source": [
+      {
+        "course": "ZTR16.txt",
+        "file": "transcripts/ZTR16.txt",
+        "line_start": 1,
+        "gap_note": "原课件目录缺失对应PDF，仅以课堂录像转写文本为凭，标记待核实",
+        "quote": "分论点首句只需要做到观点明确...例证法差一点点，等一下我会把两种方法都给大家讲"
+      }
+    ]
+  }
+]

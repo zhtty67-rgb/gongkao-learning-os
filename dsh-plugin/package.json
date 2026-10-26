@@ -1,0 +1,29 @@
+{
+  "name": "gongkao-learning-os-dsh",
+  "version": "0.1.0",
+  "description": "公考学习系统 DSH 插件：掌握度/到期复习/错题本/知识树/名师讲题只读网关",
+  "type": "module",
+  "private": true,
+  "exports": {
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "cordis.patch.yml",
+    "skill",
+    "README.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "gongkao",
+    "lingshu"
+  ],
+  "license": "MIT"
+}

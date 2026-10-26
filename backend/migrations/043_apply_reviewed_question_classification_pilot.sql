@@ -1,0 +1,20 @@
+-- 043: main-agent-reviewed pilot classifications; no question content or history edits.
+BEGIN IMMEDIATE;
+INSERT OR IGNORE INTO question_knowledge_map SELECT 'hs600-quant-s01-q01','quant_equation_ratio',1 FROM questions WHERE id='hs600-quant-s01-q01' AND EXISTS(SELECT 1 FROM knowledge_nodes WHERE id='quant_equation_ratio');
+UPDATE question_skill_bindings SET status='inactive' WHERE question_id='js-2022-c-q046' AND learning_skill_id='main_idea' AND status='active';
+INSERT OR IGNORE INTO question_knowledge_map SELECT 'js-2022-c-q046','quant_num_reasoning',1 FROM questions WHERE id='js-2022-c-q046' AND EXISTS(SELECT 1 FROM knowledge_nodes WHERE id='quant_num_reasoning');
+INSERT OR IGNORE INTO question_skill_bindings(id,question_id,learning_skill_id,knowledge_node_code,role,weight,provenance,status,metadata_json,created_at) SELECT 'qsb_tree43_'||'js-2022-c-q046','js-2022-c-q046',NULL,knowledge_node_code,'primary',1,'reviewed_pilot_043','needs_review','{}',strftime('%Y-%m-%dT%H:%M:%fZ','now') FROM knowledge_nodes WHERE id='quant_num_reasoning' AND EXISTS(SELECT 1 FROM questions WHERE id='js-2022-c-q046');
+INSERT OR IGNORE INTO question_knowledge_map SELECT 'js-2017-a-q021','verbal_type_next_inference',1 FROM questions WHERE id='js-2017-a-q021' AND EXISTS(SELECT 1 FROM knowledge_nodes WHERE id='verbal_type_next_inference');
+INSERT OR IGNORE INTO question_knowledge_map SELECT 'js-2018-c-q049','verbal_type_detail_judge',1 FROM questions WHERE id='js-2018-c-q049' AND EXISTS(SELECT 1 FROM knowledge_nodes WHERE id='verbal_type_detail_judge');
+INSERT OR IGNORE INTO question_knowledge_map SELECT 'js-2020-c-q028','verbal_type_detail_judge',1 FROM questions WHERE id='js-2020-c-q028' AND EXISTS(SELECT 1 FROM knowledge_nodes WHERE id='verbal_type_detail_judge');
+INSERT OR IGNORE INTO question_knowledge_map SELECT 'js-2022-c-q045','verbal_type_title',1 FROM questions WHERE id='js-2022-c-q045' AND EXISTS(SELECT 1 FROM knowledge_nodes WHERE id='verbal_type_title');
+UPDATE questions SET module='言语理解' WHERE id='js-2018-c-q019';
+DELETE FROM question_knowledge_map WHERE question_id='js-2018-c-q019' AND knowledge_node_id IN(SELECT id FROM knowledge_nodes WHERE module<>'言语理解');
+INSERT OR IGNORE INTO question_knowledge_map SELECT 'js-2018-c-q019','verbal',1 FROM questions WHERE id='js-2018-c-q019' AND EXISTS(SELECT 1 FROM knowledge_nodes WHERE id='verbal');
+UPDATE question_skill_bindings SET status='inactive' WHERE question_id='js-2018-c-q019' AND learning_skill_id='politics' AND status='active';
+INSERT OR IGNORE INTO question_knowledge_map SELECT 'js-2018-c-q019','verbal_type_detail_judge',1 FROM questions WHERE id='js-2018-c-q019' AND EXISTS(SELECT 1 FROM knowledge_nodes WHERE id='verbal_type_detail_judge');
+INSERT OR IGNORE INTO question_skill_bindings(id,question_id,learning_skill_id,knowledge_node_code,role,weight,provenance,status,metadata_json,created_at) SELECT 'qsb_tree43_'||'js-2018-c-q019','js-2018-c-q019',NULL,knowledge_node_code,'primary',1,'reviewed_pilot_043','needs_review','{}',strftime('%Y-%m-%dT%H:%M:%fZ','now') FROM knowledge_nodes WHERE id='verbal_type_detail_judge' AND EXISTS(SELECT 1 FROM questions WHERE id='js-2018-c-q019');
+INSERT OR IGNORE INTO question_knowledge_map SELECT 'js-2020-c-q011','general_law',1 FROM questions WHERE id='js-2020-c-q011' AND EXISTS(SELECT 1 FROM knowledge_nodes WHERE id='general_law');
+INSERT OR IGNORE INTO question_knowledge_map SELECT 'js-2022-c-q011','general_law',1 FROM questions WHERE id='js-2022-c-q011' AND EXISTS(SELECT 1 FROM knowledge_nodes WHERE id='general_law');
+INSERT OR IGNORE INTO schema_migrations VALUES(43,strftime('%Y-%m-%dT%H:%M:%fZ','now'));
+COMMIT;

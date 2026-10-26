@@ -1,0 +1,54 @@
+# Model policies: Gemini Flash low first, DeepSeek Flash on failure.
+# Teacher rules and task policy mappings are unchanged.
+
+[policies.FAST]
+provider = "openai_compatible"
+model = "gemini-3.8-flash-low"
+temperature = 0.1
+max_tokens = 2048
+timeout_seconds = 35.0
+base_url = ""
+api_key = ""
+supports_vision = true
+
+[policies.BALANCED]
+provider = "openai_compatible"
+model = "gemini-3.8-flash-low"
+temperature = 0.2
+max_tokens = 3584
+timeout_seconds = 60.0
+base_url = ""
+api_key = ""
+supports_vision = true
+
+[policies.STRONG]
+provider = "openai_compatible"
+model = "gemini-3.8-flash-low"
+temperature = 0.2
+max_tokens = 8192
+timeout_seconds = 120.0
+base_url = ""
+api_key = ""
+supports_vision = true
+
+[fallback]
+provider = "openai_compatible"
+model = "deepseek-flash"
+base_url = "https://api.deepseek.com/v1"
+temperature = 0.2
+max_tokens = 4096
+timeout_seconds = 60.0
+supports_vision = true
+
+[task_policy_map]
+tutor_hint = "FAST"
+error_diagnosis = "BALANCED"
+tutor_explanation = "BALANCED"
+tutor_followup = "BALANCED"
+shenlun_assessment = "STRONG"
+question_generation = "STRONG"
+weekly_analysis = "STRONG"
+rag_answer = "BALANCED"
+question_classification = "FAST"
+skill_classification = "FAST"
+answer_explanation_audit = "FAST"

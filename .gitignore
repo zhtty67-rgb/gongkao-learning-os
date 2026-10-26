@@ -1,0 +1,15 @@
+# 运行时产物与个人数据
+.venv/
+node_modules/
+.next/
+__pycache__/
+*.pyc
+work/
+release/
+data/assets/
+teachers/
+*.log
+token-plain.txt
+*.token-plain.txt
+.env
+.env.local

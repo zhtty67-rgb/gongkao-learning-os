@@ -1,0 +1,1342 @@
+/* 申论工作台：雅致书卷与名师批注风格 */
+.shenlun-workbench {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 16px 60px;
+}
+
+/* 顶部操作区与快速入口 */
+.shenlun-header-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.shenlun-action-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: 1px solid var(--line, #dcd8ce);
+  background: #fff;
+  color: #333;
+}
+
+.shenlun-action-btn:hover {
+  background: #f8f6f0;
+  border-color: #a04825;
+  color: #a04825;
+}
+
+.shenlun-action-btn.primary {
+  background: #a04825;
+  color: #fff;
+  border-color: #a04825;
+}
+
+.shenlun-action-btn.primary:hover {
+  background: #873919;
+}
+
+/* 主布局：作答区占主导宽度，保障25列红格纸舒展展示 */
+.shenlun-paper-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(640px, 1.35fr);
+  gap: 24px;
+  align-items: start;
+  margin: 20px 0;
+}
+
+/* 批改复盘全幅主视图：1240px 居中宽幅舞台，彻底不再挤在侧边小栏 */
+.shenlun-review-workspace {
+  max-width: 1240px;
+  margin: 20px auto 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* 题本文卷 */
+.shenlun-question-paper {
+  padding: 36px 44px;
+  background: #fffefa;
+  border: 1px solid #dcd8ce;
+  border-radius: 6px;
+  box-shadow: 0 4px 18px rgba(48, 44, 32, 0.05);
+  color: #222;
+  font-family: 'Songti SC', 'SimSun', 'Noto Serif CJK SC', serif;
+}
+
+.shenlun-paper-meta {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #c8c3b6;
+  font: 13px/1.5 system-ui, sans-serif;
+  color: #726d63;
+}
+
+.shenlun-paper-title {
+  margin: 24px 0 16px;
+  font-size: 22px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.shenlun-paper-section-title {
+  margin: 24px 0 16px;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 3px;
+  color: #555;
+  position: relative;
+}
+
+.shenlun-material-article {
+  margin: 24px 0 32px;
+}
+
+.shenlun-material-article h4 {
+  margin: 0 0 14px;
+  font-size: 17px;
+  font-weight: 700;
+  color: #1f1f1f;
+  padding-left: 10px;
+  border-left: 4px solid #a04825;
+  letter-spacing: 0.5px;
+}
+
+.shenlun-material-article p {
+  margin: 12px 0;
+  font-size: 16px;
+  line-height: 2.0;
+  text-indent: 2em;
+  text-align: justify;
+  text-justify: inter-ideograph;
+  word-break: break-all;
+  white-space: normal;
+  color: #2c2c2c;
+}
+
+.shenlun-question-instructions {
+  position: sticky;
+  top: 16px;
+  z-index: 15;
+  margin: 18px 0 24px;
+  padding: 18px 22px;
+  border: 1px solid #dfd8cc;
+  border-left: 5px solid #a04825;
+  background: #fbf8f2;
+  border-radius: 6px;
+  box-shadow: 0 4px 16px rgba(48, 44, 32, 0.08);
+  max-height: 42vh;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #d8d3c5 transparent;
+}
+
+.shenlun-question-instructions h3 {
+  margin: 0 0 12px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #a04825;
+}
+
+.shenlun-question-instructions p {
+  font-size: 15px;
+  line-height: 1.85;
+  white-space: pre-line;
+  margin: 8px 0;
+  color: #222;
+}
+
+.shenlun-word-limit {
+  margin-top: 12px;
+  font-size: 13px;
+  text-align: right;
+  color: #8a6d3b;
+  font-weight: 600;
+}
+
+/* 作答区与批注卷面 */
+.shenlun-answer-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 0;
+}
+
+.shenlun-answer-paper {
+  border-radius: 6px;
+  padding: 24px;
+  background: #fffefa;
+  border: 1px solid #d5cfbe;
+  box-shadow: 0 4px 18px rgba(48, 44, 32, 0.05);
+}
+
+.shenlun-answer-sheet {
+  display: block;
+  width: 100%;
+  min-height: 440px;
+  padding: 16px 20px;
+  border: 1.5px solid #d6806d;
+  border-radius: 4px;
+  background: #fffefa;
+  font: 16px/32px 'SimSun', 'STSong', 'Noto Serif CJK SC', 'Songti SC', serif;
+  color: #1a1a1a;
+  letter-spacing: 1.5px;
+  resize: vertical;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+.shenlun-answer-sheet:focus {
+  outline: none;
+  border-color: #a04825;
+  box-shadow: 0 0 0 3px rgba(160, 72, 37, 0.18);
+}
+
+/* ================= 围绕学生作答的名师批注卷面 ================= */
+.annotated-answer-paper {
+  background: #fffefa;
+  border: 1px solid #d5cfbe;
+  border-radius: 6px;
+  padding: 26px;
+  font-family: 'Songti SC', 'SimSun', 'Noto Serif CJK SC', serif;
+}
+
+.annotated-answer-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 14px;
+  margin-bottom: 18px;
+  border-bottom: 1px dashed #c0b9a8;
+}
+
+.annotated-answer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.annotated-paragraph {
+  line-height: 2.1;
+  font-size: 16px;
+  color: #2b2b2b;
+  position: relative;
+}
+
+/* 作答文本内的批注标记 */
+.annotation-highlight {
+  position: relative;
+  border-bottom: 2px solid #d97736;
+  background-color: rgba(245, 158, 11, 0.12);
+  padding: 1px 2px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.annotation-highlight:hover,
+.annotation-highlight.active {
+  background-color: rgba(245, 158, 11, 0.25);
+}
+
+.annotation-highlight.strength {
+  border-bottom: 2px solid #16a34a;
+  background-color: rgba(34, 197, 94, 0.12);
+}
+
+.annotation-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  font-family: system-ui, sans-serif;
+  font-weight: 700;
+  margin-left: 4px;
+  padding: 0 6px;
+  height: 18px;
+  border-radius: 9px;
+  background: #a04825;
+  color: #fff;
+  vertical-align: middle;
+  line-height: 1;
+}
+
+.annotation-badge.strength {
+  background: #16a34a;
+}
+
+/* 逐段展开的名师批注卡片 */
+.annotated-comment-box {
+  margin-top: 10px;
+  margin-bottom: 8px;
+  padding: 14px 16px;
+  background: #faf6f0;
+  border-left: 3px solid #a04825;
+  border-radius: 0 6px 6px 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+.annotated-comment-box.strength {
+  background: #f2f8f4;
+  border-left-color: #16a34a;
+}
+
+.comment-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.comment-tag {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 4px;
+  background: #eddcd0;
+  color: #8c3817;
+}
+
+.comment-tag.strength {
+  background: #d4ebd8;
+  color: #176632;
+}
+
+.comment-text {
+  color: #333;
+  margin: 4px 0;
+}
+
+.comment-evidence {
+  margin: 6px 0;
+  padding: 6px 10px;
+  background: #fff;
+  border-radius: 4px;
+  border: 1px solid #e8decb;
+  font-size: 12px;
+  color: #296044;
+}
+
+.comment-suggestion {
+  margin-top: 6px;
+  color: #a04825;
+  font-weight: 500;
+}
+
+/* 采分盲区与全局建议区块 */
+.global-advice-card {
+  margin-top: 20px;
+  padding: 18px 20px;
+  background: #fdfaf6;
+  border: 1px solid #ecd9a0;
+  border-radius: 6px;
+}
+
+.global-advice-card h4 {
+  margin: 0 0 10px;
+  font-size: 14px;
+  color: #9a6700;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.global-advice-list {
+  margin: 0;
+  padding-left: 20px;
+  font-size: 13px;
+  line-height: 1.8;
+  color: #444;
+}
+
+/* 轻量精致五维评分条 */
+.shenlun-score-bar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  border: 1px solid #e5e0d3;
+  border-radius: 6px;
+  padding: 12px 18px;
+  margin-bottom: 16px;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.overall-score-pill {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  color: #a04825;
+}
+
+.overall-score-pill strong {
+  font-size: 26px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.dimensions-capsules {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.dim-capsule {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  color: #666;
+  background: #f7f5ef;
+  padding: 4px 10px;
+  border-radius: 12px;
+}
+
+.dim-capsule strong {
+  color: #222;
+}
+
+/* 独立抽屉与模态浮层（真题题库与参考解析） */
+.shenlun-drawer-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  z-index: 1000;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.shenlun-drawer-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.shenlun-drawer-content {
+  width: 680px;
+  max-width: 92vw;
+  height: 100%;
+  background: #fff;
+  box-shadow: -4px 0 24px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  animation: slideInRight 0.25s ease-out;
+}
+
+.shenlun-modal-content {
+  width: 960px;
+  max-width: 95vw;
+  max-height: 88vh;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  animation: fadeInModal 0.2s ease-out;
+  overflow: hidden;
+}
+
+.drawer-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 24px;
+  border-bottom: 1px solid #eee;
+  background: #faf8f5;
+}
+
+.drawer-header h3 {
+  margin: 0;
+  font-size: 17px;
+  color: #222;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.drawer-close-btn {
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  color: #888;
+  cursor: pointer;
+  padding: 4px 8px;
+  line-height: 1;
+}
+
+.drawer-close-btn:hover {
+  color: #111;
+}
+
+.drawer-body {
+  flex: 1;
+  overflow-y: auto;
+  padding: 24px;
+}
+
+/* 题库分类网格 */
+.bank-filter-bar {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 18px;
+  flex-wrap: wrap;
+}
+
+.bank-filter-chip {
+  padding: 4px 12px;
+  border-radius: 14px;
+  font-size: 12px;
+  background: #f0ede6;
+  border: 1px solid #dfd9cb;
+  cursor: pointer;
+  color: #555;
+  transition: all 0.15s ease;
+}
+
+.bank-filter-chip.active {
+  background: #a04825;
+  border-color: #a04825;
+  color: #fff;
+}
+
+.bank-list-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 14px;
+}
+
+.bank-item-card {
+  border: 1px solid #e2ddd0;
+  background: #fffefa;
+  border-radius: 6px;
+  padding: 14px 16px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bank-item-card:hover {
+  border-color: #a04825;
+  box-shadow: 0 4px 12px rgba(160, 72, 37, 0.08);
+}
+
+.bank-item-card.current {
+  border-color: #a04825;
+  background: #faf5ee;
+}
+
+.bank-item-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 6px;
+}
+
+.bank-item-stem {
+  font-size: 12px;
+  color: #666;
+  line-height: 1.6;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.bank-item-meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  color: #888;
+}
+
+/* 解析内容排版 */
+.explanation-viewer {
+  font-family: 'Songti SC', 'SimSun', 'Noto Serif CJK SC', serif;
+  color: #2c2c2c;
+  line-height: 1.9;
+}
+
+.explanation-viewer h4 {
+  font-family: system-ui, sans-serif;
+  color: #a04825;
+  margin: 18px 0 10px;
+  font-size: 15px;
+  border-bottom: 1px dashed #e0d8c8;
+  padding-bottom: 4px;
+}
+
+.explanation-content-box {
+  background: #faf9f6;
+  border: 1px solid #ebd9c8;
+  border-radius: 6px;
+  padding: 18px 22px;
+  white-space: pre-wrap;
+  word-break: break-word;
+  font-size: 15px;
+  line-height: 1.9;
+  color: #2b2b2b;
+}
+
+/* 动效 */
+@keyframes slideInRight {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
+}
+
+@keyframes fadeInModal {
+  from { opacity: 0; transform: scale(0.96); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+/* 移动端与自适应 */
+@media (max-width: 1000px) {
+  .shenlun-paper-layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+/* ==========================================================================
+   申论标准 25 列红格答题纸（国考/省考标准答题卡）
+   ========================================================================== */
+.shenlun-grid-paper-container {
+  background: #fffefa;
+  border: 1.5px solid #d58778;
+  border-radius: 6px;
+  box-shadow: 0 6px 24px rgba(160, 72, 37, 0.08);
+  padding: 24px 28px;
+  font-family: 'SimSun', 'STSong', 'Noto Serif CJK SC', 'Songti SC', serif;
+  color: #1a1a1a;
+  overflow-x: auto;
+}
+
+.exam-card-header {
+  border-bottom: 2px solid #c25745;
+  padding-bottom: 14px;
+  margin-bottom: 18px;
+}
+
+.exam-card-seal-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.exam-card-title-main {
+  font-size: 20px;
+  font-weight: 800;
+  color: #a04825;
+  letter-spacing: 2px;
+}
+
+.exam-card-badge {
+  font-size: 12px;
+  padding: 2px 10px;
+  background: #faeee9;
+  color: #a04825;
+  border: 1px solid #e3b4a8;
+  border-radius: 4px;
+  font-family: system-ui, sans-serif;
+  font-weight: 600;
+}
+
+.exam-card-meta-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  font-size: 13px;
+  color: #555;
+  font-family: system-ui, sans-serif;
+  margin-bottom: 8px;
+}
+
+.exam-card-question-tag {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.word-quota-tag {
+  color: #8a6d3b;
+  background: #fdf6ec;
+  padding: 2px 8px;
+  border-radius: 4px;
+  border: 1px solid #faecd8;
+}
+
+.exam-card-stats-tag {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+}
+
+.overlimit-warning {
+  margin-left: 8px;
+  font-size: 12px;
+  color: #dc2626;
+  font-weight: 700;
+  background: #fef2f2;
+  padding: 2px 8px;
+  border-radius: 4px;
+  border: 1px solid #fecaca;
+}
+
+.exam-card-rule-prompt {
+  font-size: 12px;
+  color: #8c7365;
+  font-family: system-ui, sans-serif;
+  padding: 4px 0 0;
+}
+
+/* 25 列红格网格矩阵 */
+.exam-grid-matrix-wrapper {
+  overflow-x: auto;
+  padding-bottom: 8px;
+}
+
+.exam-grid-matrix {
+  display: flex;
+  flex-direction: column;
+  min-width: 680px;
+  border-top: 1px solid #d98a7b;
+  border-left: 1px solid #d98a7b;
+}
+
+.exam-grid-row {
+  display: flex;
+  align-items: stretch;
+  position: relative;
+}
+
+.exam-grid-row.is-limit-row {
+  border-bottom: 2px dashed #dc2626;
+}
+
+.exam-grid-cells-row {
+  display: grid;
+  grid-template-columns: repeat(25, minmax(24px, 1fr));
+  flex: 1;
+}
+
+.exam-cell {
+  aspect-ratio: 1 / 1;
+  min-height: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid #e2aba2;
+  border-bottom: 1px solid #e2aba2;
+  font-size: 15px;
+  font-weight: 500;
+  color: #1f1f1f;
+  background: #fffefa;
+  user-select: text;
+  transition: background-color 0.15s ease;
+}
+
+.exam-cell.cell-indent {
+  background: #faf7f2;
+}
+
+.exam-cell.cell-highlight-target {
+  background: #fef3c7;
+  color: #92400e;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.exam-cell.cell-highlight-target:hover {
+  background: #fde68a;
+}
+
+.exam-cell.cell-highlight-strength {
+  background: #dcfce7;
+  color: #166534;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.exam-cell.cell-overlimit {
+  color: #dc2626;
+  background: #fee2e2;
+}
+
+.exam-grid-row-marker {
+  width: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: system-ui, sans-serif;
+  font-size: 11px;
+  color: #c25745;
+  font-weight: 700;
+  padding-left: 6px;
+  flex-shrink: 0;
+}
+
+.marker-number {
+  background: #fbf2ef;
+  border: 1px solid #f2cfc7;
+  border-radius: 3px;
+  padding: 1px 5px;
+}
+
+.marker-limit-tag {
+  font-size: 10px;
+  color: #dc2626;
+  background: #fee2e2;
+  border: 1px solid #fca5a5;
+  border-radius: 3px;
+  padding: 1px 4px;
+  white-space: nowrap;
+}
+
+.exam-card-footer {
+  margin-top: 16px;
+  padding-top: 12px;
+  border-top: 1px solid #e8ded3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  font-size: 12px;
+  color: #888;
+  font-family: system-ui, sans-serif;
+}
+
+.exam-footer-notice {
+  color: #8c7365;
+}
+
+/* ==========================================================================
+   名师独立评阅席与观点对比体系 (Multi-Teacher Model Panel)
+   ========================================================================== */
+.teacher-model-panel {
+  background: #fff;
+  border: 1px solid #e0dbce;
+  border-radius: 8px;
+  padding: 18px 20px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+}
+
+.teacher-panel-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.teacher-tabs-nav {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.teacher-tab-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: 1.5px solid #e2ddd3;
+  background: #faf8f5;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: system-ui, sans-serif;
+}
+
+.teacher-tab-button:hover {
+  background: #f3ede2;
+  border-color: #a04825;
+}
+
+.teacher-tab-button.active {
+  background: #fff;
+  border-color: #a04825;
+  box-shadow: 0 2px 8px rgba(160, 72, 37, 0.15);
+}
+
+.teacher-tab-avatar {
+  font-size: 18px;
+  line-height: 1;
+}
+
+.teacher-tab-meta {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.teacher-tab-name {
+  font-size: 13px;
+  font-weight: 700;
+  color: #222;
+}
+
+.teacher-tab-badge {
+  font-size: 10px;
+  color: #666;
+}
+
+/* 名师专属指导心法卡 */
+.teacher-coach-card {
+  padding: 14px 18px;
+  border-radius: 6px;
+  margin-bottom: 16px;
+  border-left: 4px solid #a04825;
+  background: #faf6f0;
+}
+
+.teacher-coach-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.teacher-coach-title {
+  font-size: 13px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.teacher-coach-body {
+  font-size: 13px;
+  line-height: 1.7;
+  color: #333;
+}
+
+/* 范围守卫提示卡片 */
+.teacher-boundary-card {
+  background: #fdf2f8;
+  border: 1px solid #fbcfe8;
+  border-left: 4px solid #db2777;
+  padding: 14px 18px;
+  border-radius: 6px;
+  margin-bottom: 16px;
+  font-size: 13px;
+  color: #831843;
+  line-height: 1.7;
+}
+
+/* 多名师观点并列对比 / 联合会诊视图 */
+.consilium-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 14px;
+}
+
+.consilium-item-card {
+  border: 1px solid #e2ddd3;
+  border-radius: 6px;
+  background: #fff;
+  padding: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+}
+
+.consilium-original-quote {
+  background: #fdfaf5;
+  border-left: 3px solid #d97736;
+  padding: 8px 12px;
+  font-size: 13px;
+  color: #333;
+  margin-bottom: 12px;
+  border-radius: 0 4px 4px 0;
+}
+
+.consilium-teachers-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 12px;
+}
+
+.consilium-teacher-column {
+  border-radius: 6px;
+  padding: 12px 14px;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+/* ==========================================================================
+   独立深度阅读界面 (Dedicated Reading View / Mode)
+   ========================================================================== */
+.shenlun-dedicated-reading-view {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px 80px;
+  font-family: 'Songti SC', 'SimSun', 'Noto Serif CJK SC', serif;
+}
+
+.reading-view-top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  border: 1px solid #ded8cb;
+  border-radius: 8px;
+  padding: 12px 20px;
+  margin-bottom: 22px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+  position: sticky;
+  top: 16px;
+  z-index: 50;
+}
+
+.reading-back-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 16px;
+  background: #a04825;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: system-ui, sans-serif;
+}
+
+.reading-back-btn:hover {
+  background: #873919;
+}
+
+.reading-hero-title {
+  font-size: 24px;
+  font-weight: 800;
+  text-align: center;
+  margin: 18px 0 10px;
+  color: #222;
+  letter-spacing: 1px;
+}
+
+.reading-hero-meta {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  font-size: 13px;
+  color: #777;
+  font-family: system-ui, sans-serif;
+  margin-bottom: 28px;
+}
+
+.reading-card-section {
+  background: #fffefa;
+  border: 1px solid #dcd8ce;
+  border-radius: 8px;
+  padding: 32px 40px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 18px rgba(48, 44, 32, 0.04);
+}
+
+.reading-section-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 12px;
+  border-bottom: 1.5px solid #a04825;
+  margin-bottom: 20px;
+}
+
+.reading-section-header h3 {
+  margin: 0;
+  font-size: 19px;
+  font-weight: 700;
+  color: #a04825;
+  letter-spacing: 1px;
+}
+
+.reading-section-header span {
+  font-size: 12px;
+  color: #888;
+  font-family: system-ui, sans-serif;
+}
+
+.reading-article-paragraph {
+  font-size: 16px;
+  line-height: 2.1;
+  text-indent: 2em;
+  text-align: justify;
+  margin: 14px 0;
+  color: #2c2c2c;
+}
+
+.scoring-rubric-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 16px 0;
+  font-family: system-ui, sans-serif;
+  font-size: 13px;
+}
+
+.scoring-rubric-table th {
+  background: #fbf7f0;
+  color: #a04825;
+  padding: 10px 14px;
+  text-align: left;
+  border: 1px solid #ecd9cc;
+  font-weight: 700;
+}
+
+.scoring-rubric-table td {
+  padding: 10px 14px;
+  border: 1px solid #ecd9cc;
+  color: #333;
+  line-height: 1.6;
+}
+
+.teacher-insights-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+  margin-top: 16px;
+  font-family: system-ui, sans-serif;
+}
+
+.teacher-insight-card {
+  border: 1px solid #e5ded2;
+  border-radius: 6px;
+  padding: 16px 18px;
+  background: #faf8f5;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* ==========================================================================
+   文段就地多师同屏会诊与改法对比 (In-Situ Paragraph-Level Multi-Teacher Cards)
+   ========================================================================== */
+.insitu-paragraph-block {
+  background: #fff;
+  border: 1.5px solid #dfd8cb;
+  border-radius: 8px;
+  padding: 20px 22px;
+  margin-bottom: 24px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.03);
+  transition: all 0.2s ease;
+}
+
+.insitu-paragraph-block:hover {
+  border-color: #a04825;
+  box-shadow: 0 4px 16px rgba(160, 72, 37, 0.08);
+}
+
+.insitu-paragraph-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px dashed #e5dfd2;
+}
+
+.insitu-paragraph-tag {
+  font-size: 13px;
+  font-weight: 700;
+  color: #a04825;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.insitu-paragraph-text {
+  font-size: 16px;
+  line-height: 2.1;
+  color: #222;
+  font-family: 'SimSun', 'STSong', 'Noto Serif CJK SC', 'Songti SC', serif;
+  background: #fffefa;
+  padding: 14px 18px;
+  border: 1px solid #ede6d8;
+  border-radius: 6px;
+  margin-bottom: 16px;
+  text-indent: 2em;
+  position: relative;
+}
+
+.insitu-consilium-panel {
+  background: #fdfbf7;
+  border: 1px solid #ebe2d3;
+  border-radius: 6px;
+  padding: 16px 18px;
+}
+
+.insitu-consilium-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #333;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.insitu-teachers-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  gap: 14px;
+}
+
+.insitu-teacher-card {
+  background: #fff;
+  border-radius: 6px;
+  padding: 14px 16px;
+  border: 1.5px solid #e5ded2;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.02);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.insitu-teacher-card-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #f0eae1;
+}
+
+.insitu-teacher-name {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.insitu-teacher-role {
+  font-size: 11px;
+  color: #777;
+}
+
+.insitu-critique-problem {
+  font-size: 13px;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.insitu-critique-fix {
+  background: #faf4ed;
+  border: 1px solid #f2ded0;
+  border-left: 3px solid #a04825;
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-size: 13px;
+  line-height: 1.6;
+  color: #a04825;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.insitu-critique-evidence {
+  font-size: 12px;
+  color: #296044;
+  background: #f3f8f5;
+  padding: 6px 10px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.insitu-critique-basis {
+  font-size: 11px;
+  color: #777;
+  line-height: 1.5;
+}
+
+.insitu-followup-btn {
+  background: transparent;
+  border: 1px dashed #d5cfbe;
+  border-radius: 4px;
+  padding: 4px 10px;
+  font-size: 12px;
+  color: #666;
+  cursor: pointer;
+  margin-top: 8px;
+  align-self: flex-start;
+  transition: all 0.2s ease;
+}
+
+.insitu-followup-btn:hover {
+  background: #f9f6f0;
+  border-color: #a04825;
+  color: #a04825;
+}
+
+/* 资料逐段深度剖析卡片 */
+.material-paragraph-card {
+  background: #fff;
+  border: 1px solid #e8e2d5;
+  border-radius: 6px;
+  padding: 18px 22px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.02);
+}
+
+.material-paragraph-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #f0eae1;
+  font-size: 13px;
+  color: #a04825;
+  font-weight: 700;
+}
+
+.material-paragraph-body {
+  font-size: 15px;
+  line-height: 2.0;
+  color: #2c2c2c;
+  margin-bottom: 14px;
+  text-indent: 2em;
+}
+
+.material-paragraph-analysis-box {
+  background: #fbf9f4;
+  border-left: 3px solid #0f6c8c;
+  border-radius: 0 4px 4px 0;
+  padding: 10px 14px;
+  font-size: 13px;
+  line-height: 1.7;
+  color: #333;
+}
+
+.material-source-highlight {
+  background: rgba(245, 158, 11, 0.2);
+  border-bottom: 2px solid #d97706;
+  padding: 1px 2px;
+  font-weight: 600;
+}

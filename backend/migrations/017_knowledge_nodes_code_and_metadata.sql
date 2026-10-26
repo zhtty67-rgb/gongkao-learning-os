@@ -1,0 +1,20 @@
+-- Migration 017: Formalize knowledge_node_code and metadata_json on knowledge_nodes table
+--
+-- Background:
+--   knowledge_node_code (Knowledge Hub binding mapping code) and metadata_json (aliases & metadata)
+--   were previously patched conditionally without an explicit version record in schema_migrations.
+--
+-- SQLite DDL Constraint:
+--   SQLite does not support "ALTER TABLE ... ADD COLUMN IF NOT EXISTS".
+--   Executing unconditional ADD COLUMN on existing databases that already have these columns
+--   fails with "OperationalError: duplicate column name".
+--
+-- Versioned Execution Contract:
+--   This migration is version 17. The versioned migration runner in backend.app.db executes
+--   _apply_migration_017 with strict column definition verification, idempotent conditional
+--   addition, foreign-key integrity checks, and writes (17, applied_at) to schema_migrations
+--   only upon verified success.
+--
+-- Schema Target:
+--   knowledge_nodes.knowledge_node_code TEXT (nullable)
+--   knowledge_nodes.metadata_json TEXT NOT NULL DEFAULT '{}'

@@ -1,0 +1,32 @@
+# 公考学习系统 DSH overlay：以 MCP stdio 客户端形态挂载只读网关 + 使用技能。
+# 环境变量（安装前设置，参照 hive-education 的 HIVE_AGENT_ROOT 模式）：
+#   GONGKAO_LEARNING_OS_ROOT  公考学习系统仓库根（含 backend/ 与 .venv/）
+#   GONGKAO_PYTHON            可选，Python 解释器（默认 <root>/.venv/Scripts/python.exe）
+#   GONGKAO_DB_PATH           可选，gongkao.db 路径（默认 <root>/data/gongkao.db）
+#   GONGKAO_API_BASE          可选，后端地址（默认 http://127.0.0.1:8000，gk_ask_teacher use_llm 用）
+- insert:
+    - id: mcp-gongkao
+      name: '@deepseek-ai/dsh-mcp-client'
+      config:
+        serverName: gongkao
+        transport: stdio
+        command: !!js "process.env.GONGKAO_PYTHON || require('node:path').join(process.env.GONGKAO_LEARNING_OS_ROOT, '.venv', 'Scripts', 'python.exe')"
+        args:
+          - !!js "require('node:path').join(process.env.GONGKAO_LEARNING_OS_ROOT, 'scripts', 'gongkao_mcp_server.py')"
+        cwd: !!js process.env.GONGKAO_LEARNING_OS_ROOT
+        env:
+          PYTHONUTF8: '1'
+          PYTHONIOENCODING: utf-8
+        failOnStartupError: true
+        reconnect:
+          enabled: true
+          initialDelayMs: 500
+          maxDelayMs: 5000
+          maxAttempts: 3
+    - id: skill-gongkao
+      name: '@deepseek-ai/dsh-skill-filesystem'
+      config:
+        providerName: gongkao
+        includeDefaultRoots: false
+        customSkillDirs:
+          - !!js "process.getBuiltinModule('node:path').join(process.env.GONGKAO_LEARNING_OS_ROOT, 'dsh-plugin', 'skill')"

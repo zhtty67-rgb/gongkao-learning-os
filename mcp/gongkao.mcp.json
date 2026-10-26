@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "gongkao": {
+      "command": "D:/gong/gongkao-learning-os/.venv/Scripts/python.exe",
+      "args": ["D:/gong/gongkao-learning-os/scripts/gongkao_mcp_server.py"],
+      "env": {
+        "PYTHONUTF8": "1",
+        "PYTHONIOENCODING": "utf-8",
+        "GONGKAO_DB_PATH": "D:/gong/gongkao-learning-os/data/gongkao.db",
+        "GONGKAO_API_BASE": "http://127.0.0.1:8000"
+      }
+    }
+  }
+}

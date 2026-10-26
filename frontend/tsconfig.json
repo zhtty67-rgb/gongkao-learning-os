@@ -1,0 +1,62 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    ".next/dev/types/**/*.ts",
+    ".next-review-e2e/types/**/*.ts",
+    ".next-review-e2e/dev/types/**/*.ts",
+    ".next-e2e/types/**/*.ts",
+    ".next-e2e/dev/types/**/*.ts",
+    ".next-group-e2e/types/**/*.ts",
+    ".next-group-e2e/dev/types/**/*.ts",
+    ".next-teaching-e2e/types/**/*.ts",
+    ".next-teaching-e2e/dev/types/**/*.ts",
+    ".next-entry-cleanup/types/**/*.ts",
+    ".next-entry-cleanup/dev/types/**/*.ts",
+    ".next-entry-visible/types/**/*.ts",
+    ".next-entry-visible/dev/types/**/*.ts",
+    ".next-input-position/types/**/*.ts",
+    ".next-input-position/dev/types/**/*.ts",
+    ".next-unified-review/types/**/*.ts",
+    ".next-unified-review/dev/types/**/*.ts",
+    ".next-reanswer-restored/types/**/*.ts",
+    ".next-reanswer-restored/dev/types/**/*.ts",
+    ".next-review-rollback/types/**/*.ts",
+    ".next-review-rollback/dev/types/**/*.ts",
+    ".next-remove-dont-know/types/**/*.ts",
+    ".next-remove-dont-know/dev/types/**/*.ts",
+    ".next-merged-teacher/types/**/*.ts",
+    ".next-merged-teacher/dev/types/**/*.ts",
+    ".next-wrong-hint-only/types/**/*.ts",
+    ".next-wrong-hint-only/dev/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

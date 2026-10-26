@@ -1,0 +1,177 @@
+[
+  {
+    "question_id": "jmy_case_001",
+    "case_kind": "classroom_partial_case",
+    "verification_status": "transcript_excerpt_verified",
+    "title": "王二牛备考模型：重复信息判定与去粗取精示范",
+    "question_type": "文段分析-概念提炼",
+    "material": "为了早日考上公务员，王二牛这个人啊，他整个五月份都在努力刷题。第一段罗列每天清晨背书、刷模拟卷、做错题本；第二段继续讲述他在图书馆从早到晚刷题的场景。",
+    "analysis": {
+      "analysis_unit": "以句子为最小分析单位逐句阅读",
+      "core_repeated_concept": "努力刷题",
+      "redundancy_filter": "清晨背书、图书馆刷题等属于场景罗列，是对“努力刷题”的举例重复，予以删除",
+      "final_takeaway": "去粗取精，提取核心概念“努力刷题”"
+    },
+    "teacher_reasoning": "申论材料甚至90%以上内容都是重复的，必须把重复的东西删掉，留下最为精华的要点。后文都是围绕王二牛努力刷题堆信息，找到被重复的内容即可。",
+    "source": [
+      {
+        "file": "cleaned_transcripts/[1]--申论·第一讲.txt",
+        "line_start": 84,
+        "line_end": 86,
+        "quote": "去粗取精，找到材料中重复的东西"
+      }
+    ]
+  },
+  {
+    "question_id": "jmy_case_002",
+    "case_kind": "classroom_partial_case",
+    "verification_status": "transcript_excerpt_verified",
+    "title": "S省帮扶新农人做法：总结句识别与高频词提取示范",
+    "question_type": "文段分析-做法提取",
+    "material": "给定资料讲述S省帮扶新农人。第一段提及省里开展高素质农民培训工程；第二段讲述“好大姐”参加新型职业农民技能培训后成为致富带头人；第三段讲述地市级持续推进高素质农民培训体系建设。",
+    "analysis": {
+      "analysis_unit": "逐段找总结性内容与重复要素",
+      "frequency_detection": "“高素质农民培训”在三段中反复出现三次",
+      "story_filter": "“好大姐”是个案故事，属于论据细节，不抄具体情节",
+      "final_takeaway": "提取核心做法：建立健全高素质农民培训体系"
+    },
+    "teacher_reasoning": "以句为单位去过，找总结性内容。好大姐是在讲例子，不能前三段就被故事填满了字数。找到被重复三次的培训内容，要点自然清晰。",
+    "source": [
+      {
+        "file": "cleaned_transcripts/[2]--申论·第二讲.txt",
+        "line_start": 85,
+        "line_end": 87,
+        "quote": "以句为单位去过，看这里面到底谁在重复"
+      }
+    ]
+  },
+  {
+    "question_id": "jmy_case_003",
+    "case_kind": "classroom_partial_case",
+    "verification_status": "transcript_excerpt_verified",
+    "title": "环保排污工程材料：抓大放小与总分结构提炼",
+    "question_type": "文段分析-结构梳理",
+    "material": "材料讲述某村改建排污设施设备，修建污水处理厂，解决工业废水直排问题。后文详细介绍了污水处理厂的内部运作流程、设备参数以及村民老李的看法。",
+    "analysis": {
+      "core_summary": "改建排污设施设备，修建污水处理厂，集中治理工业废水",
+      "detail_pruning": "设备参数、工艺细节及老李看法属于支持性描述，抓大放小予以剔除",
+      "structure": "总括句统领治理举措，展现清晰总分关系"
+    },
+    "teacher_reasoning": "这道题如果加上污水处理厂的内部详情，把30字拓展到50字，体现不出总分结构和条理性，而且忽略了最核心的废水治理方向。必须抓大放小。",
+    "source": [
+      {
+        "file": "cleaned_transcripts/1.第一讲信息提取.txt",
+        "line_start": 236,
+        "line_end": 238,
+        "quote": "我们一定要抓大放小"
+      }
+    ]
+  },
+  {
+    "question_id": "jmy_case_004",
+    "case_kind": "classroom_partial_case",
+    "verification_status": "transcript_excerpt_verified",
+    "title": "村道养护安全漏洞：顺序罗列与主体并列分析",
+    "question_type": "文段分析-并列提取",
+    "material": "某地村道山高路段防护栏老化，存在严重安全隐患；同时巡查机制不健全，没有群众反映就难以及时发现问题。",
+    "analysis": {
+      "parallel_elements": "一是硬件设施维护缺陷（护栏老化）；二是日常巡查机制漏洞（缺乏主动排查）",
+      "relationship": "两者属于并列的隐患与漏洞，地位同等，需完整合并提取"
+    },
+    "teacher_reasoning": "没有群众反映就发现不了问题，和防护栏老化是并列的漏洞，必须并列提炼，不可漏写或主从倒置。",
+    "source": [
+      {
+        "file": "cleaned_transcripts/1.第一讲信息提取.txt",
+        "line_start": 309,
+        "line_end": 311,
+        "quote": "没有群众反映，发现不了问题了，它是并列的"
+      }
+    ]
+  },
+  {
+    "question_id": "jmy_case_005",
+    "case_kind": "classroom_partial_case",
+    "verification_status": "transcript_excerpt_verified",
+    "title": "基层法治服务材料：逻辑关系梳理与典型事例辨析",
+    "question_type": "文段分析-逻辑梳理",
+    "material": "某地推进基层法治治理，一方面依托法治人才优势，优化资源配置；另一方面建立调解工作室，打造网格化普法平台。材料中详细记录了调解员尼泊调处矛盾纠纷的个案。",
+    "analysis": {
+      "parallel_logic": "人才优势优化配置与平台搭建属于并列举措",
+      "example_positioning": "尼泊的调解工作室是个案代表，重点在于“像尼泊这样”背后所代表的网格化法治力量，而非尼泊个人",
+      "overall_structure": "厘清整体与局部、典型与一般的深层逻辑关系"
+    },
+    "teacher_reasoning": "这里尼泊的调解工作室是一个例子，重要的是像尼泊这样。必须理顺材料背后的逻辑关系，把并列要素和典型事例剖析清楚。",
+    "source": [
+      {
+        "file": "cleaned_transcripts/4.第四讲归纳概括（逻辑关系梳理）.txt",
+        "line_start": 250,
+        "line_end": 252,
+        "quote": "各位并列关系吧，依托法治人才优势，不断优化资源配置"
+      }
+    ]
+  },
+  {
+    "question_id": "jmy_case_006",
+    "case_kind": "classroom_partial_case",
+    "verification_status": "transcript_excerpt_verified",
+    "title": "网格化普法平台构建：总分归属与避免脱离材料示范",
+    "question_type": "文段分析-结构梳理",
+    "material": "材料讲述某区推进网格化普法。段落后半部分领导讲话总结：“打造网格化普法平台是实现基层法治全覆盖的根本途径。”",
+    "analysis": {
+      "macro_position": "打造网格化普法平台是全文的总结性统领，不能与其他细碎管理服务杂糅",
+      "boundary": "严格依据材料提炼平台职能，不随意脑补脱离材料的大词"
+    },
+    "teacher_reasoning": "不要去瞎总结，打造网格化普法平台，马局的话在最后说的很明白，这就是总括，不要随意脱离材料总结。",
+    "source": [
+      {
+        "file": "cleaned_transcripts/4.第四讲归纳概括（逻辑关系梳理）.txt",
+        "line_start": 571,
+        "line_end": 573,
+        "quote": "这就叫脱离材料总结"
+      }
+    ]
+  },
+  {
+    "question_id": "jmy_case_007",
+    "case_kind": "classroom_partial_case",
+    "verification_status": "transcript_excerpt_verified",
+    "title": "乡村振兴模式分析：启示提炼之普适性转化示范",
+    "question_type": "文段分析-启示提炼",
+    "material": "材料讲述A县引进现代农业科技团队，由政府出资建设冷链仓储物流中心，解决农产品损耗大、销路窄的问题。",
+    "analysis": {
+      "specific_action": "A县政府出资建设冷链仓储物流",
+      "universal_principle": "完善农业基础设施建设，补齐现代物流短板",
+      "boundary": "保留政府补齐短板的逻辑机制，舍弃A县具体行政区划限制"
+    },
+    "teacher_reasoning": "真正的搞明白什么叫启示，启示是普遍适用的规律与经验，不能照抄做法，但必须以材料为依托进行科学提炼。",
+    "source": [
+      {
+        "file": "cleaned_transcripts/11.第十一讲分析理解（提炼启示）.txt",
+        "line_start": 39,
+        "line_end": 41,
+        "quote": "真正的去搞明白什么叫启示"
+      }
+    ]
+  },
+  {
+    "question_id": "jmy_case_008",
+    "case_kind": "classroom_partial_case",
+    "verification_status": "transcript_excerpt_verified",
+    "title": "社会发展文段分析：层次理解与深层本质剖析示范",
+    "question_type": "文段分析-词句理解",
+    "material": "材料中学者指出“现代社会的活力在于流动之美”。下文论述了高铁网络缩短时空距离、人才在城乡间自由流动、数据跨部门共享带来的创新活力。",
+    "analysis": {
+      "surface_meaning": "表层含义：交通网络健全带来的人员、物资高效便捷的空间流动",
+      "deep_meaning": "深层本质：破除体制机制壁垒，促进城乡要素双向流动与资源优化配置的制度活力"
+    },
+    "teacher_reasoning": "理解词句必须分出层次，既要解释表面现象，更要透过现象看到背后的体制机制和深层次本质。",
+    "source": [
+      {
+        "file": "cleaned_transcripts/1.第一讲信息提取.txt",
+        "line_start": 611,
+        "line_end": 613,
+        "quote": "它的最精华的最精髓的深层次的东西"
+      }
+    ]
+  }
+]

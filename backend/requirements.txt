@@ -1,0 +1,7 @@
+fastapi
+fsrs==6.3.2
+uvicorn
+pydantic
+httpx
+Pillow>=12,<13
+pytest

@@ -1,0 +1,258 @@
+[
+  {
+    "case_id": "ZTR_CC_001",
+    "teacher_id": "teacher_zhoutairan",
+    "question": "认知申论作答思维",
+    "student_error_snippet": "申论是主观题，只要文笔好、多背热点金句就能拿高分。",
+    "error_type": "SUBJECTIVE_SPECULATION",
+    "diagnosis": "陷入申论玄学与热点死记硬背误区，忽视材料客观性与阅卷采点赋分规则。",
+    "severity": "high",
+    "remedy_instruction": "树立客观答题意识，一切答案源于材料，立足踩分关键词组织答案。",
+    "source_quote": {
+      "course": "ZTR01.txt",
+      "file": "transcripts/ZTR01.txt",
+      "line_start": 1,
+      "quote": "申论到底是不是玄学啊？第二就是从阅卷的一个视角去想想，它们到底要什么啊？怎么样才能让你的一个卷面拿到一个很高的分数？其实说真的啊，我能够保持我的一个申论成绩很稳定，我都是有过设计跟加工的，这个设计跟加工就有点像我平时。化的心肌裸妆"
+    }
+  },
+  {
+    "case_id": "ZTR_CC_002",
+    "teacher_id": "teacher_zhoutairan",
+    "question": "归纳概括长句照搬与名词堆砌纠偏",
+    "student_error_snippet": "贵州省安顺市某镇驻村干部张明同志每天走村入户了解30多户贫困户生活情况并记在红本子上。",
+    "error_type": "VERBOSE_DESCRIPTIVE_LANGUAGE",
+    "diagnosis": "未做任何微观提炼，大句大句抄写具体地名、人名、数字与动作细节，属于典型小学生记叙文答法。",
+    "severity": "high",
+    "remedy_instruction": "坚决执行“抄词不抄句”，删去张明、30多户、红本子，提炼为“驻村干部常态化走访调研，精准摸排贫困户实情”。",
+    "source_quote": {
+      "course": "ZTR02.txt",
+      "file": "transcripts/ZTR02.txt",
+      "line_start": 1,
+      "quote": "别人是抄词不抄句，你是大句大句抄，怎么可能？关键词突出嘛。对吧，还有大量词语重复使用，空占字数，很多同学我今天看你们那个卷面就写了很多名词性内容。其实非常浪费资源，名词性内容，它不是重点"
+    }
+  },
+  {
+    "case_id": "ZTR_CC_003",
+    "teacher_id": "teacher_zhoutairan",
+    "question": "2024年江苏省考C卷群众转变原因分析纠偏",
+    "student_error_snippet": "老张召开了好几次小院议事会，老唐和邻居解开矛盾，老罗家门前臭水沟被镇里出钱改造好了。",
+    "error_type": "VERBOSE_DESCRIPTIVE_LANGUAGE",
+    "diagnosis": "充斥琐碎人名与具体事件叙事，完全没有提炼出“搭建协商平台、化解历史矛盾、解决民生痛点”等得分主旨词。",
+    "severity": "high",
+    "remedy_instruction": "彻底剔除老张老唐老罗等具体村民姓名，提炼为制度化治理动作（搭建议事载体、化解邻里积怨、解决民生诉求）。",
+    "source_quote": {
+      "course": "ZTR03.txt",
+      "file": "transcripts/ZTR03.txt",
+      "line_start": 1,
+      "quote": "小院议事会，老张就碰到了钉子...老唐和另外两户院名，因为老一辈之间的矛盾纠纷，见面招呼都不打...老张和其他院民反复劝说...终于解开了心结。小院议事会也顺利召开了"
+    }
+  },
+  {
+    "case_id": "ZTR_CC_004",
+    "teacher_id": "teacher_zhoutairan",
+    "question": "农村新职业归纳概括口语化与漏要素纠偏",
+    "student_error_snippet": "新职业有乡村CEO，帮村民卖梨膏棒棒糖，带领大家致富。",
+    "error_type": "IMPROPER_MEASURE_SUBJECT",
+    "diagnosis": "直接抄写口语化俗称“乡村CEO”，且推动作用表述浅白，缺乏“农村职业经理人、产业升级、文创研发”等规范要点。",
+    "severity": "high",
+    "remedy_instruction": "将“乡村CEO”纠正为“农村职业经理人”，将卖棒棒糖提升为“立足村情推进传统特色产品升级创新”。",
+    "source_quote": {
+      "course": "ZTR04.txt",
+      "file": "transcripts/ZTR04.txt",
+      "line_start": 1,
+      "quote": "乡村CEO打了一个引号明显第一个。职业是不来了，同志们。但是你没有发现打了引号，它是一个不太规范的一个职业...近年来h市歪曲活跃着一批农村职业经理人，原来这才是他真正的一个职业"
+    }
+  },
+  {
+    "case_id": "ZTR_CC_005",
+    "teacher_id": "teacher_zhoutairan",
+    "question": "对策题硬凑前置词导致信息量缺失纠偏",
+    "student_error_snippet": "强化思想引领之舵：动员。健全制度机制之基：就业。",
+    "error_type": "ABSTRACT_SLOGANEERING",
+    "diagnosis": "盲目追求假大空四字前置词，后文动宾具体措施只有两三个字，完全没有写出如何动员、如何促进就业的具体动作。",
+    "severity": "high",
+    "remedy_instruction": "取消虚华前置词，将字数分配给具体措施动词（如入户宣讲政策、开展订单式技能培训、开发公益性岗位）。",
+    "source_quote": {
+      "course": "ZTR05.txt",
+      "file": "transcripts/ZTR05.txt",
+      "line_start": 1,
+      "quote": "反推主旨句，主旨句就是我们所说的前置词...以我目前所了解到的一个标准对策题是没有主旨句的提炼要求的，也就说你的对策题提了主旨句，前置词也没有任何多余的分数"
+    }
+  },
+  {
+    "case_id": "ZTR_CC_006",
+    "teacher_id": "teacher_zhoutairan",
+    "question": "公共座椅问题梳理与对策混淆纠偏",
+    "student_error_snippet": "公园座椅太少且破了，政府要赶紧换新椅子，并让大家认养起来。",
+    "error_type": "ILLOGICAL_STRUCTURE",
+    "diagnosis": "未按题干要求将“问题”与“建议”分开陈述，混写在一起导致问题得分点缺失；表述口语化。",
+    "severity": "high",
+    "remedy_instruction": "划分为“一、存在问题；二、优化建议”两大部分，用分类规范词（供给不足、设施老化、缺乏管护）呈现。",
+    "source_quote": {
+      "course": "ZTR06.txt",
+      "file": "transcripts/ZTR06.txt",
+      "line_start": 1,
+      "quote": "据给定资料二，对该市公共座椅存在的问题进行梳理。梳理两个字，又来了梳理，就说明这个问题逻辑肯定比较混乱，用草稿纸去写是没有问题的。b说明有两个问提出优化建议"
+    }
+  },
+  {
+    "case_id": "ZTR_CC_007",
+    "teacher_id": "teacher_zhoutairan",
+    "question": "启示题未作普适化提炼纠偏",
+    "student_error_snippet": "启示我们要像B公司一样给卡车装节油软件，还要在厂房设立王经理工作室。",
+    "error_type": "VERBOSE_DESCRIPTIVE_LANGUAGE",
+    "diagnosis": "生搬硬套B公司的专有业务与特定人物，完全没有将具体现象提炼为全行业可通用的普适性举措。",
+    "severity": "high",
+    "remedy_instruction": "坚决剔除B公司、卡车、王经理等个性化词汇，升华为“推动核心技术攻关赋能产业、搭建人才创新平台”。",
+    "source_quote": {
+      "course": "ZTR07.txt",
+      "file": "transcripts/ZTR07.txt",
+      "line_start": 1,
+      "quote": "借鉴经验的话，那就是要有普适性哦，所以它俩不是一回事...太过于个性化跟针对性了。所以咱们不写"
+    }
+  },
+  {
+    "case_id": "ZTR_CC_008",
+    "teacher_id": "teacher_zhoutairan",
+    "question": "词句解释未释义与评论未亮明态度纠偏",
+    "student_error_snippet": "这句话的原因是当前基层干部思想认识不足，缺乏业务能力，需要进一步培训。",
+    "error_type": "MISSING_EXPLANATION_STEP",
+    "diagnosis": "违背词句解释三步走流程，完全缺少第一步“是什么”（总体解释）的得分要点，直接跳入原因对策，首句失分严重。",
+    "severity": "high",
+    "remedy_instruction": "补全首句释义：先定位出处段前后解释该句话的内涵与本质，再写原因，最后写业务能力提升对策。",
+    "source_quote": {
+      "course": "ZTR08.txt",
+      "file": "transcripts/ZTR08.txt",
+      "line_start": 1,
+      "quote": "基本都是按三个步骤走是什么？为什么？怎么办？在词句解释分析中，第一步就是解释这句话"
+    }
+  },
+  {
+    "case_id": "ZTR_CC_009",
+    "teacher_id": "teacher_zhoutairan",
+    "question": "应用文宣传类公文标题机械公式化纠偏",
+    "student_error_snippet": "标题：关于某县某村推介会宣传稿的通知。",
+    "error_type": "FORMAT_CONFUSION",
+    "diagnosis": "文种认知严重错位，把面向游客和企业的宣传推介材料拟写成了下发通知的行政命令公文，完全丧失宣传效果。",
+    "severity": "high",
+    "remedy_instruction": "宣传类公文标题切忌用公式型，应采用概括主题、融情于景的生动标题，或主副标题配合。",
+    "source_quote": {
+      "course": "ZTR09.txt",
+      "file": "transcripts/ZTR09.txt",
+      "line_start": 1,
+      "quote": "新闻类。和宣传类。这两类如果用了公式型，完全没有标题分...应用文公文题，它是有标题容情于景，能力复分的哦"
+    }
+  },
+  {
+    "case_id": "ZTR_CC_010",
+    "teacher_id": "teacher_zhoutairan",
+    "question": "宣传推介材料受众错位与缺乏生动性纠偏",
+    "student_error_snippet": "向江县文旅局关于临诗村旅游开发的宣传报告：我县临诗村自2020年起落实文旅政策，现有船只100艘，特此宣传。",
+    "error_type": "FORMAT_CONFUSION",
+    "diagnosis": "将宣传推介材料误写为工作汇报；面对游客和企业毫无吸引力与宣传感染力，文种属性严重偏离。",
+    "severity": "high",
+    "remedy_instruction": "转换语态为宣介感染型口吻，拟定生动主副标题，从生态美景、民俗体验、投资前景三大角度向受众热情推介。",
+    "source_quote": {
+      "course": "ZTR10.txt",
+      "file": "transcripts/ZTR10.txt",
+      "line_start": 1,
+      "quote": "但凡题干很长，我说了它一定会有一些信息的暗示，千万不要放过题干中任何一个关键词，你有没有发现这一句话它给你介绍的是它的一个地点场合"
+    }
+  },
+  {
+    "case_id": "ZTR_CC_011",
+    "teacher_id": "teacher_zhoutairan",
+    "question": "建议倡议类公文缺乏操作对策纠偏",
+    "student_error_snippet": "倡议书：亲爱的居民朋友，为了我们的环境更好，希望大家积极行动起来，为美好家园贡献力量！特此倡议。",
+    "error_type": "MISSING_CORE_POINT",
+    "diagnosis": "只有前言和结尾口号，正文缺少最重要的“具体倡议对策条目”，空无一物，得分点几乎为零。",
+    "severity": "high",
+    "remedy_instruction": "补齐主体操作条目（如垃圾分类投放、爱护绿化设施、开展邻里互助），分条列项确保对策动作充实。",
+    "source_quote": {
+      "course": "ZTR11.txt",
+      "file": "transcripts/ZTR11.txt",
+      "line_start": 1,
+      "quote": "两类文种，一个是建议倡议类，一个是报告总结类...他是要引导或要求对方做某件事，也就是他最后往往会落实到对策上"
+    }
+  },
+  {
+    "case_id": "ZTR_CC_012",
+    "teacher_id": "teacher_zhoutairan",
+    "question": "应用文字数失控爆格与末尾要素残缺纠偏",
+    "student_error_snippet": "正文写了五六百字，答题格子全部占满，最后没有地方写落款单位和日期，斜着挤在格子外边。",
+    "error_type": "FORMAT_OMISSION",
+    "diagnosis": "缺乏考场字数统筹意识，前文拖沓冗长，导致试卷版面彻底崩溃，卷面分严重受损。",
+    "severity": "high",
+    "remedy_instruction": "动笔前先数格子分区块，严格执行“抄词不抄句、长句变短句”，单条超字立即压缩，确保整卷落款规范入格。",
+    "source_quote": {
+      "course": "ZTR12.txt",
+      "file": "transcripts/ZTR12.txt",
+      "line_start": 1,
+      "quote": "公文题最难的不是什么形式格式，它最难就是字数字数，如果统筹不好的话，真的有可能一个公文题就废掉了"
+    }
+  },
+  {
+    "case_id": "ZTR_CC_013",
+    "teacher_id": "teacher_zhoutairan",
+    "question": "大作文盲目堆砌辞藻与立意偏离纠偏",
+    "student_error_snippet": "开头写了五百字唐诗宋词与哲学比喻，直到文章过半阅卷老师仍未找到总论点。",
+    "error_type": "ESSAY_LOOSE_FRAMEWORK",
+    "diagnosis": "严重误解大纲要求，将“准确规范、简明畅达”的政论文写成花哨散文，导致总论点被严重淹没。",
+    "severity": "high",
+    "remedy_instruction": "破除辞藻迷信，第一段严格控制在150-180字内，在首段末尾以清晰明确的一句话亮出文章总论点。",
+    "source_quote": {
+      "course": "ZTR13.txt",
+      "file": "transcripts/ZTR13.txt",
+      "line_start": 1,
+      "quote": "大纲就已经看得出来了，最高的要求也只是准确规范，简明畅达而已"
+    }
+  },
+  {
+    "case_id": "ZTR_CC_014",
+    "teacher_id": "teacher_zhoutairan",
+    "question": "大作文分论点逻辑混乱与概念重叠纠偏",
+    "student_error_snippet": "分论点一：要提高认识；分论点二：要转变思想观念；分论点三：要多宣传教育。",
+    "error_type": "CONFUSING_CAUSE_AND_EFFECT",
+    "diagnosis": "三个分论点本质都在“思想意识”同一维度打转，严重交叉重叠，未能在制度、行动或实践等其他维度展开。",
+    "severity": "high",
+    "remedy_instruction": "拉开维度空间：保留思想认识作为分论点一，分论点二转向制度保障，分论点三转向产业或监管落地。",
+    "source_quote": {
+      "course": "ZTR14.txt",
+      "file": "transcripts/ZTR14.txt",
+      "line_start": 1,
+      "quote": "角度。这个文章的角度就是议论文当中的政论文跟策论文角度"
+    }
+  },
+  {
+    "case_id": "ZTR_CC_015",
+    "teacher_id": "teacher_zhoutairan",
+    "question": "大作文开头入题缓慢与不知所云纠偏",
+    "student_error_snippet": "从盘古开天辟地写到工业革命，洋洋洒洒两百多字仍未切入当前中国的乡村振兴主题。",
+    "error_type": "OVERLY_ABSTRACT_NO_POINT",
+    "diagnosis": "开篇过于宏大虚无，完全脱离申论机关实务政论文的行文范式，严重消耗字数且使考官产生厌烦。",
+    "severity": "high",
+    "remedy_instruction": "直奔主题，用“现状联想法”两句话紧扣当前乡村现状与痛点，第3句直接亮出总论点。",
+    "source_quote": {
+      "course": "ZTR15.txt",
+      "file": "transcripts/ZTR15.txt",
+      "line_start": 1,
+      "quote": "现状联想法，抓住和主题词相关的信息，疯狂展开现状联想的头脑风暴"
+    }
+  },
+  {
+    "case_id": "ZTR_CC_016",
+    "teacher_id": "teacher_zhoutairan",
+    "question": "大作文分论点段落例而不析与缺少回扣纠偏",
+    "student_error_snippet": "分论点段落写完某村做农产品直播的故事之后，没有任何总结分析，直接空行进入下一段。",
+    "error_type": "ESSAY_LOOSE_FRAMEWORK",
+    "diagnosis": "典型“例而不析”硬伤，仅仅把材料事例记叙了一遍，没有剖析事例背后的制度机理与普遍价值，缺乏回扣。",
+    "severity": "high",
+    "remedy_instruction": "在案例后紧跟2-3句深度分析，点明“通过新技术赋能传统产业激活内生动力”，并用一句话回扣分论点。",
+    "source_quote": {
+      "course": "ZTR16.txt",
+      "file": "transcripts/ZTR16.txt",
+      "line_start": 1,
+      "quote": "分论点首句只需要做到观点明确"
+    }
+  }
+]

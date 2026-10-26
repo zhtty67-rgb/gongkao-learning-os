@@ -1,0 +1,13 @@
+.page { max-width: 880px; margin: 0 auto; padding: 28px 20px 80px; color: #23382d; }
+.page nav { margin-bottom: 24px; }
+.card { padding: 22px; margin: 20px 0; border: 1px solid #d6dfd8; border-radius: 12px; background: #fff; }
+.page p { white-space: pre-wrap; line-height: 1.75; }
+.page label { display: block; margin: 12px 0; }
+.page textarea, .page select { display: block; width: 100%; margin-top: 8px; padding: 10px; border: 1px solid #abbfb0; border-radius: 6px; }
+.page textarea { min-height: 110px; }
+.page button { margin: 8px 12px 8px 0; padding: 12px 18px; border-radius: 6px; background: #296044; color: white; border: 0; cursor: pointer; }
+.page button:disabled { opacity: .5; cursor: default; }
+.page small { display: block; color: #627569; }
+.page li { margin: 12px 0; }
+.page img { display: block; max-width: 100%; height: auto; margin: 12px 0; }
+.error { color: #9f2b2b; }

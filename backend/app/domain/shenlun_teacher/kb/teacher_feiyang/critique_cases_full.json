@@ -1,0 +1,682 @@
+[
+  {
+    "case_id": "FEIYANG_CC_001",
+    "teacher_id": "teacher_feiyang",
+    "question": "老马是怎样当好基层这根绣花针的",
+    "student_error_snippet": "老马每天9点不到就开门，听到居民反映消防栓没水、电梯坏了，笑着拿出本子记录，并处理夫妻吵架。",
+    "error_type": "VERBOSE_DESCRIPTIVE_LANGUAGE",
+    "diagnosis": "未过滤描述性场景语言，将具体案例细节直接抄入答案，未提炼“常态化热情接待、建立规矩、化解纠纷”等公文规范要点。",
+    "severity": "high",
+    "remedy_instruction": "删去所有叙事性语言与具体数字情节，转化为规范的机关工作动作动宾短语。"
+  },
+  {
+    "case_id": "FEIYANG_CC_002",
+    "teacher_id": "teacher_feiyang",
+    "question": "老马是怎样当好基层这根绣花针的",
+    "student_error_snippet": "老马大公无私，具有强烈的奉献精神，廉洁奉公，爱岗敬业。",
+    "error_type": "UNSUPPORTED_INFERENCE",
+    "diagnosis": "主观推导过度。材料仅写了其工作认真不计得失，考生擅自补充了空洞的道德大词，非材料直接事实要点。",
+    "severity": "medium",
+    "remedy_instruction": "概括题严禁主观脑补推导，只摘录材料明确体现的工作方法（如与时俱进、24字规矩、传帮带）。"
+  },
+  {
+    "case_id": "FEIYANG_CC_003",
+    "teacher_id": "teacher_feiyang",
+    "question": "风林村在实施村寨银行项目后有了哪些变化",
+    "student_error_snippet": "风林村推进一二三产业深度融合，实现产业多元化，深刻践行了物无妄然必由其理的智慧。",
+    "error_type": "OVER_ABSTRACTION_AND_MACRO_SLOGAN",
+    "diagnosis": "错误套用无依据的“产业融合”热词，且错误把大作文论点金句当作小题要点作答。",
+    "severity": "high",
+    "remedy_instruction": "尊重原文具体产业形态（农业种植合作社+生态旅游），删去无依托的融合大词，删去大作文金句。"
+  },
+  {
+    "case_id": "FEIYANG_CC_JIAKE_001",
+    "teacher_id": "teacher_feiyang",
+    "question": "大作文（任意题目）",
+    "student_error_snippet": "考生不分青红皂白，不管题干考什么，把考前背诵的整段开头与素材默写上去，题干提出的几个方向一个没提。",
+    "error_type": "OTHER",
+    "diagnosis": "写作方向脱离题干要求，立意跑偏；背诵内容喧宾夺主，一眼即被识别为跑题文。老师指出此类文在国考中可能只拿个位数分。",
+    "severity": "high",
+    "remedy_instruction": "立意必须从题干与材料出发，方向按题干要求确定；背诵素材仅作写不出来时的扩展抓手，不得整段替代题目要求的内容。"
+  },
+  {
+    "case_id": "FEIYANG_CC_JIAKE_002",
+    "teacher_id": "teacher_feiyang",
+    "question": "大作文论证段写作",
+    "student_error_snippet": "某个论证段从头到尾列举三四个事例，每个例子写上百字情节，没有说理过程。",
+    "error_type": "POOR_STRUCTURE",
+    "diagnosis": "举例论证的论证力度不强（例子属于个例），全段只有例子没有说理，论证单薄且字数失控；老师明确举例论证应放在说理论证之后作为佐证。",
+    "severity": "medium",
+    "remedy_instruction": "按'分论点+背景引入+分析论证+正反对比或举例佐证+结论句对策'组织论证段；例子点到为止，说理用层层递进或多维度展开，段尾提出可从材料提炼的对策。"
+  },
+  {
+    "case_id": "FEIYANG_CC_JIAKE_003",
+    "teacher_id": "teacher_feiyang",
+    "question": "以信用的'柔性'与'刚性'为主题写一篇议论文",
+    "student_error_snippet": "第一段写刚性对柔性的促进作用，第二段写柔性对刚性的支撑作用，再写一段如何相互成就。",
+    "error_type": "POOR_STRUCTURE",
+    "diagnosis": "结构误判：信用的刚性与柔性是信用的两面，两者彼此独立，不是A与B的相互作用关系；独立两面应各写一段（是什么、有什么用），再写一段打造刚柔并济的信用体系。",
+    "severity": "high",
+    "remedy_instruction": "先判断两个概念是独立还是相互作用：只有题干呈现'A与B''A促B、B养A'式相互作用（如红线与红利、城市机体与细胞）才用关系分析型；独立两面用并列各自成段加一段统筹对策。"
+  },
+  {
+    "case_id": "FEIYANG_CC_L02_001",
+    "teacher_id": "teacher_feiyang",
+    "question": "归纳概括A省推进农业高质量发展的举措",
+    "student_error_snippet": "把要点/小标题写成'推进现代化农田建设'（将材料中的'高标准农田'改写为'现代化农田'）",
+    "error_type": "KEYWORD_LOSS",
+    "diagnosis": "材料中反复出现的规范表述是'高标准农田'，学生擅自同义替换为'现代化农田'，丢掉了材料原有关键词。老师明确：材料给的就是高标准农田，为什么要改？千万不要这么改，尊重原文；材料给定规范词应原词照用，最多做动词前置（建设高标准农田）或适当添加，不能改写。",
+    "severity": "high",
+    "remedy_instruction": "尊重原文：材料已给出的规范词直接照用，需要动宾结构时仅添加动词（如'建设高标准农田'），禁止同义替换材料关键词。"
+  },
+  {
+    "case_id": "FEIYANG_CC_L02_002",
+    "teacher_id": "teacher_feiyang",
+    "question": "概括互联网协同消费经济存在的问题",
+    "student_error_snippet": "相关部门缺少治理决心，平台缺少服务智慧，社会征信体系尚未建立",
+    "error_type": "UNSUPPORTED_INFERENCE",
+    "diagnosis": "材料原文'除了考验平台的服务智慧、相关部门的治理决心，还有赖于社会征信体系的建立'是对策性表述，学生把它反推成了问题。老师明确：征信体系没有建立是你推出来的，那是后面他给的措施，材料没说那是问题；概括题不需要反推，对策题才需要反推；且这三点是并列关系，要推三点都得推，没推前两点就不能只推第三点。",
+    "severity": "high",
+    "remedy_instruction": "概括题只摘材料明确写出的问题表现；遇到'考验……''有赖于……'等对策建议句直接跳过，不做反向推导。"
+  },
+  {
+    "case_id": "FEIYANG_CC_L02_003",
+    "teacher_id": "teacher_feiyang",
+    "question": "归纳概括A省推进农业高质量发展的举措",
+    "student_error_snippet": "推动块状经济向全省带状经济转变；减少了投入，提高了棉花产量（均作为做法要点写入）",
+    "error_type": "OTHER",
+    "diagnosis": "做法与效果混淆。学生认为'推动'也是做法，但'推动……转变'是做法带来的效果；'减少了投入''提高了产量'中'减少''提高'都是体现对比变化的动词，也是效果。老师补充：就算把它理解成做法也写不了——这句太长没法压缩，只写'推动转变'又没有意义。",
+    "severity": "medium",
+    "remedy_instruction": "用三法判别做法与效果：看先后（做法在先效果在后）、看动词（改善/提升/提高/完善等变化动词后多为效果）、看时态（'了'表效果）；题干问举措只写做法本身。"
+  },
+  {
+    "case_id": "FEIYANG_CC_L03_001",
+    "teacher_id": "teacher_feiyang",
+    "question": "谈谈长茂村由发展落后的农业村蝶变为远近闻名的明星村的原因",
+    "student_error_snippet": "答案开头写'长茂村围绕破解人、财、地三个难题，积极推进一系列要素联动改革'作为总括句，再写具体原因",
+    "error_type": "VERBOSE",
+    "diagnosis": "把材料背景段总括句抄进概括题答案。老师明确：材料背景答小题是不写的，这个句子没有分数，白白占用150字中宝贵的格子；它的正确用途是公文题的第一段总体概述。",
+    "severity": "medium",
+    "remedy_instruction": "概括题跳过背景段和引入段，从第一个具体做法/原因直接分条写起；背景总述留给公文题开头。"
+  },
+  {
+    "case_id": "FEIYANG_CC_L03_002",
+    "teacher_id": "teacher_feiyang",
+    "question": "谈谈长茂村由发展落后的农业村蝶变为远近闻名的明星村的原因",
+    "student_error_snippet": "把'王教授认为只要思路和方法得当，就能找到适合本地的致富之路，就像把米、红豆、红枣等熬制成八宝粥'当作长茂村蝶变的原因写入",
+    "error_type": "UNSUPPORTED_INFERENCE",
+    "diagnosis": "王教授的话是评论性、比喻性观点，不是长茂村实际的做法，也不是导致蝶变的客观因素；老师明确'这不算啊，这是写大作文儿时候能用上的'，它的用途是大作文立意素材。同理，材料中'地处长寿之乡、土壤富含硒'虽是客观介绍，但转折词'但农业却成为跛脚产业'表明资源禀赋并未带来发展，也不能当原因。",
+    "severity": "medium",
+    "remedy_instruction": "原因题只采主体实际的做法和真正的客观因素；专家评论、比喻升华句直接跳过（可留作大作文素材）。"
+  },
+  {
+    "case_id": "FEIYANG_CC_L03_003",
+    "teacher_id": "teacher_feiyang",
+    "question": "请对给定资料中快递员参与社会基层治理的做法加以评析",
+    "student_error_snippet": "把'发放现金奖励''荣誉和奖励的激励''建章立制、对快递员实行台账管理、统一调度'写进'分析好处'部分，未放入对策部分",
+    "error_type": "POOR_STRUCTURE",
+    "diagnosis": "观点题三步结构泾渭分明：好处要回答'为什么值得肯定'，做法要回答'如何让它更好发挥作用'。同一'现金奖励'在'举报有奖，对快递员是好处'语境放分析，在'参与社会治理要有效发挥作用，需要荣誉和奖励的激励'语境是做法；老师明确'该做法就做法，该理由就理由，你把做法写到好处里了，我认为那不给分儿'。观点题打破了材料顺序，必须按表态-论述-对策归位，这是它与概括题（按材料顺序并列书写）的根本区别。",
+    "severity": "high",
+    "remedy_instruction": "先定板块再落笔：判断标志句（'要有效发挥作用……需要/有赖于'引出的是做法）；对策类信息（激励、建章立制、培训建议）一律放入第三部分，好处类（及时发现问题、荣誉感、获得奖励的优势）放入分析部分。"
+  },
+  {
+    "case_id": "FEIYANG_CC_L04_001",
+    "teacher_id": "teacher_feiyang",
+    "question": "根据给定资料分析支书为什么感到压力大",
+    "student_error_snippet": "看到题干引用了支书的一句话'这样一来，我们的压力很大，看来村里土地调整也不是一个简单的事'，就按语句理解题'解释-分析-启示'三步作答",
+    "error_type": "OTHER",
+    "diagnosis": "题型误判。老师明确：不是说有一句话它就是这个类型的题目，要看问法——问'他为什么感到压力大'分析的应该是原因，属于单一问题的分析（原因题），不是语句理解；语句理解问'谈理解/作分析'，观点题问'评价/评析/看法/认识'。",
+    "severity": "high",
+    "remedy_instruction": "动笔前先按问法定题型：问'为什么'→找原因，要点并列分条；问'谈理解'→解释+分析+启示做法；问'评价/评析'→表态+论述+对策。"
+  },
+  {
+    "case_id": "FEIYANG_CC_L04_002",
+    "teacher_id": "teacher_feiyang",
+    "question": "谈谈你对'城市的水系就像城市的指纹'这句话的理解",
+    "student_error_snippet": "答案写道：'城市水系如同指纹一样独一无二、不可复制，是城市的标识'，未说明这句话的实际含义",
+    "error_type": "ABSTRACTION_TOO_LOW",
+    "diagnosis": "对比喻句只做字面复述，没有完成第一步该做的'解释'。老师示范的推理路径：指纹对人意味着唯一性、能识别身份、体现个体特征→迁移到城市，水系能够彰显城市的个性特点；这句话材料里没有现成解释，需要考生自己解释，'很多同学不敢解释'，怎么理解就怎么解释，只抄字面等于没答。",
+    "severity": "high",
+    "remedy_instruction": "借助喻体常识把比喻翻译成本体含义（指纹→唯一性/识别→水系彰显城市个性特点），再让第二步分析方向跟着这个解释走（能带来哪些特点）。"
+  },
+  {
+    "case_id": "FEIYANG_CC_L04_003",
+    "teacher_id": "teacher_feiyang",
+    "question": "老邱和小邱在创业理念上有哪些不同",
+    "student_error_snippet": "一、创业时间不同：老邱创业早，小邱创业晚；二、年龄不同：老邱年纪大，小邱年纪小；三、用人理念不同：老邱任人唯亲，小邱任人唯贤",
+    "error_type": "BAD_GROUPING",
+    "diagnosis": "混入没有意义的不同。老师明确：找不同要找有意义的不同，创业时间、年龄是父子必然不同的属性，不能算比较维度；应围绕题干限定的'创业理念'找有意义维度——项目选择的思路不同、用人理念不同、企业管理方式不同，并按'××不同+分别解释（前者怎么做、后者怎么做）'组织。",
+    "severity": "medium",
+    "remedy_instruction": "用'目的不同、手段不同、效果不同'或题干限定的理念维度筛选比较点，剔除时间、年龄等必然不同的固有属性。"
+  },
+  {
+    "case_id": "FEIYANG_CC_L05_001",
+    "teacher_id": "teacher_feiyang",
+    "question": "针对兴旺区老旧小区改造存在的主要问题提出解决建议",
+    "student_error_snippet": "问题：东瑞园小区王阿姨家管道漏水两个月无人维修；部分住户装防护网花了七八千拆掉可惜；老旧小区基础设施不完善。",
+    "error_type": "OTHER",
+    "diagnosis": "问题取舍错误：把只发生在个别家庭的个例（漏水、自家防护网）当作问题立点，又把段落中用于引出问题的背景事实（基础设施不完善）当成问题。老师用言语理解主旨思维纠正：该段主旨是'物业费收取难'，设施不完善只是为了引出维修花钱多；漏水反映的是物业维修慢且是个例，车位才是家家面临的普遍问题。",
+    "severity": "high",
+    "remedy_instruction": "按段落主旨取舍问题：普遍性问题（车位被占用、物业不作为维修难）入题，个例与背景铺垫不立点；表述采用材料高频词（占→车位被占用）。"
+  },
+  {
+    "case_id": "FEIYANG_CC_L05_002",
+    "teacher_id": "teacher_feiyang",
+    "question": "针对兴旺区老旧小区改造存在的主要问题提出解决建议",
+    "student_error_snippet": "问题：物业公司经营积极性差，服务意识薄弱。",
+    "error_type": "CAUSAL_ERROR",
+    "diagnosis": "把问题的派生结果当成问题本身。老师指出积极性差是最后的结果——因为收不上物业费、入不敷出所以积极性差；问题应从收费角度标准表述（物业收费难，经营困难），对策再针对原因（转变业主观念）展开。",
+    "severity": "medium",
+    "remedy_instruction": "问题表述追到因果链条上游的标准表述（收费难、经营困难），结果性描述（积极性差）不作为问题立点，原因放进对策里转化。"
+  },
+  {
+    "case_id": "FEIYANG_CC_L05_003",
+    "teacher_id": "teacher_feiyang",
+    "question": "针对兴旺区老旧小区改造存在的主要问题提出解决建议",
+    "student_error_snippet": "问题：改造忽视了居民的安全，居民意见不统一；楼上几户又重新装上防护网，外观再次被破坏。",
+    "error_type": "UNSUPPORTED_INFERENCE",
+    "diagnosis": "两处无据推断：其一，'忽视居民安全'材料不支持——拆防护网正是为了安全（防止小偷攀爬），居民反对的是方式；其二，'意见不统一'不对，居民意见一致是反对，核心是改造方未采纳、未征求居民意见；'又重新装上、外观被破坏'只是未采纳意见导致的结果，不是独立问题。",
+    "severity": "high",
+    "remedy_instruction": "紧扣材料认定的问题：未采纳/未征求居民意见；对策写广泛征求群众意见、合理性意见予以采纳（如统一更换隐形防护网），不虚构'忽视安全''意见不统一'等表述。"
+  },
+  {
+    "case_id": "FEIYANG_CC_L06_001",
+    "teacher_id": "teacher_feiyang",
+    "question": "对B市实施机动车禁鸣措施中出现的问题提出解决建议",
+    "student_error_snippet": "（要求'问题梳理全面准确有条理，所提建议与问题相对应'的题）通篇只写了五条对策，没有写问题部分。",
+    "error_type": "MISSING_POINT",
+    "diagnosis": "漏答问题部分。题干要求明确包含'问题梳理全面、准确、有条理'，是两个问；只写对策等于丢掉问题部分的分。老师强调每次国考联考考完都有考生来问这种失误怎么补救，申论中这种失误是不能出现的。",
+    "severity": "high",
+    "remedy_instruction": "对策题动笔前先数问数：要求里出现'问题梳理……'字样必须先写问题再写对策，按'一是问题、二是对策'框架作答。"
+  },
+  {
+    "case_id": "FEIYANG_CC_L06_002",
+    "teacher_id": "teacher_feiyang",
+    "question": "对B市实施机动车禁鸣措施中出现的问题提出解决建议",
+    "student_error_snippet": "问题：部分工作人员对代办业务流程不熟悉，导致向市民推荐代办公司。",
+    "error_type": "CAUSAL_ERROR",
+    "diagnosis": "因果判断颠倒。老师指出工作人员天天在大厅上班，恰恰是太熟悉流程了才推荐收费一千元的代办公司，背后存在利益勾结/利益链条，所以对策是加强纪检监察、打击代办利益链条、公开办事流程，而不是组织业务培训。",
+    "severity": "high",
+    "remedy_instruction": "从动机与利益角度重新归因：推荐代办+收取费用=利益链条；对策对应改为纪检监察查处、公开流程、接受举报。"
+  },
+  {
+    "case_id": "FEIYANG_CC_L06_003",
+    "teacher_id": "teacher_feiyang",
+    "question": "对B市实施机动车禁鸣措施中出现的问题提出解决建议",
+    "student_error_snippet": "问题：市区电动车、摩托车随意占道行驶，出租车网约车路边违法上下客，交通秩序混乱。",
+    "error_type": "RELATION_LOST",
+    "diagnosis": "把与禁鸣令没有逻辑关系的交通违法当作本题问题。老师明确：禁鸣令解决不了占道问题，占道是交通道路管理的问题，与'实施禁鸣措施中出现的问题'之间没有逻辑上的必然关系；该段真正与禁鸣相关的是'完全不让鸣笛很难提示安全风险'。",
+    "severity": "medium",
+    "remedy_instruction": "紧扣题干限定的措施（禁鸣令）筛问题：只取与该措施有因果关联的表现（难以提示安全风险），无关交通乱象舍弃。"
+  },
+  {
+    "case_id": "FEIYANG_CC_L07_001",
+    "teacher_id": "teacher_feiyang",
+    "question": "以M县有关部门名义拟写基层治理情况汇报提纲",
+    "student_error_snippet": "把'完善信访超市+外送服务体系，多单位同步进驻，只进一扇门最多跑一次'一段当作上一段'网格员发现矛盾纠纷通过平台发令、超市安排调解员化解'的总结句，合并为一点。",
+    "error_type": "RELATION_LOST",
+    "diagnosis": "误把并列当总分。老师明确：'构建体系'一段说的是怎么把信访超市建起来（各单位进驻、群众按需找部门、一站式办理），与上一段'化解纠纷'（发现问题后超市安排调解员到现场）完全是两回事；构建体系层次上更高，但不能涵盖、不能总结化解纠纷，两点要分开写。",
+    "severity": "high",
+    "remedy_instruction": "逐段判断段旨再定关系：一段说'怎么调解'、一段说'怎么建超市'，各自成点（化解纠纷/构建体系）；层次高低不等于总结关系，不能合并。"
+  },
+  {
+    "case_id": "FEIYANG_CC_L07_002",
+    "teacher_id": "teacher_feiyang",
+    "question": "以Y市脱贫攻坚专项督查组名义写一篇通报",
+    "student_error_snippet": "经查，村主任将低保金截留私分，中饱私囊，性质恶劣，应移送司法机关处理。",
+    "error_type": "UNSUPPORTED_INFERENCE",
+    "diagnosis": "超出材料事实的推断。材料只说低保金'一分不少地放在村委'，只能写'未对低保金进行占有'；是否中饱私囊是考生推出来的，材料没说不能推。定性必须与事实匹配：未占有资金、未优亲厚友，但随意变通政策是严重违纪行为，对应党内警告处分而非司法移送。",
+    "severity": "high",
+    "remedy_instruction": "定性表述严格以调查事实为界：写'虽未占有低保金、未优亲厚友，但擅自变通政策属严重违纪'，处理写党内警告、责令重新认定资格、按政策发放到位。"
+  },
+  {
+    "case_id": "FEIYANG_CC_L07_003",
+    "teacher_id": "teacher_feiyang",
+    "question": "C市商务局考察团赴H市调研夜间经济发展情况，写调研报告提纲",
+    "student_error_snippet": "结尾：夜间经济契合新旧动能转换方向，必将成为城市发展的重要原动力，让我们共同期待H市夜经济的美好明天。",
+    "error_type": "POOR_STRUCTURE",
+    "diagnosis": "给调研报告加了展望和呼吁的结尾。老师明确：调研报告没有结尾，报告文体结尾的两样东西（呼吁、展望）都不能有，材料末尾'夜间经济必将成为重要原动力'是段落总结、是大作文的素材，小题不用写；经验做法写完即止。",
+    "severity": "medium",
+    "remedy_instruction": "调研报告主体经验做法写完即收，不写展望段；此类段落总结留作大作文论证素材。"
+  },
+  {
+    "case_id": "FEIYANG_CC_L08_001",
+    "teacher_id": "teacher_feiyang",
+    "question": "以村“两委”名义写致村民的公开信，动员村民退藕还稻",
+    "student_error_snippet": "沈大伯已经把地租给莲藕种植户了，收入也不错，没有需要解决的问题，因此不需要再提土地出租、托管等措施。",
+    "error_type": "SCOPE_NARROWING",
+    "diagnosis": "把代表一类老人（有地不愿种）的个案窄化为沈大伯个人的处境，以“他已经租出去了”为由漏掉针对共性问题的措施。老师反复强调“他是一类人”“不是说大伯把地都租出去了，你就不能提这个租地了”，它反映的是普适性问题。",
+    "severity": "high",
+    "remedy_instruction": "案例人物按其代表的群体处理：识别其背后的共性问题（缺少劳动力、有地无人种），再按共性提出出租土地、土地托管、流转给种植大户等常规措施。"
+  },
+  {
+    "case_id": "FEIYANG_CC_L08_002",
+    "teacher_id": "teacher_feiyang",
+    "question": "以村“两委”名义写致村民的公开信，动员村民退藕还稻",
+    "student_error_snippet": "材料说每亩增收3000元，但种莲藕每亩利润6000多元，看不出种水稻收益更高，无法回应梁大姐的收益顾虑。",
+    "error_type": "OTHER",
+    "diagnosis": "误读“增收3000元”的含义。老师指出：增收是在原有基础上再增加3000元，不是说水稻亩产只有3000元，也不必去做3000与6000哪个多的资料分析式比较；只要表明种稻收益有保障、能解决梁大姐的顾虑即可。",
+    "severity": "medium",
+    "remedy_instruction": "审题时注意“增收”“提高”等增量化动词的准确含义，不把增量误当总量，也不做材料未要求的数值比较。"
+  },
+  {
+    "case_id": "FEIYANG_CC_L08_003",
+    "teacher_id": "teacher_feiyang",
+    "question": "拟写C省文物资源保护与利用情况的宣传稿",
+    "student_error_snippet": "把博物院直播课中介绍的彩绘保护最新科技手段、与德国合作研究单独写成一点，与“开展直播课”并列作答。",
+    "error_type": "BAD_SPLITTING",
+    "diagnosis": "科技手段是在直播过程中顺带介绍的，应并入“直播课堂促交流”一点；只有当材料另起一段、单独介绍运用科技加强保护时，才拆成“通过直播科普”“运用科技保护”两点。老师：“都在直播里进行介绍的，所以放在一起就行。”",
+    "severity": "medium",
+    "remedy_instruction": "按信息所属的事件段落归点：先判断该内容在哪个话题之下被介绍，随其所在事件合并，不人为拆分要点。"
+  },
+  {
+    "case_id": "FEIYANG_CC_L09_001",
+    "teacher_id": "teacher_feiyang",
+    "question": "以“让‘鸿沟’变‘红利’，一个都不能少”为题写宣传报道稿",
+    "student_error_snippet": "65岁的田阿姨平时独居，偶尔被邀请去免费领奖品、听课程，由于警惕性高没有上过当，听说社区有助老防骗宣传，就叫上几位老姐妹一起来参加活动，增长见识。",
+    "error_type": "VERBOSE",
+    "diagnosis": "把引出话题的个人案例细节抄入答案。田阿姨的故事是引子，真正的采分主体在其后：助老防骗宣传是市委政法委和市文明办联合发起的，包括助老反诈集市和进社区讲课两项内容。老师：“主体在这里，我们要写的内容是从这儿开始写的……肯定是写政府的呀。”",
+    "severity": "high",
+    "remedy_instruction": "先找主体定位：个人案例引出政府做法时，只写政府主体的规范性做法；同段“上有案例、下有总结”的写总结句，案例情节与具体活动形式（丢沙包、套圈）一律舍弃。"
+  },
+  {
+    "case_id": "FEIYANG_CC_L09_002",
+    "teacher_id": "teacher_feiyang",
+    "question": "对S市开办社区食堂的做法进行总结，拟写一份简报",
+    "student_error_snippet": "经营者老邱在精打细算中降低成本，细水长流地赚钱，这也是一种重要的商业模式。",
+    "error_type": "ABSTRACTION_TOO_LOW",
+    "diagnosis": "“细水长流”是口语化、比喻性表述，抽象度和规范性都低于“精打细算”，且“精打细算”能够涵盖“细水长流”的意思。老师：“你写精打细算，它比细水长流要好……已经能够包含这个细水长流了。”300字简报更应把格子留给规范概括词。",
+    "severity": "medium",
+    "remedy_instruction": "同一信息存在多个候选表述时，选规范、上位、涵盖面大的词；比喻性口语不入答案。"
+  },
+  {
+    "case_id": "FEIYANG_CC_L09_003",
+    "teacher_id": "teacher_feiyang",
+    "question": "以W县茶业局局长身份就W县茶旅发展写一篇发言稿",
+    "student_error_snippet": "开头用大段文字解释概念：茶旅融合就是通过旅游、观赏、娱乐、体验、休闲等方式，去欣赏茶、茶园、茶叶加工技艺，感受茶文化所蕴涵的价值和人文精神……",
+    "error_type": "POOR_STRUCTURE",
+    "diagnosis": "经验交流会的发言主体是县茶业局局长，开头应介绍本单位总体做法与成绩以凸显工作努力；概念解释适合“给领导干部做培训、讲清什么是茶旅融合”的场景。老师：“你是这个局长，你开头，你是要介绍一下什么是茶旅融合呢？你还是说一下我们局做了哪些工作呀？……这样才能体现出这是你做的好。”",
+    "severity": "medium",
+    "remedy_instruction": "经验交流类发言稿开头写总体做法＋效果；遇到材料中的概念解释段，判断发言身份与场景后再决定取舍。"
+  },
+  {
+    "case_id": "FEIYANG_CC_L10_001",
+    "teacher_id": "teacher_feiyang",
+    "question": "以“城市的温度”为题为《S市日报》写一篇评论",
+    "student_error_snippet": "城市也存在没有温度的一面：快递员小王送件时被客户拦在门外，从门缝里递邮件，遭受歧视，可见城市对外来人口并不友好。",
+    "error_type": "OTHER",
+    "diagnosis": "导向错误。时评要在报刊、杂志上发表，主题是“城市的温度”，必须往正面写，不能写“城市没有温度”一类否定性内容；歧视类反面信息要转换为“给予普通劳动者尊重和理解、给予人性化关怀”的正面表述。老师：“你不能写一篇文章，叫这个城市真没温度……要写有温度的地方。”",
+    "severity": "high",
+    "remedy_instruction": "负面素材反转成正面表述后再入文（歧视→尊重，冷漠→关怀），所有内容都指向主题词的正面内涵。"
+  },
+  {
+    "case_id": "FEIYANG_CC_L10_002",
+    "teacher_id": "teacher_feiyang",
+    "question": "为M省先进人物先进集体专题通讯撰写编者按",
+    "student_error_snippet": "2021年，M省应急管理厅评选了5名年度先进人物和3个年度先进集体，他们的主要先进事迹如下。余教导员牺牲前连续奋战了96个小时，救出了2600多人……",
+    "error_type": "VERBOSE",
+    "diagnosis": "编者按是对后续内容的概括，照抄背景原句和数字细节（96小时、2600多人）既浪费格子又非采分写法。老师：“照抄不行……他救了多少个人是吧？奋战了多少个小时？这些是不用写的……前面就是一个概括。”背景应概括为“M省应急队伍中涌现出一批先进人物和先进集体”。",
+    "severity": "medium",
+    "remedy_instruction": "背景压缩成一句话；事迹只写核心做法＋成绩，数字、时间等细节一律舍弃。"
+  },
+  {
+    "case_id": "FEIYANG_CC_L10_003",
+    "teacher_id": "teacher_feiyang",
+    "question": "以“城市的温度”为题为《S市日报》写一篇评论",
+    "student_error_snippet": "主体只围绕小王工资从2000元涨到一万多元、买了十几万的小汽车、回老家盖起三层小楼展开，未涉及市民商家摆放冰柜提供免费饮料、政府推出积分落户等内容。",
+    "error_type": "MISSING_POINT",
+    "diagnosis": "未利用材料的提示词定位要点。老师指出“人情的温暖”“特别暖心”“制度传递出的温情”这些暗示词出现的地方必然出点：“这里你一看他就要有点……你说这块能不出点吗？这明显是暗示。”漏掉这些段落导致只写职业发展一个维度，拆分不出三个主体维度。",
+    "severity": "high",
+    "remedy_instruction": "抓住主题词的同义词近义词（温暖、暖心、温情、人性化、归属感）逐段排查出点，再按不同维度、不同主体把主题词拆分成完整要点。"
+  },
+  {
+    "case_id": "FEIYANG_CC_SHUA1_001",
+    "teacher_id": "teacher_feiyang",
+    "question": "概括A县探索'医养一体、两院融合'的主要举措",
+    "student_error_snippet": "考生看到床位使用率从不足60%升至100%，写出'盘活闲置资源，提高资源利用率'。",
+    "error_type": "UNSUPPORTED_INFERENCE",
+    "diagnosis": "材料只说'床位使用率升至100%'，'盘活闲置资源'是考生自行引申的机制表述，材料里没这么说；且'提高使用率'本身是效果，不应作为举措采写。",
+    "severity": "medium",
+    "remedy_instruction": "严格依据材料原表述作答；效果词（提升、提高、升至）引出的内容不写成做法，不自行提炼材料之外的机制概括。"
+  },
+  {
+    "case_id": "FEIYANG_CC_SHUA1_002",
+    "teacher_id": "teacher_feiyang",
+    "question": "谈谈'科技副总'在'从0到100'的过程中发挥了哪些作用",
+    "student_error_snippet": "答案写入'自主研制制动踏板性能测试平台，具备制动踏板智能检测能力'。",
+    "error_type": "SUBJECT_ERROR",
+    "diagnosis": "题干主语是'科技副总'的总体作用，测试平台是尚志摩托一家的具体成果、只适用于有自动踏板的企业；主体错位且过细，写进去挤占总体要点格子。",
+    "severity": "medium",
+    "remedy_instruction": "围绕题干主语概括普适作用；具体企业、具体产品的成果细节舍弃，保留'提升自主研发能力'等上位表述。"
+  },
+  {
+    "case_id": "FEIYANG_CC_SHUA1_003",
+    "teacher_id": "teacher_feiyang",
+    "question": "谈谈F市'背包银行'模式的特点及其作用",
+    "student_error_snippet": "考生把作用段中的'教会村民直播带货，拓宽销售渠道'单独抽出，作为背包银行的一个'特点'。",
+    "error_type": "BAD_SPLITTING",
+    "diagnosis": "该段尾句'对未来发展充满信心'提示整段核心是作用；把其中的点拆去特点区，既无与参照物对比的依据，又使作用区丢点，两个分区都受损。",
+    "severity": "high",
+    "remedy_instruction": "先通读判定段落核心属性（做法与参照物对比=特点，取得的效果=作用），按区归位；一段内的点不跨区拆分。"
+  },
+  {
+    "case_id": "FEIYANG_CC_SHUA1_004",
+    "teacher_id": "teacher_feiyang",
+    "question": "概括A县探索'医养一体、两院融合'的主要举措",
+    "student_error_snippet": "考生答案第一条写'县里出台医养一体、两院融合政策，将医养结合纳入政府工作报告'。",
+    "error_type": "OTHER",
+    "diagnosis": "题干问的是该模式探索中的主要举措，即政策出台之后做了什么；把政策出台本身列为要点属于答非所问，浪费格子且不得分。",
+    "severity": "high",
+    "remedy_instruction": "审题明确设问落在政策落实环节，跳过'出台政策/纳入报告'等设立表述，直接从落地动作开始采点。"
+  },
+  {
+    "case_id": "FEIYANG_CC_SHUA2_001",
+    "teacher_id": "teacher_feiyang",
+    "question": "谈谈对'文化不是摆拍，它应该体现在民众的日常生活当中'的理解",
+    "student_error_snippet": "考生把'文化不是摆拍'解释为'不能一味守旧文明，要对传统文化进行传承和创新'。",
+    "error_type": "UNSUPPORTED_INFERENCE",
+    "diagnosis": "摆拍指的是做样子、流于形式走过场，其含义是文化脱离生活；'守着旧的文明，不去创新，不能称之为传承'是上一句话，与'文化不是摆拍'之间没有逻辑关系，不能互相解释；解释部分也推不出'传承'。",
+    "severity": "high",
+    "remedy_instruction": "解释锚定划线句自身语境：摆拍=流于形式做样子，本句说明文化建设要融入民众的日常生活；与相邻句的表面呼应不作为解释依据，解释错了后面分析全部跑偏。"
+  },
+  {
+    "case_id": "FEIYANG_CC_SHUA2_002",
+    "teacher_id": "teacher_feiyang",
+    "question": "谈谈对'柔'的理解",
+    "student_error_snippet": "考生把'确定议题过程中党工委要发挥主动作用，将政府职能和百姓期盼精准对接'写在第二部分，作为协商议事（柔的方法）的做法。",
+    "error_type": "BAD_GROUPING",
+    "diagnosis": "第二部分要写的是柔的方法（协商议事）的做法和好处；党工委是政府领导，其做法不是柔性的方法，只是议事会发挥作用的保障措施，混入分析部分造成要素错位。",
+    "severity": "high",
+    "remedy_instruction": "按题干核心要素筛选做法：不属于'柔的方法'的保障性内容移到第三部分启示（议事会要更好发挥作用需要党工委支持，将政府职能与百姓期盼对接，推动民生实事加快落地）。"
+  },
+  {
+    "case_id": "FEIYANG_CC_SHUA2_003",
+    "teacher_id": "teacher_feiyang",
+    "question": "谈谈H市为优化营商环境采取了哪些措施，取得了哪些成效",
+    "student_error_snippet": "考生把'高经理在服务窗口进行注册登记'作为H市的一项措施写入答案。",
+    "error_type": "SUBJECT_ERROR",
+    "diagnosis": "题干问的是H市（政府）为优化营商环境采取的措施，注册登记是企业办事行为，不是政府做法；该段真正要采的是效果'审批速度快了一倍'。",
+    "severity": "medium",
+    "remedy_instruction": "找措施先定位主体：政府主体的段落里，企业办事的动作不写；该段只采效果要点'提高审批速度'。"
+  },
+  {
+    "case_id": "FEIYANG_CC_SHUA2_004",
+    "teacher_id": "teacher_feiyang",
+    "question": "谈谈H市为优化营商环境采取了哪些措施，取得了哪些成效",
+    "student_error_snippet": "考生把'帮助企业寻找市场定位，细分领域形成新的产品结构'作为H市优化营商环境的一条措施。",
+    "error_type": "SCOPE_NARROWING",
+    "diagnosis": "题干主语是H市，问的是面向各类企业营造营商环境的措施；纺织企业细分领域、形成新产品结构只是个案（有的企业可能买不到原材料、有的产品卖不出去），把个案写成措施丢掉普适性，还挤占其他要点格子。",
+    "severity": "medium",
+    "remedy_instruction": "个案提炼要有普适性，写'组织人员和专家到企业给予帮助和指导，帮助企业解决问题'；具体帮扶内容（市场定位、产品结构）舍弃。"
+  },
+  {
+    "case_id": "FEIYANG_CC_SHUA3_001",
+    "teacher_id": "teacher_feiyang",
+    "question": "对该市公共座椅存在的问题进行梳理，并提出优化建议",
+    "student_error_snippet": "问题写'公共座椅数量不足'，对策写'增加公共座椅数量'。",
+    "error_type": "OTHER",
+    "diagnosis": "对策是问题的同义复读，'听君一席话，胜似一席话'，没有任何可操作内容；也撑不起问题与对策约1:3的字数比例，对策部分等于没作答。",
+    "severity": "high",
+    "remedy_instruction": "把动作展开为可操作步骤：开展调研了解市民休息需求，在人流量较大的区域增加投放桌椅；对策要比问题展开得更细更实。"
+  },
+  {
+    "case_id": "FEIYANG_CC_SHUA3_002",
+    "teacher_id": "teacher_feiyang",
+    "question": "梳理C市虚拟产业园发展中存在的问题，并提出解决问题的建议",
+    "student_error_snippet": "考生把'小微企业资金规模小、资金不足'列为虚拟产业园发展存在的问题。",
+    "error_type": "UNSUPPORTED_INFERENCE",
+    "diagnosis": "小企业天生资金少、规模小，是主体的天然属性和客观常态（做大了自然就不是小企业），不是发展中的问题；把它当问题会推出无意义对策，浪费格子。同理毕业生刚起步工资低也不是问题，工作十年工资没涨才是问题。",
+    "severity": "medium",
+    "remedy_instruction": "问题清单只收可以通过工作改进的真实短板；判断标准是它是否为该主体本来如此、无需工作介入的状态。"
+  },
+  {
+    "case_id": "FEIYANG_CC_SHUA3_003",
+    "teacher_id": "teacher_feiyang",
+    "question": "谈谈对'社区吹哨，既要吹得准，还要吹得响，也要吹得久'这句话的理解",
+    "student_error_snippet": "考生把'开发小程序搭建平台，实现群众需求端和党员能力端的精准衔接'归入'响（有力度）'部分。",
+    "error_type": "BAD_GROUPING",
+    "diagnosis": "该点材料原文带'精准衔接'字样，直接点明属于'准（精准）'；选点要有判断依据，凭感觉分错区可能直接没有分数。精准和久久为功都有原词可判，判断不出的才用排除法归'响'。",
+    "severity": "high",
+    "remedy_instruction": "带原词提示的要点直接按原词归类（精准→准，久久为功→久）；其余不好判断的归中间方面；归类前先扫一遍材料中是否有'精准''长效'等提示词。"
+  },
+  {
+    "case_id": "FEIYANG_CC_SHUA3_004",
+    "teacher_id": "teacher_feiyang",
+    "question": "谈谈对'社区吹哨，既要吹得准，还要吹得响，也要吹得久'这句话的理解",
+    "student_error_snippet": "考生由'开展网络调查，满意度96%，还有群众出谋划策提出好建议'写出'主动征求群众意见建议，完善服务'。",
+    "error_type": "UNSUPPORTED_INFERENCE",
+    "diagnosis": "网络满意度调查反映的是群众对工作的认可，把它理解为群众认同即可；'主动征求群众意见'是考生再往下推一步才得出的内容，材料并没有这个做法，属于自行推导，不用往下推。",
+    "severity": "medium",
+    "remedy_instruction": "材料给什么写什么，不推一步；该点不写，格子留给'备案管理''考核激励'等材料明确的要点。"
+  },
+  {
+    "case_id": "FEIYANG_CC_SHUA4_001",
+    "teacher_id": "teacher_feiyang",
+    "question": "梳理当前宽石镇乡村旅游规划中存在的问题，并提出相应的改进建议",
+    "student_error_snippet": "考生把'乡村旅游规划千万不能摒弃乡村的质朴与自然，不能按照城市规划的思路去设计'列为宽石镇规划存在的第一个问题。",
+    "error_type": "UNSUPPORTED_INFERENCE",
+    "diagnosis": "发改局长的发言只是给规划提出的方向性提醒（注意事项），材料并没有体现宽石镇规划存在这个问题；把'应当怎样'的方向倡议改写成'该地忽视了什么'的问题，属于无据推断，还会挤占真问题的格子。",
+    "severity": "high",
+    "remedy_instruction": "座谈记录式材料先辨发言性质：只有明确指出本地实际存在的不足才写入问题清单；方向性提醒只作为提对策时的方向约束。"
+  },
+  {
+    "case_id": "FEIYANG_CC_SHUA4_002",
+    "teacher_id": "teacher_feiyang",
+    "question": "梳理当前宽石镇乡村旅游规划中存在的问题，并提出相应的改进建议",
+    "student_error_snippet": "针对'家禽犬只散养追人、卫生差'，考生提出'禁止村民养殖家禽犬只'，或将家禽犬只'统一寄养'处理。",
+    "error_type": "COUNTERMEASURE_MISMATCH",
+    "diagnosis": "对策要求切实可行：乡村没有鸡犬就不成其为乡村（阡陌交通，鸡犬相闻），禁止养殖脱离乡村实际；'统一寄养'是把城市宠物店寄养思维搬到乡村，村里没有可操作的寄养条件。",
+    "severity": "high",
+    "remedy_instruction": "可行做法是引导村民对家禽犬只进行圈养，同时及时清扫卫生、定点投放垃圾；自提对策前先检验其是否符合当地实际、能否落地。"
+  },
+  {
+    "case_id": "FEIYANG_CC_SHUA4_003",
+    "teacher_id": "teacher_feiyang",
+    "question": "谈谈N省加快推动内外贸一体化发展过程中为什么会'好事多磨'，并提出推动'好事成真'的建议",
+    "student_error_snippet": "考生把'产品转内销后需要与商务、发改、税务等十个部门打交道'诊断为'多头管理'问题，并建议归并精简审批部门。",
+    "error_type": "OTHER",
+    "diagnosis": "概念误用：办企业天然涉及多个部门、且各部门职责清晰（治安归公安、收税归税务、假冒伪劣归市场监管、占道归城管），一件事由多部门审批是正常的；多头管理是指一件事多部门都管、职责交叉、互相推诿无人负责（如未成年人进酒吧市场监管与文化局互推）。",
+    "severity": "medium",
+    "remedy_instruction": "此类问题不定性为多头管理，不写精简归并部门；从部门合作、简化办事流程、信息共享、一网通办、并行审批、一站式办理角度提对策。"
+  },
+  {
+    "case_id": "FEIYANG_CC_SHUA4_004",
+    "teacher_id": "teacher_feiyang",
+    "question": "为N市妇联刘主席拟写儿童友好城市建设研讨会主旨发言提纲",
+    "student_error_snippet": "考生把'设计团队整体调研，发现城中村普遍存在空间狭小、安全隐患多、儿童游乐设施少等问题'写入主旨发言提纲的开头部分。",
+    "error_type": "POOR_STRUCTURE",
+    "diagnosis": "该段是主体部分'设施改造'这一具体措施的段落背景，其作用是引出后面的改造做法，不是整个材料的背景段；公文开头只写总体背景和总体做法（三行内），段落中的问题不扩展、不入开头。",
+    "severity": "medium",
+    "remedy_instruction": "区分材料整体背景与段落背景：只有背景段中的问题可概括写入开头（还能反衬成就）；该问题点并入主体'科学规划设计'要点中带过即可。"
+  },
+  {
+    "case_id": "FEIYANG_CC_SHUA5_001",
+    "teacher_id": "teacher_feiyang",
+    "question": "\"数字化将让更多的道路更畅通\"大作文（有形/无形分拣）",
+    "student_error_snippet": "课堂对\"一网通办\"归有形还是归无形出现争议：\"有些同学说它是有形的，有些同学呢，说它是无形的\"，主张无形的同学把\"群众办事方便了\"当成了无形变化。",
+    "error_type": "OTHER",
+    "diagnosis": "有形/无形判定标准未掌握：一网通办要找政务网站、下载APP或用小程序、填个人信息办理，全程可见可感知，是有形；无形的应是办成事之后群众对政府的信任增强、好感增加、干群关系拉近这类情感关系变化。",
+    "severity": "medium",
+    "remedy_instruction": "按标准分拣：能看到、可触碰、可感知＝有形；思想、观念、情感、关系＝无形。把\"办事方便\"归有形，把\"信任与好感\"归无形，用\"帮助是有形的、关系拉近是无形的\"检验。"
+  },
+  {
+    "case_id": "FEIYANG_CC_SHUA5_002",
+    "teacher_id": "teacher_feiyang",
+    "question": "\"数字化将让更多的道路更畅通\"大作文（题干比喻理解）",
+    "student_error_snippet": "有学生提出\"一网通办不是道路啊，只有外面跑的那个是道路\"。",
+    "error_type": "SCOPE_NARROWING",
+    "diagnosis": "把\"道路\"拘泥为本义的公路。题干中的道路是比喻，凡是被畅通的\"事务通道\"（群众办事渠道、政企对接、司法便民）都算道路；按本义理解，这篇文章就写不下去了。",
+    "severity": "high",
+    "remedy_instruction": "比喻性关键词按材料语境放大理解：道路＝发展的路径与通道，线上办事、政企对接、司法服务皆可入题。"
+  },
+  {
+    "case_id": "FEIYANG_CC_SHUA5_003",
+    "teacher_id": "teacher_feiyang",
+    "question": "\"数字化将让更多的道路更畅通\"大作文（无形段写作）",
+    "student_error_snippet": "有学生认为往无形上写比较牵强、写不出来（\"有人说牵强\"）。",
+    "error_type": "MISSING_POINT",
+    "diagnosis": "只在材料字面找无形，而材料给的基本是有形做法，无形的变化（公仆情怀、亲清政商关系、公平正义感、法律信仰）要自己从做法往上体会一层写出来；觉得牵强是因为没有掌握\"来源于材料、高于材料\"的升华方法。",
+    "severity": "high",
+    "remedy_instruction": "对每个主体的有形做法追问一句\"这让对方感受到了什么\"，把信任、作风、关系、信仰等无形收获写出来；无形内容材料没给就必须自己写。"
+  },
+  {
+    "case_id": "FEIYANG_CC_SHUA5_004",
+    "teacher_id": "teacher_feiyang",
+    "question": "大作文备考方法（开头段写作环节）",
+    "student_error_snippet": "有学生请求老师给作文模板背诵：\"你给我个模板，考啥我都用它\"（老师原话转述学生的诉求）。",
+    "error_type": "OTHER",
+    "diagnosis": "依赖背诵模板。老师明确反对：考过的题不会再考，模板无法贴合新题干新材料，指望一个模板打天下不现实；正确路径是先临摹再创作，方向和素材必须由题干和材料决定。",
+    "severity": "high",
+    "remedy_instruction": "走\"审题定方向→读材料找分论点→按结构组织\"的流程自己写；名言警句和规范词只作语言积累，不作答案主体。"
+  },
+  {
+    "case_id": "FEIYANG_CC_SHUA6_001",
+    "teacher_id": "teacher_feiyang",
+    "question": "以\"治慧\"为题的文章（材料一分论点提炼）",
+    "student_error_snippet": "有学生提出材料一枫林村的分论点可写\"民主自治\"（依据是村规民约、一事一议）。",
+    "error_type": "DUPLICATION",
+    "diagnosis": "材料一与材料三都有群众自治，但材料三（清河社区议事协商、技术＋自治）更侧重；材料一离题干句最近的总结是\"因地制宜、遵循自然规律，从坐吃山空到山绿人富，走出一条绿色发展之路\"，其分论点应写因地制宜、绿色发展。两个分论点都写自治会重复，写的时候它会重复。",
+    "severity": "medium",
+    "remedy_instruction": "共有维度归更侧重的材料（自治归材料三）；另一材料取其次侧重维度（材料一写绿色发展）；分论点从材料落点总结句提炼，不从局部做法上推。"
+  },
+  {
+    "case_id": "FEIYANG_CC_SHUA6_002",
+    "teacher_id": "teacher_feiyang",
+    "question": "以\"治慧\"为题的文章（材料三清河社区要点归类）",
+    "student_error_snippet": "有学生把\"老桥头面馆被保留\"理解为改善餐饮消费、方便群众吃饭（老师调侃\"如果说你看着饿了，说明啥呢？说明没看到它的本质\"）。",
+    "error_type": "BAD_GROUPING",
+    "diagnosis": "只看表面功能未见本质：面馆承载当地人的亲切记忆与历史积淀，属于传统文化的保护与传承；同段打造清河直街艺术街区、引进文创工作室也归文化维度，不是营商环境或餐饮民生。",
+    "severity": "medium",
+    "remedy_instruction": "具象事物先问\"它背后是什么\"：老店＝文化记忆＝文化保护传承；把要点归入正确维度（环保/营商环境/文化/民生/治理）再作答。"
+  },
+  {
+    "case_id": "FEIYANG_CC_SHUA6_003",
+    "teacher_id": "teacher_feiyang",
+    "question": "以\"治慧\"为题的文章（维度合法性判断）",
+    "student_error_snippet": "有学生质疑\"文化发展算不算社会治理\"，倾向于把文化维度排除在\"提升治理效能\"之外。",
+    "error_type": "SCOPE_NARROWING",
+    "diagnosis": "把社会治理窄化为基层治理（村委会、社区层面）。老师明确：政府通过各种手段实现对社会整个管理的过程都叫社会治理，文化建设属于大角度的社会治理，\"社会治理是包括文化建设的\"，可以作分论点维度。",
+    "severity": "low",
+    "remedy_instruction": "区分\"基层社会治理\"（特指村居层面）与\"社会治理\"（大口径）：题干谈治理效能时按大口径判断维度归属。"
+  },
+  {
+    "case_id": "FEIYANG_CC_SHUA6_004",
+    "teacher_id": "teacher_feiyang",
+    "question": "以\"治慧\"为题的文章（开头引入方式）",
+    "student_error_snippet": "有学生担心开头用古人治国名言、成语引入\"会显得套路\"，不敢用。",
+    "error_type": "OTHER",
+    "diagnosis": "把切题的引入误判为套路：题干句\"物无妄然，必有其理\"本身讲规律，用民为邦本、水能载舟、不竭泽而渔等古人总结的规律引入，再引出\"社会发展有其内在运行规律\"的总论点，恰恰最切题。老师答复：\"这多切题呀\"。",
+    "severity": "low",
+    "remedy_instruction": "引入方式服务于切题：古语成语中蕴含的\"规律\"与题干\"理\"同频即可用；按题干主题挑选积累的名言成语，不必因怕套路而弃用。"
+  },
+  {
+    "case_id": "FEIYANG_CC_SHUA7_001",
+    "teacher_id": "teacher_feiyang",
+    "question": "以H市日报名义就H市做好毕业生就业工作写一篇短评",
+    "student_error_snippet": "有学生问\"标题可以直接写短评吗？\"",
+    "error_type": "OTHER",
+    "diagnosis": "把文体名当标题。短评是发表在报纸上的评论文章，要自拟观点性标题（如\"打组合拳 圆就业梦\"）；真实的人民时评都有自己的标题，从来没有哪篇标着\"人民时评\"四个字发表。",
+    "severity": "low",
+    "remedy_instruction": "自拟标题体现\"谁＋做什么＋效果\"（可用四三式：四字做法＋三字效果），绝不照抄文体名。"
+  },
+  {
+    "case_id": "FEIYANG_CC_SHUA7_002",
+    "teacher_id": "teacher_feiyang",
+    "question": "结合进步新村改造实践，谈谈对\"只要找准思路，就会让老旧小区重新焕发生机活力\"的理解",
+    "student_error_snippet": "学生倾向把\"一户不同意，一栋楼就装不了电梯，那么为了说服周老太……\"的过程背景写入答案。",
+    "error_type": "VERBOSE",
+    "diagnosis": "说服周老太装电梯的\"一户不同意\"情节是引出做法的背景叙事，不用写；要点是成立志愿者组织、发挥党员作用、对改造进行义务宣讲、赢得居民支持。",
+    "severity": "medium",
+    "remedy_instruction": "删去案例中的人物纠结过程与铺垫背景，只保留\"做法＋效果\"；另记住前文是具体例子、后文有改造标准总结（基础类应改尽改、完善提升类因地制宜按需改造）时优先用总结部分。"
+  },
+  {
+    "case_id": "FEIYANG_CC_SHUA7_003",
+    "teacher_id": "teacher_feiyang",
+    "question": "结合给定资料，分析\"尽管有些磕磕绊绊，但是日子越过越有奔头\"这句话",
+    "student_error_snippet": "有学生问\"问题和希望写一起了行吗？\"（把磕磕绊绊与有奔头混在一条里作答）。",
+    "error_type": "POOR_STRUCTURE",
+    "diagnosis": "题干句子是两层对举（磕磕绊绊＝存在的问题；有奔头＝充满希望），应分两部分对应作答；混写导致两层都没有对应分区，结构不符设问。",
+    "severity": "medium",
+    "remedy_instruction": "按句子两个分句分部列点：问题归问题、希望归希望，一条内不交织。"
+  },
+  {
+    "case_id": "FEIYANG_CC_SHUA7_004",
+    "teacher_id": "teacher_feiyang",
+    "question": "结合给定资料，谈谈对\"近邻为基，聚邻为要，惠邻为本\"的理解",
+    "student_error_snippet": "有学生打算把\"靠近群众是基础，凝聚群众是要，服务群众是根本\"写进解释部分。",
+    "error_type": "UNSUPPORTED_INFERENCE",
+    "diagnosis": "\"基/要/本\"的对应关系材料没有展开（材料以聚邻做法为主，未写谁是基础、谁是根本），硬写属于无依据推理；解释只需落到三个概念本身（靠近群众/凝聚群众/服务群众），再按材料归类。",
+    "severity": "medium",
+    "remedy_instruction": "解释到材料能支撑的程度为止；材料没给的修饰语对应关系不写。"
+  },
+  {
+    "case_id": "FEIYANG_CC_SHUA8_001",
+    "teacher_id": "teacher_feiyang",
+    "question": "\"今天的思维和播种决定了我们未来的收获\"大作文（题干理解）",
+    "student_error_snippet": "有学生问\"思维和播种是不是两回事儿，要不要给它分开\"（课堂两次出现此问）。",
+    "error_type": "OTHER",
+    "diagnosis": "播种是比喻，与思维是一体两面，都指前瞻性思维（\"它俩是一个事情\"）；拆成两个要素会凭空造出一个不存在的分论点维度。",
+    "severity": "medium",
+    "remedy_instruction": "比喻与本体并列时合并理解；内涵从上下文解释句（\"以前瞻性思考，决定今天干什么、今天怎么干、今天如何取舍\"）中提取。"
+  },
+  {
+    "case_id": "FEIYANG_CC_SHUA8_002",
+    "teacher_id": "teacher_feiyang",
+    "question": "同上题（材料三临湖村的维度归属）",
+    "student_error_snippet": "学生倾向因材料提到湖区保护，就把临湖村材料写成\"生态环保\"分论点。",
+    "error_type": "SCOPE_EXPANSION",
+    "diagnosis": "材料95%以上内容写发展乡村旅游、转变竭泽而渔的生产方式，环保内容占比极少；把5%的环保表述放大为整段主题，与材料主体不符，写出来牵强。",
+    "severity": "high",
+    "remedy_instruction": "按占比定主题（95/5无争议，接近对半才见仁见智）；生态环保只在真正的保护性材料（划分保护区、治理污染、限制排放、保护物种）中作维度。"
+  },
+  {
+    "case_id": "FEIYANG_CC_SHUA8_003",
+    "teacher_id": "teacher_feiyang",
+    "question": "同上题（文章结构判型）",
+    "student_error_snippet": "有学生问\"为啥不是分析型呢\"，倾向于把\"思维和播种\"当具体话题写分析型文章。",
+    "error_type": "POOR_STRUCTURE",
+    "diagnosis": "思维、播种是抽象概念，题干没有给具体话题（民生、环保、经济发展这类才算话题），属虚题干，应化虚为实写内涵型；分析型要求话题具体。判成分析型会导致分论点写法整体跑偏。",
+    "severity": "high",
+    "remedy_instruction": "判型先问\"题干话题是虚是实\"：抽象看不懂→内涵展开（从材料维度赋予内涵）；具体且强调重要性→意义/分析型。"
+  },
+  {
+    "case_id": "FEIYANG_CC_SHUA8_004",
+    "teacher_id": "teacher_feiyang",
+    "question": "同上题（跟写环节）",
+    "student_error_snippet": "有学生打算把老师现场写的开头与论证段完整抄一遍当作业（老师：\"大家不要直接抄啊，写一个自己的啊\"）。",
+    "error_type": "OTHER",
+    "diagnosis": "照抄范文无迁移价值：考过的题不会再考，能带走的是思路（审题定方向→材料找分论点→按结构组织）；老师允许刚接触时临摹，但要求体会结构后按自己的理解重写。",
+    "severity": "medium",
+    "remedy_instruction": "先临摹（照结构写一遍）再脱稿自写；积累的是流程与思路，不是成文本身。"
+  },
+  {
+    "case_id": "FEIYANG_CC_ZONGJIE_001",
+    "teacher_id": "teacher_feiyang",
+    "question": "300字归纳概括题",
+    "student_error_snippet": "考生把300个格子平均分给预想的若干个点，实际要点长短不均，写到后半才发现还有要点没写，格子已经用完。",
+    "error_type": "BAD_SPLITTING",
+    "diagnosis": "平均分配格子不符合要点实际长短：前面的点挤占格子，后面的要点被自然漏掉。老师明确反对平均分配，主张按点数字数后在草稿记数、卡上分区。",
+    "severity": "high",
+    "remedy_instruction": "动笔前逐点数出字数并累加，在草稿上记录每点字数，再按实际需要在答题卡上分区标注；字数多了往后砍、少了把疑似的点补上。"
+  },
+  {
+    "case_id": "FEIYANG_CC_ZONGJIE_002",
+    "teacher_id": "teacher_feiyang",
+    "question": "根据给定资料1，概括小张家乡出现的新变化",
+    "student_error_snippet": "答案先用两行交代家乡原来种植粮食、收入单一的旧貌，再写现在的做法。",
+    "error_type": "SCOPE_EXPANSION",
+    "diagnosis": "题干问的是'新变化'，采分点只在现在；写原来情况超出设问范围，白白消耗格子（题干问'变化'时才需写原来）。",
+    "severity": "low",
+    "remedy_instruction": "先判断设问问'变化'还是'新变化'：问新变化只写现在的做法与效果，格子实在富余才考虑补充原来情况。"
+  },
+  {
+    "case_id": "FEIYANG_CC_ZONGJIE_003",
+    "teacher_id": "teacher_feiyang",
+    "question": "300字归纳概括题",
+    "student_error_snippet": "考生找到的要点只用200字就写完，剩下100个格子全部空着交卷。",
+    "error_type": "PARTIAL_COVERAGE",
+    "diagnosis": "格子利用不充分：疑似的点没有补上或每点写得过简；空着的格子意味着有分可拿而未拿。",
+    "severity": "medium",
+    "remedy_instruction": "字数富余时把疑似的点补上、二级做法适当展开，尽量写到接近满格；动笔前做好每点字数规划，避免前松后紧。"
+  }
+]
