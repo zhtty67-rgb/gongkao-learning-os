@@ -1,9 +1,11 @@
 # 公考学习系统 DSH overlay：以 MCP stdio 客户端形态挂载只读网关 + 使用技能。
-# 环境变量（安装前设置，参照 hive-education 的 HIVE_AGENT_ROOT 模式）：
-#   GONGKAO_LEARNING_OS_ROOT  公考学习系统仓库根（含 backend/ 与 .venv/）
-#   GONGKAO_PYTHON            可选，Python 解释器（默认 <root>/.venv/Scripts/python.exe）
-#   GONGKAO_DB_PATH           可选，gongkao.db 路径（默认 <root>/data/gongkao.db）
-#   GONGKAO_API_BASE          可选，后端地址（默认 http://127.0.0.1:8000，gk_ask_teacher use_llm 用）
+#
+# 安装后设置一个环境变量即可：
+#   GONGKAO_LEARNING_OS_ROOT  公考学习系统仓库根（含 backend/、scripts/、data/）
+# 可选：
+#   GONGKAO_PYTHON      Python 解释器（默认 <root>/.venv/Scripts/python.exe，POSIX 请显式指定）
+#   GONGKAO_DB_PATH     gongkao.db 路径（默认 <root>/data/gongkao.db）
+#   GONGKAO_API_BASE    后端地址（默认 http://127.0.0.1:8000，仅 gk_ask_teacher use_llm 用）
 - insert:
     - id: mcp-gongkao
       name: '@deepseek-ai/dsh-mcp-client'
@@ -29,4 +31,5 @@
         providerName: gongkao
         includeDefaultRoots: false
         customSkillDirs:
-          - !!js "process.getBuiltinModule('node:path').join(process.env.GONGKAO_LEARNING_OS_ROOT, 'dsh-plugin', 'skill')"
+          # 本包自带 skill/ 目录：按本包安装位置解析，不依赖仓库根
+          - !!js "require('node:path').join(require('node:path').dirname(require.resolve('gongkao-learning-os-dsh/package.json')), 'skill')"
