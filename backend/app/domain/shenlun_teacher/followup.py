@@ -435,7 +435,7 @@ async def answer_teacher_followup(db, session_id: str, teacher_id: str, question
     uid = str(uuid4())
     kind = resolve_intent(clean_question, intent)
 
-    # 江牧云·文段分析教师范围门禁：追问入口统一越界拦截
+    # W 老师·文段分析教师范围门禁：追问入口统一越界拦截
     if teacher_id == "teacher_jiangmuyun":
         guard = check_jiangmuyun_boundary(
             question_stem=sess_row["question_stem"],
@@ -443,7 +443,7 @@ async def answer_teacher_followup(db, session_id: str, teacher_id: str, question
         )
         if not guard["allowed"]:
             profile = lib.load_profile(teacher_id)
-            teacher_name = profile.get("name", "江牧云·文段分析")
+            teacher_name = profile.get("name", "W 老师·文段分析")
             reject_msg = guard["message"]
             aid = str(uuid4())
             db.execute(

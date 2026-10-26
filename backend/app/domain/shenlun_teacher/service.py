@@ -127,7 +127,7 @@ def _run_one_teacher(teacher_id: str, payload: dict) -> dict | None:
     if not policies:
         return None
 
-    # 江牧云·文段分析教师范围门禁：严禁公文、大作文、整卷评分、脱离材料编对策等非文段分析任务
+    # W 老师·文段分析教师范围门禁：严禁公文、大作文、整卷评分、脱离材料编对策等非文段分析任务
     if teacher_id == "teacher_jiangmuyun":
         guard = check_jiangmuyun_boundary(
             question_stem=payload.get("question", ""),
@@ -139,7 +139,7 @@ def _run_one_teacher(teacher_id: str, payload: dict) -> dict | None:
             profile = lib.load_profile(teacher_id)
             c = {
                 "teacher_id": teacher_id,
-                "teacher_name": profile.get("name", "江牧云·文段分析"),
+                "teacher_name": profile.get("name", "W 老师·文段分析"),
                 "training_targets": [],
                 "followups": [],
                 "strength": [],
@@ -155,7 +155,7 @@ def _run_one_teacher(teacher_id: str, payload: dict) -> dict | None:
                 "review_audit": [],
                 "give_full_answer": False,
                 "suppressed_duplicates": 0,
-                "teacher": profile.get("name", "江牧云·文段分析"),
+                "teacher": profile.get("name", "W 老师·文段分析"),
                 "out_of_scope_rejected": True,
                 "rejection_reason": guard["reason"],
                 "material_summary": {
@@ -549,7 +549,7 @@ async def apply_semantic_review(db, session_id: str, final_answer: str | None = 
         try:
             if row["answer_hash"] and row["answer_hash"] != ahash:
                 return False  # 版本不匹配：保持 pending，不写回该诊断行
-            # 江牧云·文段分析教师范围门禁：严禁越界任务调用模型审查
+            # W 老师·文段分析教师范围门禁：严禁越界任务调用模型审查
             if tid == "teacher_jiangmuyun":
                 guard = check_jiangmuyun_boundary(
                     question_stem=payload.get("question", ""),

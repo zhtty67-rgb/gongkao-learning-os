@@ -20,7 +20,7 @@ def course_evidence(metadata_json: str, node_id: str) -> list[dict]:
             'document_version_id': source['source_sha256'],
             'chunk_id': None,
             'text': source['excerpt'], 'page': None, 'source_locator': locator,
-            'citation': f"冯泽政治理论课程（{source['course_period']}），{source['source_file']}，{locator}",
+            'citation': f"P 老师政治理论课程（{source['course_period']}），{source['source_file']}，{locator}",
             'binding_type': 'local_course_reference', 'confidence': None,
         })
     return items

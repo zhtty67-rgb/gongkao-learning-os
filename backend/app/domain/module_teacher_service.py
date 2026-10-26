@@ -24,6 +24,26 @@ def resolve_base_dir(raw: str) -> Path:
     path = Path(raw)
     return path if path.is_absolute() else (PROJECT_ROOT / path)
 
+
+# 对外显示代号：语料与画像文件保留原始署名，接口与界面统一脱敏
+DISPLAY_ALIAS = {
+    '花生十三': 'L 老师', '龙飞': 'G 老师', '江牧云': 'W 老师', '阿里木江': 'A 老师',
+    '冯泽': 'P 老师', '拾伊': 'S 老师', '碎碎': 'X 老师', '四海': '协作组',
+}
+
+
+def _display_alias(value):
+    """递归替换真名为显示代号（不改变任何 id/统计字段）。"""
+    if isinstance(value, str):
+        for real, alias in DISPLAY_ALIAS.items():
+            value = value.replace(real, alias)
+        return value.replace('老师老师', '老师')
+    if isinstance(value, list):
+        return [_display_alias(v) for v in value]
+    if isinstance(value, dict):
+        return {_display_alias(k): _display_alias(v) for k, v in value.items()}
+    return value
+
 MODULE_TEACHER_ID_MAP = {
     "逻辑判断": "teacher_logic",
     "定义判断": "teacher_definition",
@@ -37,14 +57,14 @@ MODULE_TEACHER_ID_MAP = {
     "言语理解": "teacher_alimujiang",
     "言语": "teacher_alimujiang",
     "花生言语": "teacher_huasheng_verbal",
-    "花生十三言语": "teacher_huasheng_verbal",
+    "L 老师言语": "teacher_huasheng_verbal",
     "花生·言语": "teacher_huasheng_verbal",
-    "花生十三（言语理解与表达）": "teacher_huasheng_verbal",
+    "L 老师（言语理解与表达）": "teacher_huasheng_verbal",
     "政治理论": "teacher_fengze_politics",
     "政治": "teacher_fengze_politics",
-    "冯泽政治理论": "teacher_fengze_politics",
-    "冯泽·政治理论": "teacher_fengze_politics",
-    "冯泽政治": "teacher_fengze_politics",
+    "P 老师政治理论": "teacher_fengze_politics",
+    "P 老师·政治理论": "teacher_fengze_politics",
+    "P 老师政治": "teacher_fengze_politics",
     "常识判断": "teacher_fengze_common_sense",
     "常识": "teacher_fengze_common_sense",
     "文史常识": "teacher_fengze_common_sense",
@@ -58,10 +78,10 @@ MODULE_TEACHER_ID_MAP = {
     "民法": "teacher_fengze_common_sense",
     "刑法": "teacher_fengze_common_sense",
     "行政法": "teacher_fengze_common_sense",
-    "冯泽常识": "teacher_fengze_common_sense",
-    "冯泽·常识": "teacher_fengze_common_sense",
-    "冯泽常识判断": "teacher_fengze_common_sense",
-    "冯泽·常识判断": "teacher_fengze_common_sense",
+    "P 老师常识": "teacher_fengze_common_sense",
+    "P 老师·常识": "teacher_fengze_common_sense",
+    "P 老师常识判断": "teacher_fengze_common_sense",
+    "P 老师·常识判断": "teacher_fengze_common_sense",
 }
 
 class ModuleTeacherService:
@@ -98,7 +118,7 @@ class ModuleTeacherService:
             "语句表达": "言语理解与表达",
             "篇章阅读": "言语理解与表达",
             "花生言语": "花生言语",
-            "花生十三言语": "花生言语",
+            "L 老师言语": "花生言语",
             "花生·言语": "花生言语",
             "政治": "政治理论",
             "时政": "政治理论",
@@ -106,8 +126,8 @@ class ModuleTeacherService:
             "马原": "政治理论",
             "马克思主义基本原理": "政治理论",
             "新思想": "政治理论",
-            "冯泽政治理论": "政治理论",
-            "冯泽·政治理论": "政治理论",
+            "P 老师政治理论": "政治理论",
+            "P 老师·政治理论": "政治理论",
             "常识": "常识判断",
             "文史": "常识判断",
             "文史常识": "常识判断",
@@ -121,10 +141,10 @@ class ModuleTeacherService:
             "民法": "常识判断",
             "刑法": "常识判断",
             "行政法": "常识判断",
-            "冯泽常识": "常识判断",
-            "冯泽·常识": "常识判断",
-            "冯泽常识判断": "常识判断",
-            "冯泽·常识判断": "常识判断",
+            "P 老师常识": "常识判断",
+            "P 老师·常识": "常识判断",
+            "P 老师常识判断": "常识判断",
+            "P 老师·常识判断": "常识判断",
         }
         return MODULE_TEACHER_ID_MAP.get(aliases.get(module.strip(), module.strip()))
 
@@ -148,7 +168,7 @@ class ModuleTeacherService:
         if not tcfg or not tcfg.get("enabled", True):
             return None
 
-        # 江牧云·文段分析教师范围门禁：模块复盘入口统一越界拦截
+        # W 老师·文段分析教师范围门禁：模块复盘入口统一越界拦截
         if tid == "teacher_jiangmuyun":
             from .shenlun_teacher.engine.boundary_guard import check_jiangmuyun_boundary
             guard = check_jiangmuyun_boundary(
@@ -158,8 +178,8 @@ class ModuleTeacherService:
             if not guard["allowed"]:
                 return {
                     "teacher_id": tid,
-                    "teacher_name": tcfg.get("name", "江牧云·文段分析"),
-                    "author": tcfg.get("author", "江牧云"),
+                    "teacher_name": tcfg.get("name", "W 老师·文段分析"),
+                    "author": tcfg.get("author", "W 老师"),
                     "module": "文段分析",
                     "out_of_scope_rejected": True,
                     "rejection_reason": guard["reason"],
@@ -170,7 +190,7 @@ class ModuleTeacherService:
                     "diagnosis_status": "rejected"
                 }
 
-        # 花生十三·言语理解与表达教师范围门禁：模块复盘入口统一越界拦截
+        # L 老师·言语理解与表达教师范围门禁：模块复盘入口统一越界拦截
         if tid == "teacher_huasheng_verbal":
             from .huasheng_verbal_boundary_guard import check_huasheng_verbal_boundary
             guard = check_huasheng_verbal_boundary(
@@ -180,8 +200,8 @@ class ModuleTeacherService:
             if not guard["allowed"]:
                 return {
                     "teacher_id": tid,
-                    "teacher_name": tcfg.get("name", "花生十三（言语理解与表达）"),
-                    "author": tcfg.get("author", "花生十三"),
+                    "teacher_name": tcfg.get("name", "L 老师（言语理解与表达）"),
+                    "author": tcfg.get("author", "L 老师"),
                     "module": "言语理解与表达",
                     "out_of_scope_rejected": True,
                     "rejection_reason": guard["reason"],
@@ -405,14 +425,16 @@ class ModuleTeacherService:
         current_config = {**tcfg, **{f"{kind}_count": stats["assets"][kind]["active"]
                                    for kind in ("policies", "question_cases", "critique_cases")}}
 
+        # 画像来自教师目录原始文件；对外统一显示代号（源语料保持原样）
+        profile_view = _display_alias(current_teacher_profile(profile_data, stats))
         return {
             "teacher_config": current_config,
-            "profile": current_teacher_profile(profile_data, stats),
+            "profile": profile_view,
             "asset_statistics": stats,
             "historical_report_scope": "library_report, fidelity_audit and holdout_evaluation are saved snapshots, not current asset counts",
-            "library_report": rep_data,
-            "fidelity_audit": audit_data,
-            "holdout_evaluation": eval_data
+            "library_report": _display_alias(rep_data),
+            "fidelity_audit": _display_alias(audit_data),
+            "holdout_evaluation": _display_alias(eval_data)
         }
 
     def explain_question(self, teacher_id: str, question_payload: Dict[str, Any]) -> Dict[str, Any]:
@@ -432,7 +454,7 @@ class ModuleTeacherService:
             raise ValueError("options 必须为选项对象")
         if teacher_id == "teacher_longfei":
             context = self.get_teacher_context_for_review("图形推理", question_payload.get("figure_description") or stem)
-            lines = ["# 龙飞图形推理方法参考", stem, "", "以下为字幕方法参考，适用条件须另行核验，不是本题答案或学生错因。"]
+            lines = ["# G 老师图形推理方法参考", stem, "", "以下为字幕方法参考，适用条件须另行核验，不是本题答案或学生错因。"]
             for policy in (context or {}).get("policies", []):
                 lines.extend([f"\n**{policy['name']}**（{policy['policy_id']}）",policy['rule']])
                 for source in policy.get("source", []):
@@ -449,7 +471,7 @@ class ModuleTeacherService:
             )
             if not guard["allowed"]:
                 report_lines = [
-                    "# 江牧云·文段分析教师：服务受限说明",
+                    "# W 老师·文段分析教师：服务受限说明",
                     "",
                     f"**教师身份**：{tcfg['name']}",
                     f"**任务判定**：超出文段分析范围（{guard['reason']}）",
@@ -509,7 +531,8 @@ class ModuleTeacherService:
                 "teacher_id": teacher_id,
                 "teacher_name": tcfg.get("name"),
                 "module": tcfg.get("module"),
-                "report_markdown": report_text,
+                # 讲题引擎输出含原始署名，对外统一替换为代号
+                "report_markdown": _display_alias(report_text),
                 "answer_status": "method_reference_only"
             }
         finally:

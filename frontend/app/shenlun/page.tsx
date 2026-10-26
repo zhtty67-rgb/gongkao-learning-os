@@ -140,7 +140,7 @@ const TEACHER_META: Record<
     bgTint: '#f1f8f4',
   },
   teacher_jiangmuyun: {
-    name: '江牧云·文段分析',
+    name: 'W 老师·文段分析',
     shortTitle: '文段剖析 · 范围守卫',
     avatar: '📑',
     specialty: '微观句群关系 · 客观信息提炼 · 恪守文段分析边界',

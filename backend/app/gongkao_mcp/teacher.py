@@ -1,7 +1,7 @@
 """名师讲题工具：本地确定性检索为默认，LLM 讲题须显式 opt-in。
 
 - 默认路径：``ModuleTeacherService.get_teacher_context_for_review`` —— 毫秒级
-  纯本地检索（教师规则/纠偏案例），自带江牧云/花生言语越界门禁，零外部成本。
+  纯本地检索（教师规则/纠偏案例），自带W 老师/花生言语越界门禁，零外部成本。
 - ``use_llm=true``：HTTP 代理到运行中的后端 ``POST /api/module-teachers/{tid}/explain``
   （走应用模型网关，产生 LLM 成本）。后端离线时不静默降级，明确报错并附 hint。
 """
