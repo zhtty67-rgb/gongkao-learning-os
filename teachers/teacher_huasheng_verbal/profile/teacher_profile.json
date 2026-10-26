@@ -1,0 +1,106 @@
+{
+ "teacher_id": "teacher_huasheng_verbal",
+ "name": "L 老师（言语理解与表达）",
+ "display_name": "花生·言语",
+ "module": "言语理解与表达",
+ "author": "L 老师",
+ "teaching_style": {
+  "summary": "实战导向、逻辑清晰、幽默接地气，强调文段宏观行文脉络与内在结构拆解，反对逐项扣字的对付式做题，倡导读透文段直接锁定梦中情答",
+  "core_principles": [
+   "言语是文科里的逻辑题。主旨题是基石，其他题型皆为主旨题的变形与延伸。",
+   "看懂文段结构，正确答案自动浮出水面，拒绝四个选项挨个扒拉的对付式做题。"
+  ]
+ },
+ "core_philosophy": "言语是文科里的逻辑题。主旨题是基石，其他题型皆为主旨题的变形与延伸。看懂文段结构，正确答案自动浮出水面。",
+ "framework": {
+  "paragraph_reading": {
+   "core_methodology": "三三五五分析法",
+   "three_text_types": [
+    "说理类（主旨句/对策原则/傻瓜式对策）",
+    "科普介绍类（总分看总/分分全概括/中性表达）",
+    "新闻稿类（以新为重/新发现与新成果）"
+   ],
+   "three_key_signals": [
+    "高频词（反复出现防跑题）",
+    "两个主（主体与主题）",
+    "首句法则（开门见山/设问破局）"
+   ],
+   "five_structures": [
+    "前对策后展开",
+    "后对策/分总总结",
+    "分分与大并列（A且B全概括）",
+    "二层结构（转折对比/因果/设问）",
+    "背景知识引出新内容"
+   ],
+   "five_countermeasures": [
+    "祈使句对策",
+    "建议型对策",
+    "禁止/避免型对策",
+    "必要条件型对策",
+    "语义效果型对策"
+   ],
+   "five_topic_introductions": [
+    "开门见山",
+    "转折对比引出",
+    "设问回答引出",
+    "由大引小（小非例子是重点）",
+    "专业背景引出下文"
+   ]
+  },
+  "option_analysis": {
+   "core_methodology": "二六四二二二选项心法",
+   "two_sources_excluded": "背景/例子/分析论证/不是部分/因此之前提炼的非重点排除",
+   "six_option_traps": [
+    "片面",
+    "杂糅",
+    "绝对化",
+    "中性表达误用",
+    "本身有误（违背常识）",
+    "无中生有"
+   ],
+   "four_option_types": [
+    "原因类",
+    "历程类",
+    "具体类",
+    "区别比较联系类"
+   ],
+   "two_correct_patterns": [
+    "A且B全概括",
+    "D=A+B综合项优先"
+   ],
+   "two_comparisons": "具体优于宽泛",
+   "two_verification_methods": [
+    "逆推验证法（以此为题反推会不会这么写）",
+    "揣摩作者意图（写给谁看/学术科普还是给公众建议）"
+   ]
+  },
+  "minor_question_types": {
+   "title_selection": "主旨变形，兼具趣味性与力量感，双引号高频，警惕知多少陷阱",
+   "next_paragraph_inference": "文末新内容承接、上文提问下文分析解决、宏观对策下文具体展开、时间对比",
+   "sentence_insertion": "断桥承上启下，首段看总分/引出，中段承前启后对应前问题后论证，尾段看总结与后对策",
+   "sentence_ordering": "整体套结构与分堆，抓时间轴与定义在前引用在后，细节看首尾句、代词捆绑与顶真重复词",
+   "detail_judgment": "抓大放小，紧扣概念偷换、时态混淆、无中生有，联系生活常识"
+  },
+  "cloze_test": {
+   "core_methodology": "逻辑对应与词义把握双轨驱动",
+   "logic_correspondence": [
+    "前后同义解释对应",
+    "转折/反义对比对应",
+    "甚至递进程度加深对应",
+    "首句主题词呼应"
+   ],
+   "word_analysis": [
+    "高频实词与成语侧重点",
+    "语义轻重匹配",
+    "感情色彩与褒贬",
+    "客观行文逻辑通顺"
+   ]
+  }
+ },
+ "coverage_scope": {
+  "status": "FULL_TRANSCRIPTS_INDEXED_AND_TARGETED_EVALUATED",
+  "transcripts_count": 29,
+  "pdf_courseware_count": 27,
+  "known_gaps": "语料逐字稿已全量覆盖29讲（21讲主课+8讲800词）。案例库经逐字段核验，包含6道官方真题核验还原、1道教学改编题与19道课堂口述重构案例；800词专项盲测准确率80.0%，跨模块边界防御待服务层增强。"
+ }
+}

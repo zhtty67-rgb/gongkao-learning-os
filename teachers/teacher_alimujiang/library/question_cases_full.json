@@ -1,0 +1,430 @@
+[
+ {
+  "case_id": "ALIMU_CASE_001",
+  "lecture_id": "7.1",
+  "source_raw_line": 112,
+  "source_page": 24,
+  "question_type": "中心理解题",
+  "stem": "在公共服务的提供上，我们必须要照顾老年人的诉求……随着老龄化社会到来，适老化改造显得越来越必要。",
+  "options": {
+   "A": "公共服务应兼顾各类特殊群体的利益",
+   "B": "公共服务提供必须充分照顾老年人的诉求",
+   "C": "老龄化社会给公共服务带来严峻挑战",
+   "D": "适老化改造已经成为全社会的普遍共识"
+  },
+  "correct_answer": "B",
+  "teacher_analysis": "A 老师课堂精讲：文段明确出现了必要条件句‘必须要照顾老年人的诉求’，把有点累赘的修饰删掉，对策核心就是‘在公共服务的提供上，我们必须要照顾老年人的诉求’。直接锁定B选项对策。",
+  "trap_explanation": "A选项扩大为‘各类特殊群体’，偷换主体范围；C选项只是背景问题描述，非核心对策；D选项‘普遍共识’无中生有。",
+  "policy_ids": [
+   "ALIMU_POL_006"
+  ],
+  "verification_status": "source_text_verified"
+ },
+ {
+  "case_id": "ALIMU_CASE_002",
+  "lecture_id": "7.1",
+  "source_raw_line": 123,
+  "source_page": 20,
+  "question_type": "中心理解题",
+  "stem": "农耕文化使得各地域当中的武术形成风格迥异的特点……各地武术流派各具特色。",
+  "options": {
+   "A": "农耕文化孕育了特色各异的地域武术风格",
+   "B": "中国武术流派具有悠久的历史渊源",
+   "C": "不同地域的武术之间存在显著差异",
+   "D": "农耕文明的衰落影响了武术的发展"
+  },
+  "correct_answer": "A",
+  "teacher_analysis": "A 老师课堂精讲：文段指明‘它使得各地域当中的武术形成风格窘异的特点’，各地武术风格迥异是因为农耕文化造成的，出现明确因果关系，因果关联的结论就是农耕文化造就了地域武术特色。",
+  "trap_explanation": "B项未提及因果核心农耕文化；C项只说了结果差异，缺少核心原因农耕文化；D项衰落无中生有。",
+  "policy_ids": [
+   "ALIMU_POL_005"
+  ],
+  "verification_status": "source_text_verified"
+ },
+ {
+  "case_id": "ALIMU_CASE_003",
+  "lecture_id": "7.1",
+  "source_raw_line": 165,
+  "source_page": 16,
+  "question_type": "中心理解题",
+  "stem": "某文化现象在网络中引发广泛讨论……但如果是为了炒作而故意扭曲，那就是思想有问题。",
+  "options": {
+   "A": "网络文化讨论具有广泛的社会影响力",
+   "B": "为了炒作故意扭曲文化现象不可取",
+   "C": "网络炒作现象应引起有关部门重视",
+   "D": "应理性看待多元文化在网络中的表达"
+  },
+  "correct_answer": "B",
+  "teacher_analysis": "A 老师课堂精讲：文段前面是客观陈述，转折后‘那就是你思想有问题，或者是为了炒作而故意扭曲’，这里是作者的主观评价与态度，体现作者对炒作扭曲的鲜明否定。",
+  "trap_explanation": "A项是前文客观陈述事实，非作者态度主旨；C项有关部门对策过度发散；D项偏离炒作扭曲的核心焦点。",
+  "policy_ids": [
+   "ALIMU_POL_003",
+   "ALIMU_POL_012"
+  ],
+  "verification_status": "source_text_verified"
+ },
+ {
+  "case_id": "ALIMU_CASE_004",
+  "lecture_id": "7.2",
+  "source_raw_line": 6,
+  "source_page": 26,
+  "question_type": "中心理解题",
+  "stem": "西方早期足球运动被视为卑贱粗野的活动……通过现代体育制度的建立与规则规范，足球运动展现出促进身心健康与团队协作的巨大价值。",
+  "options": {
+   "A": "足球运动曾经历过漫长曲折的发展历程",
+   "B": "规范化发展赋予现代足球积极的社会价值与意义",
+   "C": "西方传统社会对粗野体育活动存在偏见",
+   "D": "必须采取严厉措施规范各类体育运动"
+  },
+  "correct_answer": "B",
+  "teacher_analysis": "A 老师课堂精讲：文段重点是对策，但选项形式没直接写‘应该做什么’，而是将对策改写为意义！‘因为他让我去做这件事情，正是因为这件事情很有意义’，B选项将规范化发展的对策与社会价值意义完美结合。",
+  "trap_explanation": "A项漫长历程偏离重点；C项偏离对策；D项扩大为各类体育运动且过于绝对。",
+  "policy_ids": [
+   "ALIMU_POL_007"
+  ],
+  "verification_status": "source_text_verified"
+ },
+ {
+  "case_id": "ALIMU_CASE_005",
+  "lecture_id": "7.2",
+  "source_raw_line": 96,
+  "source_page": 32,
+  "question_type": "中心理解题",
+  "stem": "人脑各个区域并非像孤立运作的城市，彼此缺乏连通……相反，大脑各区域之间紧密连接、协同运作，共同支撑复杂的认知功能。",
+  "options": {
+   "A": "大脑各个区域具备独立运行的生理机制",
+   "B": "协同运作与功能连接是大脑支持认知功能的核心",
+   "C": "人脑神经网络结构与现代城市布局高度相似",
+   "D": "复杂认知功能的形成依赖于特定脑区的发育"
+  },
+  "correct_answer": "B",
+  "teacher_analysis": "A 老师课堂精讲：‘好像独立运作的城市，后面就是比喻’，重点是运作发挥功能，还是仅仅相连？‘重点应该是发挥作用，协同运作啊’，突出各脑区协同发挥功能。",
+  "trap_explanation": "A项与文段协同运作相反；C项错把比喻孤立城市当作事实；D项偷换为特定脑区发育。",
+  "policy_ids": [
+   "ALIMU_POL_002"
+  ],
+  "verification_status": "source_text_verified"
+ },
+ {
+  "case_id": "ALIMU_CASE_006",
+  "lecture_id": "7.3",
+  "source_raw_line": 8,
+  "source_page": 25,
+  "question_type": "中心理解题",
+  "stem": "基础科学的精神在于穷理……深入探究万物本质与规律，唯有坚持穷究事理，才能实现根本性科学突破，因此基础研究必须耐得住寂寞、深耕细作。",
+  "options": {
+   "A": "基础科学研究面临着诸多困难与挑战",
+   "B": "穷理精神是推动基础科学实现突破的关键所在",
+   "C": "科学研究应当注重理论与实践紧密结合",
+   "D": "科研人员应当具备淡泊名利的奉献精神"
+  },
+  "correct_answer": "B",
+  "teacher_analysis": "A 老师课堂精讲：‘基础科学的精神在于穷理，说了一个重点呀’，第二句论证穷理的必要性，因果结论进一步强化穷理，核心词‘穷理’贯穿全文，牢牢锁住B。",
+  "trap_explanation": "A项困难挑战非重点；C项实践结合文中未提；D项偏离穷理核心概念。",
+  "policy_ids": [
+   "ALIMU_POL_005"
+  ],
+  "verification_status": "source_text_verified"
+ },
+ {
+  "case_id": "ALIMU_CASE_007",
+  "lecture_id": "7.4",
+  "source_raw_line": 98,
+  "source_page": 44,
+  "question_type": "中心理解题",
+  "stem": "人才培养与成长有其内在自然规律，往往是拔苗助长……一旦盲目求快反而适得其反，唯有遵循节奏、循序渐进，方能行稳致远。",
+  "options": {
+   "A": "拔苗助长会导致人才培养的重大失败",
+   "B": "人才培养应当尊重成长规律、循序渐进",
+   "C": "当前人才评价机制存在急于求成的倾向",
+   "D": "遵循规律能够有效规避人才成长风险"
+  },
+  "correct_answer": "B",
+  "teacher_analysis": "A 老师课堂精讲：‘往往是揠苗助长，像不像反面论证。对不对？一旦快了就不好，我们要强调的是慢’，反面论证推对策，核心强调慢与尊重规律、循序渐进。",
+  "trap_explanation": "A项是反面危害非正面主旨；C项评价机制无中生有；D项规避风险过于窄化。",
+  "policy_ids": [
+   "ALIMU_POL_009",
+   "ALIMU_POL_011"
+  ],
+  "verification_status": "source_text_verified"
+ },
+ {
+  "case_id": "ALIMU_CASE_008",
+  "lecture_id": "7.5",
+  "source_raw_line": 5,
+  "source_page": 50,
+  "question_type": "中心理解题",
+  "stem": "海水温度的持续上升会导致珊瑚大量丧失共生藻，进而发生白化死亡；更糟糕的是，海水酸化进一步阻碍其生长，如果不及时采取生态干预，珊瑚礁生态系统将面临灭顶之灾。",
+  "options": {
+   "A": "全球气候变暖导致海洋生态系统严重退化",
+   "B": "必须采取有效措施积极拯救与保护珊瑚礁生态",
+   "C": "海水温度上升与酸化对珊瑚具有双重危害",
+   "D": "珊瑚白化是海洋环境恶化最直观的标志"
+  },
+  "correct_answer": "B",
+  "teacher_analysis": "A 老师课堂精讲：‘文段间接给出对策……如果海水持续恶化就会带来消极后果，通过反面论证告诉你，不去做后果很严重，希望你赶紧落实去做’，优选针对珊瑚生态的拯救保护对策B。",
+  "trap_explanation": "A项泛化为全球气候；C项只停留在问题双重危害，缺少对策；D项直观标志无中生有。",
+  "policy_ids": [
+   "ALIMU_POL_008",
+   "ALIMU_POL_009"
+  ],
+  "verification_status": "source_text_verified"
+ },
+ {
+  "case_id": "ALIMU_CASE_009",
+  "lecture_id": "7.5",
+  "source_raw_line": 286,
+  "source_page": 61,
+  "question_type": "中心理解题",
+  "stem": "传统文化传播在泛娱乐化冲击下空间受到挤压……影视化改编如《花木兰》等通过现代叙事让传统人物重获生机，为传统文化创新传播提供了范例。",
+  "options": {
+   "A": "泛娱乐化潮流压缩了严肃文化的传播空间",
+   "B": "现代叙事与创新表达有助于传统文化生机重塑",
+   "C": "戏剧作品主要人物应当具备鲜明时代特征",
+   "D": "传统文化保护应彻底摒弃现代商业运作模式"
+  },
+  "correct_answer": "B",
+  "teacher_analysis": "A 老师课堂精讲：‘怎么辨别是高度概括还是笼统？形容词定语去掉后中心语名词不能少’，花木兰例子印证的是现代叙事赋能传统文化，概括出传统文化创新表达对策。",
+  "trap_explanation": "A项只提问题；C项错把花木兰例子细节戏剧作品主要人物当作主旨；D项彻底摒弃过于极端。",
+  "policy_ids": [
+   "ALIMU_POL_013"
+  ],
+  "verification_status": "source_text_verified"
+ },
+ {
+  "case_id": "ALIMU_CASE_010",
+  "lecture_id": "7.6",
+  "source_raw_line": 296,
+  "source_page": 74,
+  "question_type": "标题添加题",
+  "stem": "近年来不少城市凭借特色文旅迅速爆红，然而网红城市是城市，但城市不一定是网红城市。热度散去之后，唯有凭借完善的公共服务与深厚的文化底蕴，城市才能赢得持久的认同与口碑，从‘网红’走向‘长红’。",
+  "options": {
+   "A": "文旅出圈：城市发展的流量密码",
+   "B": "网红城市如何从‘爆红’走向‘长红’",
+   "C": "打造特色IP，激发城市文旅活力",
+   "D": "城市形象宣传中公共服务的重要性"
+  },
+  "correct_answer": "B",
+  "teacher_analysis": "A 老师课堂精讲：‘一个城市怎么样才能得到更长久的认同嘛？是围绕着这个点是吧？那好像能对应到这里的，也只有长虹当中的长啊’。标题必须紧扣文段‘网红到长红’的核心主题词。",
+  "trap_explanation": "A项只停留在流量爆红，无后文转折长红；C项未体现长红主题；D项公共服务片面化。",
+  "policy_ids": [
+   "ALIMU_POL_016"
+  ],
+  "verification_status": "source_text_verified"
+ },
+ {
+  "case_id": "ALIMU_CASE_011",
+  "lecture_id": "7.7",
+  "source_raw_line": 4,
+  "source_page": 82,
+  "question_type": "语句填空题",
+  "stem": "___________。随着数字化时代的全面到来，数字技术不仅重塑了制造业的生产范式，更催生了平台经济、智能服务等全新业态，为经济高质量发展注入强劲动能。",
+  "options": {
+   "A": "制造业数字化转型已进入深水区",
+   "B": "数字技术正成为重塑现代产业格局的关键引擎",
+   "C": "平台经济的蓬勃发展带动了全面就业",
+   "D": "发展数字经济必须统筹安全与发展"
+  },
+  "correct_answer": "B",
+  "teacher_analysis": "A 老师课堂精讲：‘横线在开头，绝大多数题目很可能就是要先把后文的主要内容、主要话题引出来’。后文兼顾制造业与新业态，总括句应为数字技术重塑现代产业格局的关键引擎。",
+  "trap_explanation": "A项只涉及制造业，片面；C项只涉及平台经济，片面；D项安全与发展后文未提。",
+  "policy_ids": [
+   "ALIMU_POL_017"
+  ],
+  "verification_status": "source_text_verified"
+ },
+ {
+  "case_id": "ALIMU_CASE_012",
+  "lecture_id": "7.7",
+  "source_raw_line": 10,
+  "source_page": 80,
+  "question_type": "语句填空题",
+  "stem": "技术创新不能仅仅停留在实验室的论文中，更不能脱离产业实际闭门造车。只有打通从研发到产业落地的全链条堵点，推动科技成果加速转化为现实生产力，___________。",
+  "options": {
+   "A": "才能在激烈的国际科技竞争中占得先机",
+   "B": "才能真正实现科技赋能经济发展的积极愿景",
+   "C": "科技创新才能摆脱对财政补贴的过度依赖",
+   "D": "才能确保各项研发经费得到科学合理使用"
+  },
+  "correct_answer": "B",
+  "teacher_analysis": "A 老师课堂精讲：‘横线在结尾，绝大多数按照中心理解对策加意义……我们把核心的对策与意义放在这里就可以了’。前文说推动成果转化，结尾填实现科技赋能积极愿景。",
+  "trap_explanation": "A项国际竞争前文无依据；C项财政补贴无中生有；D项经费使用偏离科技成果转化。",
+  "policy_ids": [
+   "ALIMU_POL_018"
+  ],
+  "verification_status": "source_text_verified"
+ },
+ {
+  "case_id": "ALIMU_CASE_013",
+  "lecture_id": "7.7",
+  "source_raw_line": 288,
+  "source_page": 87,
+  "question_type": "接语推断题",
+  "stem": "在探讨人类深海探索史时，潜水器技术经历了从机械沉浮到智能探测的飞跃。近年来，全海深载人潜水器的研发成功，标志着我国深海科研进入万米时代，而深海仿生软体机器人的研制则开启了无人勘探的新纪元。……",
+  "options": {
+   "A": "深海装备产业发展的政策扶持措施",
+   "B": "人类探索深海历史过程中的重大挫折",
+   "C": "深海仿生软体机器人的技术原理与应用前景",
+   "D": "全海深载人潜水器在万米深潜中的具体表现"
+  },
+  "correct_answer": "C",
+  "teacher_analysis": "A 老师课堂精讲：‘文章的主旨最可能是和文章接下来要说是一个意思……紧扣尾句引出的新话题’。尾句落脚在‘深海仿生软体机器人’，后文必然承接该新话题介绍其原理与应用前景。",
+  "trap_explanation": "A项政策前文无引出；B项挫折与积极进展相反；D项载人潜水器已在上半句交代过。",
+  "policy_ids": [
+   "ALIMU_POL_019"
+  ],
+  "verification_status": "source_text_verified"
+ },
+ {
+  "case_id": "ALIMU_CASE_014",
+  "lecture_id": "7.8",
+  "source_raw_line": 10,
+  "source_page": 91,
+  "question_type": "词句理解题",
+  "stem": "在漫长的地质演化中，岩溶作用塑造了千姿百态的喀斯特地貌。由于地表水沿裂隙溶蚀侵蚀，地表逐渐形成落水洞与天坑，而地下水在深处循环溶解则发育出壮观的溶洞网络。这种独特的‘双层水系结构’，造就了脆弱而特殊的生态系统。",
+  "options": {
+   "A": "地质演化与岩溶作用的相互交织过程",
+   "B": "地表水溶蚀与地下水循环相互贯通的水系系统",
+   "C": "天坑与溶洞之间垂直相连的地下暗河通道",
+   "D": "喀斯特地貌中极其脆弱的地表生态植被系统"
+  },
+  "correct_answer": "B",
+  "teacher_analysis": "A 老师课堂精讲：‘代词指代并不是看越近越好……要把前半句完整语法成分结合起来’。双层水系结构前句完整陈述了‘地表水沿裂隙溶蚀’与‘地下水在深处循环’两层结构，故指地表与地下水系。",
+  "trap_explanation": "A项扩大为宏观地质演化；C项暗河通道过于狭隘具体；D项偷换为生态植被系统。",
+  "policy_ids": [
+   "ALIMU_POL_020",
+   "ALIMU_POL_021"
+  ],
+  "verification_status": "source_text_verified"
+ },
+ {
+  "case_id": "ALIMU_CASE_015",
+  "lecture_id": "7.8",
+  "source_raw_line": 269,
+  "source_page": 102,
+  "question_type": "语句排序题",
+  "stem": "①它所具有的独特隐身外形与超临界机翼，使其具备无与伦比的超音速巡航效能\n②这种临近空间飞行器是指航行于20至100公里空域的新型空天载具\n③直到今天，临近空间依然被传统航空器视作禁飞区\n④空天科技的跨越式突破，让临近空间飞行器逐渐揭开神秘面纱\n⑤它在地球低轨与传统空域之间，开拓出一片崭新的作业空间\n⑥正是这种独特高度，赋予了其难以比拟的战略侦察价值",
+  "options": {
+   "A": "③⑤②④①⑥",
+   "B": "④②⑤③⑥①",
+   "C": "②④⑤①⑥③",
+   "D": "④③②⑤①⑥"
+  },
+  "correct_answer": "B",
+  "teacher_analysis": "A 老师课堂精讲：‘先看首句下定义介绍……④先提出概念，②接着下定义，⑤展开作业空间，③交代禁飞区背景，⑥说高度优势，①说具体价值，形成④②⑤完整捆绑’。",
+  "trap_explanation": "A项③作首句未交代概念；C项②代词这种飞行器指代不明不作首句；D项④③断开了④②的概念衔接。",
+  "policy_ids": [
+   "ALIMU_POL_022",
+   "ALIMU_POL_023"
+  ],
+  "verification_status": "source_text_verified"
+ },
+ {
+  "case_id": "ALIMU_CASE_016",
+  "lecture_id": "7.9",
+  "source_raw_line": 9,
+  "source_page": 95,
+  "question_type": "细节判断题",
+  "stem": "全球化进程加速了资本与技术的跨境流动，但也引发了区域利益分化与发展失衡。有研究指出，资本的无序扩张可能在地缘竞争激化时推波助澜，导致部分发展中国家面临金融风险冲击。",
+  "options": {
+   "A": "全球化进程中资本与技术的流动具有双重影响",
+   "B": "资本无序扩张必然会诱发地缘政治战争与冲突",
+   "C": "部分发展中国家承受着全球金融风险的溢出冲击",
+   "D": "资本跨境流动推动了全球范围内的资源配置优化"
+  },
+  "correct_answer": "B",
+  "teacher_analysis": "A 老师课堂精讲：提问要求选不相符项。‘可能推波助澜不代表必然导致战争……我有吃面包的可能，不等于面包没了就一定是我吃的’。B将可能偷换为必然，明显设错。",
+  "trap_explanation": "A、C、D项均与文段叙述相符，B项绝对化偷换逻辑。",
+  "policy_ids": [
+   "ALIMU_POL_014",
+   "ALIMU_POL_015"
+  ],
+  "verification_status": "source_text_verified"
+ },
+ {
+  "case_id": "ALIMU_CASE_017",
+  "lecture_id": "7.10",
+  "source_raw_line": 8,
+  "source_page": 115,
+  "question_type": "逻辑填空题",
+  "stem": "如果诱骗网络直播打赏的行径不加遏制，势必加剧行业乱象，令部分受害者个人生活陷入______。对此，监管部门必须果断亮剑、深化源头治理，以______的决心筑牢法治底线。",
+  "options": {
+   "A": "穷途末路  饮鸩止渴",
+   "B": "捉襟见肘  拨乱反正",
+   "C": "雪上加霜  雷厉风行",
+   "D": "债台高筑  正本清源"
+  },
+  "correct_answer": "D",
+  "teacher_analysis": "A 老师课堂精讲：‘第一空形容受害者巨额打赏后背负网贷陷入债务境地，债台高筑最为契合；第二空国家深化源头治理，正本清源强调从根本源头上加以清理整顿，比拨乱反正的消除混乱更契合源头治理’。",
+  "trap_explanation": "A项饮鸩止渴为贬义饮毒止渴，感情色彩颠倒；B项捉襟见肘偏轻，拨乱反正侧重平息动乱而非源头治理；C项雷厉风行只形容执行速度未体现治本。",
+  "policy_ids": [
+   "ALIMU_POL_025",
+   "ALIMU_POL_026"
+  ],
+  "verification_status": "source_text_verified"
+ },
+ {
+  "case_id": "ALIMU_CASE_018",
+  "lecture_id": "7.11",
+  "source_raw_line": 290,
+  "source_page": 126,
+  "question_type": "逻辑填空题",
+  "stem": "浩荡岷江自青藏高原奔涌而下，如同一匹脱缰的野马，冲出崇山峻岭，带着______的野性在崇山峡谷间纵横咆哮；直到李冰父子筑就都江堰，才让这条狂涛驯服成造福千秋的安澜之水。",
+  "options": {
+   "A": "桀骜不驯",
+   "B": "放荡不羁",
+   "C": "一往无前",
+   "D": "自以为是"
+  },
+  "correct_answer": "A",
+  "teacher_analysis": "A 老师课堂精讲：‘你必须要伺候这个比喻！文段前文把岷江比作脱缰野马、后文说驯服，必须配合野马与狂涛野性，桀骜不驯形容狂野凶悍、不受管束，完美伺候比喻’。",
+  "trap_explanation": "B项放荡不羁侧重个人品行不受拘束，常形容人；C项一往无前无野马与驯服的对照反差；D项自以为是贬义且偏离江河比喻。",
+  "policy_ids": [
+   "ALIMU_POL_027"
+  ],
+  "verification_status": "source_text_verified"
+ },
+ {
+  "case_id": "ALIMU_CASE_019",
+  "lecture_id": "7.11",
+  "source_raw_line": 289,
+  "source_page": 128,
+  "question_type": "逻辑填空题",
+  "stem": "开展科学研究绝不能脱离社会现实需求、在象牙塔中______；广大科研工作者应当把论文写在祖国大地上，扎根生产实践一线破解卡脖子难题。",
+  "options": {
+   "A": "纸上谈兵",
+   "B": "闭门造车",
+   "C": "固步自封",
+   "D": "坐而论道"
+  },
+  "correct_answer": "B",
+  "teacher_analysis": "A 老师课堂精讲：‘对闭门造车的理解落地焦点是脱离实际！文段明确说了不能脱离社会现实需求、不能关在象牙塔里，闭门造车完美对应关在屋里造车、脱离客观现实’。",
+  "trap_explanation": "A项纸上谈兵侧重空谈理论缺乏实战；C项固步自封侧重不思进取墨守成规；D项坐而论道侧重口头空谈不付诸行动。",
+  "policy_ids": [
+   "ALIMU_POL_028"
+  ],
+  "verification_status": "source_text_verified"
+ },
+ {
+  "case_id": "ALIMU_CASE_020",
+  "lecture_id": "7.12",
+  "source_raw_line": 9,
+  "source_page": 138,
+  "question_type": "篇章阅读",
+  "stem": "长篇材料《深空探测技术的跨越与未来》第一自然段关于深空测控网络的论述中，画横线处应填入的句子是：",
+  "options": {
+   "A": "地月通信延迟已成为制约深空探测的核心瓶颈",
+   "B": "强大的深空测控系统是航天器飞向深远的坚实保障",
+   "C": "自主导航技术正逐步替代传统的地面测控网络",
+   "D": "国际合作在深空测控网络建设中发挥着决定作用"
+  },
+  "correct_answer": "B",
+  "teacher_analysis": "A 老师课堂精讲：‘提问方式说请在文章第一自然段画横线处填入最恰当句子，属于针对某段的语句填空题，直接回第一段定位！第一段首句总领，强调测控系统对深空探测保驾护航的意义’。",
+  "trap_explanation": "A项延迟瓶颈后文未作为重点；C项逐步替代后文无此描述；D项决定作用夸大事实。",
+  "policy_ids": [
+   "ALIMU_POL_029",
+   "ALIMU_POL_030"
+  ],
+  "verification_status": "source_text_verified"
+ }
+]

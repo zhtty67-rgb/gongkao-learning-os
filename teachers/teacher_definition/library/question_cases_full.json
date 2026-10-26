@@ -1,0 +1,971 @@
+[
+ {
+  "question_id": "DEF_QC_DEF01_001",
+  "teacher_id": "teacher_definition",
+  "title": "蜈蚣效应专项：熟练技能因过度关注而失常",
+  "source_exam": "判断定义专项真题",
+  "question_format": "单项选择题（属于型）",
+  "stem": "蜈蚣效应源于一则寓言：青蛙问蜈蚣有那么多只脚走路时先迈哪只，蜈蚣思考后反而不会走路了。在心理学中，指原本熟练掌握的自动化技能或直觉决策，一旦个体对其细节机制进行过度理性关注或反向推演，反而会导致行为协调性崩溃、效率骤降或提早退出博弈。根据上述定义，下列属于蜈蚣效应的是：",
+  "options": {
+   "A": "资深外科主刀医生在带教学员观摩时，被追问缝合的下针角度细节，突然感觉手指发抖无法顺畅完成缝合",
+   "B": "某选手因长时间未参加训练，重返赛场时动作明显生疏变形",
+   "C": "小王做事向来瞻前顾后，在多个方案之间举棋不定错过最佳时机",
+   "D": "老张由于年龄增长视力减退，做精细手工时速度逐渐变慢"
+  },
+  "answer": "A",
+  "analysis": {
+   "entry_features": [
+    "蜈蚣效应",
+    "原本熟练掌握技能",
+    "过度关注细节机制导致行为失常"
+   ],
+   "law_located": "博弈论与心理学定义——过度关注导致系统失调",
+   "verification": "A项医生原本熟练（资深主刀），因被追问下针细节（过度关注细节机制），导致手指发抖无法顺畅缝合（行为崩溃），完全符合；B项是久未训练生疏；C项是犹豫不决性格；D项是生理衰退。",
+   "key_points": [
+    "核对'熟练前态'",
+    "核对'过度关注细节诱因'",
+    "核对'崩溃失常结果'"
+   ]
+  },
+  "teacher_reasoning": "老师指出：大家看，这道题核心就在于，原本人家蜈蚣走得好好的，你一问它'你那一百只脚先迈哪一只'，它一琢磨，瘫了！A选项外科医生平时闭着眼睛都能缝，一被问'你下针几度角'，手指头木了！这就是活生生的蜈蚣效应！",
+  "technique_policies": [
+   "博弈论与心理学定义——过度关注导致系统失调"
+  ],
+  "source": [],
+  "verification_status": "quarantined",
+  "quarantine_reason": "未完成原题和教师发言核验"
+ },
+ {
+  "question_id": "DEF_QC_DEF02_001",
+  "teacher_id": "teacher_definition",
+  "title": "偏正被定义词与主体客体比对：体育赛事赞助",
+  "source_exam": "判断定义经典真题",
+  "question_format": "单项选择题（属于型）",
+  "stem": "体育赛事赞助：指企业等商业主体为了提升品牌知名度与商业利益，通过提供资金、物资或技术服务等方式，为体育比赛活动提供支持，并获得在赛事中展示企业标识、开展整合营销等商业回报的行为。根据上述定义，下列属于体育赛事赞助的是：",
+  "options": {
+   "A": "某知名运动饮料品牌出资数千万元成为本届全国田径锦标赛官方独家饮品供应商，并在赛场全景布置广告牌",
+   "B": "某科技公司免费为某国际大学生戏剧节提供音响设备和灯光技术支持",
+   "C": "省体育局拨款两千万元用于升级改造省体育馆田径跑道",
+   "D": "某民营企业出资设立希望小学爱心足球队，为贫困学生免费提供球鞋球衣"
+  },
+  "answer": "A",
+  "analysis": {
+   "entry_features": [
+    "被定义词：体育赛事赞助",
+    "主体：商业企业",
+    "客体：体育比赛活动",
+    "手段：资金物资支持",
+    "结果：获得商业回报"
+   ],
+   "law_located": "被定义词拆解法与主体客体要素拆解",
+   "verification": "A项饮料品牌（商业企业）出资支持田径锦标赛（体育赛事），并在赛场打广告（商业回报），全要素完美吻合；B项对象是戏剧节，不属于体育赛事；C项主体是省体育局，属于政府财政拨款而非商业赞助；D项属于公益慈善捐赠，无商业回报对价。",
+   "key_points": [
+    "抓偏正修饰语：体育赛事",
+    "核查主体（商业企业）与目的（商业回报）"
+   ]
+  },
+  "teacher_reasoning": "老师讲解：这道题题干一出来，看被定义词——'体育赛事赞助'，先拆两截：第一是体育赛事，第二是赞助（商业回报）。你看B，戏剧节，跟体育有一毛钱关系吗？直接枪毙！看C，体育局拨款，体育局是政府部门，那是财政预算，能叫商业赞助？看D，做公益慈善，连回报都没要！只有A，田径赛+打广告，老老实实选A！",
+  "technique_policies": [
+   "被定义词拆解法——偏正结构猜想与后文印证",
+   "三大黄金要素拆解——主体、对象与特殊要求"
+  ],
+  "source": [],
+  "verification_status": "quarantined",
+  "quarantine_reason": "未完成原题和教师发言核验"
+ },
+ {
+  "question_id": "DEF_QC_DEF03_001",
+  "teacher_id": "teacher_definition",
+  "title": "定义总结实战：聚焦排他要素秒杀",
+  "source_exam": "定义判断总结串讲例题",
+  "question_format": "单项选择题",
+  "stem": "诉前财产保全：指在利害关系人因情况紧急，不立即申请保全将会使其合法权益受到难以弥补的损害的，可以在提起诉讼或者申请仲裁前向人民法院申请采取保全财产的措施。下列属于诉前财产保全的是：",
+  "options": {
+   "A": "债权人小李得知债务人老王正在悄悄低价过户名下唯一房产，于是在正式向法院起诉前一天，紧急向法院申请查封该房产并提供了担保",
+   "B": "某法院在案件审理过程中，发现被告有转移财产迹象，主动下达裁定冻结其银行账户",
+   "C": "某公安机关在侦办特大诈骗案时，依法查封扣押涉案犯罪嫌疑人的银行卡和豪车",
+   "D": "老张与老李发生经济纠纷，老张找来民间调解员将老李的轿车扣留作为抵押"
+  },
+  "answer": "A",
+  "analysis": {
+   "entry_features": [
+    "诉前财产保全",
+    "时间：起诉或仲裁前",
+    "主体：利害关系人申请",
+    "受理机关：人民法院"
+   ],
+   "law_located": "圈词原则防贪多嚼不烂与主体程序要素比对",
+   "verification": "A项利害关系人小李在'正式起诉前'（诉前）向'法院'申请查封（保全措施），完全吻合；B项是在'案件审理过程中'，属于诉中保全而非诉前；C项主体是公安机关，属于刑事侦查强制措施；D项是民间私力扣押，非法院法定程序。",
+   "key_points": [
+    "抓核心时间节点：起诉前",
+    "抓法定机关：人民法院"
+   ]
+  },
+  "teacher_reasoning": "老师总结：大家看，定义题真没那么复杂，别圈满屏幕花花绿绿。抓两个词：第一叫'诉前'（起诉前），第二叫'向人民法院申请'！B选项都在审理中了，叫诉中，干掉！C选项公安局抓犯人扣车，那是刑事查封，干掉！D选项民间私自扣车，非法拘禁违法行为，干掉！答案只能是A！",
+  "technique_policies": [
+   "圈词原则防贪多嚼不烂——聚焦核心排他信息",
+   "三大黄金要素拆解——主体、对象与特殊要求"
+  ],
+  "source": [],
+  "verification_status": "quarantined",
+  "quarantine_reason": "未完成原题和教师发言核验"
+ },
+ {
+  "question_id": "TEACHER_DEFINITION_CH10_EX1",
+  "teacher_id": "teacher_definition",
+  "title": "例题 1（2023 国考）",
+  "stem": "体验式采访是指直接投入到所要报道的新闻事件中去体验生活，以获得新闻报道所需要的素材，以及\n对新闻事件的认识。\n根据上述定义，下列不属于体验式采访的是：",
+  "options": {
+   "A": "某报社要求年轻记者沉入生活，了解基层，以改变写官话、说套话的文风",
+   "B": "某作家为了解包身工的悲惨遭遇，深入到工厂中，写出报告文学《包身工》",
+   "C": "某记者为了解传销组织的真面目，打入到传销组织内部，揭示传销组织的骗局",
+   "D": "某电视台推出专栏《体验三百六十行》，派记者体验各职业一周并进行系列报道"
+  },
+  "answer": "A",
+  "question_format": "配套讲义原题",
+  "question_type": "定义判断",
+  "category": "定义判断",
+  "case_kind": "courseware_question",
+  "verification_status": "source_text_verified",
+  "extraction": "pdf_text_layer",
+  "author_teacher": "配套讲义与独立答案表，非教师逐字发言",
+  "teacher_reasoning": "该课件未附解析；答案来自独立答案表。不得生成或冒充教师原话解析。",
+  "source": []
+ },
+ {
+  "question_id": "TEACHER_DEFINITION_CH10_EX2",
+  "teacher_id": "teacher_definition",
+  "title": "例题 2（2023 河北事业单位）",
+  "stem": "体育赛事赞助是指企业以现金、实物、服务、技术、人力资源等方式支持体育赛事，并由此获得商业\n回报的行为，体现的是体育赛事组委会和体育赛事赞助商之间对等互换以谋求各自利益的关系。\n根据上述定义，以下属于体育赛事赞助的是：",
+  "options": {
+   "A": "腾讯与 CBA 合作推出带有企鹅标志的篮球比赛装备",
+   "B": "长城无偿提供给广州亚运会用于接送运动员的哈佛越野车",
+   "C": "北京冬奥村为各国运动员提供免费理发与中医理疗服务",
+   "D": "双星给中国乒乓球队免费提供运动员个人专属球拍定制服务"
+  },
+  "answer": "B",
+  "question_format": "配套讲义原题",
+  "question_type": "定义判断",
+  "category": "定义判断",
+  "case_kind": "courseware_question",
+  "verification_status": "source_text_verified",
+  "extraction": "pdf_text_layer",
+  "author_teacher": "配套讲义与独立答案表，非教师逐字发言",
+  "teacher_reasoning": "该课件未附解析；答案来自独立答案表。不得生成或冒充教师原话解析。",
+  "source": []
+ },
+ {
+  "question_id": "TEACHER_DEFINITION_CH10_EX3",
+  "teacher_id": "teacher_definition",
+  "title": "例题 3（2019 国考）",
+  "stem": "诉前财产保全是指利害关系人因情况紧急，若不立即申请财产保全将会使其合法权益受到难以弥补的\n损害，起诉前向人民法院申请，由人民法院采取的一种财产保全措施。\n根据上述定义，下列不属于诉前财产保全的是：",
+  "options": {
+   "A": "工厂甲向信用社乙贷款 500 万元，甲无法按期归还。乙随即起诉，审理期间得知甲已将设备转卖，\n遂请求法院查封甲正在出售的大楼",
+   "B": "甲与乙签订购销合同，甲给乙 200 万元预付款后，发现乙有欺诈行为，无力履行合同，遂请求人\n民法院冻结 200 万元预付款",
+   "C": "银行甲与公司乙签订协议，甲向乙提供 5000 万元贷款，分 3 期还清，第一笔到期时乙无力归还，\n甲向法院申请查封乙的财产",
+   "D": "甲欠乙 10 万元，乙多次找甲还钱未果，得知甲有一辆轿车，乙向法院申请将甲的轿车予以查封，\n再将甲告上法庭"
+  },
+  "answer": "A",
+  "question_format": "配套讲义原题",
+  "question_type": "定义判断",
+  "category": "定义判断",
+  "case_kind": "courseware_question",
+  "verification_status": "source_text_verified",
+  "extraction": "pdf_text_layer",
+  "author_teacher": "配套讲义与独立答案表，非教师逐字发言",
+  "teacher_reasoning": "该课件未附解析；答案来自独立答案表。不得生成或冒充教师原话解析。",
+  "source": []
+ },
+ {
+  "question_id": "TEACHER_DEFINITION_CH10_EX4",
+  "teacher_id": "teacher_definition",
+  "title": "例题 4（2021 北京）",
+  "stem": "无感审批是指通过智能技术强化身份认证、智能授权、自动填表等功能，企业群众无需出示证件、无\n需填写表单，“不知不觉”就拿到审批文件，实现“无感”审批、“省心”办事。\n根据上述定义，以下属于无感审批的是：",
+  "options": {
+   "A": "某市旅游管理部门通过人脸识别等网络技术，实现了网上实名制购买全市公园门票。游客无需出\n示证件，可以直接出示购票二维码入园",
+   "B": "某建设单位登录省投资在线监管平台，填写单位代码后，系统自动生成企业基本信息和申请表格，\n随后完成在线审核，获得建筑许可",
+   "C": "某市提高政府办事效率，对企业或个人办理业务，只需要到综合服务大厅询问工作人员，工作人\n员会帮忙核对材料，帮助他们方便快捷地完成相关手续",
+   "D": "某保险公司提供网上业务办理和查询功能，客户登录公众号并通过人脸识别后，可完成查询、续\n费、转款等功能，无需出示证件、无需填写表单"
+  },
+  "answer": "B",
+  "question_format": "配套讲义原题",
+  "question_type": "定义判断",
+  "category": "定义判断",
+  "case_kind": "courseware_question",
+  "verification_status": "source_text_verified",
+  "extraction": "pdf_text_layer",
+  "author_teacher": "配套讲义与独立答案表，非教师逐字发言",
+  "teacher_reasoning": "该课件未附解析；答案来自独立答案表。不得生成或冒充教师原话解析。",
+  "source": []
+ },
+ {
+  "question_id": "TEACHER_DEFINITION_CH10_EX5",
+  "teacher_id": "teacher_definition",
+  "title": "例题 5（2023 甘肃）",
+  "stem": "档案管理是指档案馆（室）以维护档案的真实、完整、准确、安全，便于社会和其他各方面利用为原\n则，对档案进行收集、整理、保管、鉴定、统计并提供利用的各种业务工作。按管理门类分为文书档案管\n理和专业档案管理；按档案载体形式分为传统档案管理和电子档案管理。\n根据上述定义，下列属于档案管理的是：",
+  "options": {
+   "A": "甲档案馆近期向社会开放经济、教育、科技、文化类档案查询",
+   "B": "乙知识网站从 1999 年开始向用户提供有偿资料查阅和下载服务",
+   "C": "丙资料库收录了从 1995 年至今的 100 多个社科专题全文复印资料",
+   "D": "丁单位的档案室决定建立档案工作责任制，依法健全档案管理制度"
+  },
+  "answer": "A",
+  "question_format": "配套讲义原题",
+  "question_type": "定义判断",
+  "category": "定义判断",
+  "case_kind": "courseware_question",
+  "verification_status": "source_text_verified",
+  "extraction": "pdf_text_layer",
+  "author_teacher": "配套讲义与独立答案表，非教师逐字发言",
+  "teacher_reasoning": "该课件未附解析；答案来自独立答案表。不得生成或冒充教师原话解析。",
+  "source": []
+ },
+ {
+  "question_id": "TEACHER_DEFINITION_CH10_EX6",
+  "teacher_id": "teacher_definition",
+  "title": "例题 6（2017 河南选调）",
+  "stem": "隐性饥饿，是指机体由于营养不平衡或者缺乏某种维生素及人体必需矿物质，同时又存在其他营养成\n分过度摄入，从而产生隐蔽性营养需求的饥饿症状。\n根据上述定义，下列属于隐性饥饿的是：",
+  "options": {
+   "A": "陈大爷下定决心节食，他最近以青菜和苹果代替主食，不沾油荤，终于有一天因饥饿难耐晕倒在地",
+   "B": "小白为了获得健美身材，坚持每日六餐，每餐分量很少，分别含有主食、蔬果、蛋奶等，但同时\n高强度的健身训练还是让他浑身酸痛、疲惫不堪",
+   "C": "王大爷因为肠胃虚弱，以清粥热汤作为主要饮食养生，不常吃大鱼大肉和生冷瓜果，后来因饮食\n缺少蛋白质和维他命而导致记忆力减退",
+   "D": "小李喜欢高盐、高糖分、高热量的垃圾食品，对医生的劝说无动于衷，在数年后的体检中发现自\n己存在高血糖、高血脂、高血压等问题"
+  },
+  "answer": "C",
+  "question_format": "配套讲义原题",
+  "question_type": "定义判断",
+  "category": "定义判断",
+  "case_kind": "courseware_question",
+  "verification_status": "source_text_verified",
+  "extraction": "pdf_text_layer",
+  "author_teacher": "配套讲义与独立答案表，非教师逐字发言",
+  "teacher_reasoning": "该课件未附解析；答案来自独立答案表。不得生成或冒充教师原话解析。",
+  "source": []
+ },
+ {
+  "question_id": "TEACHER_DEFINITION_CH10_EX7",
+  "teacher_id": "teacher_definition",
+  "title": "例题 7（2011 吉林）",
+  "stem": "群体规范是群体所确立的表明在特定环境中群体成员的行为准则和标准，可分为描述性规范和指令性\n规范两种。描述性规范表明人们在特定情境下应该做的，它简单地告诉人们，哪些行为是有效的和适合的。\n指令性规范详细说明在特定情境下，什么是人们必须做的，以及什么是被人们赞同或者是反对的行为。\n根据上述定义，下列各项中属于描述性规范的是：",
+  "options": {
+   "A": "节约用水标语",
+   "B": "实验室守则",
+   "C": "安全生产标准",
+   "D": "人生规划"
+  },
+  "answer": "A",
+  "question_format": "配套讲义原题",
+  "question_type": "定义判断",
+  "category": "定义判断",
+  "case_kind": "courseware_question",
+  "verification_status": "source_text_verified",
+  "extraction": "pdf_text_layer",
+  "author_teacher": "配套讲义与独立答案表，非教师逐字发言",
+  "teacher_reasoning": "该课件未附解析；答案来自独立答案表。不得生成或冒充教师原话解析。",
+  "source": []
+ },
+ {
+  "question_id": "TEACHER_DEFINITION_CH10_EX8",
+  "teacher_id": "teacher_definition",
+  "title": "例题 8（2024 江苏）",
+  "stem": "代际责任：指在不超出自身能力的前提下，相邻两代人的一方向另一方主动提供经济帮扶、生活照顾、\n健康保障、精神抚慰等各种支持的行为。\n下列不属于代际责任的是：",
+  "options": {
+   "A": "苏女士把父母接到身边后，忙乎了一个多月，带着父母熟悉小区健身器材，到社区老年活动中心\n打牌下棋，在公园找人聊天，终于帮他们重新找到了“组织”",
+   "B": "邵先生和妻子一直在城里忙于打拼，女儿正在读小学。每到寒暑假，邵先生的父母都会专程赶到\n城里，把孙女接回农村老家痛痛快快地玩上整个假期",
+   "C": "罗奶奶像无数为孩子婚事发愁的长辈一样，每到周末就去附近公园的相亲角浏览展板上的照片、\n简历，觉得合适的就记下基本情况、电话号码。虽然快三十岁的孙女根本不着急，她却一直乐此\n不疲",
+   "D": "毛先生喜欢第一时间把遇到的趣事分享到家族微信群，却很少得到期待的回应，一怒之下退了群。\n后来，儿子又把他请回，还邀约了几位有同样爱好的长辈，群里逐渐热闹起来，他也时不时点赞\n或评论几句"
+  },
+  "answer": "C",
+  "question_format": "配套讲义原题",
+  "question_type": "定义判断",
+  "category": "定义判断",
+  "case_kind": "courseware_question",
+  "verification_status": "source_text_verified",
+  "extraction": "pdf_text_layer",
+  "author_teacher": "配套讲义与独立答案表，非教师逐字发言",
+  "teacher_reasoning": "该课件未附解析；答案来自独立答案表。不得生成或冒充教师原话解析。",
+  "source": []
+ },
+ {
+  "question_id": "TEACHER_DEFINITION_CH10_EX9",
+  "teacher_id": "teacher_definition",
+  "title": "例题 9（2022 浙江）",
+  "stem": "回应性监管是指政府通过制度设计，采用多样化的监管手段和策略对市场主体和社会组织进行动态化、\n智能化、差别化的监管。回应性监管强调监管主体的多元化，除政府以外，企业、社会组织，乃至被监管\n对象都是监管主体；在监管策略上，采取差异化、阶梯化的监管方式，即政府首先鼓励自我监管，难以奏\n效时才采取更为严厉的强化型自我监管直至命令控制型监管。\n根据上述定义，下列选项没有体现回应性监管的是：",
+  "options": {
+   "A": "某地主管部门因食品安全问题突击整顿涉事企业",
+   "B": "瑞典立法要求工作场所必须建立安全环保的内控体系",
+   "C": "英国成立企业、工会代表组成的大健康监管委员会",
+   "D": "聘请专业的第三方机构对企业安全生产状况进行评估"
+  },
+  "answer": "A",
+  "question_format": "配套讲义原题",
+  "question_type": "定义判断",
+  "category": "定义判断",
+  "case_kind": "courseware_question",
+  "verification_status": "source_text_verified",
+  "extraction": "pdf_text_layer",
+  "author_teacher": "配套讲义与独立答案表，非教师逐字发言",
+  "teacher_reasoning": "该课件未附解析；答案来自独立答案表。不得生成或冒充教师原话解析。",
+  "source": []
+ },
+ {
+  "question_id": "TEACHER_DEFINITION_CH10_EX10",
+  "teacher_id": "teacher_definition",
+  "title": "例题 10（2024 四川事业单位）",
+  "stem": "认知计算是指机器通过与人的自然语言交流及不断学习从而帮助人们做到更多的系统。认知计算试图\n解决生物系统中的不精确、不确定和部分真实的问题，以实现不同程度的感知、记忆、学习、语言、思维\n和问题解决等过程。\n根据上述定义，下列不符合认知计算的是：",
+  "options": {
+   "A": "甲公司通过开发一套认知系统来提高销售产量，这套系统使用了机器学习来对顾客进行分类并且\n指导销售员工对不同顾客销售哪种产品",
+   "B": "乙平台是一套基于云的解决方案，它能够辨识网络外部防御的异常行为，之后识别出恶意软件的\n侵害或数据损失，协助行为分析和异常探测工作",
+   "C": "丙公司推出的智能机器人，可以与人类正常沟通，可以在银行、餐饮、零售、酒店、医疗等领域\n为人类提供智能的信息化服务",
+   "D": "丁国“脑科学时代计划”把建立认知、运动、行为和思想的计算原理列为重点研究领域"
+  },
+  "answer": "D",
+  "question_format": "配套讲义原题",
+  "question_type": "定义判断",
+  "category": "定义判断",
+  "case_kind": "courseware_question",
+  "verification_status": "source_text_verified",
+  "extraction": "pdf_text_layer",
+  "author_teacher": "配套讲义与独立答案表，非教师逐字发言",
+  "teacher_reasoning": "该课件未附解析；答案来自独立答案表。不得生成或冒充教师原话解析。",
+  "source": []
+ },
+ {
+  "question_id": "TEACHER_DEFINITION_CH10_EX11",
+  "teacher_id": "teacher_definition",
+  "title": "例题 11（2022 四川）",
+  "stem": "人力资本投资是指体现在劳动者身上的，用来提高人的生产能力从而提高人在劳动力市场上的收益能\n力的初始性投资。\n根据上述定义，下列不属于人力资本投资的是：",
+  "options": {
+   "A": "某大学资助教师参加教学技能提升培训班的费用",
+   "B": "某公司为员工添置了一批健身器材所花费的投资",
+   "C": "父母在小张大学暑假期间为其支付的驾校培训费用",
+   "D": "某食品加工企业为购买专利而支付的知识产权转让费"
+  },
+  "answer": "D",
+  "question_format": "配套讲义原题",
+  "question_type": "定义判断",
+  "category": "定义判断",
+  "case_kind": "courseware_question",
+  "verification_status": "source_text_verified",
+  "extraction": "pdf_text_layer",
+  "author_teacher": "配套讲义与独立答案表，非教师逐字发言",
+  "teacher_reasoning": "该课件未附解析；答案来自独立答案表。不得生成或冒充教师原话解析。",
+  "source": []
+ },
+ {
+  "question_id": "TEACHER_DEFINITION_CH10_EX12",
+  "teacher_id": "teacher_definition",
+  "title": "例题 12（2024 四川三支一扶）",
+  "stem": "最大最小准则的基本特点是，决策者总是担心最终结果会于已不利。于是为了保险，在选择方案时只希望自\n己可能遇到的最坏结果比采用其他方案可能遇到的最坏结果都要好些。\n下列表格提供了某公司家用电器的 4 种经营方式、不同市场状态下的收益值。\n经营方式市场状态 畅销 一般 滞销\n甲 10 8 5\n乙 13 9 ﹣2\n丙 11 7 4\n丁 15 6 ﹣1\n根据上述准则，该公司应选择的经营方式是：",
+  "options": {
+   "A": "甲",
+   "B": "乙",
+   "C": "丙",
+   "D": "丁"
+  },
+  "answer": "A",
+  "question_format": "配套讲义原题",
+  "question_type": "定义判断",
+  "category": "定义判断",
+  "case_kind": "courseware_question",
+  "verification_status": "source_text_verified",
+  "extraction": "pdf_text_layer",
+  "author_teacher": "配套讲义与独立答案表，非教师逐字发言",
+  "teacher_reasoning": "该课件未附解析；答案来自独立答案表。不得生成或冒充教师原话解析。",
+  "source": []
+ },
+ {
+  "question_id": "TEACHER_DEFINITION_CH10_EX13",
+  "teacher_id": "teacher_definition",
+  "title": "例题 13（2023 内蒙古事业单位）",
+  "stem": "蜈蚣平均多达 40 只脚，但却能够步履协调、正常行走。当别的小动物问蜈蚣是怎么做到用这么多脚\n走路时，蜈蚣也开始好奇地观察起自己平时怎么走路，结果它的脚反而开始纠缠在一起。这便是蜈蚣效应，\n即对事物有超过平常的关心，反而导致在处理问题时方寸大乱。\n根据上述定义，下列没有体现蜈蚣效应的是：",
+  "options": {
+   "A": "把不成问题的事当作问题就会酿成大问题",
+   "B": "无欲则刚，关心则乱",
+   "C": "排除干扰，把精力放到正事和要事上，做到“抓大放小”",
+   "D": "只有当你认定消极事件为“不幸”时，该事件才真正成为“不幸事件”"
+  },
+  "answer": "D",
+  "question_format": "配套讲义原题",
+  "question_type": "定义判断",
+  "category": "定义判断",
+  "case_kind": "courseware_question",
+  "verification_status": "source_text_verified",
+  "extraction": "pdf_text_layer",
+  "author_teacher": "配套讲义与独立答案表，非教师逐字发言",
+  "teacher_reasoning": "该课件未附解析；答案来自独立答案表。不得生成或冒充教师原话解析。",
+  "source": []
+ },
+ {
+  "question_id": "TEACHER_DEFINITION_CH10_EX14",
+  "teacher_id": "teacher_definition",
+  "title": "例题 14（2020 浙江事业单位）",
+  "stem": "生物燃料泛指由生物质组成或萃取的固体、液体或气体燃料，可以替代由石油、核能等传统燃料，这\n些新兴的燃料是可再生燃料。\n根据上述定义，下列不属于生物燃料的是：",
+  "options": {
+   "A": "使用甘蔗生产的乙醇燃料",
+   "B": "以花生油为燃料驱动汽车",
+   "C": "可用于生产生质燃料的桐油树",
+   "D": "利用玉米制造酒精"
+  },
+  "answer": "C",
+  "question_format": "配套讲义原题",
+  "question_type": "定义判断",
+  "category": "定义判断",
+  "case_kind": "courseware_question",
+  "verification_status": "source_text_verified",
+  "extraction": "pdf_text_layer",
+  "author_teacher": "配套讲义与独立答案表，非教师逐字发言",
+  "teacher_reasoning": "该课件未附解析；答案来自独立答案表。不得生成或冒充教师原话解析。",
+  "source": []
+ },
+ {
+  "question_id": "TEACHER_DEFINITION_CH10_EX15",
+  "teacher_id": "teacher_definition",
+  "title": "例题 15（2019 北京事业单位）",
+  "stem": "互补品是指两种商品之间存在某种消费依存关系，即一种商品的消费必须与另一种商品的消费相配\n套。互补品一般可以分为两类：普通互补品，指两种商品之间没有固定的同时使用的比例；完全互补品，\n指两种商品之间必须按照固定不变的比例同时被使用。\n根据上述定义，下列选项正确的是：",
+  "options": {
+   "A": "数码相机和胶卷属于完全互补品",
+   "B": "薯条和汉堡属于普通互补品",
+   "C": "毛笔和墨汁属于普通互补品",
+   "D": "眼镜框和眼镜属于普通互补品"
+  },
+  "answer": "C",
+  "question_format": "配套讲义原题",
+  "question_type": "定义判断",
+  "category": "定义判断",
+  "case_kind": "courseware_question",
+  "verification_status": "source_text_verified",
+  "extraction": "pdf_text_layer",
+  "author_teacher": "配套讲义与独立答案表，非教师逐字发言",
+  "teacher_reasoning": "该课件未附解析；答案来自独立答案表。不得生成或冒充教师原话解析。",
+  "source": []
+ },
+ {
+  "question_id": "TEACHER_DEFINITION_CH10_EX16",
+  "teacher_id": "teacher_definition",
+  "title": "例题 16（2022 事业单位联考）",
+  "stem": "单播是单点对单点数据传输；组播是单点对特定多点数据传输，发出一份数据包，特定的多点同时接\n收；广播是单点对非特定多点传输，发出一份数据包，非特定多点同时接收。\n根据以上定义，下列选项中利用了组播技术的是：",
+  "options": {
+   "A": "观看付费电视频道节目",
+   "B": "双人视频通话",
+   "C": "收听电台节目",
+   "D": "通过视频 APP 点播电视剧"
+  },
+  "answer": "A",
+  "question_format": "配套讲义原题",
+  "question_type": "定义判断",
+  "category": "定义判断",
+  "case_kind": "courseware_question",
+  "verification_status": "source_text_verified",
+  "extraction": "pdf_text_layer",
+  "author_teacher": "配套讲义与独立答案表，非教师逐字发言",
+  "teacher_reasoning": "该课件未附解析；答案来自独立答案表。不得生成或冒充教师原话解析。",
+  "source": []
+ },
+ {
+  "question_id": "TEACHER_DEFINITION_CH10_EX17",
+  "teacher_id": "teacher_definition",
+  "title": "例题 17（2021 国考）",
+  "stem": "统计数据分为定性数据与定量数据。定性数据包括分类数据和顺序数据。分类数据是指只能归于某一\n类别的非数字型数据，它是对事物进行分类的结果，用文字表述；顺序数据是指归于某一有序类别的非数\n字型数据。定量数据是指表现为具体数字观测值的数据。\n①按城市规模可将城市分为特大城市、大城市、中等城市和小城市；\n②婚姻状况：1-未婚，2-已婚，3-离异，4-丧偶；\n③A 地到 B 地的距离为 200 公里，到 C 地为 320 公里，到 D 地为 100 公里；\n④某医院建筑面积 37.5 万平方米，开放床位 3182 个，临床医生 687 人。\n根据上述定义，关于以上 4 组数据的说法正确的是：",
+  "options": {
+   "A": "②④都是分类数据",
+   "B": "②③④都是定量数据",
+   "C": "①②都是顺序数据",
+   "D": "仅②是分类数据"
+  },
+  "answer": "D",
+  "question_format": "配套讲义原题",
+  "question_type": "定义判断",
+  "category": "定义判断",
+  "case_kind": "courseware_question",
+  "verification_status": "source_text_verified",
+  "extraction": "pdf_text_layer",
+  "author_teacher": "配套讲义与独立答案表，非教师逐字发言",
+  "teacher_reasoning": "该课件未附解析；答案来自独立答案表。不得生成或冒充教师原话解析。",
+  "source": []
+ },
+ {
+  "question_id": "TEACHER_DEFINITION_CH10_EX18",
+  "teacher_id": "teacher_definition",
+  "title": "例题 18（2023 湖北事业单位）",
+  "stem": "悲观是对人、事、物产生消极的看法。悲观可以分成以下几类：气质性悲观，是指人们在对未来的看\n法上，长期倾向于期待坏的结果；归因性悲观，是指在一件事情发生后对它进行解释时，总会采取内在的、\n稳定的负面归因；防御性悲观，是指人们会在事件发生前，将期待降到比较低的水平，想象出最坏的可能。\n根据上述定义，下列体现了防御性悲观的是：",
+  "options": {
+   "A": "小李天生就是个多愁善感的人，无论是工作还是生活，他都觉得一切总是会向不好的方向发展",
+   "B": "领导任命小张为部门负责人，小张认为自己能力尚不足，对自己能否胜任这一岗位表示担忧",
+   "C": "单位年度评优中没有被评为先进，他认为是自己的一个重大工作失误导致的",
+   "D": "销售人员小陈业绩特别好，在讲述工作经验时，他表示无论如何都要做好本职工作，不要太在意\n客户的态度，这样的想法支持他勇敢向前"
+  },
+  "answer": "B",
+  "question_format": "配套讲义原题",
+  "question_type": "定义判断",
+  "category": "定义判断",
+  "case_kind": "courseware_question",
+  "verification_status": "source_text_verified",
+  "extraction": "pdf_text_layer",
+  "author_teacher": "配套讲义与独立答案表，非教师逐字发言",
+  "teacher_reasoning": "该课件未附解析；答案来自独立答案表。不得生成或冒充教师原话解析。",
+  "source": []
+ },
+ {
+  "question_id": "TEACHER_DEFINITION_CH10_EX19",
+  "teacher_id": "teacher_definition",
+  "title": "例题 19（2022 国考）",
+  "stem": "总量指标动态数列是将反映某种社会经济现象的一系列总量指标按时间先后顺序排列形成的数列，可\n分为两类：\n（1）时期数列：每个指标都表示社会经济现象在一定时期内发展过程的总量，各指标值可以相加，\n指标数值的大小与时期长短有直接关系；\n（2）时点数列：每个指标都表示社会经济现象在某一时点（时刻）上的数量，各指标值不能相加，\n指标数值大小和“时点间隔”长短没有直接关系，每个指标通常都是定期（间断）登记取得的。\n根据上述定义，下列属于时点数列的是：",
+  "options": {
+   "A": "2016～2020 年某市税收情况\n年份 2016 年 2017 年 2018 年 2019 年 2020 年\n税收（亿元） 1530 1950 2390 3025 3650",
+   "B": "2017～2020 年某公司员工人数情况\n年份 2017 年 2018 年 2019 年 2020 年\n年末员工人数（人） 4459 4925 5012 5347",
+   "C": "2021 年 1～5 月某地区城镇私营单位就业人员月均工资\n月份 1 月 2 月 3 月 4 月 5 月\n平均工资（元） 3530 3600 4150 3920 4300",
+   "D": "2020 年某地区各季度电动汽车生产产量\n季度 第一季度 第二季度 第三季度 第四季度\n产量（万辆） 160 182 205 217"
+  },
+  "answer": "B",
+  "question_format": "配套讲义原题",
+  "question_type": "定义判断",
+  "category": "定义判断",
+  "case_kind": "courseware_question",
+  "verification_status": "source_text_verified",
+  "extraction": "pdf_text_layer",
+  "author_teacher": "配套讲义与独立答案表，非教师逐字发言",
+  "teacher_reasoning": "该课件未附解析；答案来自独立答案表。不得生成或冒充教师原话解析。",
+  "source": []
+ },
+ {
+  "question_id": "TEACHER_DEFINITION_CH10_EX20",
+  "teacher_id": "teacher_definition",
+  "title": "例题 20（2017 上事业单位）",
+  "stem": "包庇罪是指明知是犯罪的人而为其提供隐藏处所、财物，或者帮助其逃匿，或者作假证明包庇的行为。\n但事前通谋的，以共同犯罪论处。\n根据上述定义，下列可能构成包庇罪的是：",
+  "options": {
+   "A": "李某与黄某等人商定，由黄某等人抢劫金店，由李某负责藏匿抢劫所得赃物，黄某等人抢劫得手\n后，李某将赃物藏于自家的仓库内",
+   "B": "张某盗窃了博物馆的一幅名画，将其藏于床下，被母亲发现，母亲询问张某，得知为盗窃所得，\n遂将该幅名画烧毁",
+   "C": "赵某被王某绑架，公安机关迅速侦破此案并成功解救赵某。后赵某收受王某亲属 20 万元，推翻了\n之前对王某不利的陈述，谎称是自愿和王某走的",
+   "D": "侯某是涉嫌杀人罪的犯罪嫌疑人于某的辩护律师，为获得高额的代理费用，侯某伪造大量证据，\n成功帮助于某脱罪"
+  },
+  "answer": "C",
+  "question_format": "配套讲义原题",
+  "question_type": "定义判断",
+  "category": "定义判断",
+  "case_kind": "courseware_question",
+  "verification_status": "source_text_verified",
+  "extraction": "pdf_text_layer",
+  "author_teacher": "配套讲义与独立答案表，非教师逐字发言",
+  "teacher_reasoning": "该课件未附解析；答案来自独立答案表。不得生成或冒充教师原话解析。",
+  "source": []
+ },
+ {
+  "question_id": "TEACHER_DEFINITION_CH10_EX21",
+  "teacher_id": "teacher_definition",
+  "title": "例题 21（2021 下四川）",
+  "stem": "共同犯罪是指二人以上共同故意犯罪，共同故意犯罪要求共犯人知道共犯的内容及社会意义，并希望\n结果的发生，并且共犯人主观上要有共同犯罪意思联络，知道自己不是孤立的在犯罪，而是和他人一起共\n同犯罪。\n根据上述定义，下列案件不属于共同犯罪的是：",
+  "options": {
+   "A": "李某和杨某系夫妻，与邻居黄某因为排水问题发生纠纷，继而发生口角，黄某被李某殴打。黄某\n受伤倒地后杨某未实施救助，与李某快速离开了现场。经鉴定，黄某受重伤",
+   "B": "周某和陈某对刘某怀恨在心，二人商议杀死刘某，于是二人非法购买了枪支，准备第二天杀死刘\n某。但是陈某感到害怕，于当天晚上告知刘某杀人计划，并和刘某一起到公安机关报案",
+   "C": "张某和王某两人互不认识。一天深夜，张某进入一家超市偷东西时，碰到王某也在该超市偷东西，\n两人相视而笑。之后，张某和王某一起将偷取的东西变卖，分别获利 2.2 万元和 1.3 万元",
+   "D": "谢某和丁某共谋盗窃汽车，谢某将开车所需的钥匙交给丁某。后来，谢某后悔，让丁某归还钥匙。\n丁某请求谢某让他配置—把钥匙之后再归还，谢某同意。随后丁某利用自己配置的钥匙盗窃了汽\n车"
+  },
+  "answer": "A",
+  "question_format": "配套讲义原题",
+  "question_type": "定义判断",
+  "category": "定义判断",
+  "case_kind": "courseware_question",
+  "verification_status": "source_text_verified",
+  "extraction": "pdf_text_layer",
+  "author_teacher": "配套讲义与独立答案表，非教师逐字发言",
+  "teacher_reasoning": "该课件未附解析；答案来自独立答案表。不得生成或冒充教师原话解析。",
+  "source": []
+ },
+ {
+  "question_id": "TEACHER_DEFINITION_CH10_EX22",
+  "teacher_id": "teacher_definition",
+  "title": "例题 22（2017 辽宁公安）",
+  "stem": "焦虑性神经官能症是以广泛性焦虑症（慢性焦虑症）和发作性惊恐状态（急性焦虑症）为主要临床表\n现，是一种无根据的惊慌和紧张或其紧张惊恐程度与现实情况很不相称，心理上体验为泛化的、无固定目\n标的担心惊恐，生理上伴有警觉增高的躯体症状。\n根据上述定义，下列属于焦虑性神经官能症的是：",
+  "options": {
+   "A": "上高三的小李平时上课表现得非常正常，但是遇到老师提问他时就紧张的说不出话来，即使自己\n会的问题也回答不出来",
+   "B": "老李被查出来患有肿瘤，一想到自己可能不久于人世，老李就非常的惊恐",
+   "C": "最近某市发生了几起入室盗窃杀人案，一天晚上小丽老公加班没有回来，小丽整晚都非常担心，\n几乎没睡觉",
+   "D": "小孙最近刚失恋，她每天把自己关在家里，伤心欲绝，痛苦不已"
+  },
+  "answer": "A",
+  "question_format": "配套讲义原题",
+  "question_type": "定义判断",
+  "category": "定义判断",
+  "case_kind": "courseware_question",
+  "verification_status": "source_text_verified",
+  "extraction": "pdf_text_layer",
+  "author_teacher": "配套讲义与独立答案表，非教师逐字发言",
+  "teacher_reasoning": "该课件未附解析；答案来自独立答案表。不得生成或冒充教师原话解析。",
+  "source": []
+ },
+ {
+  "question_id": "TEACHER_DEFINITION_CH10_EX23",
+  "teacher_id": "teacher_definition",
+  "title": "例题 23（2024 山东）",
+  "stem": "睡眠-觉醒节律紊乱，也称昼夜节律睡眠-觉醒障碍，指个体的睡眠与其现实要求或大部分人所遵循的\n节律不符的觉醒紊乱。\n根据上述定义，下列不属于睡眠-觉醒节律紊乱的是：",
+  "options": {
+   "A": "小张入睡时间在凌晨 2～6 点，不能在正常时间起床",
+   "B": "老李睡眠时间比正常人早，经常在傍晚就感到困倦",
+   "C": "小王因次日要参加重要考试，当晚久久不能入睡",
+   "D": "老赵因居住环境拥挤嘈杂，晚上常处于时睡时醒状态"
+  },
+  "answer": "C",
+  "question_format": "配套讲义原题",
+  "question_type": "定义判断",
+  "category": "定义判断",
+  "case_kind": "courseware_question",
+  "verification_status": "source_text_verified",
+  "extraction": "pdf_text_layer",
+  "author_teacher": "配套讲义与独立答案表，非教师逐字发言",
+  "teacher_reasoning": "该课件未附解析；答案来自独立答案表。不得生成或冒充教师原话解析。",
+  "source": []
+ },
+ {
+  "question_id": "TEACHER_DEFINITION_CH10_EX24",
+  "teacher_id": "teacher_definition",
+  "title": "例题 24（2021 江苏）",
+  "stem": "科学预测：指基于已掌握的规律，通过科学分析和预测，对未来可能发生的现象，作出允许质疑及检\n测的推测。\n下列属于科学预测的是：",
+  "options": {
+   "A": "旅行团导游提醒大巴司机：明天是周末，出城的车子太多，路上很可能出现严重的拥堵现象，要\n想按时到达目的地，至少得提前半小时出发",
+   "B": "某地发生了一起刑事案件，警察迅速对犯罪现场进行仔细勘查，根据收集到的信息材料，很快确\n定并抓获了犯罪嫌疑人，仅用了 3 小时就破了案",
+   "C": "电视台的天气预报节目中，播报员都会例行性地对未来十天的天气变化情况进行简要预报，有时\n还会请气象专家对天气变化原因作出分析",
+   "D": "老胡刚拿到体检报告，发现有几个指标不正常，极为紧张，忙去找医生，医生看过体检报告后告\n诉他：“超标情况不严重，注意休息，很快就会恢复正常”"
+  },
+  "answer": "C",
+  "question_format": "配套讲义原题",
+  "question_type": "定义判断",
+  "category": "定义判断",
+  "case_kind": "courseware_question",
+  "verification_status": "source_text_verified",
+  "extraction": "pdf_text_layer",
+  "author_teacher": "配套讲义与独立答案表，非教师逐字发言",
+  "teacher_reasoning": "该课件未附解析；答案来自独立答案表。不得生成或冒充教师原话解析。",
+  "source": []
+ },
+ {
+  "question_id": "TEACHER_DEFINITION_CH10_EX25",
+  "teacher_id": "teacher_definition",
+  "title": "例题 25（2019 国考）",
+  "stem": "定律假说是对一类事物或现象的性质或发生原因作出推测性解释,得出一个可能具有普遍性意义的规\n律性命题,从而试图建立、发展或补充科学理论。\n根据上述定义,下列属于定律假说的是：",
+  "options": {
+   "A": "老师向学生们解释潮汐现象产生的原因是海水在引力作用下出现的周期性运动",
+   "B": "某单位仓库被盗,由于未发现破坏性进入的痕迹,侦查人员认为内部人员作案的可能性极大",
+   "C": "牛顿根据苹果掉落现象发现了万有引力定律",
+   "D": "有研究人员提出,由基因导致的疾病可能都是由于基因突变引起的"
+  },
+  "answer": "C",
+  "question_format": "配套讲义原题",
+  "question_type": "定义判断",
+  "category": "定义判断",
+  "case_kind": "courseware_question",
+  "verification_status": "source_text_verified",
+  "extraction": "pdf_text_layer",
+  "author_teacher": "配套讲义与独立答案表，非教师逐字发言",
+  "teacher_reasoning": "该课件未附解析；答案来自独立答案表。不得生成或冒充教师原话解析。",
+  "source": []
+ },
+ {
+  "question_id": "TEACHER_DEFINITION_CH10_EX26",
+  "teacher_id": "teacher_definition",
+  "title": "例题 26（2022 辽宁事业单位）",
+  "stem": "教育调查是指在没有预定因子、不施行控制的条件下，对现有教育方面的有关客观事实所进行的观察\n和分析。其目的在于了解教育已有成果，总结经验，发现问题；研究教育理论，探索教育规律；预测教育\n发展趋向，为制定教育方针、政策提供事实依据。\n根据上述定义，下列不属于教育调查的是：",
+  "options": {
+   "A": "使用问卷了解某市所有中学高三学生的学习心理现状",
+   "B": "分析近三年某地区职业教育经费投入与职业教育发展趋势",
+   "C": "摸底测验后，统计本校九年级有望升入重点高中的学生人数",
+   "D": "根据某农村地区基础教育的相关案例，探究存在的问题及解决途径"
+  },
+  "answer": "C",
+  "question_format": "配套讲义原题",
+  "question_type": "定义判断",
+  "category": "定义判断",
+  "case_kind": "courseware_question",
+  "verification_status": "source_text_verified",
+  "extraction": "pdf_text_layer",
+  "author_teacher": "配套讲义与独立答案表，非教师逐字发言",
+  "teacher_reasoning": "该课件未附解析；答案来自独立答案表。不得生成或冒充教师原话解析。",
+  "source": []
+ },
+ {
+  "question_id": "TEACHER_DEFINITION_CH10_EX27",
+  "teacher_id": "teacher_definition",
+  "title": "例题 27（2022 事业单位联考）",
+  "stem": "滞后现象指的是解释变量对被解释变量的影响不可能即时完成，在这一过程中通常存在时间滞后，也\n就是说，解释变量需要通过一段时间才能完全作用于被解释变量。\n根据上述定义，以下选项属于滞后现象的是：",
+  "options": {
+   "A": "稀软的混凝土均匀地铺设到公路路面之后，经过一夜时间，第二天早晨就基本凝固了",
+   "B": "在一盆干燥的葛根中倒入一杯水，开始时，盆中有很多水，一段时间后，盆中的水就被葛根吸收\n了",
+   "C": "某国为了刺激经济，为小微企业发放了无息贷款，6 个月后，该国物价出现了一定程度的上涨",
+   "D": "某地发生洪灾，由于次生灾害、交通损毁、通讯不畅等因素的影响，救援物资未能及时发放到灾\n民手中"
+  },
+  "answer": "C",
+  "question_format": "配套讲义原题",
+  "question_type": "定义判断",
+  "category": "定义判断",
+  "case_kind": "courseware_question",
+  "verification_status": "source_text_verified",
+  "extraction": "pdf_text_layer",
+  "author_teacher": "配套讲义与独立答案表，非教师逐字发言",
+  "teacher_reasoning": "该课件未附解析；答案来自独立答案表。不得生成或冒充教师原话解析。",
+  "source": []
+ },
+ {
+  "question_id": "TEACHER_DEFINITION_CH10_EX28",
+  "teacher_id": "teacher_definition",
+  "title": "例题 28（2023 事业单位联考）",
+  "stem": "R 关系的非对称性指的是存在论域中的元素（或对象）x、y，xRy 并且 yRx 都成立；也存在论域中的\n元素（或对象）m、n，mRn 成立但是 nRm 不成立。\n根据上述定义，以下哪项中的关系具有非对称性：",
+  "options": {
+   "A": "以所有人作为论域的亲戚关系",
+   "B": "以所有人作为论域的抚养关系",
+   "C": "以所有人作为论域的祖孙关系",
+   "D": "以所有人作为论域的尊重关系"
+  },
+  "answer": "D",
+  "question_format": "配套讲义原题",
+  "question_type": "定义判断",
+  "category": "定义判断",
+  "case_kind": "courseware_question",
+  "verification_status": "source_text_verified",
+  "extraction": "pdf_text_layer",
+  "author_teacher": "配套讲义与独立答案表，非教师逐字发言",
+  "teacher_reasoning": "该课件未附解析；答案来自独立答案表。不得生成或冒充教师原话解析。",
+  "source": []
+ },
+ {
+  "question_id": "TEACHER_DEFINITION_CH10_EX29",
+  "teacher_id": "teacher_definition",
+  "title": "例题 29（2024 黑龙江公安）",
+  "stem": "关系具有确定性性质是指对于某一关系 R，如果对于特定论域中三个对象 a、b、c 而言，当对象 a 与\n对象 b 之间具有 R 关系。并且对象 a 与对象 c 之间也具有 R 关系时，则 b＝c。\n根据上述定义，下列关系具有确定性性质的是：",
+  "options": {
+   "A": "数与数之间的倒数关系",
+   "B": "国与国之间的联盟关系",
+   "C": "集合与集合之间的包含关系",
+   "D": "事物与事物之间的因果关系"
+  },
+  "answer": "A",
+  "question_format": "配套讲义原题",
+  "question_type": "定义判断",
+  "category": "定义判断",
+  "case_kind": "courseware_question",
+  "verification_status": "source_text_verified",
+  "extraction": "pdf_text_layer",
+  "author_teacher": "配套讲义与独立答案表，非教师逐字发言",
+  "teacher_reasoning": "该课件未附解析；答案来自独立答案表。不得生成或冒充教师原话解析。",
+  "source": []
+ },
+ {
+  "question_id": "TEACHER_DEFINITION_CH10_EX30",
+  "teacher_id": "teacher_definition",
+  "title": "例题 30（2025 浙江）",
+  "stem": "汉语中有一类名词连名词的复合词，其词素组合顺序为，前一个词素是被修饰、被限定的成分，后一\n个词素是修饰、限定成分，称为“正偏式”名-名复合词。\n根据上述定义，下列属于“正偏式”名-名复合词的是：",
+  "options": {
+   "A": "火舌",
+   "B": "布衣",
+   "C": "兄弟",
+   "D": "车速"
+  },
+  "answer": "A",
+  "question_format": "配套讲义原题",
+  "question_type": "定义判断",
+  "category": "定义判断",
+  "case_kind": "courseware_question",
+  "verification_status": "source_text_verified",
+  "extraction": "pdf_text_layer",
+  "author_teacher": "配套讲义与独立答案表，非教师逐字发言",
+  "teacher_reasoning": "该课件未附解析；答案来自独立答案表。不得生成或冒充教师原话解析。",
+  "source": []
+ },
+ {
+  "question_id": "TEACHER_DEFINITION_CH10_EX31",
+  "teacher_id": "teacher_definition",
+  "title": "例题 31（2023 江西）",
+  "stem": "商业效用原则是商事实践中发展出来的一项交易惯例，市场主体提供的商品、服务以及其他标的物应\n当能够发挥基本的功能作用，如果欠缺必要的使用条件或者辅助设施导致其交易目的落空的，应当予以补\n足。最佳效用原则是指通过配置组合，使得资源能够最大程度地发挥效能，提高利用效率。\n根据上述定义，下列选项最能体现商业效用原则的是：",
+  "options": {
+   "A": "开发商销售商品房赠送车位",
+   "B": "商家促销“买桌子送椅子”",
+   "C": "出售的地下酒窖附带出入通道",
+   "D": "购买家电享受“三包服务”"
+  },
+  "answer": "C",
+  "question_format": "配套讲义原题",
+  "question_type": "定义判断",
+  "category": "定义判断",
+  "case_kind": "courseware_question",
+  "verification_status": "source_text_verified",
+  "extraction": "pdf_text_layer",
+  "author_teacher": "配套讲义与独立答案表，非教师逐字发言",
+  "teacher_reasoning": "该课件未附解析；答案来自独立答案表。不得生成或冒充教师原话解析。",
+  "source": []
+ },
+ {
+  "question_id": "TEACHER_DEFINITION_CH10_EX32",
+  "teacher_id": "teacher_definition",
+  "title": "例题 32（2019 山西事业单位）",
+  "stem": "美国著名心理学家麦克利兰于 1973 年提出著名的素质冰山模型，将个体素质划分为表面的“冰山以\n上部分”和深藏的“冰山以下部分”，其中，“冰山以上部分”是人的外在表现，是容易了解与测量的部\n分，可以通过培训来改变和发展。而“冰山以下部分”是人内在的、难以测量的部分。它们不大容易通过\n外界的影响而得到改变，但却对人的行为与表现起着关键性作用。\n根据上述定义，下列对某人的描述属于“冰山以上部分”的是：",
+  "options": {
+   "A": "小张在车祸中失去双臂，但是他没有就此消沉，而是积极乐观的面对困境",
+   "B": "小费作为公司新开发项目的团队成员，他非常注重与其他团队成员的合作",
+   "C": "小李追求卓越、挑战自己的品质，使他取得了一个又一个丰硕的成果",
+   "D": "中文系毕业生小王，拥有丰富的文学知识"
+  },
+  "answer": "D",
+  "question_format": "配套讲义原题",
+  "question_type": "定义判断",
+  "category": "定义判断",
+  "case_kind": "courseware_question",
+  "verification_status": "source_text_verified",
+  "extraction": "pdf_text_layer",
+  "author_teacher": "配套讲义与独立答案表，非教师逐字发言",
+  "teacher_reasoning": "该课件未附解析；答案来自独立答案表。不得生成或冒充教师原话解析。",
+  "source": []
+ },
+ {
+  "question_id": "TEACHER_DEFINITION_CH10_EX33",
+  "teacher_id": "teacher_definition",
+  "title": "例题 33（2020 河南事业单位）",
+  "stem": "发散思维是一种从不同的方向、途径和多种角度去设想、探求更多答案，最终使问题获得圆满解决的\n思维。\n根据上述定义，下列不属于发散思维的是：",
+  "options": {
+   "A": "作家为了提高写作水平进行一事多写",
+   "B": "研究人员提出多种解决问题的设想",
+   "C": "学生从多种解题方法中筛选出一种最佳解法",
+   "D": "教师设想多种教学改革方案"
+  },
+  "answer": "C",
+  "question_format": "配套讲义原题",
+  "question_type": "定义判断",
+  "category": "定义判断",
+  "case_kind": "courseware_question",
+  "verification_status": "source_text_verified",
+  "extraction": "pdf_text_layer",
+  "author_teacher": "配套讲义与独立答案表，非教师逐字发言",
+  "teacher_reasoning": "该课件未附解析；答案来自独立答案表。不得生成或冒充教师原话解析。",
+  "source": []
+ },
+ {
+  "question_id": "TEACHER_DEFINITION_CH10_EX34",
+  "teacher_id": "teacher_definition",
+  "title": "例题 34（2020 辽宁事业单位）",
+  "stem": "定性研究方法是根据社会现象或事物具有的属性和在运动中的矛盾变化，从事物的内在规定性来研究\n事物的一种方法或角度。他以普遍承认的公理、一套演绎逻辑和大量的历史事实为分析基础，从事物的矛\n盾性出发，描述、阐释所研究的事物。\n根据上述定义，下列运用了定性研究方法的是：",
+  "options": {
+   "A": "通过抽样调查了解特定人口总体中精神病出现的频率",
+   "B": "通过问卷调查了解某中学参加校外培训班的学生比例",
+   "C": "通过大数据统计得出某年度国内游和出境游的旅客人数",
+   "D": "通过访谈法了解人们对共享单车的使用和管理现状的满意度"
+  },
+  "answer": "D",
+  "question_format": "配套讲义原题",
+  "question_type": "定义判断",
+  "category": "定义判断",
+  "case_kind": "courseware_question",
+  "verification_status": "source_text_verified",
+  "extraction": "pdf_text_layer",
+  "author_teacher": "配套讲义与独立答案表，非教师逐字发言",
+  "teacher_reasoning": "该课件未附解析；答案来自独立答案表。不得生成或冒充教师原话解析。",
+  "source": []
+ },
+ {
+  "question_id": "TEACHER_DEFINITION_CH10_EX35",
+  "teacher_id": "teacher_definition",
+  "title": "例题 35（2022 天津）",
+  "stem": "无方向性假设指变量间有一定的关系但不能预测关系的性质。如果没有理论依据，或者在文献资料和\n实践观察中没有证据来推测变量关系，研究者只能形成无方向性的假设。方向性假设预测了两个或两个以\n上变量间的关系及关系的性质。\n根据上述定义，下列属于方向性假设的是：",
+  "options": {
+   "A": "在空间思维能力上男女生有差异",
+   "B": "学龄儿童的低社会交往能力与母亲高的抑郁分值有关",
+   "C": "老人自我评价的自理能力与性别、社会文化背景有关系",
+   "D": "大学教师的职业发展机会与成就感降低之间呈现显著相关关系"
+  },
+  "answer": "B",
+  "question_format": "配套讲义原题",
+  "question_type": "定义判断",
+  "category": "定义判断",
+  "case_kind": "courseware_question",
+  "verification_status": "source_text_verified",
+  "extraction": "pdf_text_layer",
+  "author_teacher": "配套讲义与独立答案表，非教师逐字发言",
+  "teacher_reasoning": "该课件未附解析；答案来自独立答案表。不得生成或冒充教师原话解析。",
+  "source": []
+ },
+ {
+  "question_id": "TEACHER_DEFINITION_CH10_EX36",
+  "teacher_id": "teacher_definition",
+  "title": "例题 36（2023 浙江事业单位）",
+  "stem": "按运营主体分类，电子商务模式可分为传统电商模式和内容电商模式。传统电商模式是指消费者在全\n品类电商平台上通过搜索、浏览、比价等操作来购买所需的商品。内容电商模式是指平台通过传播优质内\n容吸引对内容感兴趣的人群，进而引导其购买内容相关的商品。\n根据上述定义，下列不涉及内容电商模式的是：",
+  "options": {
+   "A": "甲平台邀请多位明星为其代言，并投放了线上广告，吸引了大批粉丝购买该平台的商品",
+   "B": "主打体育新闻的乙平台是体育爱好者们的聚集地，平台售卖的球鞋、球衣等商品销量不俗",
+   "C": "丙平台是专为职场女性打造的社交平台，该平台自营的化妆品深受各年龄层女性用户喜爱",
+   "D": "某主播在丁平台为扶贫食品直播带货，质朴不失幽默的风格大受好评，商品很快便销售一空"
+  },
+  "answer": "A",
+  "question_format": "配套讲义原题",
+  "question_type": "定义判断",
+  "category": "定义判断",
+  "case_kind": "courseware_question",
+  "verification_status": "source_text_verified",
+  "extraction": "pdf_text_layer",
+  "author_teacher": "配套讲义与独立答案表，非教师逐字发言",
+  "teacher_reasoning": "该课件未附解析；答案来自独立答案表。不得生成或冒充教师原话解析。",
+  "source": []
+ },
+ {
+  "question_id": "TEACHER_DEFINITION_CH10_EX37",
+  "teacher_id": "teacher_definition",
+  "title": "例题 37（2022 国考）",
+  "stem": "刑事科学技术是公安、司法机关依照刑事诉讼法的规定，应用现代科学技术的成果，收集、检验和鉴\n定与犯罪活动有关的物证，为侦查、起诉、审判工作提供线索和证据的专门技术。\n根据上述定义，下列没有体现刑事科学技术的是：",
+  "options": {
+   "A": "通过核对公司台账、采购合同等文件资料，确定犯罪嫌疑人行贿的具体数额",
+   "B": "交通肇事伤亡案件中，根据车辆损毁情况推断车辆的接触点、行驶方向及事故成因",
+   "C": "应用声谱仪对手机录音与犯罪嫌疑人的语音进行声学特征分析，作出是否为同一人的判断",
+   "D": "对警犬识别出来的可疑物进行成分鉴定，判断嫌疑人所携带的物品是否为违禁品"
+  },
+  "answer": "A",
+  "question_format": "配套讲义原题",
+  "question_type": "定义判断",
+  "category": "定义判断",
+  "case_kind": "courseware_question",
+  "verification_status": "source_text_verified",
+  "extraction": "pdf_text_layer",
+  "author_teacher": "配套讲义与独立答案表，非教师逐字发言",
+  "teacher_reasoning": "该课件未附解析；答案来自独立答案表。不得生成或冒充教师原话解析。",
+  "source": []
+ },
+ {
+  "question_id": "TEACHER_DEFINITION_CH10_EX38",
+  "teacher_id": "teacher_definition",
+  "title": "例题 38（2023 国考）",
+  "stem": "预判设计是一种能够引导用户、缩短用户行为路径的有效设计手段。它可以根据用户的行为或用户所\n在的场景，让功能“主动找到”用户，并让用户与之产生自然的交互，为用户提供更好的使用体验，本质\n就是为用户多想一步，让用户使用起来尽量简单。\n根据上述定义，下列不属于预判设计的是：",
+  "options": {
+   "A": "某购物软件，根据用户输入的搜索关键词，将商品按与关键词的相关性排列",
+   "B": "某翻译软件，用户第一次点击播放，语音速度正常；再次点击，语音速度变慢",
+   "C": "某外卖软件，当用户对店家给出差评，系统自动勾选“将评价设为匿名评价”",
+   "D": "某购物软件，所选商品缺货时，出现“找相似”按钮，点击可看到同款、相似商品"
+  },
+  "answer": "A",
+  "question_format": "配套讲义原题",
+  "question_type": "定义判断",
+  "category": "定义判断",
+  "case_kind": "courseware_question",
+  "verification_status": "source_text_verified",
+  "extraction": "pdf_text_layer",
+  "author_teacher": "配套讲义与独立答案表，非教师逐字发言",
+  "teacher_reasoning": "该课件未附解析；答案来自独立答案表。不得生成或冒充教师原话解析。",
+  "source": []
+ },
+ {
+  "question_id": "TEACHER_DEFINITION_CH10_EX39",
+  "teacher_id": "teacher_definition",
+  "title": "例题 39（2022 福建事业单位）",
+  "stem": "新零售模式即企业通过运用大数据、人工智能等先进技术手段，对商品的生产、流通与销售过程进行\n全面升级改造，进而重塑业态结构与生态圈，实现线上线下的融合、消费的跨界融合。新零售模式的变革\n将有效推动消费供给侧改革，实现商品的基础效率提升，促进消费升级，创造更多的商业机会。\n根据上述定义，下列不属于新零售模式的是：",
+  "options": {
+   "A": "小张在一家无人超市，自主通过人脸识别技术成功付款购物",
+   "B": "小李通过手机地图定位，到离自己最近的咖啡店喝咖啡",
+   "C": "小王在线上下单购买衣服，下班后到离家最近的门店提货",
+   "D": "小林在某商场体验完烘焙教室后，扫码购买了烘焙炉具"
+  },
+  "answer": "B",
+  "question_format": "配套讲义原题",
+  "question_type": "定义判断",
+  "category": "定义判断",
+  "case_kind": "courseware_question",
+  "verification_status": "source_text_verified",
+  "extraction": "pdf_text_layer",
+  "author_teacher": "配套讲义与独立答案表，非教师逐字发言",
+  "teacher_reasoning": "该课件未附解析；答案来自独立答案表。不得生成或冒充教师原话解析。",
+  "source": []
+ }
+]

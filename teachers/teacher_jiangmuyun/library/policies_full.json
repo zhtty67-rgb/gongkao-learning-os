@@ -1,0 +1,672 @@
+[
+ {
+  "policy_id": "jmy_policy_001",
+  "teacher_id": "teacher_jiangmuyun",
+  "name": "句子最小分析单位原则",
+  "category": "句子分析",
+  "status": "explicit",
+  "trigger": "面对给定材料进行信息提取与精读时",
+  "rule": "必须以句子为最小分析单位逐句过审，严禁跨句跳读或孤立死盯单个关键词。",
+  "reasoning": "申论材料是命题人剪裁拼贴的有机文本，句意是语义的基本完整单元，只有以句为单位才能理顺主干、限定与逻辑。",
+  "applies_to": [
+   "文段分析",
+   "归纳概括",
+   "材料分析",
+   "分析理解"
+  ],
+  "must_preserve": [
+   "完整句子主干",
+   "句中限定条件"
+  ],
+  "may_remove": [
+   "口语化过渡",
+   "纯修饰性副词"
+  ],
+  "forbidden_transformations": [
+   "凭空抓取孤立热词脱离整句句意",
+   "泛读粗读漏掉句间衔接"
+  ],
+  "positive_example": {
+   "material_sentence": "我们要以句子为最小分析单位，逐句梳理语义。",
+   "analysis": "按句号拆解，逐句判定核心动作与限定范围。"
+  },
+  "negative_example": {
+   "student_action": "在材料中到处圈画热词，断章取义拼凑句子。",
+   "flaw": "死盯关键词导致逻辑破碎、要点缺失。"
+  },
+  "confidence": 0.95
+ },
+ {
+  "policy_id": "jmy_policy_002",
+  "teacher_id": "teacher_jiangmuyun",
+  "name": "在重复内容中寻找总结性要点原则",
+  "category": "重复信息辨析",
+  "status": "explicit",
+  "trigger": "文段中同一概念或做法在多个句子或段落中反复出现时",
+  "rule": "在材料重复比较的过程中找到最具总结性的要点；被不同事例和场景反复围绕阐释的核心内容即是作答要点，后文具体展开的事例细节应予过滤。",
+  "reasoning": "申论材料中很多具体事例是在围绕同一核心观点重复堆信息，删掉重复细节、提炼被重复的总结性内容即可锁定要点。",
+  "applies_to": [
+   "文段分析",
+   "归纳概括",
+   "主旨提炼"
+  ],
+  "must_preserve": [
+   "被反复强化的核心概念",
+   "规范化动宾结构"
+  ],
+  "may_remove": [
+   "反复列举的具体事例",
+   "不同场景的描写叙述"
+  ],
+  "forbidden_transformations": [
+   "把举例说明的事例细节当成新要点逐一照抄",
+   "遗漏反复出现的最高频主旨"
+  ],
+  "positive_example": {
+   "material_sentence": "第一段强调农民培训，第二段讲好大姐参加培训，第三段讲地市高素质农民培训。",
+   "analysis": "被重复三次的核心概念是“开展高素质农民培训”，作为核心要点保留。"
+  },
+  "negative_example": {
+   "student_action": "第一点写培训，第二点写好大姐如何如何，第三点写地市如何如何。",
+   "flaw": "未能识别事例重复，把同一要点的例证拆成多条冗余作答。"
+  },
+  "confidence": 0.95
+ },
+ {
+  "policy_id": "jmy_policy_003",
+  "teacher_id": "teacher_jiangmuyun",
+  "name": "总结句优先与事例过滤原则",
+  "category": "总结句识别",
+  "status": "explicit",
+  "trigger": "段落或文段出现概括性总结句与具体支撑事例并存时",
+  "rule": "优先寻找并提取具有总结性的内容；后文具体事例仅作为佐证，无需抄录具体事实情节。",
+  "reasoning": "总结性句子往往提纲挈领，涵盖了整个语段的命题立意；事例只是为了说服读者而填充的材料。",
+  "applies_to": [
+   "文段分析",
+   "归纳概括",
+   "分析理解"
+  ],
+  "must_preserve": [
+   "段首或段尾的总结概括句",
+   "概括性主旨词"
+  ],
+  "may_remove": [
+   "人名、地名、时间等个案情节",
+   "故事性展开细节"
+  ],
+  "forbidden_transformations": [
+   "忽略段落总括句反而抄写后文的故事细节",
+   "主观臆测代替材料已有总结句"
+  ],
+  "positive_example": {
+   "material_sentence": "段首指出某省多措并举帮扶新农人，后文详述张三李四的创业故事。",
+   "analysis": "直接提取总结性表述，舍弃张三李四的个人经历。"
+  },
+  "negative_example": {
+   "student_action": "花了大量字数描述张三李四如何克服困难。",
+   "flaw": "丢了总结句，沉溺于事例描述。"
+  },
+  "confidence": 0.95
+ },
+ {
+  "policy_id": "jmy_policy_004",
+  "teacher_id": "teacher_jiangmuyun",
+  "name": "依托材料与原词优先原则",
+  "category": "信息提取",
+  "status": "explicit",
+  "trigger": "文段信息提炼与语言规范化时",
+  "rule": "所有提炼要点必须严格依托给定资料，优先保留材料规范原词，绝不主观瞎改或编造假大空套话；必须保留限定词（如特定时期、部分、多数），绝不可作为冗余修饰剔除；严禁篡改原词内涵（如材料写'存疑'绝不可改写为'不足'，材料写'担忧'不可夸大为'反对'）。",
+  "reasoning": "申论采分点均由命题人从材料中锚定，脱离材料的自创表述或擅自更改态度程度在阅卷中极易失分；丢掉限定词会导致以偏概全。",
+  "applies_to": [
+   "文段分析",
+   "归纳概括",
+   "信息提取"
+  ],
+  "must_preserve": [
+   "材料原生专业术语",
+   "材料明确给出的规范做法",
+   "范围与程度限定词（部分、多数、特定时期）"
+  ],
+  "may_remove": [
+   "无关口头修饰副词",
+   "多余转接连词"
+  ],
+  "forbidden_transformations": [
+   "脱离材料自编大而无当的宏观套话",
+   "随意篡改材料规范概念与态度倾向",
+   "将'存疑'篡改为事实性断定的'不足'",
+   "将'部分'、'多数'、'特定时期'等限定词当作次要信息剔除"
+  ],
+  "positive_example": {
+   "material_sentence": "推进警企联合劝导活动。",
+   "analysis": "直接保留“警企联合劝导”，不擅自改成“联防联控”或“警企合作”。"
+  },
+  "negative_example": {
+   "student_action": "将“警企联合劝导”自作聪明改为“加强多方联动机制”。",
+   "flaw": "脱离材料原词，改变具体内涵。"
+  },
+  "confidence": 0.95
+ },
+ {
+  "policy_id": "jmy_policy_005",
+  "teacher_id": "teacher_jiangmuyun",
+  "name": "抓大放小与细碎情节剔除原则",
+  "category": "信息提取",
+  "status": "explicit",
+  "trigger": "材料中充斥大量背景叙述、过程细节或次要情节时",
+  "rule": "一定要抓大放小，剔除具体琐碎的过程描写与细枝末节，紧扣核心骨干信息。",
+  "reasoning": "申论字数极其宝贵，如果把字数浪费在细枝末节上，必然挤占核心采分点，导致条理性与分值双失。",
+  "applies_to": [
+   "文段分析",
+   "信息提取",
+   "归纳概括"
+  ],
+  "must_preserve": [
+   "核心工作动作",
+   "规范治理措施"
+  ],
+  "may_remove": [
+   "设施内部构造细节",
+   "背景故事讲述情节"
+  ],
+  "forbidden_transformations": [
+   "贪多嚼不烂，照抄背景叙事",
+   "因细节丢失核心大方向"
+  ],
+  "positive_example": {
+   "material_sentence": "改建排污设施设备，修建污水处理厂，至于内部细节不写。",
+   "analysis": "抓住核心要点，删繁就简。"
+  },
+  "negative_example": {
+   "student_action": "把污水处理厂具体用处、工艺细节甚至故事写满答题卡。",
+   "flaw": "喧宾夺主，丧失要点。"
+  },
+  "confidence": 0.95
+ },
+ {
+  "policy_id": "jmy_policy_006",
+  "teacher_id": "teacher_jiangmuyun",
+  "name": "总分结构条理性提炼原则",
+  "category": "段落结构",
+  "status": "explicit",
+  "trigger": "梳理包含统领句与多项支撑要素的文段时",
+  "rule": "必须识别并建立清晰的总分结构，段首提炼总括词句，后文展开具体分项，体现严密条理性。",
+  "reasoning": "阅卷老师看答案最看重条理性与层次感，总分结构到位可以让要点一目了然，得分更稳。",
+  "applies_to": [
+   "文段分析",
+   "结构梳理",
+   "归纳概括"
+  ],
+  "must_preserve": [
+   "总括性判断",
+   "支撑性分项要点"
+  ],
+  "may_remove": [
+   "分项之间的过渡连接词"
+  ],
+  "forbidden_transformations": [
+   "要点杂乱无章平铺直叙",
+   "有分无总或总分脱节"
+  ],
+  "positive_example": {
+   "material_sentence": "开展警企联合劝导活动：设立劝导站，组织人员联合值守。",
+   "analysis": "总括+具体展开，层次分明。"
+  },
+  "negative_example": {
+   "student_action": "只写了几个零散动作，没有总括引领。",
+   "flaw": "缺乏条理性，体现不出总分层级。"
+  },
+  "confidence": 0.95
+ },
+ {
+  "policy_id": "jmy_policy_007",
+  "teacher_id": "teacher_jiangmuyun",
+  "name": "严禁滥用不贴切大词原则",
+  "category": "信息提取",
+  "status": "explicit",
+  "trigger": "对文段信息进行概括提炼并意图使用宏观大词时",
+  "rule": "严禁乱用总括词和套话大词；概括词必须与材料具体事实严密对应，不可强行拔高。",
+  "reasoning": "乱用假大空词汇不仅不能加分，反而掩盖了材料真实采分点，导致精准度下降。",
+  "applies_to": [
+   "文段分析",
+   "归纳概括"
+  ],
+  "must_preserve": [
+   "材料实际所指内涵",
+   "贴切客观的概括词"
+  ],
+  "may_remove": [
+   "生搬硬套的万能政治套话"
+  ],
+  "forbidden_transformations": [
+   "把具体业务强行套用顶层设计、闭环等不贴切热词",
+   "脱离材料原貌过度抽象"
+  ],
+  "positive_example": {
+   "material_sentence": "设立村道护栏老化维修专岗。",
+   "analysis": "准确概括为“落实道路安全防护”，不盲目使用“构建现代化立体交通网”。"
+  },
+  "negative_example": {
+   "student_action": "给普通的劝导工作冠以“全链条智慧治理闭环”。",
+   "flaw": "乱用大词，文不对题。"
+  },
+  "confidence": 0.9
+ },
+ {
+  "policy_id": "jmy_policy_008",
+  "teacher_id": "teacher_jiangmuyun",
+  "name": "简单顺序罗列与同义要点合并原则",
+  "category": "归类整合",
+  "status": "explicit",
+  "trigger": "材料信息按自然叙述推进，多处出现相似做法或同类要素时",
+  "rule": "可依材料顺序自然罗列，并将同一主体、同类动作的要点就近合并压缩，避免割裂。",
+  "reasoning": "初级难度材料多呈顺叙结构，按顺序精读并同类合并，既符合命题脉络，又能杜绝同义反复。",
+  "applies_to": [
+   "文段分析",
+   "归纳概括"
+  ],
+  "must_preserve": [
+   "材料先后逻辑顺位",
+   "合并后的核心动宾"
+  ],
+  "may_remove": [
+   "反复描述相同动作的修饰词"
+  ],
+  "forbidden_transformations": [
+   "跨段强行乱打乱拼导致原有逻辑混乱",
+   "相同动作重复罗列两遍"
+  ],
+  "positive_example": {
+   "material_sentence": "上午走访群众收集意见，下午组织村委会商议解决方案。",
+   "analysis": "合并为“深入一线调研并集中协商解决”。"
+  },
+  "negative_example": {
+   "student_action": "第一点写上午走访，第二点写下午开会。",
+   "flaw": "机械照抄，未能合并同类项。"
+  },
+  "confidence": 0.95
+ },
+ {
+  "policy_id": "jmy_policy_009",
+  "teacher_id": "teacher_jiangmuyun",
+  "name": "多段分散信息条理整合原则",
+  "category": "归类整合",
+  "status": "explicit",
+  "trigger": "同一主旨或相关做法的信息散落在给定材料的不同自然段中时",
+  "rule": "必须跨越段落边界，将散落的同类属性要素进行归并整合，提炼出清晰的条理性大点。",
+  "reasoning": "命题人往往故意将同一维度的信息拆散在不同段落中打乱顺序，只有主动整合才能形成有条理的完整答案。",
+  "applies_to": [
+   "文段分析",
+   "归纳概括",
+   "信息整合"
+  ],
+  "must_preserve": [
+   "各段同类核心信息",
+   "整合后的类别概括"
+  ],
+  "may_remove": [
+   "段间过渡句",
+   "零碎的背景交待"
+  ],
+  "forbidden_transformations": [
+   "一段提炼一点造成同义割裂",
+   "仅凭段落顺序机械搬运而缺乏横向归并"
+  ],
+  "positive_example": {
+   "material_sentence": "第一段讲资金支持，第三段讲税费减免。",
+   "analysis": "跨段归并为“加大财税金融扶持力度”。"
+  },
+  "negative_example": {
+   "student_action": "第一点写拨款，第三点写减税，拆成两个零散要点。",
+   "flaw": "缺乏条理整合，浪费篇幅。"
+  },
+  "confidence": 0.95
+ },
+ {
+  "policy_id": "jmy_policy_010",
+  "teacher_id": "teacher_jiangmuyun",
+  "name": "复杂事例逻辑关系梳理原则",
+  "category": "逻辑关系梳理",
+  "status": "explicit",
+  "trigger": "面对包含多重因果、并列、背景及矛盾纠缠的复杂长事例时",
+  "rule": "跳出简单平抄误区，深挖背后的内在逻辑链条，理顺问题、举措、成效与主体关系。",
+  "reasoning": "复杂材料要素繁多且顺序杂乱，表面平抄必定逻辑混乱，只有对逻辑关系进行更高层次的梳理才能抓住命题人意图。",
+  "applies_to": [
+   "文段分析",
+   "逻辑关系梳理",
+   "分析理解"
+  ],
+  "must_preserve": [
+   "关键动作逻辑链",
+   "核心主体与实质结果"
+  ],
+  "may_remove": [
+   "繁复的叙事花絮",
+   "次要人名情节"
+  ],
+  "forbidden_transformations": [
+   "把复杂事例当成简单平抄",
+   "把逻辑自洽的错解当成正解"
+  ],
+  "positive_example": {
+   "material_sentence": "某地调解工作室作为典型，关键在于依托法治人才优势优化配置。",
+   "analysis": "看透典型事例本质，提炼底层逻辑。"
+  },
+  "negative_example": {
+   "student_action": "只抄录调解工作室的调解数量与日常故事。",
+   "flaw": "未能识别深层逻辑，陷入事例平抄。"
+  },
+  "confidence": 0.95
+ },
+ {
+  "policy_id": "jmy_policy_011",
+  "teacher_id": "teacher_jiangmuyun",
+  "name": "转折关系重心在后原则",
+  "category": "逻辑关系梳理",
+  "status": "explicit",
+  "trigger": "文段中出现“但是”、“然而”、“却”、“可是”等转折连词时",
+  "rule": "转折之后往往是作者强调的真正重心、现实矛盾或核心问题所在，提炼时重心后倾。",
+  "reasoning": "申论材料中前文常以成绩或常规现象作为铺垫，转折之后才引出真实痛点或关键变革举措。",
+  "applies_to": [
+   "文段分析",
+   "逻辑关系梳理",
+   "信息提取"
+  ],
+  "must_preserve": [
+   "转折词后的核心陈述",
+   "转折揭示的主要矛盾"
+  ],
+  "may_remove": [
+   "转折前的铺垫性客套或过时成绩"
+  ],
+  "forbidden_transformations": [
+   "把转折前的铺垫作为核心要点抄录",
+   "忽视转折词后显露的深层问题"
+  ],
+  "positive_example": {
+   "material_sentence": "尽管近年来产业规模不断扩大，但技术自主研发能力仍然薄弱。",
+   "analysis": "核心问题锁定在“技术自主研发能力薄弱”，而非产业规模扩大。"
+  },
+  "negative_example": {
+   "student_action": "作答首先大篇幅写产业规模如何扩大。",
+   "flaw": "抓偏重点，混淆铺垫与主旨。"
+  },
+  "confidence": 0.95
+ },
+ {
+  "policy_id": "jmy_policy_012",
+  "teacher_id": "teacher_jiangmuyun",
+  "name": "因果逻辑方向校验原则",
+  "category": "逻辑关系梳理",
+  "status": "explicit",
+  "trigger": "文段中出现“导致”、“由于”、“因此”、“使得”等因果关联词时",
+  "rule": "严格理顺因果前置与后置关系，明确谁是原因、谁是结果，严禁因果颠倒或将结果误作原因。",
+  "reasoning": "因果方向关系到问题与对策的正确归属，方向搞反会导致分析结论完全南辕北辙。",
+  "applies_to": [
+   "文段分析",
+   "逻辑关系梳理",
+   "分析理解"
+  ],
+  "must_preserve": [
+   "因果逻辑主干",
+   "原因与结果的正确指向"
+  ],
+  "may_remove": [
+   "因果论述中的冗长举例"
+  ],
+  "forbidden_transformations": [
+   "因果倒置",
+   "把伴随现象强行归结为根本原因"
+  ],
+  "positive_example": {
+   "material_sentence": "由于监管机制不健全，导致部分企业违规排污。",
+   "analysis": "根源在于“监管机制不健全”，结果表现为“违规排污”。"
+  },
+  "negative_example": {
+   "student_action": "分析原因时写成“因为企业违规排污，造成监管机制缺失”。",
+   "flaw": "因果倒置，混淆主次。"
+  },
+  "confidence": 0.95
+ },
+ {
+  "policy_id": "jmy_policy_013",
+  "teacher_id": "teacher_jiangmuyun",
+  "name": "并列关系均衡提取原则",
+  "category": "逻辑关系梳理",
+  "status": "explicit",
+  "trigger": "文段中出现分号、顿号或“同时”、“此外”连接的多个平等要素时",
+  "rule": "并列各要素在材料中地位平等，必须均衡完整提取，不可偏颇遗漏任一关键分支。",
+  "reasoning": "并列结构通常对应多个独立的评分采分点，少提一项就会丢失对应分值。",
+  "applies_to": [
+   "文段分析",
+   "逻辑关系梳理",
+   "归纳概括"
+  ],
+  "must_preserve": [
+   "各并列要素的核心内涵",
+   "并列主体各自对应的动作"
+  ],
+  "may_remove": [
+   "连接并列句的重复连词"
+  ],
+  "forbidden_transformations": [
+   "以偏概全只取其中一项",
+   "把并列项强行合并遗漏关键维度"
+  ],
+  "positive_example": {
+   "material_sentence": "依托法治人才优势，不断优化资源配置；健全普法机制，拓宽服务渠道。",
+   "analysis": "两项并列举措均独立提炼。"
+  },
+  "negative_example": {
+   "student_action": "只提取了人才优势，漏掉了机制健全。",
+   "flaw": "并列项提取不全。"
+  },
+  "confidence": 0.95
+ },
+ {
+  "policy_id": "jmy_policy_014",
+  "teacher_id": "teacher_jiangmuyun",
+  "name": "启示分析之个案经验普适化转化原则",
+  "category": "启示提炼",
+  "status": "explicit",
+  "trigger": "文段分析要求从具体案例中提炼经验或启示时",
+  "rule": "启示不能简单照抄具体个案做法，必须将特定条件下的做法提炼为具有普适推广价值的规律性原则，但前提依然是牢牢依托材料。",
+  "reasoning": "启示是经验的抽象与升华，若直接抄录个别地区的地名与特殊举措则失去借鉴意义，若脱离材料又沦为空想。",
+  "applies_to": [
+   "文段分析",
+   "分析理解",
+   "启示提炼"
+  ],
+  "must_preserve": [
+   "经验背后的规律性机制",
+   "材料提供的核心抓手"
+  ],
+  "may_remove": [
+   "特定地名与个别企业名称",
+   "不可复制的偶然因素"
+  ],
+  "forbidden_transformations": [
+   "一字不改照抄个案细节",
+   "脱离材料闭门造车假大空对策"
+  ],
+  "positive_example": {
+   "material_sentence": "某村通过合作社将分散农户组织起来对接大市场。",
+   "analysis": "提炼普适启示为“建立组织化利益联结机制，提高抗风险能力”。"
+  },
+  "negative_example": {
+   "student_action": "作答直接写“要像某村一样办合作社”。",
+   "flaw": "缺乏提炼转化，停留在个案表面。"
+  },
+  "confidence": 0.95
+ },
+ {
+  "policy_id": "jmy_policy_015",
+  "teacher_id": "teacher_jiangmuyun",
+  "name": "层次理解之表层含义紧扣字面原则",
+  "category": "层次理解",
+  "status": "explicit",
+  "trigger": "分析理解题目要求谈谈对某句话、某个词语的理解时",
+  "rule": "理解必须分层推进，第一层务必紧扣字面本义与给定语境，解释其表层现象与具体所指。",
+  "reasoning": "词句理解如果一上来就空谈大道理，会丢掉采分点中的表层字面解释，导致失分。",
+  "applies_to": [
+   "文段分析",
+   "分析理解",
+   "词句理解"
+  ],
+  "must_preserve": [
+   "字面含义直译",
+   "材料中的直接指代对象"
+  ],
+  "may_remove": [
+   "修辞性的文学夸张修饰"
+  ],
+  "forbidden_transformations": [
+   "跨过表层直接跳到抽象口号",
+   "脱离具体语境曲解词义"
+  ],
+  "positive_example": {
+   "material_sentence": "理解“流动之美”：表层指人员、物资在城乡间频繁通畅地流动。",
+   "analysis": "先翻译字面物理流动。"
+  },
+  "negative_example": {
+   "student_action": "直接写“流动之美是指实现中国式现代化”。",
+   "flaw": "假大空，漏掉表层含义采分点。"
+  },
+  "confidence": 0.95
+ },
+ {
+  "policy_id": "jmy_policy_016",
+  "teacher_id": "teacher_jiangmuyun",
+  "name": "层次理解之深层本质剖析原则",
+  "category": "层次理解",
+  "status": "explicit",
+  "trigger": "在完成表层含义界定之后，剖析词句背后的深层意图时",
+  "rule": "第二层必须透过表象深挖其体制机制、价值观念、治理模式或社会发展的深层本质内涵。",
+  "reasoning": "命题人之所以考查深度理解，目的在于考查考生透过现象看本质的能力，深层剖析决定了分析的高度。",
+  "applies_to": [
+   "文段分析",
+   "分析理解",
+   "深层剖析"
+  ],
+  "must_preserve": [
+   "体制机制根源",
+   "核心价值理念"
+  ],
+  "may_remove": [
+   "重复阐述表层现象的词句"
+  ],
+  "forbidden_transformations": [
+   "仅停留在字面翻译浅尝辄止",
+   "深层分析缺乏材料事实支撑"
+  ],
+  "positive_example": {
+   "material_sentence": "深层实质反映了城乡要素双向流动与公共服务均等化的制度活力。",
+   "analysis": "揭示深层治理逻辑。"
+  },
+  "negative_example": {
+   "student_action": "只重复写人来人往很热闹。",
+   "flaw": "缺乏深层剖析，没有思维深度。"
+  },
+  "confidence": 0.95
+ },
+ {
+  "policy_id": "jmy_policy_017",
+  "teacher_id": "teacher_jiangmuyun",
+  "name": "观点与事实论据支撑关系辨析原则",
+  "category": "观点论据辨析",
+  "status": "explicit",
+  "trigger": "文段涉及评价、争议、讨论或多方观点交锋时",
+  "rule": "严格区分“主观观点/态度倾向”与“客观事实/论据支撑”，理顺哪句话是论点、哪些段落是论据。",
+  "reasoning": "评论型材料由观点和论据交织构成，只有理清支撑关系，才能准确提炼出评析的立场与理由。",
+  "applies_to": [
+   "文段分析",
+   "进阶评论",
+   "观点辨析"
+  ],
+  "must_preserve": [
+   "主体核心态度倾向",
+   "支撑观点的关键论据事实"
+  ],
+  "may_remove": [
+   "情绪性论述",
+   "枝节琐事"
+  ],
+  "forbidden_transformations": [
+   "把事实论据误当成核心论点",
+   "混淆正反两方对立立场"
+  ],
+  "positive_example": {
+   "material_sentence": "专家指出该模式具有推广价值（观点），随后列举降本增效的具体数据（论据）。",
+   "analysis": "明确论点与论据的从属支持关系。"
+  },
+  "negative_example": {
+   "student_action": "将论据数据当成结论，未提炼专家核心评价。",
+   "flaw": "论点论据主次颠倒。"
+  },
+  "confidence": 0.95
+ },
+ {
+  "policy_id": "jmy_policy_018",
+  "teacher_id": "teacher_jiangmuyun",
+  "name": "严禁跨界公文与大作文写作红线",
+  "category": "范围越界防范",
+  "status": "explicit",
+  "trigger": "用户请求撰写公文、撰写议论文大作文或要求提供成篇写作模板时",
+  "rule": "W 老师文段分析教师模型只专注文段分析，坚决拒绝公文格式起草、大作文写作与分论点构思，并明确告知范围限制。",
+  "reasoning": "模型定位专精于文段解析，混入大作文与公文模板会稀释文段分析的严密性与专业度。",
+  "applies_to": [
+   "文段分析"
+  ],
+  "must_preserve": [
+   "文段分析的核心分析边界"
+  ],
+  "may_remove": [
+   "一切公文套套与大作文模板"
+  ],
+  "forbidden_transformations": [
+   "生成公文标题与主送机关",
+   "拟定议论文提纲与论述全文"
+  ],
+  "positive_example": {
+   "material_sentence": "请分析该文段的逻辑层次。",
+   "analysis": "严格执行文段逻辑梳理与要点提炼。"
+  },
+  "negative_example": {
+   "student_action": "要求写一篇1000字的大作文或起草一份通知。",
+   "flaw": "严重超出文段分析范围，必须明确拒绝或转交其他教师。"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "jmy_policy_019",
+  "teacher_id": "teacher_jiangmuyun",
+  "name": "严禁脱离材料主观推导对策红线",
+  "category": "范围越界防范",
+  "status": "explicit",
+  "trigger": "用户请求脱离给定材料凭空构想万能对策或大而无当的建议时",
+  "rule": "严禁脱离材料主观臆造对策，文段分析只提炼材料事实与逻辑内在要求，超范围对策生成应明确拒绝。",
+  "reasoning": "申论得分依赖材料客观事实，主观脱离材料的对策不仅无法得分，更违背文段分析的实事求是原则。",
+  "applies_to": [
+   "文段分析"
+  ],
+  "must_preserve": [
+   "材料事实依据"
+  ],
+  "may_remove": [
+   "脱离材料的主观脑补"
+  ],
+  "forbidden_transformations": [
+   "脱离材料罗列天马行空的万能对策",
+   "静默退回通用模型编造套话"
+  ],
+  "positive_example": {
+   "material_sentence": "材料指出基层缺乏专业人才。",
+   "analysis": "依据材料提取“充实基层专业人才队伍”，不擅自编造体制外无依据对策。"
+  },
+  "negative_example": {
+   "student_action": "要求给出5条材料中完全没有提及的宏观对策。",
+   "flaw": "脱离材料编对策，超出文段分析职责。"
+  },
+  "confidence": 1.0
+ }
+]

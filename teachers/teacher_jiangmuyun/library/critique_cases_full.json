@@ -1,0 +1,62 @@
+[
+ {
+  "case_id": "jmy_critique_001",
+  "teacher_id": "teacher_jiangmuyun",
+  "question": "文段分析-归纳概括规范词运用",
+  "student_error_snippet": "将普通的排污治理工作胡乱使用“构建全方位生态链顶层设计”等自创大词。",
+  "error_type": "OVER_ABSTRACTION",
+  "diagnosis": "乱用规范词、乱用总括词。脱离材料具体事实，强行堆砌不贴切的假大空政治热词，严重违背申论尊重材料的原则。",
+  "severity": "high",
+  "remedy_instruction": "严格依据材料真实内涵提炼，材料怎么写就怎么规范表达，绝不凭空拔高乱造词汇。"
+ },
+ {
+  "case_id": "jmy_critique_002",
+  "teacher_id": "teacher_jiangmuyun",
+  "question": "文段分析-信息提取字数与细节控制",
+  "student_error_snippet": "抄录了污水处理厂的内部设备运作细节，把答案字数扩充到超标，导致核心治理要点丢失。",
+  "error_type": "VERBOSE",
+  "diagnosis": "没有做到抓大放小，被材料细节带偏。不仅字数超标，而且完全体现不出答案的总分结构与核心意图。",
+  "severity": "medium",
+  "remedy_instruction": "剔除内部工艺细节，保留“改建排污设施设备、集中治理废水”核心骨干。"
+ },
+ {
+  "case_id": "jmy_critique_003",
+  "teacher_id": "teacher_jiangmuyun",
+  "question": "文段分析-概念缩写与限定词丢失",
+  "student_error_snippet": "为了凑字数，将材料中的“新动能制造业”随意缩写为“创新企业”。",
+  "error_type": "SCOPE_EXPANSION",
+  "diagnosis": "随意篡改材料原生限定词。字数限制绝不是让你把新动能制造业随意缩写成创新企业，这在正式阅卷中会直接丢分。",
+  "severity": "high",
+  "remedy_instruction": "尊重材料原词，保留“新动能制造业”完整行业属性限定，不得私自擅改。"
+ },
+ {
+  "case_id": "jmy_critique_004",
+  "teacher_id": "teacher_jiangmuyun",
+  "question": "文段分析-结构梳理总分误判为并列",
+  "student_error_snippet": "把领导最后的总结发言“打造网格化普法平台”当成与前面具体普法活动并列的一个小点。",
+  "error_type": "POOR_STRUCTURE",
+  "diagnosis": "结构定位错误。领导总结发言是统领全文的总括句，学生却未能识别其统领地位，误当成了并列结构平铺直叙。",
+  "severity": "high",
+  "remedy_instruction": "识别段末总结性领导论述，将其作为总括核心，引领后文各项具体普法举措。"
+ },
+ {
+  "case_id": "jmy_critique_005",
+  "teacher_id": "teacher_jiangmuyun",
+  "question": "文段分析-事例与总结句混淆",
+  "student_error_snippet": "做帮扶新农人题目时，前三段被好大姐的个例故事填满了全部字数，没有提炼培训这一核心主旨。",
+  "error_type": "VERBOSE",
+  "diagnosis": "缺乏以句为单位的分析定力，把个例当重点抄录。好大姐的故事属于典型支撑事例，真正被重复的要点是高素质农民培训。",
+  "severity": "high",
+  "remedy_instruction": "以句为单位逐句审查，过滤个人故事细节，提炼被多次重复的核心工作举措。"
+ },
+ {
+  "case_id": "jmy_critique_006",
+  "teacher_id": "teacher_jiangmuyun",
+  "question": "文段分析-主观脱离材料盲目归纳",
+  "student_error_snippet": "在归纳基层法治举措时，不看材料具体事实，凭主观经验编造普法机制。",
+  "error_type": "UNSUPPORTED_INFERENCE",
+  "diagnosis": "脱离材料总结。申论最忌讳脱离材料自作聪明，答案必须每一句都在材料中有坚实依据。",
+  "severity": "high",
+  "remedy_instruction": "牢牢立足材料客观实际，确保提炼的每一项举措均有材料原句支撑。"
+ }
+]

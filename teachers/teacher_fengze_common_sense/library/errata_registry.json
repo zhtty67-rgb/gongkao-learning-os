@@ -1,0 +1,169 @@
+[
+ {
+  "erratum_id": "ERRATA_001_SPRING_FESTIVAL",
+  "type": "cross_lecture_clarification",
+  "lecture_id": "L16",
+  "topic": "国家级非物质文化遗产批次",
+  "old_error": "旧版讲义排版错位，元宵节与春节挨着，容易误记为元宵节也是第一批非遗",
+  "corrected_fact": "春节为第一批国家级非物质文化遗产（2006年）；元宵节为第二批国家级非物质文化遗产（2008年）",
+  "source_file": "L16_20250806_常识判断16.txt",
+  "course_timestamp": "2025年8月",
+  "trigger_keywords": [
+   "元宵",
+   "元宵节",
+   "非遗",
+   "非物质文化遗产"
+  ]
+ },
+ {
+  "erratum_id": "ERRATA_002_DEPOSIT_VS_PENALTY",
+  "type": "cross_lecture_clarification",
+  "lecture_id": "L35",
+  "topic": "合同责任·定金与违约金双向二选一",
+  "old_error": "上一讲举例房产开发商只强调了卖方违约二选一，学员误以为买方违约可以双重并用",
+  "corrected_fact": "无论是给付定金方（买方）违约，还是收受定金方（卖方）违约，双方均只能选择适用定金罚则或违约金条款之一，不可同时适用",
+  "source_file": "L35_20250915_常识判断35.txt",
+  "course_timestamp": "2025年9月",
+  "trigger_keywords": [
+   "定金",
+   "违约金"
+  ]
+ },
+ {
+  "erratum_id": "ERRATA_003_STOLEN_BIKE_BONA_FIDE",
+  "type": "cross_lecture_clarification",
+  "lecture_id": "L35",
+  "topic": "物权所有·脱手物排除善意取得",
+  "old_error": "上一讲口述举例偷来的自行车卖给不知情人作为善意取得例子不严谨",
+  "corrected_fact": "赃物、盗窃物、遗失物等脱手物不适用善意取得制度，所有权人有权追索返还；正常委托占有物方可善意取得",
+  "source_file": "L35_20250915_常识判断35.txt",
+  "course_timestamp": "2025年9月",
+  "trigger_keywords": [
+   "偷来的自行车",
+   "脱手物",
+   "盗窃物",
+   "善意取得"
+  ]
+ },
+ {
+  "erratum_id": "ERRATA_004_LOAN_INTEREST_SILENCE",
+  "type": "cross_lecture_clarification",
+  "lecture_id": "L35",
+  "topic": "借款合同·自然人利息未约定推定",
+  "old_error": "上一讲口误称自然人之间借款无论是否约定都没利息",
+  "corrected_fact": "自然人之间借款合同，对利息没有约定或者约定不明确的，依法视为没有利息；有明确约定且在法律保护限度内的有效",
+  "source_file": "L35_20250915_常识判断35.txt",
+  "course_timestamp": "2025年9月",
+  "trigger_keywords": [
+   "借款",
+   "利息",
+   "自然人借款"
+  ]
+ },
+ {
+  "erratum_id": "ERRATA_005_SHAOKANG_RESTORATION",
+  "type": "printed_handout_erratum",
+  "lecture_id": "L01",
+  "topic": "先秦史实·少康中兴",
+  "old_error": "讲义第2页少康中兴印为：击败董夷族有穷氏",
+  "corrected_fact": "应更正为：击败东夷族有穷氏",
+  "source_file": "【协作组】常识文件勘误汇总.pdf",
+  "course_timestamp": "2025年7月",
+  "trigger_keywords": [
+   "少康",
+   "少康中兴",
+   "有穷氏"
+  ]
+ },
+ {
+  "erratum_id": "ERRATA_006_SOUTHERN_SONG_LINAN",
+  "type": "printed_handout_erratum",
+  "lecture_id": "L04",
+  "topic": "两宋史实·蒙古军攻占临安",
+  "old_error": "讲义第9页南宋印为：蒙古军攻入长安",
+  "corrected_fact": "应更正为：蒙古军攻入临安",
+  "source_file": "【协作组】常识文件勘误汇总.pdf",
+  "course_timestamp": "2025年7月",
+  "trigger_keywords": [
+   "临安",
+   "蒙古军",
+   "南宋"
+  ]
+ },
+ {
+  "erratum_id": "ERRATA_007_THERMODYNAMICS_CONVECTION_RADIATION",
+  "type": "printed_handout_erratum",
+  "lecture_id": "L18",
+  "topic": "物理热学·热对流与热辐射定义",
+  "old_error": "讲义第55页三、常见热力学现象里定义互串",
+  "corrected_fact": "冷热流体相互掺混所引起的热量传递过程（热对流）与用电磁辐射形式向外发散热量（热辐射）互换位置恢复正确定义",
+  "source_file": "【协作组】常识文件勘误汇总.pdf",
+  "course_timestamp": "2025年8月",
+  "trigger_keywords": [
+   "热对流",
+   "热辐射"
+  ]
+ },
+ {
+  "erratum_id": "ERRATA_008_LONG_MARCH_ROUTE",
+  "type": "printed_handout_erratum",
+  "lecture_id": "L07",
+  "topic": "近代史·长征路线遵义会议",
+  "old_error": "背诵手册第七节第4页印为：从成熟走到幼年",
+  "corrected_fact": "应更正为：从幼年走到成熟（遵义会议是党从幼年走向成熟的标志）",
+  "source_file": "【协作组】常识文件勘误汇总.pdf",
+  "course_timestamp": "2025年7月",
+  "trigger_keywords": [
+   "长征",
+   "遵义会议",
+   "幼年",
+   "成熟"
+  ]
+ },
+ {
+  "erratum_id": "ERRATA_009_EARTHLY_BRANCH_CALCULATION",
+  "type": "printed_handout_erratum",
+  "lecture_id": "L13",
+  "topic": "文化常识·天干地支纪年余数计算",
+  "old_error": "背诵手册第十三节第2页印为：余数为0则为第十位酉",
+  "corrected_fact": "应更正为：余数为0则为第十二位亥",
+  "source_file": "【协作组】常识文件勘误汇总.pdf",
+  "course_timestamp": "2025年7月",
+  "trigger_keywords": [
+   "天干地支",
+   "地支",
+   "余数"
+  ]
+ },
+ {
+  "erratum_id": "ERRATA_010_PHYSIOLOGICAL_REFLEX",
+  "type": "printed_handout_erratum",
+  "lecture_id": "L16",
+  "topic": "生理常识·非条件反射",
+  "old_error": "背诵手册第十六节第3页印为：非条件发射",
+  "corrected_fact": "应更正为：非条件反射",
+  "source_file": "【协作组】常识文件勘误汇总.pdf",
+  "course_timestamp": "2025年8月",
+  "trigger_keywords": [
+   "非条件反射",
+   "条件反射"
+  ]
+ },
+ {
+  "erratum_id": "ERRATA_011_SAN_BAN_HISTORIANS",
+  "type": "printed_handout_erratum",
+  "lecture_id": "L09",
+  "topic": "文学史·汉代三班史学家文学家",
+  "old_error": "背诵手册1-9节答案第26页印为：三班：班彪、班固、班超",
+  "corrected_fact": "应更正为：三班：班彪、班固、班昭（班超投笔从戎，班昭参与续写《汉书》）",
+  "source_file": "【协作组】常识文件勘误汇总.pdf",
+  "course_timestamp": "2025年7月",
+  "trigger_keywords": [
+   "三班",
+   "班昭",
+   "班超",
+   "班彪",
+   "班固"
+  ]
+ }
+]

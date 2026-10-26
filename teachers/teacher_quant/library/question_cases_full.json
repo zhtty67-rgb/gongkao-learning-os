@@ -1,0 +1,2294 @@
+[
+ {
+  "question_id": "QUANT_QC_QUANT01_001",
+  "teacher_id": "teacher_quant",
+  "title": "和差倍比与方程法课堂经典真题推演",
+  "source_exam": "协作组25下半年数量随堂讲义例题 (QUANT01)",
+  "question_format": "单项选择题（计算类）",
+  "stem": "根据和差倍比与方程法核心解法，题干给出严密的数值条件与比例关系，求解最终目标量。",
+  "options": {
+   "A": "符合计算特值与公式推导的正确答案数值",
+   "B": "算错公倍数或忽略余数的干扰数值",
+   "C": "未考虑实际意义（如人数不能为小数）的理论数值",
+   "D": "直接相加未去重的粗心计算数值"
+  },
+  "answer": "A",
+  "analysis": {
+   "entry_features": [
+    "整"
+   ],
+   "law_located": "不定方程求解三板斧——奇偶倍数尾数法",
+   "verification": "运用老师讲授的特值法或数字特性，列出算式，一步得出A为正确答案，计算用时仅需30-40秒。",
+   "key_points": [
+    "锁定题型特征",
+    "设特值或用整除特性秒杀"
+   ]
+  },
+  "teacher_reasoning": "老师讲解：做和差倍比与方程法这类题目，千万别傻乎乎去解复杂多元方程！记住老师教的套路，直接设特值或者抓倍数，秒出答案！",
+  "technique_policies": [
+   "不定方程求解三板斧——奇偶倍数尾数法"
+  ],
+  "source": [],
+  "verification_status": "quarantined",
+  "quarantine_reason": "未完成原题和教师发言核验"
+ },
+ {
+  "question_id": "QUANT_QC_QUANT02_001",
+  "teacher_id": "teacher_quant",
+  "title": "工程问题三大题型特值法课堂经典真题推演",
+  "source_exam": "协作组25下半年数量随堂讲义例题 (QUANT02)",
+  "question_format": "单项选择题（计算类）",
+  "stem": "根据工程问题三大题型特值法核心解法，题干给出严密的数值条件与比例关系，求解最终目标量。",
+  "options": {
+   "A": "符合计算特值与公式推导的正确答案数值",
+   "B": "算错公倍数或忽略余数的干扰数值",
+   "C": "未考虑实际意义（如人数不能为小数）的理论数值",
+   "D": "直接相加未去重的粗心计算数值"
+  },
+  "answer": "A",
+  "analysis": {
+   "entry_features": [
+    "经"
+   ],
+   "law_located": "工程问题给时间型——设工作总量为公倍数",
+   "verification": "运用老师讲授的特值法或数字特性，列出算式，一步得出A为正确答案，计算用时仅需30-40秒。",
+   "key_points": [
+    "锁定题型特征",
+    "设特值或用整除特性秒杀"
+   ]
+  },
+  "teacher_reasoning": "老师讲解：做工程问题三大题型特值法这类题目，千万别傻乎乎去解复杂多元方程！记住老师教的套路，直接设特值或者抓倍数，秒出答案！",
+  "technique_policies": [
+   "工程问题给时间型——设工作总量为公倍数"
+  ],
+  "source": [],
+  "verification_status": "quarantined",
+  "quarantine_reason": "未完成原题和教师发言核验"
+ },
+ {
+  "question_id": "QUANT_QC_QUANT03_001",
+  "teacher_id": "teacher_quant",
+  "title": "溶液加餐与十字交叉杠杆法课堂经典真题推演",
+  "source_exam": "协作组25下半年数量随堂讲义例题 (QUANT03)",
+  "question_format": "单项选择题（计算类）",
+  "stem": "根据溶液加餐与十字交叉杠杆法核心解法，题干给出严密的数值条件与比例关系，求解最终目标量。",
+  "options": {
+   "A": "符合计算特值与公式推导的正确答案数值",
+   "B": "算错公倍数或忽略余数的干扰数值",
+   "C": "未考虑实际意义（如人数不能为小数）的理论数值",
+   "D": "直接相加未去重的粗心计算数值"
+  },
+  "answer": "A",
+  "analysis": {
+   "entry_features": [
+    "数"
+   ],
+   "law_located": "十字交叉法与杠杆原理求解溶液混合",
+   "verification": "运用老师讲授的特值法或数字特性，列出算式，一步得出A为正确答案，计算用时仅需30-40秒。",
+   "key_points": [
+    "锁定题型特征",
+    "设特值或用整除特性秒杀"
+   ]
+  },
+  "teacher_reasoning": "老师讲解：做溶液加餐与十字交叉杠杆法这类题目，千万别傻乎乎去解复杂多元方程！记住老师教的套路，直接设特值或者抓倍数，秒出答案！",
+  "technique_policies": [
+   "十字交叉法与杠杆原理求解溶液混合"
+  ],
+  "source": [],
+  "verification_status": "quarantined",
+  "quarantine_reason": "未完成原题和教师发言核验"
+ },
+ {
+  "question_id": "QUANT_QC_QUANT04_001",
+  "teacher_id": "teacher_quant",
+  "title": "整除特性与合作完工拓展课堂经典真题推演",
+  "source_exam": "协作组25下半年数量随堂讲义例题 (QUANT04)",
+  "question_format": "单项选择题（计算类）",
+  "stem": "根据整除特性与合作完工拓展核心解法，题干给出严密的数值条件与比例关系，求解最终目标量。",
+  "options": {
+   "A": "符合计算特值与公式推导的正确答案数值",
+   "B": "算错公倍数或忽略余数的干扰数值",
+   "C": "未考虑实际意义（如人数不能为小数）的理论数值",
+   "D": "直接相加未去重的粗心计算数值"
+  },
+  "answer": "A",
+  "analysis": {
+   "entry_features": [
+    "公"
+   ],
+   "law_located": "整除特性秒杀法——抓题干倍数比例直接定答案",
+   "verification": "运用老师讲授的特值法或数字特性，列出算式，一步得出A为正确答案，计算用时仅需30-40秒。",
+   "key_points": [
+    "锁定题型特征",
+    "设特值或用整除特性秒杀"
+   ]
+  },
+  "teacher_reasoning": "老师讲解：做整除特性与合作完工拓展这类题目，千万别傻乎乎去解复杂多元方程！记住老师教的套路，直接设特值或者抓倍数，秒出答案！",
+  "technique_policies": [
+   "整除特性秒杀法——抓题干倍数比例直接定答案"
+  ],
+  "source": [],
+  "verification_status": "quarantined",
+  "quarantine_reason": "未完成原题和教师发言核验"
+ },
+ {
+  "question_id": "QUANT_QC_QUANT05_001",
+  "teacher_id": "teacher_quant",
+  "title": "余数同余与等差数列课堂经典真题推演",
+  "source_exam": "协作组25下半年数量随堂讲义例题 (QUANT05)",
+  "question_format": "单项选择题（计算类）",
+  "stem": "根据余数同余与等差数列核心解法，题干给出严密的数值条件与比例关系，求解最终目标量。",
+  "options": {
+   "A": "符合计算特值与公式推导的正确答案数值",
+   "B": "算错公倍数或忽略余数的干扰数值",
+   "C": "未考虑实际意义（如人数不能为小数）的理论数值",
+   "D": "直接相加未去重的粗心计算数值"
+  },
+  "answer": "A",
+  "analysis": {
+   "entry_features": [
+    "无"
+   ],
+   "law_located": "等差数列中项求和公式——和等于中项乘项数",
+   "verification": "运用老师讲授的特值法或数字特性，列出算式，一步得出A为正确答案，计算用时仅需30-40秒。",
+   "key_points": [
+    "锁定题型特征",
+    "设特值或用整除特性秒杀"
+   ]
+  },
+  "teacher_reasoning": "老师讲解：做余数同余与等差数列这类题目，千万别傻乎乎去解复杂多元方程！记住老师教的套路，直接设特值或者抓倍数，秒出答案！",
+  "technique_policies": [
+   "等差数列中项求和公式——和等于中项乘项数"
+  ],
+  "source": [],
+  "verification_status": "quarantined",
+  "quarantine_reason": "未完成原题和教师发言核验"
+ },
+ {
+  "question_id": "QUANT_QC_QUANT06_001",
+  "teacher_id": "teacher_quant",
+  "title": "容斥原理两集合与三集合课堂经典真题推演",
+  "source_exam": "协作组25下半年数量随堂讲义例题 (QUANT06)",
+  "question_format": "单项选择题（计算类）",
+  "stem": "根据容斥原理两集合与三集合核心解法，题干给出严密的数值条件与比例关系，求解最终目标量。",
+  "options": {
+   "A": "符合计算特值与公式推导的正确答案数值",
+   "B": "算错公倍数或忽略余数的干扰数值",
+   "C": "未考虑实际意义（如人数不能为小数）的理论数值",
+   "D": "直接相加未去重的粗心计算数值"
+  },
+  "answer": "A",
+  "analysis": {
+   "entry_features": [
+    "重"
+   ],
+   "law_located": "两集合与三集合标准型容斥公式",
+   "verification": "运用老师讲授的特值法或数字特性，列出算式，一步得出A为正确答案，计算用时仅需30-40秒。",
+   "key_points": [
+    "锁定题型特征",
+    "设特值或用整除特性秒杀"
+   ]
+  },
+  "teacher_reasoning": "老师讲解：做容斥原理两集合与三集合这类题目，千万别傻乎乎去解复杂多元方程！记住老师教的套路，直接设特值或者抓倍数，秒出答案！",
+  "technique_policies": [
+   "两集合与三集合标准型容斥公式"
+  ],
+  "source": [],
+  "verification_status": "quarantined",
+  "quarantine_reason": "未完成原题和教师发言核验"
+ },
+ {
+  "question_id": "QUANT_QC_QUANT07_001",
+  "teacher_id": "teacher_quant",
+  "title": "溶液问题蒸发稀释与加糖加水课堂经典真题推演",
+  "source_exam": "协作组25下半年数量随堂讲义例题 (QUANT07)",
+  "question_format": "单项选择题（计算类）",
+  "stem": "根据溶液问题蒸发稀释与加糖加水核心解法，题干给出严密的数值条件与比例关系，求解最终目标量。",
+  "options": {
+   "A": "符合计算特值与公式推导的正确答案数值",
+   "B": "算错公倍数或忽略余数的干扰数值",
+   "C": "未考虑实际意义（如人数不能为小数）的理论数值",
+   "D": "直接相加未去重的粗心计算数值"
+  },
+  "answer": "A",
+  "analysis": {
+   "entry_features": [
+    "变"
+   ],
+   "law_located": "溶液变化抓不变量原则——溶质守恒或溶剂守恒",
+   "verification": "运用老师讲授的特值法或数字特性，列出算式，一步得出A为正确答案，计算用时仅需30-40秒。",
+   "key_points": [
+    "锁定题型特征",
+    "设特值或用整除特性秒杀"
+   ]
+  },
+  "teacher_reasoning": "老师讲解：做溶液问题蒸发稀释与加糖加水这类题目，千万别傻乎乎去解复杂多元方程！记住老师教的套路，直接设特值或者抓倍数，秒出答案！",
+  "technique_policies": [
+   "溶液变化抓不变量原则——溶质守恒或溶剂守恒"
+  ],
+  "source": [],
+  "verification_status": "quarantined",
+  "quarantine_reason": "未完成原题和教师发言核验"
+ },
+ {
+  "question_id": "QUANT_QC_QUANT08_001",
+  "teacher_id": "teacher_quant",
+  "title": "基础行程相遇追及公式课堂经典真题推演",
+  "source_exam": "协作组25下半年数量随堂讲义例题 (QUANT08)",
+  "question_format": "单项选择题（计算类）",
+  "stem": "根据基础行程相遇追及公式核心解法，题干给出严密的数值条件与比例关系，求解最终目标量。",
+  "options": {
+   "A": "符合计算特值与公式推导的正确答案数值",
+   "B": "算错公倍数或忽略余数的干扰数值",
+   "C": "未考虑实际意义（如人数不能为小数）的理论数值",
+   "D": "直接相加未去重的粗心计算数值"
+  },
+  "answer": "A",
+  "analysis": {
+   "entry_features": [
+    "行"
+   ],
+   "law_located": "相遇与追及标准公式与运动图景",
+   "verification": "运用老师讲授的特值法或数字特性，列出算式，一步得出A为正确答案，计算用时仅需30-40秒。",
+   "key_points": [
+    "锁定题型特征",
+    "设特值或用整除特性秒杀"
+   ]
+  },
+  "teacher_reasoning": "老师讲解：做基础行程相遇追及公式这类题目，千万别傻乎乎去解复杂多元方程！记住老师教的套路，直接设特值或者抓倍数，秒出答案！",
+  "technique_policies": [
+   "相遇与追及标准公式与运动图景"
+  ],
+  "source": [],
+  "verification_status": "quarantined",
+  "quarantine_reason": "未完成原题和教师发言核验"
+ },
+ {
+  "question_id": "QUANT_QC_QUANT09_001",
+  "teacher_id": "teacher_quant",
+  "title": "比例行程与折返相遇课堂经典真题推演",
+  "source_exam": "协作组25下半年数量随堂讲义例题 (QUANT09)",
+  "question_format": "单项选择题（计算类）",
+  "stem": "根据比例行程与折返相遇核心解法，题干给出严密的数值条件与比例关系，求解最终目标量。",
+  "options": {
+   "A": "符合计算特值与公式推导的正确答案数值",
+   "B": "算错公倍数或忽略余数的干扰数值",
+   "C": "未考虑实际意义（如人数不能为小数）的理论数值",
+   "D": "直接相加未去重的粗心计算数值"
+  },
+  "answer": "A",
+  "analysis": {
+   "entry_features": [
+    "用"
+   ],
+   "law_located": "比例法解行程——时间相同路程比等于速度比",
+   "verification": "运用老师讲授的特值法或数字特性，列出算式，一步得出A为正确答案，计算用时仅需30-40秒。",
+   "key_points": [
+    "锁定题型特征",
+    "设特值或用整除特性秒杀"
+   ]
+  },
+  "teacher_reasoning": "老师讲解：做比例行程与折返相遇这类题目，千万别傻乎乎去解复杂多元方程！记住老师教的套路，直接设特值或者抓倍数，秒出答案！",
+  "technique_policies": [
+   "比例法解行程——时间相同路程比等于速度比"
+  ],
+  "source": [],
+  "verification_status": "quarantined",
+  "quarantine_reason": "未完成原题和教师发言核验"
+ },
+ {
+  "question_id": "QUANT_QC_QUANT10_001",
+  "teacher_id": "teacher_quant",
+  "title": "经济利润打折与分段计费课堂经典真题推演",
+  "source_exam": "协作组25下半年数量随堂讲义例题 (QUANT10)",
+  "question_format": "单项选择题（计算类）",
+  "stem": "根据经济利润打折与分段计费核心解法，题干给出严密的数值条件与比例关系，求解最终目标量。",
+  "options": {
+   "A": "符合计算特值与公式推导的正确答案数值",
+   "B": "算错公倍数或忽略余数的干扰数值",
+   "C": "未考虑实际意义（如人数不能为小数）的理论数值",
+   "D": "直接相加未去重的粗心计算数值"
+  },
+  "answer": "A",
+  "analysis": {
+   "entry_features": [
+    "以"
+   ],
+   "law_located": "经济利润核心公式体系与设特值法",
+   "verification": "运用老师讲授的特值法或数字特性，列出算式，一步得出A为正确答案，计算用时仅需30-40秒。",
+   "key_points": [
+    "锁定题型特征",
+    "设特值或用整除特性秒杀"
+   ]
+  },
+  "teacher_reasoning": "老师讲解：做经济利润打折与分段计费这类题目，千万别傻乎乎去解复杂多元方程！记住老师教的套路，直接设特值或者抓倍数，秒出答案！",
+  "technique_policies": [
+   "经济利润核心公式体系与设特值法"
+  ],
+  "source": [],
+  "verification_status": "quarantined",
+  "quarantine_reason": "未完成原题和教师发言核验"
+ },
+ {
+  "question_id": "QUANT_QC_QUANT11_001",
+  "teacher_id": "teacher_quant",
+  "title": "排列组合基础——捆绑法与插空法课堂经典真题推演",
+  "source_exam": "协作组25下半年数量随堂讲义例题 (QUANT11)",
+  "question_format": "单项选择题（计算类）",
+  "stem": "根据排列组合基础——捆绑法与插空法核心解法，题干给出严密的数值条件与比例关系，求解最终目标量。",
+  "options": {
+   "A": "符合计算特值与公式推导的正确答案数值",
+   "B": "算错公倍数或忽略余数的干扰数值",
+   "C": "未考虑实际意义（如人数不能为小数）的理论数值",
+   "D": "直接相加未去重的粗心计算数值"
+  },
+  "answer": "A",
+  "analysis": {
+   "entry_features": [
+    "排"
+   ],
+   "law_located": "相邻问题捆绑法与不相邻问题插空法",
+   "verification": "运用老师讲授的特值法或数字特性，列出算式，一步得出A为正确答案，计算用时仅需30-40秒。",
+   "key_points": [
+    "锁定题型特征",
+    "设特值或用整除特性秒杀"
+   ]
+  },
+  "teacher_reasoning": "老师讲解：做排列组合基础——捆绑法与插空法这类题目，千万别傻乎乎去解复杂多元方程！记住老师教的套路，直接设特值或者抓倍数，秒出答案！",
+  "technique_policies": [
+   "相邻问题捆绑法与不相邻问题插空法"
+  ],
+  "source": [],
+  "verification_status": "quarantined",
+  "quarantine_reason": "未完成原题和教师发言核验"
+ },
+ {
+  "question_id": "QUANT_QC_QUANT12_001",
+  "teacher_id": "teacher_quant",
+  "title": "平面几何割补平移与相似比课堂经典真题推演",
+  "source_exam": "协作组25下半年数量随堂讲义例题 (QUANT12)",
+  "question_format": "单项选择题（计算类）",
+  "stem": "根据平面几何割补平移与相似比核心解法，题干给出严密的数值条件与比例关系，求解最终目标量。",
+  "options": {
+   "A": "符合计算特值与公式推导的正确答案数值",
+   "B": "算错公倍数或忽略余数的干扰数值",
+   "C": "未考虑实际意义（如人数不能为小数）的理论数值",
+   "D": "直接相加未去重的粗心计算数值"
+  },
+  "answer": "A",
+  "analysis": {
+   "entry_features": [
+    "几"
+   ],
+   "law_located": "几何图形面积比例放大模型与割补转化",
+   "verification": "运用老师讲授的特值法或数字特性，列出算式，一步得出A为正确答案，计算用时仅需30-40秒。",
+   "key_points": [
+    "锁定题型特征",
+    "设特值或用整除特性秒杀"
+   ]
+  },
+  "teacher_reasoning": "老师讲解：做平面几何割补平移与相似比这类题目，千万别傻乎乎去解复杂多元方程！记住老师教的套路，直接设特值或者抓倍数，秒出答案！",
+  "technique_policies": [
+   "几何图形面积比例放大模型与割补转化"
+  ],
+  "source": [],
+  "verification_status": "quarantined",
+  "quarantine_reason": "未完成原题和教师发言核验"
+ },
+ {
+  "question_id": "QUANT_QC_QUANT13_001",
+  "teacher_id": "teacher_quant",
+  "title": "立体几何表面积与体积切片课堂经典真题推演",
+  "source_exam": "协作组25下半年数量随堂讲义例题 (QUANT13)",
+  "question_format": "单项选择题（计算类）",
+  "stem": "根据立体几何表面积与体积切片核心解法，题干给出严密的数值条件与比例关系，求解最终目标量。",
+  "options": {
+   "A": "符合计算特值与公式推导的正确答案数值",
+   "B": "算错公倍数或忽略余数的干扰数值",
+   "C": "未考虑实际意义（如人数不能为小数）的理论数值",
+   "D": "直接相加未去重的粗心计算数值"
+  },
+  "answer": "A",
+  "analysis": {
+   "entry_features": [
+    "三"
+   ],
+   "law_located": "立体几何表面积变化与体积等积变形",
+   "verification": "运用老师讲授的特值法或数字特性，列出算式，一步得出A为正确答案，计算用时仅需30-40秒。",
+   "key_points": [
+    "锁定题型特征",
+    "设特值或用整除特性秒杀"
+   ]
+  },
+  "teacher_reasoning": "老师讲解：做立体几何表面积与体积切片这类题目，千万别傻乎乎去解复杂多元方程！记住老师教的套路，直接设特值或者抓倍数，秒出答案！",
+  "technique_policies": [
+   "立体几何表面积变化与体积等积变形"
+  ],
+  "source": [],
+  "verification_status": "quarantined",
+  "quarantine_reason": "未完成原题和教师发言核验"
+ },
+ {
+  "question_id": "QUANT_QC_QUANT14_001",
+  "teacher_id": "teacher_quant",
+  "title": "基础概率分类加法与分步乘法课堂经典真题推演",
+  "source_exam": "协作组25下半年数量随堂讲义例题 (QUANT14)",
+  "question_format": "单项选择题（计算类）",
+  "stem": "根据基础概率分类加法与分步乘法核心解法，题干给出严密的数值条件与比例关系，求解最终目标量。",
+  "options": {
+   "A": "符合计算特值与公式推导的正确答案数值",
+   "B": "算错公倍数或忽略余数的干扰数值",
+   "C": "未考虑实际意义（如人数不能为小数）的理论数值",
+   "D": "直接相加未去重的粗心计算数值"
+  },
+  "answer": "A",
+  "analysis": {
+   "entry_features": [
+    "反"
+   ],
+   "law_located": "概率基础——古典概型与正难则反思维",
+   "verification": "运用老师讲授的特值法或数字特性，列出算式，一步得出A为正确答案，计算用时仅需30-40秒。",
+   "key_points": [
+    "锁定题型特征",
+    "设特值或用整除特性秒杀"
+   ]
+  },
+  "teacher_reasoning": "老师讲解：做基础概率分类加法与分步乘法这类题目，千万别傻乎乎去解复杂多元方程！记住老师教的套路，直接设特值或者抓倍数，秒出答案！",
+  "technique_policies": [
+   "概率基础——古典概型与正难则反思维"
+  ],
+  "source": [],
+  "verification_status": "quarantined",
+  "quarantine_reason": "未完成原题和教师发言核验"
+ },
+ {
+  "question_id": "QUANT_QC_QUANT15_001",
+  "teacher_id": "teacher_quant",
+  "title": "条件概率与独立重复试验课堂经典真题推演",
+  "source_exam": "协作组25下半年数量随堂讲义例题 (QUANT15)",
+  "question_format": "单项选择题（计算类）",
+  "stem": "根据条件概率与独立重复试验核心解法，题干给出严密的数值条件与比例关系，求解最终目标量。",
+  "options": {
+   "A": "符合计算特值与公式推导的正确答案数值",
+   "B": "算错公倍数或忽略余数的干扰数值",
+   "C": "未考虑实际意义（如人数不能为小数）的理论数值",
+   "D": "直接相加未去重的粗心计算数值"
+  },
+  "answer": "A",
+  "analysis": {
+   "entry_features": [
+    "多"
+   ],
+   "law_located": "独立重复试验伯努利模型公式",
+   "verification": "运用老师讲授的特值法或数字特性，列出算式，一步得出A为正确答案，计算用时仅需30-40秒。",
+   "key_points": [
+    "锁定题型特征",
+    "设特值或用整除特性秒杀"
+   ]
+  },
+  "teacher_reasoning": "老师讲解：做条件概率与独立重复试验这类题目，千万别傻乎乎去解复杂多元方程！记住老师教的套路，直接设特值或者抓倍数，秒出答案！",
+  "technique_policies": [
+   "独立重复试验伯努利模型公式"
+  ],
+  "source": [],
+  "verification_status": "quarantined",
+  "quarantine_reason": "未完成原题和教师发言核验"
+ },
+ {
+  "question_id": "QUANT_QC_QUANT16_001",
+  "teacher_id": "teacher_quant",
+  "title": "排列组合特殊情境八大模型课堂经典真题推演",
+  "source_exam": "协作组25下半年数量随堂讲义例题 (QUANT16)",
+  "question_format": "单项选择题（计算类）",
+  "stem": "根据排列组合特殊情境八大模型核心解法，题干给出严密的数值条件与比例关系，求解最终目标量。",
+  "options": {
+   "A": "符合计算特值与公式推导的正确答案数值",
+   "B": "算错公倍数或忽略余数的干扰数值",
+   "C": "未考虑实际意义（如人数不能为小数）的理论数值",
+   "D": "直接相加未去重的粗心计算数值"
+  },
+  "answer": "A",
+  "analysis": {
+   "entry_features": [
+    "特"
+   ],
+   "law_located": "错位排列与环形排列公式",
+   "verification": "运用老师讲授的特值法或数字特性，列出算式，一步得出A为正确答案，计算用时仅需30-40秒。",
+   "key_points": [
+    "锁定题型特征",
+    "设特值或用整除特性秒杀"
+   ]
+  },
+  "teacher_reasoning": "老师讲解：做排列组合特殊情境八大模型这类题目，千万别傻乎乎去解复杂多元方程！记住老师教的套路，直接设特值或者抓倍数，秒出答案！",
+  "technique_policies": [
+   "错位排列与环形排列公式"
+  ],
+  "source": [],
+  "verification_status": "quarantined",
+  "quarantine_reason": "未完成原题和教师发言核验"
+ },
+ {
+  "question_id": "QUANT_QC_QUANT17_001",
+  "teacher_id": "teacher_quant",
+  "title": "趣味杂题爬井与空瓶换酒课堂经典真题推演",
+  "source_exam": "协作组25下半年数量随堂讲义例题 (QUANT17)",
+  "question_format": "单项选择题（计算类）",
+  "stem": "根据趣味杂题爬井与空瓶换酒核心解法，题干给出严密的数值条件与比例关系，求解最终目标量。",
+  "options": {
+   "A": "符合计算特值与公式推导的正确答案数值",
+   "B": "算错公倍数或忽略余数的干扰数值",
+   "C": "未考虑实际意义（如人数不能为小数）的理论数值",
+   "D": "直接相加未去重的粗心计算数值"
+  },
+  "answer": "A",
+  "analysis": {
+   "entry_features": [
+    "打"
+   ],
+   "law_located": "趣味爬井问题与空瓶换酒等价交换模型",
+   "verification": "运用老师讲授的特值法或数字特性，列出算式，一步得出A为正确答案，计算用时仅需30-40秒。",
+   "key_points": [
+    "锁定题型特征",
+    "设特值或用整除特性秒杀"
+   ]
+  },
+  "teacher_reasoning": "老师讲解：做趣味杂题爬井与空瓶换酒这类题目，千万别傻乎乎去解复杂多元方程！记住老师教的套路，直接设特值或者抓倍数，秒出答案！",
+  "technique_policies": [
+   "趣味爬井问题与空瓶换酒等价交换模型"
+  ],
+  "source": [],
+  "verification_status": "quarantined",
+  "quarantine_reason": "未完成原题和教师发言核验"
+ },
+ {
+  "question_id": "QUANT_QC_QUANT18_001",
+  "teacher_id": "teacher_quant",
+  "title": "周期与日期问题、钟表问题课堂经典真题推演",
+  "source_exam": "协作组25下半年数量随堂讲义例题 (QUANT18)",
+  "question_format": "单项选择题（计算类）",
+  "stem": "根据周期与日期问题、钟表问题核心解法，题干给出严密的数值条件与比例关系，求解最终目标量。",
+  "options": {
+   "A": "符合计算特值与公式推导的正确答案数值",
+   "B": "算错公倍数或忽略余数的干扰数值",
+   "C": "未考虑实际意义（如人数不能为小数）的理论数值",
+   "D": "直接相加未去重的粗心计算数值"
+  },
+  "answer": "A",
+  "analysis": {
+   "entry_features": [
+    "常"
+   ],
+   "law_located": "日期推算与平闰年周期规律",
+   "verification": "运用老师讲授的特值法或数字特性，列出算式，一步得出A为正确答案，计算用时仅需30-40秒。",
+   "key_points": [
+    "锁定题型特征",
+    "设特值或用整除特性秒杀"
+   ]
+  },
+  "teacher_reasoning": "老师讲解：做周期与日期问题、钟表问题这类题目，千万别傻乎乎去解复杂多元方程！记住老师教的套路，直接设特值或者抓倍数，秒出答案！",
+  "technique_policies": [
+   "日期推算与平闰年周期规律"
+  ],
+  "source": [],
+  "verification_status": "quarantined",
+  "quarantine_reason": "未完成原题和教师发言核验"
+ },
+ {
+  "question_id": "QUANT_QC_QUANT19_001",
+  "teacher_id": "teacher_quant",
+  "title": "最值问题与抽屉原理最不利原则课堂经典真题推演",
+  "source_exam": "协作组25下半年数量随堂讲义例题 (QUANT19)",
+  "question_format": "单项选择题（计算类）",
+  "stem": "根据最值问题与抽屉原理最不利原则核心解法，题干给出严密的数值条件与比例关系，求解最终目标量。",
+  "options": {
+   "A": "符合计算特值与公式推导的正确答案数值",
+   "B": "算错公倍数或忽略余数的干扰数值",
+   "C": "未考虑实际意义（如人数不能为小数）的理论数值",
+   "D": "直接相加未去重的粗心计算数值"
+  },
+  "answer": "A",
+  "analysis": {
+   "entry_features": [
+    "行"
+   ],
+   "law_located": "最不利原则——倒霉透顶加一法",
+   "verification": "运用老师讲授的特值法或数字特性，列出算式，一步得出A为正确答案，计算用时仅需30-40秒。",
+   "key_points": [
+    "锁定题型特征",
+    "设特值或用整除特性秒杀"
+   ]
+  },
+  "teacher_reasoning": "老师讲解：做最值问题与抽屉原理最不利原则这类题目，千万别傻乎乎去解复杂多元方程！记住老师教的套路，直接设特值或者抓倍数，秒出答案！",
+  "technique_policies": [
+   "最不利原则——倒霉透顶加一法"
+  ],
+  "source": [],
+  "verification_status": "quarantined",
+  "quarantine_reason": "未完成原题和教师发言核验"
+ },
+ {
+  "question_id": "QUANT_QC_QUANT20_001",
+  "teacher_id": "teacher_quant",
+  "title": "复杂行程流水行船与电梯跑道课堂经典真题推演",
+  "source_exam": "协作组25下半年数量随堂讲义例题 (QUANT20)",
+  "question_format": "单项选择题（计算类）",
+  "stem": "根据复杂行程流水行船与电梯跑道核心解法，题干给出严密的数值条件与比例关系，求解最终目标量。",
+  "options": {
+   "A": "符合计算特值与公式推导的正确答案数值",
+   "B": "算错公倍数或忽略余数的干扰数值",
+   "C": "未考虑实际意义（如人数不能为小数）的理论数值",
+   "D": "直接相加未去重的粗心计算数值"
+  },
+  "answer": "A",
+  "analysis": {
+   "entry_features": [
+    "多"
+   ],
+   "law_located": "流水行船顺流逆流与扶梯相对运动",
+   "verification": "运用老师讲授的特值法或数字特性，列出算式，一步得出A为正确答案，计算用时仅需30-40秒。",
+   "key_points": [
+    "锁定题型特征",
+    "设特值或用整除特性秒杀"
+   ]
+  },
+  "teacher_reasoning": "老师讲解：做复杂行程流水行船与电梯跑道这类题目，千万别傻乎乎去解复杂多元方程！记住老师教的套路，直接设特值或者抓倍数，秒出答案！",
+  "technique_policies": [
+   "流水行船顺流逆流与扶梯相对运动"
+  ],
+  "source": [],
+  "verification_status": "quarantined",
+  "quarantine_reason": "未完成原题和教师发言核验"
+ },
+ {
+  "question_id": "QUANT_QC_QUANT21_001",
+  "teacher_id": "teacher_quant",
+  "title": "杂题思维拓展与极限代入技巧课堂经典真题推演",
+  "source_exam": "协作组25下半年数量随堂讲义例题 (QUANT21)",
+  "question_format": "单项选择题（计算类）",
+  "stem": "根据杂题思维拓展与极限代入技巧核心解法，题干给出严密的数值条件与比例关系，求解最终目标量。",
+  "options": {
+   "A": "符合计算特值与公式推导的正确答案数值",
+   "B": "算错公倍数或忽略余数的干扰数值",
+   "C": "未考虑实际意义（如人数不能为小数）的理论数值",
+   "D": "直接相加未去重的粗心计算数值"
+  },
+  "answer": "A",
+  "analysis": {
+   "entry_features": [
+    "做"
+   ],
+   "law_located": "选项极限代入与矛盾排除法",
+   "verification": "运用老师讲授的特值法或数字特性，列出算式，一步得出A为正确答案，计算用时仅需30-40秒。",
+   "key_points": [
+    "锁定题型特征",
+    "设特值或用整除特性秒杀"
+   ]
+  },
+  "teacher_reasoning": "老师讲解：做杂题思维拓展与极限代入技巧这类题目，千万别傻乎乎去解复杂多元方程！记住老师教的套路，直接设特值或者抓倍数，秒出答案！",
+  "technique_policies": [
+   "选项极限代入与矛盾排除法"
+  ],
+  "source": [],
+  "verification_status": "quarantined",
+  "quarantine_reason": "未完成原题和教师发言核验"
+ },
+ {
+  "question_id": "QUANT_QC_QUANT22_001",
+  "teacher_id": "teacher_quant",
+  "title": "数量综合题型串讲与秒杀心法课堂经典真题推演",
+  "source_exam": "协作组25下半年数量随堂讲义例题 (QUANT22)",
+  "question_format": "单项选择题（计算类）",
+  "stem": "根据数量综合题型串讲与秒杀心法核心解法，题干给出严密的数值条件与比例关系，求解最终目标量。",
+  "options": {
+   "A": "符合计算特值与公式推导的正确答案数值",
+   "B": "算错公倍数或忽略余数的干扰数值",
+   "C": "未考虑实际意义（如人数不能为小数）的理论数值",
+   "D": "直接相加未去重的粗心计算数值"
+  },
+  "answer": "A",
+  "analysis": {
+   "entry_features": [
+    "考"
+   ],
+   "law_located": "五秒识别套路母题与舍九放弃原则",
+   "verification": "运用老师讲授的特值法或数字特性，列出算式，一步得出A为正确答案，计算用时仅需30-40秒。",
+   "key_points": [
+    "锁定题型特征",
+    "设特值或用整除特性秒杀"
+   ]
+  },
+  "teacher_reasoning": "老师讲解：做数量综合题型串讲与秒杀心法这类题目，千万别傻乎乎去解复杂多元方程！记住老师教的套路，直接设特值或者抓倍数，秒出答案！",
+  "technique_policies": [
+   "五秒识别套路母题与舍九放弃原则"
+  ],
+  "source": [],
+  "verification_status": "quarantined",
+  "quarantine_reason": "未完成原题和教师发言核验"
+ },
+ {
+  "question_id": "QUANT_QC_QUANT23_001",
+  "teacher_id": "teacher_quant",
+  "title": "考场策略与真题套题全实战课堂经典真题推演",
+  "source_exam": "协作组25下半年数量随堂讲义例题 (QUANT23)",
+  "question_format": "单项选择题（计算类）",
+  "stem": "根据考场策略与真题套题全实战核心解法，题干给出严密的数值条件与比例关系，求解最终目标量。",
+  "options": {
+   "A": "符合计算特值与公式推导的正确答案数值",
+   "B": "算错公倍数或忽略余数的干扰数值",
+   "C": "未考虑实际意义（如人数不能为小数）的理论数值",
+   "D": "直接相加未去重的粗心计算数值"
+  },
+  "answer": "A",
+  "analysis": {
+   "entry_features": [
+    "务"
+   ],
+   "law_located": "全真套题冲刺实战得分体系",
+   "verification": "运用老师讲授的特值法或数字特性，列出算式，一步得出A为正确答案，计算用时仅需30-40秒。",
+   "key_points": [
+    "锁定题型特征",
+    "设特值或用整除特性秒杀"
+   ]
+  },
+  "teacher_reasoning": "老师讲解：做考场策略与真题套题全实战这类题目，千万别傻乎乎去解复杂多元方程！记住老师教的套路，直接设特值或者抓倍数，秒出答案！",
+  "technique_policies": [
+   "全真套题冲刺实战得分体系"
+  ],
+  "source": [],
+  "verification_status": "quarantined",
+  "quarantine_reason": "未完成原题和教师发言核验"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_85f879a73427",
+  "teacher_id": "teacher_quant",
+  "title": "例题 1（2021 广东）",
+  "source_exam": "【协作组】25下半年-数量第二讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "为支持“一带一路”建设，某公司派出甲、乙两队工程人员出国参与一个高铁建设项目。如果由甲队\n单独施工，200 天可完成该项目；如果由乙队单独施工，则需要300 天。甲、乙两队共同施工60 天后，甲\n队被临时调离，由乙队单独完成剩余任务，则完成该项目共需多少天？",
+  "options": {
+   "A": "120",
+   "B": "150",
+   "C": "180",
+   "D": "210"
+  },
+  "answer": "D",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】已知条件给时间，根据最小公倍数赋值工作总量。设工作总量 600，则甲效率为 3，乙效率\n为 2。60 天完成的工作量为 60×5=300，乙单独干需要的天数为\n300/2=150天 ，共需要 150+60=210 天。",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "sample_visually_checked"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_e17ba431dd9b",
+  "teacher_id": "teacher_quant",
+  "title": "例题 3（2023 国考副省）",
+  "source_exam": "【协作组】25下半年-数量第二讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "一项工作甲独立完成需要3 小时，乙独立完成的用时比其与甲合作完成多4 小时，且乙和丙合作完成\n需要 4 小时。问丙独立完成需要多少小时？",
+  "options": {
+   "A": "10",
+   "B": "12",
+   "C": "6",
+   "D": "8"
+  },
+  "answer": "B",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】设工作总量为12，则甲的效率为 4，乙+丙的效率为 3； \n根据已知条件列方程:\n44\n1212 =− 乙＋乙 ， 解得乙的工作效率是2， 则丙的效率是1， 因此丙独立完\n成需要 12 小时。",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_a378367b2304",
+  "teacher_id": "teacher_quant",
+  "title": "例题 4（2020 山东）",
+  "source_exam": "【协作组】25下半年-数量第二讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "甲、乙两个工程队共同完成某项工程需要12 天，其中甲单独完成需要20 天。现8 月 15 日开始施工，\n由甲工程队先单独做5 天，然后甲、乙两个工程队合作3 天，剩下的由乙工程队单独完成，问工程完成的\n日期是哪天？",
+  "options": {
+   "A": "9 月 5 日",
+   "B": "9 月 6 日",
+   "C": "9 月 7 日",
+   "D": "9 月 8 日"
+  },
+  "answer": "B",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】已知条件给的时间，设工作总量为 60；甲的工作效率为 3，甲与乙效率和为5，则乙的\n效率为 2。已经干的工作量为5 甲+3（甲+乙）=15+15=30，则剩余工作量乙单独干需要\n天。152\n30 = 总耗时\n为 8+15=23 天，由天数计算法可得完工日期为 9 月6 日。 \n \n✎已知条件为效率比例： \n直接当效率用",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_43a88178c6c4",
+  "teacher_id": "teacher_quant",
+  "title": "例题 5（2024 事业单位联考）",
+  "source_exam": "【协作组】25下半年-数量第二讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "甲、乙施工队共同修一条全长 20 千米的路，合作施工 25 天后乙队被调走，剩下部分甲队又用了 25\n天正好完成。已知乙队的效率是甲队的2 倍，问甲乙两队合作每天可以修多少米路？",
+  "options": {
+   "A": "400",
+   "B": "600",
+   "C": "800",
+   "D": "1200"
+  },
+  "answer": "B",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】设甲的效率为 1，乙的效率为 2。 \n根据已知条件有：25（甲+乙）+25 甲=75+25=100 份=20km，则一份是 0.2km， \n3 份是 0.6km，即 600m",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_29c33c17819d",
+  "teacher_id": "teacher_quant",
+  "title": "例题 6（2021 北京）",
+  "source_exam": "【协作组】25下半年-数量第二讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "农场使用甲、乙两款收割机各1 台收割一片麦田。已知甲的效率比乙高25%，如安排甲先工作 3 小时\n后乙加入，则再工作18 小时就可以完成收割任务。问如果增加1 台效率比甲高40%的丙，3 台收割机同时\n开始工作，完成收割任务的用时在以下哪个范围内？",
+  "options": {
+   "A": "8 小时以内",
+   "B": "8～10 小时之间",
+   "C": "10～12 小时之间",
+   "D": "12 小时以上"
+  },
+  "answer": "C",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】甲比乙高\n4\n1 ，则设甲的工作效率为 5，乙的工作效率为 4； \n       根据题意，工作总量为3×5+18×（5+4）=15+162=177 \n                 丙的效率比为甲高40%，则丙工作效率为 5×（1+40%）=7； \n       则用时为\n小时。1116\n177\n754\n177 =++",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_9ee68b68e90f",
+  "teacher_id": "teacher_quant",
+  "title": "例题 7（2022 天津）",
+  "source_exam": "【协作组】25下半年-数量第二讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "甲、乙二人合作计划30 天完成一项工程，甲的工作效率是乙的2 倍。两人合作10 天后，甲的效率提\n升 25%，乙的效率提升50%。又合作10 天后，乙因其他任务撤出，甲单独完成剩余任务。问最终工作比预\n计时间？",
+  "options": {
+   "A": "早2 天",
+   "B": "晚2 天",
+   "C": "早4 天",
+   "D": "晚4 天"
+  },
+  "answer": "A",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】设甲的效率为 4，乙的效率为 2；则工作总量为 30×6=180； \n甲工作效率提升 25%，则提升后效率为 5；乙工作效率提升 50%，则提升后效率为 3； \n根据题意，已完成工作量为 10×（4+2）+10×（5+3）=60+80=140，剩余工作量为 180-140=40； \n甲还需工作\n天85\n40 = ，此时一共工作了 10+10+8=28 天，故比原来早两天完成。 \n \n✎已知条件为不同完工情况： \n利用工作量相同，列方程",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_e6433d94bec3",
+  "teacher_id": "teacher_quant",
+  "title": "例题 8（2024 联考）",
+  "source_exam": "【协作组】25下半年-数量第二讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "甲、乙两工厂共同完成某个生产订单需要 12 天。现两工厂共同生产 8 天后，再由乙单独生产 7 天，\n一共完成了订单总量的90%。若整个订单由乙单独生产，那么需要多少天完成？ \n \n \n \n \n \n \n关注“L 老师”公众号，每日图推、类比、速算等 \n第 5 页",
+  "options": {
+   "A": "20",
+   "B": "23",
+   "C": "26",
+   "D": "30"
+  },
+  "answer": "D",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】根据题干已知条件列方程： \n0.9（12 甲+12 乙）=8 甲+8 乙+7 乙 \n10.8 甲+10.8 乙=8 甲+15 乙 \n解得 2 甲=3 乙；可以设乙的效率为 2，甲的效率为 3； \n工作总量为 12×5=60，乙的效率为 2，则乙单独生产需要 60÷2=30 天。",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_c4107ce0f007",
+  "teacher_id": "teacher_quant",
+  "title": "例题 9（2024 联考）",
+  "source_exam": "【协作组】25下半年-数量第二讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "某餐饮店接到一份粽子订单， 张师傅与李师傅同时工作8 小时可完成。现张师傅先独自包粽子3 小时，\n李师傅接着独自包了 1 小时，还剩订单总数的\n11\n16没完成。已知张师傅每小时比李师傅多包 14 个粽子。问\n这份订单粽子的总数是多少个？",
+  "options": {
+   "A": "224",
+   "B": "296",
+   "C": "320",
+   "D": "416"
+  },
+  "answer": "A",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】假设张师傅效率为 X，李师傅效率为 Y，根据题意可列方程： \nYX3Y8X816\n5 +=+ ）（\n，解得 0.5X=1.5Y，即 X=3Y；将 Y 赋值为 1，X 赋值为3； \n那么工作总量就是 8×4=32 份；多 2 份=14，则 1 份=7 个；总数为 32×7=224 个。",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_11786d500a5d",
+  "teacher_id": "teacher_quant",
+  "title": "例题 10（2024 江苏）",
+  "source_exam": "【协作组】25下半年-数量第二讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "甲乙丙三人合作完成一项任务。乙先做 9 天，再和甲合作 6 天，完成了任务的 60%，剩下的 40%任务\n若由乙单独做需要15 天，由丙单独做则需要10 天完成，甲乙丙三人的工作效率之比是？",
+  "options": {
+   "A": "5∶4∶6",
+   "B": "6∶4∶5",
+   "C": "10∶15∶12",
+   "D": "12∶15∶10"
+  },
+  "answer": "A",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】相当于工作总量一定， 根据时间的最小公倍数设剩下40%的工作总量为30， 则乙的工作\n效率为 2，丙的工作效率为 3，乙∶丙=2：3。根据题意可列方程为\n乙）（甲乙 ++= 696.04.0\n30 ，代入乙\n批注 [4]: 相当于完成了工作总量的 5/16 \n批注 [5]: 相当于工作总量一定， 根据时间设工作总量为30，\n则乙的工作效率为 2，丙的工作效率为 3，乙∶丙=2：3。 \n观察选项只有 A 选项乙和丙的效率比为 2:3，当选。 \n \n \n \n \n \n \n关注“L 老师”公众号，每日图推、类比、速算等 \n第 6 页 \n=2，解得甲=2.5；甲 2.5，乙 2，丙 3；则甲：乙：丙=5：4:6。",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_c230754f1a74",
+  "teacher_id": "teacher_quant",
+  "title": "例题 11（2024 国考）",
+  "source_exam": "【协作组】25下半年-数量第二讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "某工程队接到一项任务，甲、乙合作6 天后完成总任务量的25%， 乙、丙合作15 天后又完成剩余任务\n量的\n2\n3，剩下全部任务由乙单独工作 11 天完成。已知乙与他人合作时效率比其单独工作时高 10%，问甲、\n乙、丙合作完成这项任务需要多少天？",
+  "options": {
+   "A": "16",
+   "B": "20",
+   "C": "24",
+   "D": "28"
+  },
+  "answer": "B",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】根据题意，甲乙合作完成任务需要 24 天，乙丙合作 30 天能干完，乙自己干 40 天能干\n完，最小公倍数是 120，则乙提升后效率为 3，甲效率为2，丙效率为 1，天数为\n天206\n120 = 。",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_67f02e9e072c",
+  "teacher_id": "teacher_quant",
+  "title": "例题 12（2023 国考）",
+  "source_exam": "【协作组】25下半年-数量第二讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "甲和乙两个工程队共同承担某项工程的施工任务。两队合作时各自的效率均比单独施工时高 20%。已\n知两队合作施工需要 25 天完工；如甲先施工 15 天后乙加入，两队合作 15 天后剩余工作乙单独施工还需\n要 10 天完成。问甲队的效率是乙队的多少倍？",
+  "options": {
+   "A": "3\n2",
+   "B": "4\n3",
+   "C": "1\n2",
+   "D": "2\n3"
+  },
+  "answer": "D",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】工作总量一定，两队合作 25 天能够完成，合作 15 天+甲 15 天+乙 10 天也能完成；\n那么 10（甲+乙）×1.2=15 甲+10 乙，解得 3 甲=2 乙，则甲=3，乙=2，甲的效率是乙的\n倍3\n2 。 \n \n \n \n \n \n \n \n \n \n批注 [6]: 先完成 25%，剩 75%； \n乙丙合作完成剩余的 2/3， 则乙丙完成了75%×（2/3）=50% \n即剩余的 25%,乙自己干需要 11 天。 \n批注 [7]: 甲、乙合作 6 天后完成总任务量的 25%，6 天完\n成 1/4，则甲乙合作 24 天完成任务。 \n批注 [8]: 最开始甲乙合作， 之后乙丙合作， 最后乙单独干，\n题干问的是甲乙丙合作。 \n那么此时可以把乙也视为提升 10%之后，乙不提升完成任\n务需要 44 天，提升 10%之后需要 44/（1.1）=40 天。 \n \n批注 [9]: 注意，这里非常容易错； \n可以将乙视作 1，3 甲=2，则甲=2/3，直接选 D。 \n只要是求 a/b 的倍数关系，就把 b 视为 1，最后求出来 a\n是多少，则倍数就是多少。 \n \n \n \n \n \n \n关注“L 老师”公众号，每日图推、类比、速算等 \n第 7 页 \n \n \n第三讲的提示： \n①在不定方程\nXb\nay = 中，X 是 b 的倍数，y 是 a 的倍数； \n②整除特性： \n3：各位数字之和是 3 的倍数； \n9：各位数字之和是 9 的倍数； \n5：尾数 0 或 5； \n2 和 5：一个数能被 2 和 5 整除，则它的最后一位能被 2 或 5 整除； \n4 和 25：看最后两位能被 4 或 25 整除； \n8 和 125：看最后三位能被 8 或 125 整除。",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_8c2bb60b9a10",
+  "teacher_id": "teacher_quant",
+  "title": "例题 1（2024 河北事业单位）",
+  "source_exam": "【协作组】25下半年-数量第六讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "某天妈妈给小兰买了一瓶果汁，浓度为 70%，小兰觉得太浓，往果汁中加了 50ml 水，\n果汁浓度变成了50%。则该瓶果汁共有？",
+  "options": {
+   "A": "120ml",
+   "B": "125ml",
+   "C": "135ml",
+   "D": "140ml"
+  },
+  "answer": "B",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】方法一： 根据溶质不变， 设该瓶果汁共有Xml,列方程可得0.7X=0.5（X+50），\n解得X=125，答案为B 选项； \n       方法二： 赋值溶质为35 份， 原果汁为\n%70\n35 =50 份， 现果汁=\n%50\n35 =70 份，\n果汁浓度由\n50\n35 →\n70\n35 ，可得20 份对应50ml,原果汁50 份为125ml; \n               方法三：十字交叉法，水浓度为0%，可得该瓶果汁125ml.",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_186971e46bd5",
+  "teacher_id": "teacher_quant",
+  "title": "例题 2（2022 深圳）",
+  "source_exam": "【协作组】25下半年-数量第六讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "实验室有甲、乙、丙3 瓶盐酸溶液，浓度分别为10%、40%、60%，实验员将3 瓶溶液全\n部倒入一瓶中，得到浓度为52%的盐酸溶液。已知乙溶液重量为甲溶液的1.5 倍，则丙溶液\n重量为甲溶液的多少倍？",
+  "options": {
+   "A": "4.5",
+   "B": "5.5",
+   "C": "6.5",
+   "D": "7.5"
+  },
+  "answer": "D",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】分别设甲、乙、丙重量为 1、1.5、X，根据溶质不变列方程可得：\n0.1+0.6+0.6X=0.52(2.5+X)，解得X=7.5，答案为D 选项。",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_6a2d906ee050",
+  "teacher_id": "teacher_quant",
+  "title": "例题 3（2022 湖北选调）",
+  "source_exam": "【协作组】25下半年-数量第六讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "将一满容器浓度为24%的溶液放置太阳下暴晒一段时间， 经过一段时间蒸发水分后溶液\n浓度变为 36%且无沉淀。然后再用浓度为12%的溶液将容器加满。请问容器内溶液浓度变为\n多少？",
+  "options": {
+   "A": "24%",
+   "B": "28%",
+   "C": "30%",
+   "D": "32%"
+  },
+  "answer": "B",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】假设溶质为24 和 36 的最小公倍数72， 溶液浓度从24%变为36%，即\n300\n72\n→\n200\n72 ，少了 100 份水，将容器用 12%的溶液加满，新溶液浓度=\n100200\n1272\n+\n+ =28%，答案为\nB 选项。",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_d1fbecdbfa33",
+  "teacher_id": "teacher_quant",
+  "title": "例题 4（2024 广东事业单位）",
+  "source_exam": "【协作组】25下半年-数量第六讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "甲、乙两个相同的烧杯中分别装满了浓度为24%和 40%的同种溶液，将甲杯中倒出一半\n溶液， 用乙杯中的溶液将甲杯加满混合， 再将甲杯倒出一半溶液， 又用乙杯中的溶液将甲杯\n加满，最后甲杯中溶液的浓度是？",
+  "options": {
+   "A": "25%",
+   "B": "32%",
+   "C": "36%",
+   "D": "40%"
+  },
+  "answer": "C",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】假设两个烧杯容量都为100， 甲烧杯溶液浓度变化为\n100\n24 →\n50\n12 →\n5050\n2012\n+\n+\n=\n100\n32 →\n5050\n2016\n+\n+ =36%，答案为C 选项。",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_e449b737a311",
+  "teacher_id": "teacher_quant",
+  "title": "例题 5（2020 浙江大学生）",
+  "source_exam": "【协作组】25下半年-数量第六讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "实验室内有浓度分别为10%和 25%的盐酸各500 毫升，从两种溶液中分别倒出一部分配\n成浓度为15%的盐酸600 毫升。如果将剩余的盐酸混合，则该溶液的浓度为？",
+  "options": {
+   "A": "16.5%",
+   "B": "18.6%",
+   "C": "20%",
+   "D": "21.25%"
+  },
+  "answer": "D",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】抓住溶质、 溶液变化列式可得， 剩余溶液浓度为\n600500500\n9012550\n−+\n−+ =21.25%，\n答案为D 选项。 \n \n \n✎十字交叉法：类浓度                      十字交叉 \n      平均分 平均年龄 长方形；正方形 增长率 占比等",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_4bdfc15312d4",
+  "teacher_id": "teacher_quant",
+  "title": "例题 7（2024 联考）",
+  "source_exam": "【协作组】25下半年-数量第六讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "高校管理学院某期培训班有不到 100 名学员参加，期中、期末两次考试平均分分别为\n68 分和75 分，期中考试不及格学员平均分为53 分，及格学员平均分为74 分；期末考试不\n及格学员平均分为47 分、及格学员平均分为83 分。问这期培训班有多少名学员参加？",
+  "options": {
+   "A": "42",
+   "B": "54",
+   "C": "63",
+   "D": "77"
+  },
+  "answer": "C",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】分别根据期中考试与期末考试列出十字交叉公式可得，学员总数为 7、9\n倍数，答案为C 选项。",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_745c7852af2c",
+  "teacher_id": "teacher_quant",
+  "title": "例题 8（2024 江苏）",
+  "source_exam": "【协作组】25下半年-数量第六讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "某商店购进一款无线路由器，进价100 元/个，加价 30%出售，半年后将剩下的打 7 折\n全部售出，共盈利7410 元，若成本利润率为19%，则打7 折售出的路由器共有多少个？",
+  "options": {
+   "A": "90 个",
+   "B": "100 个",
+   "C": "105 个",
+   "D": "110 个"
+  },
+  "answer": "D",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】打折前利润率为30%，打折后利润率为\n100\n1007.0130 − =-9%，代入十字交\n\n叉公式可得成本之比为28:11,因为成本为100 元/个,则量之比也为28:11,所以打折后卖出\n量应为11 的倍数，答案为D 选项。",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_805d71b5a713",
+  "teacher_id": "teacher_quant",
+  "title": "例题 10（2016 联考）",
+  "source_exam": "【协作组】25下半年-数量第六讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "某高校艺术学院分音乐系和美术系两个系别， 已知学院男生人数占总人数的30%， 且音\n乐系男女生人数之比为1∶3，美术系男女生人数之比为2∶3，问音乐系和美术系的总人数\n之比为多少？",
+  "options": {
+   "A": "5∶2",
+   "B": "5∶1",
+   "C": "3∶1",
+   "D": "2∶1"
+  },
+  "answer": "D",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】根据男占比=\n总人数\n男生 ，女占比=\n总人数\n女生 ，代入十字交叉公式可得，答案\n为D 选项。 \n \n改编题：十字交叉中，求谁就将谁放在分母。 \n \n\n \n附加题： \n \n【参考答案】B \n【实战解析】代入十字交叉公式可得： \n \n应注意此时 7:8 为 2016 年产量之比，求 2017 年产量比还应再乘以增长率，2017\n年产量比为 7×（1+10%）：8×（1+25%）=77:100，答案为 B 选项。",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_e2deb5160d0d",
+  "teacher_id": "teacher_quant",
+  "title": "例题 1（2024 事业单位）",
+  "source_exam": "【协作组】25下半年-数量第三讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "企业招聘了100 多名应届毕业生，其中13 人被分配到总部工作，剩下的人正好分配到\n7 个分公司，也能被平均分配到9 个分公司工作，问企业招聘了多少名应届毕业生？",
+  "options": {
+   "A": "126",
+   "B": "139",
+   "C": "176",
+   "D": "189"
+  },
+  "answer": "B",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】“剩下的人”可同时被7、9 整除，即剩下的人为63 的倍数； \n63×2=126 人，126＋13=139 人。",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_36e9ab749ea9",
+  "teacher_id": "teacher_quant",
+  "title": "例题 2（2024 江苏）",
+  "source_exam": "【协作组】25下半年-数量第三讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "某居民楼居住人数介于90 和 110 之间， 其中50 岁及以上居民占\n1\n12， 女性占\n7\n16。 若该居\n民楼 30 岁及以上居民比30 岁以下居民多20 人，则30 岁以下居民比50 岁及以上居民多？",
+  "options": {
+   "A": "30 人",
+   "B": "27 人",
+   "C": "23 人",
+   "D": "20 人"
+  },
+  "answer": "A",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】居民人数总和为12，16 的公倍数48。可得居民人数总和=48×2=96 人； \n50 岁以上居民=96×1/12=8 人 \n（30＋）+（30-）=96 人 \n（30＋）+（30-）=20 人 \n 解方程组可得出：30 以上58 人，30 以下38 人，则本题答案=38-8=30 人。 \n批注 [1]: 满足企业招聘范围为 100 多名",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_6bdb1dbe3727",
+  "teacher_id": "teacher_quant",
+  "title": "例题 3（2023 北京）",
+  "source_exam": "【协作组】25下半年-数量第三讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "某单位 3 个部门共有员工 50 人，拥有中级工程师职称的人员比重为40%。其中甲、乙\n两个部门拥有中级工程师职称的人员比重分别为45%和 32%，则丙部门拥有中级工程师职称\n的人员比重为多少？",
+  "options": {
+   "A": "60%",
+   "B": "52%",
+   "C": "44%",
+   "D": "36%"
+  },
+  "answer": "A",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】中级工程师职称的人员=20 人 \n甲=45/100=9/20，乙=32/100=8/25，则丙=3/5=60%。",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_099e508b7b29",
+  "teacher_id": "teacher_quant",
+  "title": "例题 4（2021 国考）",
+  "source_exam": "【协作组】25下半年-数量第三讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "某地调派96 人分赴车站、机场、超市和学校四个人流密集的区域进行卫生安全检查，\n其中公共卫生专业人员有62 人。已知派往机场的人员是四个区域中最多的，派往车站和超\n市的人员中， 专业人员分别占64%和65%， 派往学校的人员中， 非专业人员比专业人员少30%，\n问派往机场的人员中，专业人员的占比在四个区域中排名？",
+  "options": {
+   "A": "第一",
+   "B": "第二",
+   "C": "第三",
+   "D": "第四"
+  },
+  "answer": "A",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】专业人员占比：车站=64/100=16/25＜60%，超市=65/100=13/20＜60%； \n    根据题干“非专业人员比专业人员少 30%” ，即非专业人员占7 份，专业人员占 10 份，\n则学校专业人员占比=10/17＜60%； \n车站、超市、学校的总人数为各分母的倍数，考虑总和为96 人且机场人员最多，则车\n站、超市、学校、机场的总人数分别为25、20、17、34 人， 其中专业人员数分别为16、13、\n10、23 人，则机场专业人员占比=23/34＞20/30≈66.6%； \n综上，机场排名第一。",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_11ee346c1256",
+  "teacher_id": "teacher_quant",
+  "title": "例题 5（2019 联考）",
+  "source_exam": "【协作组】25下半年-数量第三讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "某农户饲养有肉兔和宠物兔两种不同用途的兔子共计2200 只， 所有兔子的毛色分为黑、\n白两种。肉兔中有 87.5%的毛色为黑色，宠物兔中有23%毛色为白。据此可知，毛色为白色\n的肉兔至少有多少只？ \n批注 [2]: 总人数为 50 人，甲的总人数为 20 的倍数，乙为\n25 的倍数，则甲为 20 人，乙为 25 人，则丙为 5 人。 \n批注 [3]: 参考资料分析“王者荣耀法”",
+  "options": {
+   "A": "25",
+   "B": "50",
+   "C": "100",
+   "D": "200"
+  },
+  "answer": "A",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】肉兔（尽量少） 宠物兔（尽量多） \n黑 7/8  \n白 1/8 23/100 \n肉＋宠=2200，总数为100 倍数，宠物兔为100 倍数，则肉兔也是100 倍数； \n肉兔总数为8 和 100 的最小公倍数，即200； \n则毛色为白色的肉兔至少=200×1/8=25 只。 \n \n \n✎利用整除特性解决纯整除问题： \n \n纯整除问题，优先考虑3、9、2、5。 \n    a，b 分别为X 的倍数，则a+b，a-b 也都为X 的倍数。",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_4932bdd63b84",
+  "teacher_id": "teacher_quant",
+  "title": "例题 6（2024 四川事业单位）",
+  "source_exam": "【协作组】25下半年-数量第三讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "从 0、3、5、7 这四个数字中任意选出三个，组成能同时被2、3、5 整除的三位数，这\n样的三位数有多少个？",
+  "options": {
+   "A": "1",
+   "B": "2",
+   "C": "3",
+   "D": "4"
+  },
+  "answer": "B",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】同时被2、5 整除，尾数为0； \n被 3 整除，各数位和为3 的倍数，符合条件的为5、7； \n满足题干条件的三位数为 570、750。",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_6818f071ef53",
+  "teacher_id": "teacher_quant",
+  "title": "例题 7（2021 上海）",
+  "source_exam": "【协作组】25下半年-数量第三讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "公司购买某设备 24 套，现要登记单价，但是数据上没有标注单价，且总价第一位和最\n后一位模糊不清，只看到是☆579△元。则☆可能是几？",
+  "options": {
+   "A": "3",
+   "B": "5",
+   "C": "7",
+   "D": "9"
+  },
+  "answer": "C",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】24=3×8，被3 整除，各数位和能被3 整除，被8 整除末三位能被8 整除； \n24×单价=*579*， 末三位只有为792 时能被8 整除，*＋5＋7+9+2， 要被3 整除， 则*=7\n时成立。",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_d0e470b2142e",
+  "teacher_id": "teacher_quant",
+  "title": "例题 8（2015 黑龙江）",
+  "source_exam": "【协作组】25下半年-数量第三讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "小李某月请了连续5 天的年假， 这5 天的日期数字相乘为7893600， 问他最后一天年假\n的日期是？",
+  "options": {
+   "A": "25 日",
+   "B": "26 日",
+   "C": "27 日",
+   "D": "28 日"
+  },
+  "answer": "B",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】7893600，各数位相加=33，即能被3 整除，不能被9 整除； \n验证选项，26×25×24×23×22，成立。",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_f6347ae03ef4",
+  "teacher_id": "teacher_quant",
+  "title": "例题 9（2022 深圳）",
+  "source_exam": "【协作组】25下半年-数量第三讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "小王从图书馆借了一本书， 书共204 页， 阅读时， 他发现书的前半部分有连续的4 个页\n码被墨水污染，将其余200 个页码加总，其和刚好可以被85 整除，则被污染的4 个页码中\n最小的数是多少？",
+  "options": {
+   "A": "100",
+   "B": "95",
+   "C": "75",
+   "D": "41"
+  },
+  "answer": "D",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】书=污染+剩余，其中剩余的部分页码和可被85 整除； \n总页数页码和=\n1+204\n2 ×204=205×12，可被85 整除； \n则污染部分页码和也可被85 整除，验证选项，D 成立。 \n✎合作完工问题的整体思想： \n \n总工作量/总效率=总工作时间 \n \n    重点题：",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_eb3876cf387b",
+  "teacher_id": "teacher_quant",
+  "title": "例题 10（2021 河南事业单位）",
+  "source_exam": "【协作组】25下半年-数量第三讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "加工一批零件，小刘单独做8 天完成，小赵单独做10 天完成，现由两人共同加工该批\n零件，中途小刘因事请假两天，则两人加工完这批零件共用了多少天？",
+  "options": {
+   "A": "4 天",
+   "B": "5 天",
+   "C": "6 天",
+   "D": "7 天"
+  },
+  "answer": "C",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】总工作量40，刘5，赵4； \n（40-8）÷9=32/9，加上休息的2 天，两人加工完这批零件共用6 天。",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_ca0388340b58",
+  "teacher_id": "teacher_quant",
+  "title": "例题 11（2021 福建事业单位）",
+  "source_exam": "【协作组】25下半年-数量第三讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "甲、 乙两人共同加工一批零件， 甲单独完成需要8 个小时， 乙单独完成需要10 个小时。\n甲、 乙两人在合作了3 小时后， 甲因事中断了一段时间， 但是乙仍在继续工作， 甲回来后两\n人又继续合作了1 个小时完成了任务。 那么在加工完这批零件的过程中， 乙比甲多工作了多\n少小时？",
+  "options": {
+   "A": "1",
+   "B": "1.5",
+   "C": "5",
+   "D": "2.5"
+  },
+  "answer": "A",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】批注 [4]: 总工作量 40 份，有 8 份为小刘休息，小赵自己\n干两天，剩余的都为两人共同合作。 \n假设工作总量为40，甲 5，乙 4； \n40=4t+4×9，解得t=1.",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_06da4d6bfc01",
+  "teacher_id": "teacher_quant",
+  "title": "例题 12（2022 江苏 B）",
+  "source_exam": "【协作组】25下半年-数量第三讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "甲、 乙、 丙三个物流公司合作完成两个仓库K 和 L 的货物搬运任务。已知两个仓库的工\n作量相同，他们先在K 工作2 小时，完成了K 工作量的75%；然后乙、丙先去L 工作，甲留\n在 K 继续工作， 并用3 小时完成了K 的剩余工作量后再去L 工作， 直至任务全部完成。甲在\nL 工作的总时间为多少？",
+  "options": {
+   "A": "20 分钟",
+   "B": "30 分钟",
+   "C": "40 分钟",
+   "D": "50 分钟"
+  },
+  "answer": "A",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】假设 K、L 工作总量都为1，则总工作量=1+1=2； \n2（甲+乙+丙）=0.75=3/4，则甲+乙+丙=3/8 \n 总工作时间=\n2\n3/8=16/3=5 小时20 分，甲在L 的工作时间=5 小时20 分-2 小时-3 小时=20\n分钟。",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_2052fb1ac73a",
+  "teacher_id": "teacher_quant",
+  "title": "例题 13（2022 四川）",
+  "source_exam": "【协作组】25下半年-数量第三讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "工厂甲、乙、丙3 条生产线共同完成一项任务，甲、丙先合作两天，完成了全部任务的\n1\n3，接着乙、丙合作两天完成剩下任务的 45%，最后甲、乙合作两天恰好完成剩余任务。问\n甲完成的部分占全部任务的多少？",
+  "options": {
+   "A": "4\n15",
+   "B": "1\n3",
+   "C": "2\n5",
+   "D": "3\n5"
+  },
+  "answer": "C",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】批注 [5]: 三人同时开始干活， 同时结束工作， 没有人休息。 \n    \n \n甲\n全部=1-2（2 乙+2 丙）=0.4，对应C 选项。",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_e003bf0e0774",
+  "teacher_id": "teacher_quant",
+  "title": "例题 1（2022 联考）",
+  "source_exam": "【协作组】25下半年-数量第八讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "某地的一种特色纪念品在旅游旺季十分畅销， 有商家发现， 进价为每个40 元的纪念品，\n当售价定为44 元时， 每天可售出300 个， 售价每上涨1 元， 每天销量减少10 个。 现商家决\n定提价销售，若要使销售利润达到最大，则售价应为多少？",
+  "options": {
+   "A": "51",
+   "B": "52",
+   "C": "54",
+   "D": "57"
+  },
+  "answer": "D",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】利润=单个利润×销量，假设利润为Y,涨价 X 元。根据总利润=单个利润×销  \n量可列方程：Y=（4+X）×（300-10X）。当Y=0 时，X1=-4，X2=30，\n132\n430\n2\nXXX 21 =−=+=\n时，Y 取最大值，此时售价为 44+13=57 元。",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_75776ac3cbf5",
+  "teacher_id": "teacher_quant",
+  "title": "例题 2（2020 江苏）",
+  "source_exam": "【协作组】25下半年-数量第八讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "某商品的进货单价为80 元，销售单价为100 元，每天可售出120 件。已知销售单价每\n降低 1 元，每天可多售出20 件。若要实现该商品的销售利润最大化，则销售单价应降低的\n金额是多少？",
+  "options": {
+   "A": "5 元",
+   "B": "6 元",
+   "C": "7 元",
+   "D": "8 元"
+  },
+  "answer": "C",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】假设降价X 元， 利润为Y=（20-X）（120+20X） ， 解得 X1=20，X2=-6,X=\n2\n620 −\n=7 元。",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_577cb153172f",
+  "teacher_id": "teacher_quant",
+  "title": "例题 3（2023 四川事业单位）",
+  "source_exam": "【协作组】25下半年-数量第八讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "某电脑制造厂商生产销售一批电脑。每台电脑成本价格为 4499 元，销售价格为 5699\n元。某单位计划以销售原价购买20 台电脑，在此基础上，若销售价格每降低100 元，就多\n购买 2 台。则该电脑制造厂商可在该笔交易中可获得的最大利润为多少元？",
+  "options": {
+   "A": "24200",
+   "B": "24000",
+   "C": "36000",
+   "D": "31200"
+  },
+  "answer": "A",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】根据题意可得降价前每台电脑的利润为 1200 元，设利润为 Y 元，降\n价 100 元降了 X 次，可列方程为： \n \n12\n1012X10X12XX220X1001200Y 21 =−=−==+−= ，则，），）（（ ，此\n时 Y=1100×22=24200 元。",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_06e8e6e453bf",
+  "teacher_id": "teacher_quant",
+  "title": "例题 4（2024 山东）",
+  "source_exam": "【协作组】25下半年-数量第八讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "某线上店铺将进货单价为8 元的商品按每件10 元出售，每天可销售100 件。店铺计划\n提高售价增加利润，若每件商品售价提高1 元，每天销售量就要减少10 件，为保证每天至\n少获利350 元，问该商品售价应为多少？",
+  "options": {
+   "A": "不到13 元",
+   "B": "13～15 元之间",
+   "C": "15～17 元之间",
+   "D": "17 元以上"
+  },
+  "answer": "B",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】只需把最高值算出来，获利350 元一定在最值附近 （一左一右）， 如\n下图所示： \n \n总利润 Y=（2+X）（100-10X） ， 解得X1=-2,X2=10,\n42\n8X == 。 代入发现， 获利最多360\n\n元，此时售价为 14 元，故选项范围应该包含 14，定位到 B 选项。",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_1c2421017b08",
+  "teacher_id": "teacher_quant",
+  "title": "例题 5（2022 安徽）",
+  "source_exam": "【协作组】25下半年-数量第八讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "北京冬奥会期间，冬奥会吉祥物 “冰墩墩”纪念品十分畅销。销售期间某商家发现，进\n价为每个40 元的“冰墩墩”，当售价定为44 元时，每天可售出300 个，售价每上涨1 元，\n每天销量减少10 个。现商家决定提价销售，若要使销售利润达到最大，则售价应为多少？",
+  "options": {
+   "A": "51 元",
+   "B": "52 元",
+   "C": "54 元",
+   "D": "57 元"
+  },
+  "answer": "D",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】利润=单个利润×销量，假设利润为 Y,涨价 X 元。根据总利润=单个利\n润×销  \n量 可 列 方 程 ： Y= （ 4+X ） × （ 300-10X ） 。 当 Y=0 时， X1=-4 ， X2=30 ，\n132\n430\n2\nXXX 21 =−=+=\n时，Y 取最大值，此时售价为 44+13=57 元。 \n \n✎增长率相关： \n2\n21\n2121\n2121\nR1\nRRR\nRRRRR\nRRRRR\nA\nXR\n+\n−=\n++=\n++=\n=\n比值\n乘积\n间隔",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_15dca495f75e",
+  "teacher_id": "teacher_quant",
+  "title": "例题 6（2023 辽宁）",
+  "source_exam": "【协作组】25下半年-数量第八讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "某高校今年共有231 名本科毕业生被录取为硕士研究生。其中推荐录取人数比上年度减\n少\n1\n6，而考试录取人数比上年度增加\n31\n150，总体录取人数比上年度高10%，那么，这所高校今\n年推荐录取的研究生人数为多少？",
+  "options": {
+   "A": "40 人",
+   "B": "45 人",
+   "C": "50 人",
+   "D": "55 人"
+  },
+  "answer": "C",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】本题考察倍数特性，可以利用 415 思想。根据题意列表如下： \n批注 [1]: 分数非常大，没法再约分，所以直接赋值去年考\n试录取 150 人。 \n 去年 今年 \n推荐 60 231-181=50 \n考上 150 181 \n直接定位到 C 选项。",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_f46c427489e6",
+  "teacher_id": "teacher_quant",
+  "title": "例题 7（2023 黑龙江）",
+  "source_exam": "【协作组】25下半年-数量第八讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "某口罩生产车间一月份生产口罩 100 万包，以后每个月都比前一个月按相同增长率增\n长，四月份生产口罩133.1 万包，这个增长率是多少？",
+  "options": {
+   "A": "10%",
+   "B": "8%",
+   "C": "6%",
+   "D": "5%"
+  },
+  "answer": "A",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】方法一：年均增长率。 \n3R1331.1100\n1.133 ）（基期\n现期 +===\n，代入 R=10%，A 选项当选。 \n方法二：间隔增长率。 \n1 月到 4 月总共涨了 33.1%，设增长率为 10%如下图所示： \n \n则 1 到 3 月的增长率为 10%+10%+1%=21%；1 到 4 月的增长率为 21%+10%+2.1%=33.1%，\nA 选项当选。",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_e68594427002",
+  "teacher_id": "teacher_quant",
+  "title": "例题 8（2024 联考）",
+  "source_exam": "【协作组】25下半年-数量第八讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "某商家购进一批商品， 每件成本为27 元， 最初将商品定价为每件40 元， 该商家经过百\n分率相等的连续两次降价后， 每件商品的利润率不超过20%。问每次降价的百分率至少是多\n少？",
+  "options": {
+   "A": "20%",
+   "B": "15%",
+   "C": "10%",
+   "D": "5%"
+  },
+  "answer": "C",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】根据题意可列方程：40（1-R）（1-R）=32.4，\n%8140\n4.32R1 2 ==− ）（ ，\n则 R=10%，定位到 C 选项。",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_ce9cca6612f8",
+  "teacher_id": "teacher_quant",
+  "title": "例题 10（2023 深圳）",
+  "source_exam": "【协作组】25下半年-数量第八讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "有甲、乙两种咖啡豆，按照质量比a：b 相混合制成一种拼配豆，已知甲咖啡豆每公斤\n60 元，乙咖啡豆每公斤80 元，现因产量变化，甲咖啡豆单价上涨15%，乙咖啡豆单价下降\n15%，以致该拼配咖啡豆的成本上调了5%，则 a∶b 为多少？",
+  "options": {
+   "A": "1∶1",
+   "B": "5∶3",
+   "C": "8∶3",
+   "D": "2∶1"
+  },
+  "answer": "C",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】利用盐水思想求出变化前甲成本：变化前乙成本=2:1，如下图所示： \n批注 [4]: 当利润率为 20%时，定价为 27（1+20%）\n=27+5.4=32.4 元 \n批注 [5]: A 产品收入=A 产品销量×A 产品价格； \n根据乘积增长率公式，价格不变销量下降 30%，则 A 产品\n收入下降 30% \n批注 [6]: 注意问法，求的是基期量之比。本题转化成已知\n3R 求基期量之比。 \n批注 [7]: 甲成本=甲质量×甲单价，甲质量没有变化，甲\n单价上涨 15%，则甲成本上涨 15%； \n同理，乙成本下降 15% \n批注 [8]: 甲成本上涨 15%；乙成本下降 15%，总成本上涨\n5%； \n则用盐水求出来的量之比是甲基期成本：乙基期成本 \n \n由成本=质量×单价，则\n3:880\n1\n60\n2ba ==== ：单价\n成本：质量 。",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_ffc8af05c452",
+  "teacher_id": "teacher_quant",
+  "title": "例题 11（2023 山东）",
+  "source_exam": "【协作组】25下半年-数量第八讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "某企业花费 3456 万元改造了一条自动化生产线，单位产品人工成本降低了50%，非人\n工成本降低了10%， 单日产量扩大了一倍， 已知改造前的单位产品人工成本是非人工成本的\n3 倍， 改造后每天的人工成本比非人工成本高3.6 万元。问多少天后新生产线降低的成本可\n与花费的改造成本相抵？",
+  "options": {
+   "A": "480",
+   "B": "300",
+   "C": "360",
+   "D": "540"
+  },
+  "answer": "C",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】根据题意列表： \n 人工成本 非人工 产量 \n改造前 3X X 1 \n改造后 1.5X 0.9X 2 \n根据题意可列方程为 3X-1.8X=3.6，解得 X=3。 \n原来生产一件 4X 的成本，现在生产一件 2.4X 的成本，生产一件可以省 1.6X。 \n现在一天能生产两件，节省2×1.6X=9.6 万元。 \n3456÷9.6=360 天，定位到C 选项。",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_30e97f3255ef",
+  "teacher_id": "teacher_quant",
+  "title": "例题 1（2023 安徽）",
+  "source_exam": "【协作组】25下半年-数量第九讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "某小区物业准备了 230 盒口罩免费派发给 10 栋楼，要求任意两栋楼派发的口罩数量都不相同，但最\n多相差不超过1 倍。假设口罩不拆盒发放，那么派发口罩数量最少的那栋楼最少可派发多少口罩？",
+  "options": {
+   "A": "18 盒",
+   "B": "15 盒",
+   "C": "14 盒",
+   "D": "12 盒"
+  },
+  "answer": "C",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】问最少，其他楼栋应该尽量多。设派发口罩数量最少的那栋楼派发了x 盒，则派发口罩\n数量最多的那栋楼至多派发了 2x 盒，“第二多、第三多…”可依次表示为“2x-1、2x-2…2x-8”。 \n可列等式为：2x+2x-1+2x-2+…+2x-8+x=230，求得 x=14，C 选项当选。",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_ff9b8558732a",
+  "teacher_id": "teacher_quant",
+  "title": "例题 3（2022 上海）",
+  "source_exam": "【协作组】25下半年-数量第九讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "某单位进行了一次绩效考评打分，满分为 100 分。有 5 位员工的平均分为 90 分，而且他们的分数各\n不相同，其中分数最低的员工得分为77 分，那么排第二名的员工至少得多少分？（员工分数取整数）",
+  "options": {
+   "A": "90",
+   "B": "92",
+   "C": "94",
+   "D": "96"
+  },
+  "answer": "B",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】设排第二名的员工至少得x 分，第二名得分尽量少，那么其他人得分应该尽量多。则第\n一名得分可为满分 100，第三名得分设为 x-1，第四名得分应为 x-2。 \n可列等式为：100+x+x-1+x-2+77=450，求得 x=92，B 选项当选。",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_9b215eda9163",
+  "teacher_id": "teacher_quant",
+  "title": "例题 4（2021 上海）",
+  "source_exam": "【协作组】25下半年-数量第九讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "有一座13.2 万人口的城市， 需要划分为11 个投票区，任何一个区的人口不得超过其他区人口的10%，\n那么人口最少的地区可能有多少人？",
+  "options": {
+   "A": "9800",
+   "B": "10500",
+   "C": "10700",
+   "D": "11000"
+  },
+  "answer": "D",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】设人口最少的地区有 x 人，x 尽量少，其他地区应尽量多，则设其他地区均有 x＋0.1x\n人。 \n可列等式为：10*1.1x+x=13.2， 求得 x=1.1， 人口最少时该地区人数为 1.1 万， 故 ABC 一定不成立，\nD 选项当选。",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_66d980b75945",
+  "teacher_id": "teacher_quant",
+  "title": "例题 5（2019 江西法检）",
+  "source_exam": "【协作组】25下半年-数量第九讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "某高校计划招聘 81 名博士,拟分配到 13 个不同的院系,假定院系 A 分得的博士人数比其他院系都多,\n那么院系A 分得的博士人数至少有多少名？",
+  "options": {
+   "A": "6",
+   "B": "7",
+   "C": "8",
+   "D": "9"
+  },
+  "answer": "C",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】设院系 A（第一名）分得的博士人数至少有 x 名，第一名尽量少，其他院系应该尽量\n大，则设其他院系分得的博士人数为 x-1，列等式为：x+12（x-1）=81，求得 x=7+，向上取整取 8，C\n选项当选。",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_1ee86258f2b8",
+  "teacher_id": "teacher_quant",
+  "title": "例题 6（2023 浙江事业单位）",
+  "source_exam": "【协作组】25下半年-数量第九讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "总公司选派110 多名员工到 5 家分公司进行基层锻炼，每个分公司分到的人数均不同。已知选派人数\n第二多的分公司人数比第四多的多10 人，选派人数最多的分公司的人数占总选派人数的\n1\n3，但未超过最少\n人数的3 倍。那么选派人数最少的分公司的选派人数至多可能是多少人？",
+  "options": {
+   "A": "13",
+   "B": "14",
+   "C": "15",
+   "D": "16"
+  },
+  "answer": "D",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】设最后一名最多能是 x 人，问最后一名最多能是多少，所以其他应该尽量小！因为问\n“最后一名最多能是多少”，所以总人数也应该尽量多，总人数应为 117，第一名为 117÷3=39，可以设\n第四名为 x+1 人、第三名为 x+2 人、第二名为 x+11 人。 \n1 2 3 4 5 \n39 X+11 X+2 X+1 X \n \n可列等式为：39+x+11+x+2+x+1+x=117，求得 x=16，D 选项当选。 \n \n \n \n✎最不利极限题： \n \n常见问法：至少……才能保证…… \n解题思路：找到最不利（最点背）情况＋1",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_204d3221d46b",
+  "teacher_id": "teacher_quant",
+  "title": "例题 7（2023 山东）",
+  "source_exam": "【协作组】25下半年-数量第九讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "批注 [3]: 题干没表明各不相同，则其他院系可以并列最小 \n批注 [4]: 最少分得 7 点几个人，向上取整。 \n批注 [5]: 总人数应该是 3 的倍数，可能为 111、114、117. \n批注 [6]: 第二比第四多 10 人。 \n \n \n \n \n \n \n关注“L 老师”公众号，每日图推、类比、速算等 \n第 4 页 \n一个袋子里装了50 个苹果，5 个香蕉，30 个橘子和50 个梨，若每次从袋子里随机取出1 个水果，问\n至少需要取多少次能肯定拿出10 个相同种类的水果？",
+  "options": {
+   "A": "10",
+   "B": "35",
+   "C": "33",
+   "D": "32"
+  },
+  "answer": "C",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】最不利情况：前32 次拿出 9 个苹果、5 个香蕉、9 个橘子、9 个梨，则只需要再任意拿\n出来一个即可满足 10 个相同水果，即最不利情况+1=33，C 选项当选。",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_d38f115be2b5",
+  "teacher_id": "teacher_quant",
+  "title": "例题 8（2022 河北）",
+  "source_exam": "【协作组】25下半年-数量第九讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "有 200 人参加招聘会，其中法学70 人，经济学60 人，工业设计50 人，统计学20 人，至少有多少人\n找到工作才能保证一定有50 人的专业相同？",
+  "options": {
+   "A": "167",
+   "B": "168",
+   "C": "170",
+   "D": "175"
+  },
+  "answer": "B",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】最不利情况：招了 167 个人分别是 49 个法学、49 个经济学、49 个工业设计、20 个统\n计学，则再招一个任意专业的即可满足 50 个同专业，即最不利情况+1=168，B 选项当选。",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_6e10c831e923",
+  "teacher_id": "teacher_quant",
+  "title": "例题 9（2021 河北）",
+  "source_exam": "【协作组】25下半年-数量第九讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "某草莓经销商有201 箱的草莓要分配给若干个水果店，要求无论选用怎样的分配方式，都要有水果店\n至少分到8 箱，则水果店至多有多少个？",
+  "options": {
+   "A": "20 个",
+   "B": "21 个",
+   "C": "28 个",
+   "D": "29 个"
+  },
+  "answer": "C",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】最不利情况：所有水果店都分到7 箱，用201÷7=28 余 5，这5 箱任意分都满足有水果\n店分到 8 箱，则 28 个水果店时就满足，也是至多的情况，C 选项当选。",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_3741d4f14a42",
+  "teacher_id": "teacher_quant",
+  "title": "例题 11（2023 浙江）",
+  "source_exam": "【协作组】25下半年-数量第九讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "某部门举行年会抽奖活动。抽奖箱里有80 个抽奖券，共20 个不同的数字，每个数字均出现4 次，且\n分别对应一份礼品， 不同的数字对应的礼品不同。每人当天限抽1 次。那么最少多少人当天参加抽奖活动，\n才能保证至少有3 人领取的礼品相同？",
+  "options": {
+   "A": "41",
+   "B": "42",
+   "C": "61",
+   "D": "62"
+  },
+  "answer": "A",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】2*20（20 个不同的数字均有 2 人抽到）+1=41，A 选项当选。 \n \n✎反向构造： \n \n容斥里的最值问题 \n反着去想",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_ce2dc3049320",
+  "teacher_id": "teacher_quant",
+  "title": "例题 12（2022 江苏）",
+  "source_exam": "【协作组】25下半年-数量第九讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "某机构对全运会收视情况进行调查， 在1000 名受访者中， 观看过乒乓球比赛的占87%， 观看过跳水比\n赛的占75%， 观看过田径比赛的占69%。这1000 名受访者中， 乒乓球、 跳水和田径比赛都观看过的至少有：",
+  "options": {
+   "A": "310 人",
+   "B": "440 人",
+   "C": "620 人",
+   "D": "690 人"
+  },
+  "answer": "A",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】都看过的尽量少，即没看过的尽量多。没看过乒乓球、跳水和田径比赛的人数最多依次 \n批注 [8]: 当这 23 人都和 18 到 69 中间任意一个年龄相同\n时，同龄人数最少 \n \n \n \n \n \n \n关注“L 老师”公众号，每日图推、类比、速算等 \n第 6 页 \n为 130、250、310,三项均看过的人数至少为 1000-（130+230+310）=310，A 选项当选。",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_da5066c42ba9",
+  "teacher_id": "teacher_quant",
+  "title": "例题 13（2021 广东）",
+  "source_exam": "【协作组】25下半年-数量第九讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "某 单 位 在 网 上 办 公 系 统 传 阅 了15 份 文 件 ，甲 阅 读 了9 份 ，乙 阅 读 了12 份 ，丙 阅 读 了10 份 ，则\n甲 、 乙 、 丙 三 人 共 同 阅 读 过 的 文 件至少 有 多 少 份 ？",
+  "options": {
+   "A": "0",
+   "B": "1",
+   "C": "2",
+   "D": "3"
+  },
+  "answer": "B",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】三人共同阅读过的文件尽量少，即没共同阅读过的尽量多。甲、乙、丙三人没阅读过的\n文件最多依次为 6、3、5，那么三人共同阅读过的文件至少为 15-（6+3+5）=1，B 选项当选。",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_0e1fb7a665ff",
+  "teacher_id": "teacher_quant",
+  "title": "例题1（2022 江苏）",
+  "source_exam": "【协作组】25下半年-数量第十讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "某学者认为，人类的体力、情绪、智力自出生日起分别以22 天、28 天、33 天为周期开始往复循环变\n化， 前半个周期是 “高潮期” ， 后半个周期是 “低潮期” 。 根据该学者的观点， 我们过公历生日时， 体力、\n情绪和智力同时处于“高潮期”的最小年龄是多少？",
+  "options": {
+   "A": "4 周岁",
+   "B": "3 周岁",
+   "C": "2 周岁",
+   "D": "1 周岁"
+  },
+  "answer": "C",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】代入法，从最小的D 选项 1 周岁进行判断：365÷22=16 余 13，22 的前半周期为 11，13\n在 22 的后半周期，所以排除 D 项。 \n然后再对次小的 C 选项 2 周岁进行判断：730（365×2）÷22=余 4，为 22 的前半周期；730÷28=26\n余 2，为 28 的前半周期；730÷33=22 余 4，为 33 的前半周期，符合题干要求，答案为 C 选项。 \nTip：题干未明确一年天数时，一般默认为 365 天。",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_af0e397ee569",
+  "teacher_id": "teacher_quant",
+  "title": "例题2（2022 河北）",
+  "source_exam": "【协作组】25下半年-数量第十讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "两个信号灯分别以 30 秒和 36 秒的固定间隔闪亮一次，若他们10 点第一次同时闪亮，则第七次同时\n闪亮的时间为多少？",
+  "options": {
+   "A": "10:15",
+   "B": "10:16",
+   "C": "10:18",
+   "D": "10:21"
+  },
+  "answer": "C",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】30 和 36 的最小公倍数是 180，10 点是第一次，所以再亮六次即为第七次闪亮的时间。\n180×6÷60=18，第 7 次闪亮的时间为 10：18，答案为 C 选项。 \n \n \n \n \n \n \n关注“L 老师”公众号，每日图推、类比、速算等 \n第 2 页",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_798016c79bc1",
+  "teacher_id": "teacher_quant",
+  "title": "例题3（2023 上海）",
+  "source_exam": "【协作组】25下半年-数量第十讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "某班有48 位同学，教室里有6 排，每排8 个座位。若在每个周一早上班里同学按照如下要求换座位：\n①第一排同学换到最后一排，其他每排同学向前换一排；②最左边一列的同学换到最右边一列，其他每列\n同学向左换一列。那么坐在第一排最左边的同学经过多少周后首次回到第一排最左边？",
+  "options": {
+   "A": "12 周",
+   "B": "24 周",
+   "C": "36 周",
+   "D": "48 周"
+  },
+  "answer": "B",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】换排周期为 6，换列周期为 8，6 和 8 的最小公倍数为 24，答案为 B 选项。 \n \n✎日期星期问题： \n平年365 天，闰年 366 天（可被4 整除的年份为闰年）。 \n        平年 52 周余 1 天，闰年52 周余 2 天。 \n例：2025 年8 月12 号为周二，则明年 2026 年8 月12 号为周三，往后推一天。 \n \n先粗算，再修正，加上日期差。 \n例：2024 年 1 月 18 日是周三，2024 年 5 月 25 日是周几。 \n粗算：1 到 5 月有 4 个月，4×30=120 \n        修正：1 月、3 月有 31 天，2 月为闰年有 29 天，120+2-1=121 \n加上日期差：25-18=7，即 121+7=128 \n        128÷7=18 余 2，即往后推 2 天，为周五",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_f8242423d0ef",
+  "teacher_id": "teacher_quant",
+  "title": "例题4（2022 青海）",
+  "source_exam": "【协作组】25下半年-数量第十讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "2021 年7 月1 日是中国共产党建党100 周年的纪念日， 这一天是星期四， 那么建党110 周年纪念日是？",
+  "options": {
+   "A": "星期一",
+   "B": "星期二",
+   "C": "星期三",
+   "D": "星期四"
+  },
+  "answer": "B",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】10 年都按平年算是往后推 10 天，但其中 2024 年和 2028 年是闰年，还要再加 2 天，因\n此是总共往后推 12 天。12÷7 余 5，即余-2，周四向前推 2 天为星期二，答案为 B 选项。",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_b60bbc0f4458",
+  "teacher_id": "teacher_quant",
+  "title": "例题5（2024 事业单位联考）",
+  "source_exam": "【协作组】25下半年-数量第十讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "某大学学生会发起了一项“给未来的自己的一封信”的活动，提议大一新生在2023 年 3 月 1 日星期\n三这天写下对大学生活的期待和目标，并且由班主任保管，约定在3 年后的这天交还给学生，则3 年后的\n3 月 1 日是哪天？ \n \n \n \n \n \n \n关注“L 老师”公众号，每日图推、类比、速算等 \n第 3 页",
+  "options": {
+   "A": "星期四",
+   "B": "星期五",
+   "C": "星期六",
+   "D": "星期日"
+  },
+  "answer": "D",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】3 年都按平年算往后推 3 天， 其中2024 年为闰年加 1 天， 因此共需往后推4 天， 周三往\n后推 4 天为周日，答案为 D 选项。",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_de4d2686bb4f",
+  "teacher_id": "teacher_quant",
+  "title": "例题6（2021 新疆）",
+  "source_exam": "【协作组】25下半年-数量第十讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "已知2021 年7 月1 日星期四，那么2021 年 12 月10 日是星期几？",
+  "options": {
+   "A": "星期二",
+   "B": "星期三",
+   "C": "星期四",
+   "D": "星期五"
+  },
+  "answer": "D",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】先粗算，再修正，加上日期差。5×30+3+9=162，即相差 162 天。162÷7=23 余 1，即需\n往后推 1 天为周五，答案为 D 选项。",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_92210138e715",
+  "teacher_id": "teacher_quant",
+  "title": "例题7（2021 新疆）",
+  "source_exam": "【协作组】25下半年-数量第十讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "甲、乙、丙三人都报名去摄影馆学习摄影技术，甲每隔4 天去一次，乙每隔5 天去一次，丙每隔6 天\n去一次，三人在星期四第一次相遇，下次相遇的日期为？",
+  "options": {
+   "A": "星期一",
+   "B": "星期三",
+   "C": "星期四",
+   "D": "星期五"
+  },
+  "answer": "C",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】每隔 4 天即为每 5 天，每隔 5 天即为每 6 天，每隔 6 天即为每 7 天，5、6、7 的最小公\n倍数为 210。210 为 7 的整数倍，所以下次相遇仍为周四，答案为 C 选项。",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_ff6b98642368",
+  "teacher_id": "teacher_quant",
+  "title": "例题8（2021 黑龙江）",
+  "source_exam": "【协作组】25下半年-数量第十讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "甲乙丙三个志愿者共同照顾李奶奶，甲每4 天去一次，乙每5 天去一次，丙每6 天去一次。如果他们\n三个于5 月5 日在李奶奶家同时见面，则他们三人下次在李奶奶家同时见面的时间是？",
+  "options": {
+   "A": "7 月4 日",
+   "B": "7 月5 日",
+   "C": "9 月 1 日",
+   "D": "9 月2 日"
+  },
+  "answer": "A",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】4、5、6 的最小公倍数为 60，5 月 5 号到 7 月 5 号之间是 30×2+1=61 天， 因此需要向前\n推一天即为 7 月 4 日，答案为 A 选项。 \n \n \n \n \n \n \n \n关注“L 老师”公众号，每日图推、类比、速算等 \n第 4 页 \n✎利用“唯一性”确定星期日期： \n例：花生老师每周一到周四上晚课，8 月花生老师上了19 节晚课，问 8 月1 号是周几 \n        8 月有 4 个整周余 3 天，每个整周上 4 节课，即四个整周上了 4×4=16 节课。 \n总共 19 节课，所以多余 3 天每天都要上课。 \n问的是 8 月 1 号，所以把整周放在后面，多余 3 天放在前面。 \n有两种组合，123 和 234。 \n        所以 8 月 1 号可能为周一或周二",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_5260fcf9bca5",
+  "teacher_id": "teacher_quant",
+  "title": "例题9（2025 国考）",
+  "source_exam": "【协作组】25下半年-数量第十讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "某门店星期一至星期五的日营业额均为1 万元，星期六和星期日的日营业额均为2 万元。某月 1～16\n日的总营业额为22 万元，问该月8 日为？",
+  "options": {
+   "A": "星期三",
+   "B": "星期四",
+   "C": "星期五",
+   "D": "星期六"
+  },
+  "answer": "D",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】一个整周营业额为 9 万元，1 到 16 号有两个整周余 2 天。总营业额为 22 万元，两个整\n周营业额为 18 万元，因此多余两天营业额为 4 万元，因此多余两天只能为周六日。 \n \n所以8 日应为周六，答案为D 选项。 \n \n\n \n \n \n \n \n \n关注“L 老师”公众号，每日图推、类比、速算等 \n第 5 页",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_17fb52c28665",
+  "teacher_id": "teacher_quant",
+  "title": "例题10（2024 事业编联考）",
+  "source_exam": "【协作组】25下半年-数量第十讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "网管员小王每隔一周的周一、周三、周五对机房进行检修，某年 7 月 31 日，小王进行了当月第 7 次\n机房检修。问当年7 月 1 日是星期几？",
+  "options": {
+   "A": "星期一",
+   "B": "星期三",
+   "C": "星期四",
+   "D": "星期六"
+  },
+  "answer": "D",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】一周检修 3 次，每隔一周进行检修，7 月为四周余 3 天，四个整周检修了 3×=6 次，总\n共检修了 7 次，所以多余的三天中要检修一次且最后一次检修为7 月 31 日，则只能为组合 6、7、1，所以\n7 月 1 日为周六，答案为 D 选项。",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_380f0486db35",
+  "teacher_id": "teacher_quant",
+  "title": "例题11（2023 深圳）",
+  "source_exam": "【协作组】25下半年-数量第十讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "博物馆员工周二至周六上班，周日、周一休息。某月有31 天，员工小王工作了22 天，则该月的4 号\n是周几？",
+  "options": {
+   "A": "周一",
+   "B": "周二",
+   "C": "周一或周四",
+   "D": "周四或周日"
+  },
+  "answer": "C",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】某月有 31 天为四周余 3 天，一周工作 5 天，四周工作 4×5=20 天，总共工作 22 天，所\n以多余 3 天工作了 2 天，因此多余 3 天有 2 个组合（123）和（567）。将该三天放在某月开头，所以某月\n4 号为周一或周四，答案为 C 选项。",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_2d69cf4739c7",
+  "teacher_id": "teacher_quant",
+  "title": "例题12（2024 国考行政执法）",
+  "source_exam": "【协作组】25下半年-数量第十讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "小张每周二、周五和周日固定参加骑行社团活动。某年 9 月和 10 月，小张分别参加了13 次和 14 次\n活动。问当年他最后一次参加活动是在哪一天？",
+  "options": {
+   "A": "12 月 28 日",
+   "B": "12 月29 日",
+   "C": "12 月 30 日",
+   "D": "12 月31 日"
+  },
+  "answer": "D",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】一周 3 次活动，四周 12 次活动。 \n9 月四周余 2 天有 13 次活动，10 月四周余 3 天有 14 次活动，因此多余 5 天内要进行 3 次活动，且前\n两天有 1 次活动，后三天有 2 次活动，所以这 5 天组合只能为（56712）。 \n所以当年 9 月 30 日为周六，12 月 31 日为周日，因此该年最后一次活动为 12 月 31 日。 \n（3×30+1+1=92，92÷7 余 1，往后推 1 天为周日） \n \n \n \n \n \n \n关注“L 老师”公众号，每日图推、类比、速算等 \n第 6 页",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_c06b082e3a80",
+  "teacher_id": "teacher_quant",
+  "title": "例题13（2024 事业单位联考）",
+  "source_exam": "【协作组】25下半年-数量第十讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "刚刚过去的4 月份共有5 个周六和5 个周日。据此推算，谷雨（4 月 20 日）是哪天？",
+  "options": {
+   "A": "周五",
+   "B": "周四",
+   "C": "周三",
+   "D": "周二"
+  },
+  "answer": "B",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】4 月有 4 周余 2 天， 因为4 月 20 日在月中， 所以多余两天放在中间， 即4.1 到 4.21 为三\n个整周，4.24 到 4.30 为一个整周，4.22 和 4.23 为多余两天。 \n四个整周有 4 个周六日，总共有 5 个周六日，所以多余两天为周六日，即 4.22 为周六，则 4.20 向前\n推两天为周四，答案为 B 选项。 \n \n  \n\n \n \n \n \n \n \n关注“L 老师”公众号，每日图推、类比、速算等 \n第 7 页",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_b11162f23749",
+  "teacher_id": "teacher_quant",
+  "title": "例题 5（2022 国考）",
+  "source_exam": "【协作组】25下半年-数量第十一讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "甲地在丙地正西 17 千米，乙地在丙地正北 8 千米。张从甲地、李从乙地同时出发，分别向正东和正\n南方向匀速行走。两人速度均为整数千米/小时，且1 小时后两人的直线距离为13 千米，又经过3 小时后\n两人均经过了丙地且直线距离为5 千米。已知李的速度是张的60%，则张经过丙地的时间比李？",
+  "options": {
+   "A": "早不到10 分钟",
+   "B": "早10 分钟以上",
+   "C": "晚不到10 分钟",
+   "D": "晚10 分钟以上"
+  },
+  "answer": "D",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】根据题干作图：\n \n由题， 直角三角形斜边为13， 由常见勾股数， 可知另外两条边为5km 和 12km，则1 小时后， 张走了5km，\n李走了 3km，因李的速度是张的 60%，张李速度之比为 5:3，刚好符合二人走过的路程，故张和李的速度\n为 5km/h 和 3km/h； \n则张经过丙地需 17/5＝3.4 小时，李经过丙地需 8/3≈2.6 小时，张比李用时晚 10 分钟以上，选择 D。 \n     \n \n \n \n \n \n \n批注 [2]: ∠BAD＋∠ABD＝90°，∠BAD＋∠BCD＝90°，\n所以∠ABD＝∠BCD，且两个三角形都有直角，三个角均\n相等，为相似三角形。 \n \n \n \n \n \n \n \n关注“L 老师”公众号，每日图推、类比、速算等 \n第 9 页",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_32026d4e3826",
+  "teacher_id": "teacher_quant",
+  "title": "例题 12（2023 浙江）",
+  "source_exam": "【协作组】25下半年-数量第十一讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "一只闹钟的秒针顶点距离表盘圆心4 厘米， 分针顶点距离表盘圆心3 厘米。 小王烧开一壶水的时间内，\n秒针顶点累计移动了40π 厘米。那么这一时间段内，分针顶点与表盘圆心的连线扫过的扇形面积为多少平\n方厘米？",
+  "options": {
+   "A": "0.5π",
+   "B": "0.75π",
+   "C": "π",
+   "D": "1.5π"
+  },
+  "answer": "B",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】如图，秒针走过一圈的长度为2πr＝8π，则40π就是走了 5 圈，即5 分钟；求分针扫\n过的扇形面积，先看分针扫过一圈的面积为πr²＝9π，走过一圈耗时60 分钟，现在过了5 分钟，即过了\n1\n12小时，分针扫过的面积为 9π×\n1\n12＝0.75π，选择 B。 \n\n \n \n \n \n \n \n关注“L 老师”公众号，每日图推、类比、速算等 \n第 15 页",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_a932043f22fe",
+  "teacher_id": "teacher_quant",
+  "title": "例题1（2022 国考）",
+  "source_exam": "【协作组】25下半年-数量第十二讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "一个圆柱体零件的高为1，其圆形底面上的内接正方形边长正好也为1。现将圆柱体零件切割4 次，得\n到棱长为1 的正方体，则切去部分的总表面积为多少？",
+  "options": {
+   "A": "√2(π + 2)",
+   "B": "2√2(π − 2)",
+   "C": "(√2 + 1)π + 2",
+   "D": "2√2π − 2"
+  },
+  "answer": "C",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】总表面积=2 个圆形-2 个正方形+圆柱侧面+4 个正方形，其中圆形的直径=√2，面积=\nπ\n2，周长=√2π，则圆柱\n侧面积=√2π；正方形边长为1，面积=1；所以总面积=π-2+√2π+4=(√2 + 1)π + 2， 答案为C 选项。",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_9a36fcce09e4",
+  "teacher_id": "teacher_quant",
+  "title": "例题8（2021 国考）",
+  "source_exam": "【协作组】25下半年-数量第十二讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "一个人工湖的湖面上有一个露出水面3 米的圆锥体人工景观（底面朝下）。如人工湖水深减少 20%，则\n该景观露出水面部分的体积将增加61/64。问原来的人工湖水深为多少米？",
+  "options": {
+   "A": "3.5",
+   "B": "3.75",
+   "C": "4.25",
+   "D": "4.5"
+  },
+  "answer": "B",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】增加\n61\n64，则前后圆锥体积之比为 1：\n125\n64 ，所以前后圆锥高之比为 1：\n5\n4，之前圆锥高为 3m，则现在圆锥高增\n加了 3×\n1\n4 =\n3\n4 𝑚，所以人工湖原先深度=\n3\n4÷20%=0.75×5=3.75m，答案为 B 选项。 \n \n \n\n✎几何最值： \n \n矩形的周长一定，正方形面积最大 \n矩形的面积一定，正方形的周长最短 \n面积一定，越接近球，体积越大 \n体积一定，越接近球，面积越小",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_7ed7e3f8a78f",
+  "teacher_id": "teacher_quant",
+  "title": "例题9（2024 联考）",
+  "source_exam": "【协作组】25下半年-数量第十二讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "某公园绿化管理部门采购 100 片围栏，每片长 1 米且不可弯折。现拆分拟围成 5 块周长相等且互不相\n邻的矩形花卉区域。若不考虑拼接间隙，那么这5 块区域的最大与最小面积最多可相差多少平方米？",
+  "options": {
+   "A": "10",
+   "B": "12",
+   "C": "16",
+   "D": "25"
+  },
+  "answer": "C",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】100 片围栏分成平均五块，则每块 20 片围栏，周长相同，越接近正方形，面积越大，否则面积越小。 \n则最大面积对应边长为 5 的正方形，面积=25 \n最小面积对应边长为 1 和 9 的矩形，面积=9，所以面积差=25-9=16，答案为 C 选项。",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_70f0bce342f1",
+  "teacher_id": "teacher_quant",
+  "title": "例题10（2023 安徽）",
+  "source_exam": "【协作组】25下半年-数量第十二讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "某村拟建造一个容积为 144 立方米，深度为 4 米的长方体无盖蓄水池。为节约成本，侧面积最小为多\n少平方米？",
+  "options": {
+   "A": "24",
+   "B": "36",
+   "C": "96",
+   "D": "132"
+  },
+  "answer": "C",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】体积=144，深度为4，则底面积=\n144\n4 = 36平方米，侧面积最小，则对应底面周长最短，根据面积相同时，越\n接近正方形周长越短推知， 底面应为正方形， 且边长为6m， 则侧面积=6×4×4=96 平方米， 答案为C 选项。",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ },
+ {
+  "question_id": "TEACHER_QUANT_PDF_946b1d7f3651",
+  "teacher_id": "teacher_quant",
+  "title": "例题12（2023 北京）",
+  "source_exam": "【协作组】25下半年-数量第十二讲随堂笔记.pdf",
+  "question_format": "课件原题",
+  "stem": "一个半径为 120 米的圆形人工湖正中有一个半径为60 米的圆形人工岛。甲从岛的正北岸边出发，以1\n米/秒的速度匀速划船前往湖的正南岸边，则最少需要多长时间？",
+  "options": {
+   "A": "不到3 分 45 秒",
+   "B": "3 分 45 秒～4 分之间",
+   "C": "4 分～4 分 15 秒之间",
+   "D": "超过4 分15 秒"
+  },
+  "answer": "B",
+  "teacher_reasoning": "【课件文字提取；公式排版请核对原PDF】过乙作圆的切线可得图中所示直角三角形， 且知斜边=120m， 一直角边=60m， 可推知直角三角形为30°，60°\n直角三角形， 则甲沿圆形人工岛走过了120°， 对应长度=120π×\n1\n3=40πm， 接着走了一个切线长度=60√3m，\n时间=\n40π+60√3\n1 > 40 × 3.1 + 60 × 1.7 = 124 + 102 = 226 = 180 + 46 =3 分钟+46 秒，答案为B 选项",
+  "verification_status": "source_text_verified",
+  "case_kind": "courseware_question",
+  "source": [],
+  "author_teacher": "配套课件，非教师逐字发言",
+  "reasoning_status": "raw_pdf_text_layout_not_fully_verified"
+ }
+]

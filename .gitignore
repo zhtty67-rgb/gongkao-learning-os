@@ -7,7 +7,7 @@ __pycache__/
 work/
 release/
 data/assets/
-teachers/
+# teachers/ 收录方法提炼层（脱敏后），不再忽略
 *.log
 token-plain.txt
 *.token-plain.txt

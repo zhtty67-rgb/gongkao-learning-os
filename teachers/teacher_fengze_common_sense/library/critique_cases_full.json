@@ -1,0 +1,200 @@
+[
+ {
+  "critique_id": "FENGZE_CS_CRITIQUE_001",
+  "lecture_id": "第16讲 科技常识（五）",
+  "lec_id": "L16",
+  "student_misconception": "学员根据旧版讲义误认为元宵节是第一批国家级非物质文化遗产",
+  "teacher_refutation": "冯老师明确指出：春节确实是第一批（2006年），错在元宵节！元宵节是第二批（2008年）。当时备课讲义排版挨着印错了位置，课堂郑重纠错澄清，必须以纠正为准。",
+  "counter_strategy": "死记批次：春节、端午、中秋、七夕、重阳第一批（2006）；元宵第二批（2008）。",
+  "source_doc": "L16_20250806_常识判断16.txt",
+  "quote_verified": true,
+  "source_file": "L16_20250806_常识判断16.txt"
+ },
+ {
+  "critique_id": "FENGZE_CS_CRITIQUE_002",
+  "lecture_id": "第35讲 法律常识·民法（四）",
+  "lec_id": "L35",
+  "student_misconception": "学员误以为买房时买方若违约可以既没收定金又追究违约金",
+  "teacher_refutation": "冯老师澄清：上节课只说了卖方开发商违约二选一，买方违约同样适用二选一规则！定金与违约金双向排他，任何一方都不能同时适用。",
+  "counter_strategy": "民法典第588条：定金与违约金永远只能二选一，绝无同时并用之可能。",
+  "source_doc": "L35_20250915_常识判断35.txt",
+  "quote_verified": true,
+  "source_file": "L35_20250915_常识判断35.txt"
+ },
+ {
+  "critique_id": "FENGZE_CS_CRITIQUE_003",
+  "lecture_id": "第35讲 法律常识·民法（四）",
+  "lec_id": "L35",
+  "student_misconception": "学员误以为偷来的自行车卖给不知情人也能适用善意取得",
+  "teacher_refutation": "冯老师纠偏：偷来的自行车是赃物、遗失物，属于脱手物，法律明确不适用善意取得！上节课讲课举偷车例子是不严谨的，大家要改记为正常自行车的无权处分。",
+  "counter_strategy": "排除法则：赃物、遗失物等脱手物不适用善意取得，所有权人2年内享有返还请求权。",
+  "source_doc": "L35_20250915_常识判断35.txt",
+  "quote_verified": true,
+  "source_file": "L35_20250915_常识判断35.txt"
+ },
+ {
+  "critique_id": "FENGZE_CS_CRITIQUE_004",
+  "lecture_id": "第35讲 法律常识·民法（四）",
+  "lec_id": "L35",
+  "student_misconception": "学员误以为自然人之间借款法律规定一律不能收利息",
+  "teacher_refutation": "冯老师驳斥：上节课嘴瓢说成无论是否约定都没有利息，在此郑重纠偏：前提是‘没有约定利息或约定不明确’，才视为没有利息！如果有明确约定合法利息，按约定执行。",
+  "counter_strategy": "民法典第680条：未约定或约定不明确视为无息；有约定且不超LPR4倍合法保护。",
+  "source_doc": "L35_20250915_常识判断35.txt",
+  "quote_verified": true,
+  "source_file": "L35_20250915_常识判断35.txt"
+ },
+ {
+  "critique_id": "FENGZE_CS_CRITIQUE_005",
+  "lecture_id": "第16讲 科技常识（五）",
+  "lec_id": "L16",
+  "student_misconception": "学员将第一次工业革命的‘开始标志’误认为是瓦特改良蒸汽机",
+  "teacher_refutation": "冯老师强调：瓦特改良蒸汽机是整个第一次工业革命的主要标志，而开始标志是珍妮纺纱机的发明，二者绝对不能混淆！",
+  "counter_strategy": "开始看棉纺织珍妮机，主力核心看通用动力瓦特蒸汽机。",
+  "source_doc": "L16_20250806_常识判断16.txt",
+  "quote_verified": true,
+  "source_file": "L16_20250806_常识判断16.txt"
+ },
+ {
+  "critique_id": "FENGZE_CS_CRITIQUE_006",
+  "lecture_id": "第38讲 法律常识·刑法（三）",
+  "lec_id": "L38",
+  "student_misconception": "学员分不清犯罪未遂与犯罪中止，以为主动跑了就算中止",
+  "teacher_refutation": "冯老师指出：犯罪未遂是由于意志以外的原因想做而做不成（欲达而不能）；犯罪中止是出于内心真诚悔悟能做而主动不做（能达而不欲）。被警笛吓跑是意志以外，是未遂不是中止！",
+  "counter_strategy": "抓意志归属：被动外部阻碍是未遂，主动主观悔悟是中止。",
+  "source_doc": "L38_20250922_常识判断38.txt",
+  "quote_verified": true,
+  "source_file": "L38_20250922_常识判断38_刑法总则_故意犯罪形态__行罚_附加刑_剥夺政治权利_.txt"
+ },
+ {
+  "critique_id": "FENGZE_CS_CRITIQUE_007",
+  "lecture_id": "第01讲 文史常识（一）",
+  "lec_id": "L01",
+  "student_misconception": "学员误以为商鞅变法前一直在秦国做官",
+  "teacher_refutation": "冯老师驳斥：商鞅最早是在魏国公叔痤门下，魏国没重用他，他才去秦国效力主持变法，不能误以为他是秦国本土勋贵。",
+  "counter_strategy": "辨清人物流转轨迹：魏国起步入秦变法。",
+  "source_doc": "L01_20250704_常识判断1.txt",
+  "quote_verified": true,
+  "source_file": "L01_20250704_常识判断1.txt"
+ },
+ {
+  "critique_id": "FENGZE_CS_CRITIQUE_008",
+  "lecture_id": "第02讲 文史常识（二）",
+  "lec_id": "L02",
+  "student_misconception": "学员误以为推恩令是汉武帝用武力直接剥夺诸侯王封地",
+  "teacher_refutation": "冯老师指出：推恩令是阳谋，表面上是施恩让诸侯所有儿子都分封，实际上打破嫡长子单传，让诸侯国和平碎化分小。",
+  "counter_strategy": "阳谋特性：非暴力夺爵，而是合法分封均分诸侯国。",
+  "source_doc": "L02_20250705_常识判断2.txt",
+  "quote_verified": true,
+  "source_file": "L02_20250705_常识判断2.txt"
+ },
+ {
+  "critique_id": "FENGZE_CS_CRITIQUE_009",
+  "lecture_id": "第05讲 文史常识（五）",
+  "lec_id": "L05",
+  "student_misconception": "学员误以为明太祖废丞相标志君主专制达到顶峰",
+  "teacher_refutation": "冯老师明确：明太祖废丞相是皇权极大强化，但君主专制达到‘顶峰’的公认标志是清代雍正设立军机处！",
+  "counter_strategy": "定论记忆：雍正军机处跪受笔录＝专制顶峰。",
+  "source_doc": "L05_20250711_常识判断5.txt",
+  "quote_verified": true,
+  "source_file": "L05_20250711_常识判断5.txt"
+ },
+ {
+  "critique_id": "FENGZE_CS_CRITIQUE_010",
+  "lecture_id": "第09讲 文学常识（一）",
+  "lec_id": "L09",
+  "student_misconception": "学员误以为建安风骨得名于曹丕称帝后的年号",
+  "teacher_refutation": "冯老师强调：建安是东汉末代皇帝汉献帝的年号，不是曹丕的年号！三曹和建安七子生活在汉献帝建安年间。",
+  "counter_strategy": "锁定年号归属：建安＝汉献帝年号。",
+  "source_doc": "L09_20250721_常识判断9.txt",
+  "quote_verified": true,
+  "source_file": "L09_20250721_常识判断9.txt"
+ },
+ {
+  "critique_id": "FENGZE_CS_CRITIQUE_011",
+  "lecture_id": "第10讲 文学常识（二）",
+  "lec_id": "L10",
+  "student_misconception": "学员将王维、孟浩然的山水田园诗与高适、岑参的边塞诗题材混淆",
+  "teacher_refutation": "冯老师指出：王维孟浩然核心是田园生活与山水景物，边塞诗写的是大漠军旅与战阵沙场，两派题材泾渭分明。",
+  "counter_strategy": "看题材意象：山水林泉归田园，战马烽烟归边塞。",
+  "source_doc": "L10_20250723_常识判断10.txt",
+  "quote_verified": true,
+  "source_file": "L10_20250723_常识判断10.txt"
+ },
+ {
+  "critique_id": "FENGZE_CS_CRITIQUE_012",
+  "lecture_id": "第27讲 经济常识（五）",
+  "lec_id": "L27",
+  "student_misconception": "学员将通货膨胀的供求实质记反，误以为是总供给大于总需求",
+  "teacher_refutation": "冯老师强调：通货膨胀最核心的实质就是社会总需求大于社会总供给，钱多货少物价涨，绝对不能记反。",
+  "counter_strategy": "供求口诀：通胀需求大（需求过热），通缩需求小（消费疲软）。",
+  "source_doc": "L27_20250830_常识判断27.txt",
+  "quote_verified": true,
+  "source_file": "L27_20250830_常识判断27.txt"
+ },
+ {
+  "critique_id": "FENGZE_CS_CRITIQUE_013",
+  "lecture_id": "第27讲 经济常识（五）",
+  "lec_id": "L27",
+  "student_misconception": "学员误以为基尼系数数值越大代表社会分配越公平",
+  "teacher_refutation": "冯老师纠偏：基尼系数在0到1之间，0是绝对平均，1是绝对不平均，数值越大差距越大，0.4是国际公认警戒线！",
+  "counter_strategy": "基尼系数反比逻辑：数越小越公平，越接近1越两极分化。",
+  "source_doc": "L27_20250830_常识判断27.txt",
+  "quote_verified": true,
+  "source_file": "L27_20250830_常识判断27.txt"
+ },
+ {
+  "critique_id": "FENGZE_CS_CRITIQUE_014",
+  "lecture_id": "第28讲 法律常识·宪法开篇",
+  "lec_id": "L28",
+  "student_misconception": "学员遗漏2018年监察体制改革，仍以为国家机构是一府两院",
+  "teacher_refutation": "冯老师指出：在人大权力机关之下产生的是‘一府一委两院’，新增的‘一委’就是监察委员会，不可遗漏。",
+  "counter_strategy": "牢记架构：一府（政府）一委（监察委）两院（法院检察院）。",
+  "source_doc": "L28_20250901_常识判断28.txt",
+  "quote_verified": true,
+  "source_file": "L28_20250901_常识判断28.txt"
+ },
+ {
+  "critique_id": "FENGZE_CS_CRITIQUE_015",
+  "lecture_id": "第32讲 法律常识·民法（一）",
+  "lec_id": "L32",
+  "student_misconception": "学员误以为自然人限制民事行为能力下限仍是旧法的10周岁",
+  "teacher_refutation": "冯老师纠偏：民法典将限制行为能力下限明确调整为8周岁！不满8周岁无行为能力，8周岁以上限制行为能力。",
+  "counter_strategy": "新法年龄红线：八岁入限，十八成年（十六自立视为成年）。",
+  "source_doc": "L32_20250910_常识判断32.txt",
+  "quote_verified": true,
+  "source_file": "L32_20250910_常识判断32_民事主体_自然人的民事行为能力__民事法律行为_效力待定的民事法律行为_.txt"
+ },
+ {
+  "critique_id": "FENGZE_CS_CRITIQUE_016",
+  "lecture_id": "第37讲 法律常识·刑法（二）",
+  "lec_id": "L37",
+  "student_misconception": "学员误以为不法侵害人逃跑后受害人追上去打成重伤仍算正当防卫",
+  "teacher_refutation": "冯老师强调：正当防卫时间要件卡得很死，必须是‘正在进行的不法侵害’！侵害已经结束后的加害属于事后报复，构成故意伤害犯罪。",
+  "counter_strategy": "正当防卫卡紧时间点：正在进行才能防，事后追击构成故意伤人。",
+  "source_doc": "L37_20250919_常识判断37.txt",
+  "quote_verified": true,
+  "source_file": "L37_20250919_常识判断37_刑法总则_犯罪概念和构成要件__刑法总则_紧急避险_.txt"
+ },
+ {
+  "critique_id": "FENGZE_CS_CRITIQUE_017",
+  "lecture_id": "第40讲 法律常识·行政法（一）",
+  "lec_id": "L40",
+  "student_misconception": "学员误以为行政处罚可以根据当事人私人关系或外表随意从轻减轻",
+  "teacher_refutation": "冯老师生动打比方：不可能因为冯老师长得帅就减轻处罚！行政处罚必须法定、公正、公开、过罚相当。",
+  "counter_strategy": "行政处罚公正原则：严格依法裁量，杜绝人情关系随意变通。",
+  "source_doc": "L40_20250926_常识判断40.txt",
+  "quote_verified": true,
+  "source_file": "L40_20250926_常识判断40_常见罪名_敲诈勒索罪_绑架罪和非法拘禁罪__行政执法_行政许可_.txt"
+ },
+ {
+  "critique_id": "FENGZE_CS_CRITIQUE_018",
+  "lecture_id": "第16讲 科技常识（五）",
+  "lec_id": "L16",
+  "student_misconception": "学员误以为第一次工业革命没有自然科学理论支持是纯工匠经验",
+  "teacher_refutation": "冯老师指出：第一次工业革命有明确的理论基础，那就是牛顿的经典力学体系，机械运动发明皆由此而来。",
+  "counter_strategy": "理论与实践对应：牛顿力学支撑第一次工业革命机械飞跃。",
+  "source_doc": "L16_20250806_常识判断16.txt",
+  "quote_verified": true,
+  "source_file": "L16_20250806_常识判断16.txt"
+ }
+]

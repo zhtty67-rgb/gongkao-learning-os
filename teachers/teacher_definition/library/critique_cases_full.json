@@ -1,0 +1,38 @@
+[
+ {
+  "case_id": "DEF_CC_DEF01_001",
+  "teacher_id": "teacher_definition",
+  "question": "DEF_QC_DEF01_001",
+  "student_error_snippet": "学生纠结C选项，认为瞻前顾后也是想太多",
+  "error_type": "泛化概念与忽视特定触发条件",
+  "diagnosis": "学生只抓住了'想太多'的字面，忽略了蜈蚣效应必须是'对原有成熟熟练机制的过度拆解'这一前置条件。",
+  "severity": "medium",
+  "remedy_instruction": "遇到心理学效应题，必须严查定义的起点状态（必须是原本自然/熟练），不可把一般的犹豫、性格软弱误套入效应。",
+  "verification_status": "quarantined",
+  "quarantine_reason": "旧生成案例/纠偏未完成题干、答案及教师发言的逐项原件核验；禁止作为原题或考生错因使用。"
+ },
+ {
+  "case_id": "DEF_CC_DEF02_001",
+  "teacher_id": "teacher_definition",
+  "question": "DEF_QC_DEF02_001",
+  "student_error_snippet": "学生做题时误选D项，觉得给爱心足球队送球衣也是支持体育",
+  "error_type": "混淆商业赞助与公益捐赠",
+  "diagnosis": "学生只看了'足球'二字，忽视了赞助必须具备'商业主体'和'获取商业营销回报'的本质对价属性。",
+  "severity": "high",
+  "remedy_instruction": "做商业经济类定义，必须牢牢盯住'利益对价机制'，无偿捐赠、财政拨款与商业赞助泾渭分明，绝不可混为一谈。",
+  "verification_status": "quarantined",
+  "quarantine_reason": "旧生成案例/纠偏未完成题干、答案及教师发言的逐项原件核验；禁止作为原题或考生错因使用。"
+ },
+ {
+  "case_id": "DEF_CC_DEF03_001",
+  "teacher_id": "teacher_definition",
+  "question": "DEF_QC_DEF03_001",
+  "student_error_snippet": "学生每个词都看，被'紧急'、'难以弥补'等主观词卡住无法判断",
+  "error_type": "抓次要修饰语忽视法律程序客观硬伤",
+  "diagnosis": "学生陷入情绪化文字理解，忽略了'诉前'和'人民法院'这两大不容撼动的客观程序事实。",
+  "severity": "medium",
+  "remedy_instruction": "定义解题必须'客观要素优先于主观形容词'，主体、程序、时间节点是硬约束，主观形容词是软约束，切勿舍本逐末。",
+  "verification_status": "quarantined",
+  "quarantine_reason": "旧生成案例/纠偏未完成题干、答案及教师发言的逐项原件核验；禁止作为原题或考生错因使用。"
+ }
+]

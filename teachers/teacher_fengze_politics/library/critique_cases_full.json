@@ -1,0 +1,164 @@
+[
+ {
+  "critique_id": "FENGZE_CRITIQUE_001",
+  "lecture_id": "时政加课1",
+  "student_misconception": "误以为二十届三中全会提出的改革任务是在2035年完成",
+  "teacher_refutation": "全会把时间节点卡得很死：到2029年建国80周年时完成本决定提出的改革任务！到2035年是基本实现社会主义现代化、全面建成高水平市场经济体制。把2029说成2035直接掉坑。",
+  "counter_strategy": "死记时间线：2029建国80年完成改革任务；2035基本实现现代化。",
+  "quote_verified": true,
+  "source_doc": "20250803  政治理论(时政)加课1.doc.txt"
+ },
+ {
+  "critique_id": "FENGZE_CRITIQUE_002",
+  "lecture_id": "时政加课1",
+  "student_misconception": "把深化改革原则中的‘以制度建设为主线’记成了‘以经济建设为主线’",
+  "teacher_refutation": "注意主线是什么！原则里讲的是‘以制度建设为主线’，改革改的是上层建筑和体制机制，所以主线是制度建设。以经济建设为中心那是党的基本路线，不能张冠李戴。",
+  "counter_strategy": "做题圈出‘主线’二字，主线必为制度建设，见经济建设为主线必错。",
+  "quote_verified": true,
+  "source_doc": "20250803  政治理论(时政)加课1.doc.txt"
+ },
+ {
+  "critique_id": "FENGZE_CRITIQUE_003",
+  "lecture_id": "时政加课1",
+  "student_misconception": "做题时顺着语感念，把‘创业带动就业’误选为‘就业带动创业’",
+  "teacher_refutation": "怎么用就业带动创业啊？我在协作组就业了，我还要在协作组创业，我想死吗？是创业才能创造出新的岗位，从而带动更多人就业，所以一定是创业带动就业！",
+  "counter_strategy": "默念常识逻辑：先有创业提供岗位，才能带动就业，顺序不能反。",
+  "quote_verified": true,
+  "source_doc": "20250803  政治理论(时政)加课1.doc.txt"
+ },
+ {
+  "critique_id": "FENGZE_CRITIQUE_004",
+  "lecture_id": "时政加课1",
+  "student_misconception": "把财政体制改革的举措当成是市场经济基础制度",
+  "teacher_refutation": "市场经济基础制度是微观市场运行的地基：产权保护、市场准入、公平竞争、社会信用。财政制度是宏观治理，根本不属于市场基础制度。",
+  "counter_strategy": "市场地基四支柱：产权、准入、竞争、信用；财政金融排除出基础制度。",
+  "quote_verified": true,
+  "source_doc": "20250803  政治理论(时政)加课1.doc.txt"
+ },
+ {
+  "critique_id": "FENGZE_CRITIQUE_005",
+  "lecture_id": "时政加课2",
+  "student_misconception": "以为发展新质生产力就是放弃传统产业、另起炉灶",
+  "teacher_refutation": "发展新质生产力绝对不是忽视、放弃传统产业！各地资源不同，必须因地制宜，传统产业改造提升也是新质生产力，不能搞一哄而上、泡沫化。",
+  "counter_strategy": "警惕把新质生产力与传统产业对立的选项，牢记因地制宜、反对一哄而上。",
+  "quote_verified": true,
+  "source_doc": "20250810 政治理论(时政)加课2.doc.txt"
+ },
+ {
+  "critique_id": "FENGZE_CRITIQUE_006",
+  "lecture_id": "政治理论5",
+  "student_misconception": "看到哲学选项里有‘唯一’、‘绝对’等绝对词就直接排除",
+  "teacher_refutation": "很多同学做题形成思维定势，一看到绝对词就觉得错。但是科学定义不能乱排除！‘实践是认识的唯一源泉’、‘实践是检验真理的唯一标准’，这都是绝对正确的原理定性！",
+  "counter_strategy": "区分哲学科学定义与工作举措：真理标准与认识来源的‘唯一’属于正确选项。",
+  "quote_verified": true,
+  "source_doc": "20250823 政治理论5.doc.txt"
+ },
+ {
+  "critique_id": "FENGZE_CRITIQUE_007",
+  "lecture_id": "政治理论5",
+  "student_misconception": "把获得认识的‘来源’与‘途径’混为一谈",
+  "teacher_refutation": "实践是认识的唯一源泉，但获得认识有直接经验和间接经验两条途径！读书是间接经验，也是获得认识的途径，不能说一切认识都要自己亲自去实践。",
+  "counter_strategy": "概念严谨区分：来源只有实践一个；途径有直接经验与间接经验两个。",
+  "quote_verified": true,
+  "source_doc": "20250823 政治理论5.doc.txt"
+ },
+ {
+  "critique_id": "FENGZE_CRITIQUE_008",
+  "lecture_id": "政治理论3",
+  "student_misconception": "做题时分不清主要矛盾和矛盾的主要方面，遇到抓重点和看本质乱套",
+  "teacher_refutation": "主次矛盾是对事物发展过程起决定作用，标志词是抓重点、抓中心、牵牛鼻子；矛盾的主次方面是对事物性质起规定作用，标志词是定性质、抓主流、九个指头与一个指头！",
+  "counter_strategy": "口诀：抓重点抓关键看主次矛盾；定性质评主流看矛盾主要方面。",
+  "quote_verified": true,
+  "source_doc": "20250821 政治理论3.doc.txt"
+ },
+ {
+  "critique_id": "FENGZE_CRITIQUE_009",
+  "lecture_id": "政治理论1",
+  "student_misconception": "不理解形而上学唯物主义为什么被批判，以为承认原子物质就够了",
+  "teacher_refutation": "形而上学性就是孤立、静止、片面！近代形而上学唯物主义把一切运动当成机械力学运动，看不到普遍联系与动态发展，在社会历史观上又陷入了唯心史观，所以叫半截子唯物主义。",
+  "counter_strategy": "牢记近代形而上三大缺陷：机械性、孤立静止片面性、历史观唯心（半截子）。",
+  "quote_verified": true,
+  "source_doc": "20250815 政治理论1.doc.txt"
+ },
+ {
+  "critique_id": "FENGZE_CRITIQUE_010",
+  "lecture_id": "政治理论1",
+  "student_misconception": "认为大脑能分泌意识，所以意识也就是一种物质",
+  "teacher_refutation": "把意识等同于物质是典型的庸俗唯物主义！就像说大脑分泌意识像肝脏分泌胆汁一样，完全抹杀了主观映象与客观存在的原则界限，马哲坚决批判。",
+  "counter_strategy": "定性：意识是客观世界的主观映象，绝不是物质本身，等同论为庸俗唯物。",
+  "quote_verified": true,
+  "source_doc": "20250815 政治理论1.doc.txt"
+ },
+ {
+  "critique_id": "FENGZE_CRITIQUE_011",
+  "lecture_id": "政治理论7",
+  "student_misconception": "误以为不同商品的使用价值可以直接拿来衡量价值大小",
+  "teacher_refutation": "一把斧子和十斤大米，使用价值完全不同，怎么比大小？能比较交换的是抽象劳动，是凝结在商品里面的人类无差别的体力和脑力耗费！",
+  "counter_strategy": "自然属性使用价值不能通约比较；社会属性价值（抽象劳动）才能衡量大小。",
+  "quote_verified": true,
+  "source_doc": "20250830 政治理论7.doc.txt"
+ },
+ {
+  "critique_id": "FENGZE_CRITIQUE_012",
+  "lecture_id": "政治理论7",
+  "student_misconception": "混淆绝对剩余价值与相对剩余价值的形成机制",
+  "teacher_refutation": "绝对剩余价值是资本家硬生生把上班时间从8小时延长到12小时；相对剩余价值是全社会技术提高、商品便宜了，工人必要生活资料时间缩短，剩余时间自然变长！",
+  "counter_strategy": "延长工作日是绝对剩余价值；缩短必要劳动时间靠全社会生产率是相对剩余价值。",
+  "quote_verified": true,
+  "source_doc": "20250830 政治理论7.doc.txt"
+ },
+ {
+  "critique_id": "FENGZE_CRITIQUE_013",
+  "lecture_id": "政治理论7",
+  "student_misconception": "误以为超额剩余价值是整个行业的资本家共同享受的",
+  "teacher_refutation": "超额剩余价值是个别资本家通过引进先进机器、率先提高劳动生产率获得的！等所有人都学会了，超额剩余价值就消失了，转化成了整个社会的相对剩余价值。",
+  "counter_strategy": "超额剩余价值是个别资本家的暂时领先奖励；普遍化后转化为相对剩余价值。",
+  "quote_verified": true,
+  "source_doc": "20250830 政治理论7.doc.txt"
+ },
+ {
+  "critique_id": "FENGZE_CRITIQUE_014",
+  "lecture_id": "政治理论8",
+  "student_misconception": "把中国式现代化等同于西方发达国家的现代化路径",
+  "teacher_refutation": "中国式现代化既有各国现代化的共同特征，更有基于自己国情的五大特色！人口规模巨大、全体人民共同富裕，走和平发展道路，绝不是靠侵略扩张殖民掠夺！",
+  "counter_strategy": "牢记五大特色：人口规模巨大、共同富裕、协调、人与自然和谐、和平发展。",
+  "quote_verified": true,
+  "source_doc": "20250905 政治理论8.doc.txt"
+ },
+ {
+  "critique_id": "FENGZE_CRITIQUE_015",
+  "lecture_id": "政治理论9",
+  "student_misconception": "把协商民主或全过程人民民主误当成我国根本政治制度",
+  "teacher_refutation": "概念不能混！全过程人民民主是社会主义民主政治的本质属性，协商民主是特有形式，但根本政治制度只有一个：人民代表大会制度！",
+  "counter_strategy": "根本政治制度锁定人民代表大会制度；本质属性为全过程人民民主。",
+  "quote_verified": true,
+  "source_doc": "20250906 政治理论9.doc.txt"
+ },
+ {
+  "critique_id": "FENGZE_CRITIQUE_016",
+  "lecture_id": "时政加课4",
+  "student_misconception": "误把政府工作报告部署的2025年预期目标当成2024年已经完成的数据",
+  "teacher_refutation": "两会政府工作报告前半段总结2024成就，后半段是部署2025预期目标。GDP增长5%左右、赤字率3%左右是2025的预期目标，不能和上一年的既成事实混在一起。",
+  "counter_strategy": "区分总结与部署：GDP 5%左右与赤字率3%是2025年度预期指标。",
+  "quote_verified": true,
+  "source_doc": "20250907 政治理论(时政)加课4.doc.txt"
+ },
+ {
+  "critique_id": "FENGZE_CRITIQUE_017",
+  "lecture_id": "时政加课4",
+  "student_misconception": "以为超长期特别国债可以用来填补地方日常经常性支出赤字",
+  "teacher_refutation": "超长期特别国债专款专用，专项用于国家重大战略实施和重点领域安全能力建设（两重建设），统筹用于两新政策，绝对不能挪作一般性行政经费！",
+  "counter_strategy": "国债用途绑定：专款专用统筹两重建设与两新政策，严禁用于日常经常性支出。",
+  "quote_verified": true,
+  "source_doc": "20250803  政治理论(时政)加课1.doc.txt"
+ },
+ {
+  "critique_id": "FENGZE_CRITIQUE_018",
+  "lecture_id": "时政加课5",
+  "student_misconception": "混淆中央一号文件的两条底线任务",
+  "teacher_refutation": "三农工作千头万绪，但牢牢守住的两条底线是：保障国家粮食安全底线、不发生规模性返贫底线！选项要是改成发展乡村旅游、提高农民收入作为底线，那就是偷换底线概念。",
+  "counter_strategy": "三农底线双红线：确保国家粮食安全、确保不发生规模性返贫。",
+  "quote_verified": true,
+  "source_doc": "20250914 政治理论(时政)加课5.doc.txt"
+ }
+]

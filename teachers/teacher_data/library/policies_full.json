@@ -1,0 +1,1237 @@
+[
+ {
+  "policy_id": "DATA_POL_DATA01_001",
+  "teacher_id": "teacher_data",
+  "author_teacher": "L 老师",
+  "name": "高位叠加法——快速累加多位数",
+  "status": "explicit",
+  "category": "速算技巧",
+  "trigger": "题目涉及资料分析速算技巧，出现高位叠加相关指标或计算需求",
+  "rule": "多笔数据连加时：从最高位开始从左往右累加，先算百位/千位和，再加上十位/个位，配合误差估计，避免传统竖式从个位进位的漫长过程。",
+  "reasoning": "人类大脑对高位数字的权重敏感度最高，先定大数可直接锁定选项前两位。",
+  "identification_features": [
+   "高位叠加",
+   "从左往右加",
+   "截位计算"
+  ],
+  "applies_to": [
+   "速算技巧",
+   "计算题",
+   "资料分析通用"
+  ],
+  "must_preserve": [
+   "数值精度控制与公式适用前提条件"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "落入时间单位陷阱",
+   "混淆同比环比或百分点与百分数",
+   "不看选项盲目精算"
+  ],
+  "positive_example": {
+   "input": "符合高位叠加法——快速累加多位数的标准典型题型情境",
+   "preferred": "由【L 老师】指导的标准化速算模型快速列式并锁定正确答案",
+   "reason": "高效简洁且不易出错"
+  },
+  "negative_example": {
+   "input": "学生习惯性列出长除法列竖式硬算",
+   "bad_output": "耗时2分钟且极易因退位借位出错",
+   "reason": "违背行测速算原则"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "DATA_POL_DATA02_001",
+  "teacher_id": "teacher_data",
+  "author_teacher": "L 老师",
+  "name": "乘除估算放缩控制原则",
+  "status": "explicit",
+  "category": "速算技巧",
+  "trigger": "题目涉及资料分析速算技巧，出现放缩法相关指标或计算需求",
+  "rule": "做除法估算截位时：分子分母同向放缩误差反向抵消；做乘法估算时一增一减控制在合理区间内。",
+  "reasoning": "乘除放缩讲究有放有缩、以平为准。",
+  "identification_features": [
+   "放缩法",
+   "同向放缩",
+   "乘除估算"
+  ],
+  "applies_to": [
+   "速算技巧",
+   "计算题",
+   "资料分析通用"
+  ],
+  "must_preserve": [
+   "数值精度控制与公式适用前提条件"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "落入时间单位陷阱",
+   "混淆同比环比或百分点与百分数",
+   "不看选项盲目精算"
+  ],
+  "positive_example": {
+   "input": "符合乘除估算放缩控制原则的标准典型题型情境",
+   "preferred": "由【L 老师】指导的标准化速算模型快速列式并锁定正确答案",
+   "reason": "高效简洁且不易出错"
+  },
+  "negative_example": {
+   "input": "学生习惯性列出长除法列竖式硬算",
+   "bad_output": "耗时2分钟且极易因退位借位出错",
+   "reason": "违背行测速算原则"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "DATA_POL_DATA03_001",
+  "teacher_id": "teacher_data",
+  "author_teacher": "L 老师",
+  "name": "415假设分配法——复杂除法化整为零",
+  "status": "explicit",
+  "category": "速算技巧",
+  "trigger": "题目涉及资料分析速算技巧，出现415假设分配相关指标或计算需求",
+  "rule": "形如 A/(1+R) 或部分占总体分配计算：将基准数设为整数部分，将剩余增量按比例假设分配，利用415份数法极速拆解。",
+  "reasoning": "L 老师独门绝技，除法变口算。",
+  "identification_features": [
+   "415假设分配",
+   "份数法",
+   "化整为零"
+  ],
+  "applies_to": [
+   "速算技巧",
+   "计算题",
+   "资料分析通用"
+  ],
+  "must_preserve": [
+   "数值精度控制与公式适用前提条件"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "落入时间单位陷阱",
+   "混淆同比环比或百分点与百分数",
+   "不看选项盲目精算"
+  ],
+  "positive_example": {
+   "input": "符合415假设分配法——复杂除法化整为零的标准典型题型情境",
+   "preferred": "由【L 老师】指导的标准化速算模型快速列式并锁定正确答案",
+   "reason": "高效简洁且不易出错"
+  },
+  "negative_example": {
+   "input": "学生习惯性列出长除法列竖式硬算",
+   "bad_output": "耗时2分钟且极易因退位借位出错",
+   "reason": "违背行测速算原则"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "DATA_POL_DATA04_001",
+  "teacher_id": "teacher_data",
+  "author_teacher": "L 老师",
+  "name": "基期量计算四大公式与小分化简",
+  "status": "explicit",
+  "category": "ABRX 基础指标",
+  "trigger": "题目涉及资料分析ABRX 基础指标，出现基期量相关指标或计算需求",
+  "rule": "基期量 A = B / (1 + R)。当 |R| ≤ 5% 时可近似用化简公式 A ≈ B * (1 - R)；当 R 接近常见分数时化为 B / (1 + 1/n) = B * n/(n+1)。",
+  "reasoning": "小分互换与化简公式是基期计算的秒杀关键。",
+  "identification_features": [
+   "基期量",
+   "小分化简",
+   "1加R"
+  ],
+  "applies_to": [
+   "ABRX 基础指标",
+   "计算题",
+   "资料分析通用"
+  ],
+  "must_preserve": [
+   "数值精度控制与公式适用前提条件"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "落入时间单位陷阱",
+   "混淆同比环比或百分点与百分数",
+   "不看选项盲目精算"
+  ],
+  "positive_example": {
+   "input": "符合基期量计算四大公式与小分化简的标准典型题型情境",
+   "preferred": "由【L 老师】指导的标准化速算模型快速列式并锁定正确答案",
+   "reason": "高效简洁且不易出错"
+  },
+  "negative_example": {
+   "input": "学生习惯性列出长除法列竖式硬算",
+   "bad_output": "耗时2分钟且极易因退位借位出错",
+   "reason": "违背行测速算原则"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "DATA_POL_DATA05_001",
+  "teacher_id": "teacher_data",
+  "author_teacher": "L 老师",
+  "name": "增长量百化分计算法——X等于B除以n加1",
+  "status": "explicit",
+  "category": "ABRX 基础指标",
+  "trigger": "题目涉及资料分析ABRX 基础指标，出现增长量相关指标或计算需求",
+  "rule": "当增长率 R ≈ 1/n 时：增长量 X = B / (n + 1)；当 R 为负增长率 R ≈ -1/n 时：减少量 X = B / (n - 1)。",
+  "reasoning": "百化分公式是公考增长量计算使用频次最高的秒杀定理。",
+  "identification_features": [
+   "增长量",
+   "n加1",
+   "百化分",
+   "n减1"
+  ],
+  "applies_to": [
+   "ABRX 基础指标",
+   "计算题",
+   "资料分析通用"
+  ],
+  "must_preserve": [
+   "数值精度控制与公式适用前提条件"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "落入时间单位陷阱",
+   "混淆同比环比或百分点与百分数",
+   "不看选项盲目精算"
+  ],
+  "positive_example": {
+   "input": "符合增长量百化分计算法——X等于B除以n加1的标准典型题型情境",
+   "preferred": "由【L 老师】指导的标准化速算模型快速列式并锁定正确答案",
+   "reason": "高效简洁且不易出错"
+  },
+  "negative_example": {
+   "input": "学生习惯性列出长除法列竖式硬算",
+   "bad_output": "耗时2分钟且极易因退位借位出错",
+   "reason": "违背行测速算原则"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "DATA_POL_DATA05_002",
+  "teacher_id": "teacher_data",
+  "author_teacher": "L 老师",
+  "name": "间隔增长率合成公式",
+  "status": "explicit",
+  "category": "ABRX 基础指标",
+  "trigger": "题目涉及资料分析ABRX 基础指标，出现间隔增长率相关指标或计算需求",
+  "rule": "间隔增长率 R = r1 + r2 + r1 * r2。先算 r1+r2，再看 r1*r2 调整末位精度，一增一减注意符号。",
+  "reasoning": "隔年增长率的绝对标准公式。",
+  "identification_features": [
+   "间隔增长率",
+   "r1加r2",
+   "合成公式"
+  ],
+  "applies_to": [
+   "ABRX 基础指标",
+   "计算题",
+   "资料分析通用"
+  ],
+  "must_preserve": [
+   "数值精度控制与公式适用前提条件"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "落入时间单位陷阱",
+   "混淆同比环比或百分点与百分数",
+   "不看选项盲目精算"
+  ],
+  "positive_example": {
+   "input": "符合间隔增长率合成公式的标准典型题型情境",
+   "preferred": "由【L 老师】指导的标准化速算模型快速列式并锁定正确答案",
+   "reason": "高效简洁且不易出错"
+  },
+  "negative_example": {
+   "input": "学生习惯性列出长除法列竖式硬算",
+   "bad_output": "耗时2分钟且极易因退位借位出错",
+   "reason": "违背行测速算原则"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "DATA_POL_DATA06_001",
+  "teacher_id": "teacher_data",
+  "author_teacher": "S 老师老师",
+  "name": "直除截位定前三位法则",
+  "status": "explicit",
+  "category": "速算技巧",
+  "trigger": "题目涉及资料分析速算技巧，出现截位直除相关指标或计算需求",
+  "rule": "S 老师速算核心：做除法 A/B 时，分母通常截取前三位有效数字（第四位四舍五入），分子视选项差距决定是否截位；选项首位不同截两位，首位相同第二位不同截三位。",
+  "reasoning": "标准化截位规则杜绝计算死板与盲目精算。",
+  "identification_features": [
+   "截位直除",
+   "分母截三位",
+   "首位相同"
+  ],
+  "applies_to": [
+   "速算技巧",
+   "计算题",
+   "资料分析通用"
+  ],
+  "must_preserve": [
+   "数值精度控制与公式适用前提条件"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "落入时间单位陷阱",
+   "混淆同比环比或百分点与百分数",
+   "不看选项盲目精算"
+  ],
+  "positive_example": {
+   "input": "符合直除截位定前三位法则的标准典型题型情境",
+   "preferred": "由【S 老师老师】指导的标准化速算模型快速列式并锁定正确答案",
+   "reason": "高效简洁且不易出错"
+  },
+  "negative_example": {
+   "input": "学生习惯性列出长除法列竖式硬算",
+   "bad_output": "耗时2分钟且极易因退位借位出错",
+   "reason": "违背行测速算原则"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "DATA_POL_DATA07_001",
+  "teacher_id": "teacher_data",
+  "author_teacher": "L 老师",
+  "name": "两期比重升降判定口诀——部分增速大于总体增速则比重上升",
+  "status": "explicit",
+  "category": "比重专题",
+  "trigger": "题目涉及资料分析比重专题，出现两期比重升降相关指标或计算需求",
+  "rule": "两期比重变化判定铁律：若部分增长率 a > 总体增长率 b，则现期比重高于基期比重（比重上升）；若 a < b 则比重下降；若 a = b 则比重保持不变。",
+  "reasoning": "无需任何数值运算，秒看两数大小即定答案。",
+  "identification_features": [
+   "两期比重升降",
+   "a大于b",
+   "比重上升"
+  ],
+  "applies_to": [
+   "比重专题",
+   "计算题",
+   "资料分析通用"
+  ],
+  "must_preserve": [
+   "数值精度控制与公式适用前提条件"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "落入时间单位陷阱",
+   "混淆同比环比或百分点与百分数",
+   "不看选项盲目精算"
+  ],
+  "positive_example": {
+   "input": "符合两期比重升降判定口诀——部分增速大于总体增速则比重上升的标准典型题型情境",
+   "preferred": "由【L 老师】指导的标准化速算模型快速列式并锁定正确答案",
+   "reason": "高效简洁且不易出错"
+  },
+  "negative_example": {
+   "input": "学生习惯性列出长除法列竖式硬算",
+   "bad_output": "耗时2分钟且极易因退位借位出错",
+   "reason": "违背行测速算原则"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "DATA_POL_DATA07_002",
+  "teacher_id": "teacher_data",
+  "author_teacher": "L 老师",
+  "name": "两期比重差公式与适用边界",
+  "status": "inferred",
+  "category": "比重专题",
+  "trigger": "题目涉及资料分析比重专题，出现两期比重差相关指标或计算需求",
+  "rule": "设S为现期比重，a为部分增长率，b为总体增长率；基期和现期总体必须为正且a、b>-1。两期比重差ΔS=S×(a-b)/(1+a)。仅当S/(1+a)<1时，才能推出|ΔS|<|a-b|（a=b时两边为0，不能严格小于）；负增长或比例边界必须先核验条件，不可直接排除选项。",
+  "reasoning": "两期比重差极速秒杀定理。",
+  "identification_features": [
+   "两期比重差",
+   "小于a减b",
+   "差值秒杀"
+  ],
+  "applies_to": [
+   "比重专题",
+   "计算题",
+   "资料分析通用"
+  ],
+  "must_preserve": [
+   "数值精度控制与公式适用前提条件"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "缺少S/(1+a)<1条件却声称差值必小于增速差",
+   "a=b时仍声称严格小于",
+   "混淆百分数与百分点"
+  ],
+  "positive_example": {
+   "input": "符合两期比重差值必小于增速差绝对值的标准典型题型情境",
+   "preferred": "由【L 老师】指导的标准化速算模型快速列式并锁定正确答案",
+   "reason": "高效简洁且不易出错"
+  },
+  "negative_example": {
+   "input": "学生习惯性列出长除法列竖式硬算",
+   "bad_output": "耗时2分钟且极易因退位借位出错",
+   "reason": "违背行测速算原则"
+  },
+  "confidence": 0.95,
+  "revision_note": "审计修正的数学归纳，非教师逐字引语；反例：总体100→10，部分45→9，差45个百分点>增速差10个百分点。"
+ },
+ {
+  "policy_id": "DATA_POL_DATA08_001",
+  "teacher_id": "teacher_data",
+  "author_teacher": "L 老师",
+  "name": "平均数增长率公式与两期平均数变化",
+  "status": "explicit",
+  "category": "平均数与倍数",
+  "trigger": "题目涉及资料分析平均数与倍数，出现平均数增长率相关指标或计算需求",
+  "rule": "平均数增长率 r = (a - b) / (1 + b)，其中 a 为总分子增长率，b 为总分母增长率。公式形式与两期比重差前半段完全同构。",
+  "reasoning": "平均数增长率与比重差同构记忆，效率翻倍。",
+  "identification_features": [
+   "平均数增长率",
+   "a减b除以1加b",
+   "两期平均数"
+  ],
+  "applies_to": [
+   "平均数与倍数",
+   "计算题",
+   "资料分析通用"
+  ],
+  "must_preserve": [
+   "数值精度控制与公式适用前提条件"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "落入时间单位陷阱",
+   "混淆同比环比或百分点与百分数",
+   "不看选项盲目精算"
+  ],
+  "positive_example": {
+   "input": "符合平均数增长率公式与两期平均数变化的标准典型题型情境",
+   "preferred": "由【L 老师】指导的标准化速算模型快速列式并锁定正确答案",
+   "reason": "高效简洁且不易出错"
+  },
+  "negative_example": {
+   "input": "学生习惯性列出长除法列竖式硬算",
+   "bad_output": "耗时2分钟且极易因退位借位出错",
+   "reason": "违背行测速算原则"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "DATA_POL_DATA09_001",
+  "teacher_id": "teacher_data",
+  "author_teacher": "S 老师老师",
+  "name": "1至20核心分数小数速记表",
+  "status": "explicit",
+  "category": "速算技巧",
+  "trigger": "题目涉及资料分析速算技巧，出现小分互换相关指标或计算需求",
+  "rule": "S 老师速算心法：1/6≈16.7%, 1/7≈14.3%, 1/8=12.5%, 1/9≈11.1%, 1/11≈9.09%, 1/12≈8.33%, 1/13≈7.69%, 1/14≈7.14%, 1/15≈6.67%, 1/16=6.25%, 1/17≈5.88% 烂熟于心。",
+  "reasoning": "百化分的坚实数字地基，脱口而出。",
+  "identification_features": [
+   "小分互换",
+   "1除以7",
+   "1除以8",
+   "1除以13"
+  ],
+  "applies_to": [
+   "速算技巧",
+   "计算题",
+   "资料分析通用"
+  ],
+  "must_preserve": [
+   "数值精度控制与公式适用前提条件"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "落入时间单位陷阱",
+   "混淆同比环比或百分点与百分数",
+   "不看选项盲目精算"
+  ],
+  "positive_example": {
+   "input": "符合1至20核心分数小数速记表的标准典型题型情境",
+   "preferred": "由【S 老师老师】指导的标准化速算模型快速列式并锁定正确答案",
+   "reason": "高效简洁且不易出错"
+  },
+  "negative_example": {
+   "input": "学生习惯性列出长除法列竖式硬算",
+   "bad_output": "耗时2分钟且极易因退位借位出错",
+   "reason": "违背行测速算原则"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "DATA_POL_DATA10_001",
+  "teacher_id": "teacher_data",
+  "author_teacher": "L 老师",
+  "name": "分数大小比较三步走——趋势法与差分比较",
+  "status": "explicit",
+  "category": "比较类题型",
+  "trigger": "题目涉及资料分析比较类题型，出现趋势法相关指标或计算需求",
+  "rule": "比较 A/B 与 C/D：第一步看量级（分子大分母小者必大）；第二步看倍数趋势（分子增长倍数远大于分母增长倍数则变大）；第三步用差分法（大分子减小分子，大分母减小分母，化为差分数比较）。",
+  "reasoning": "行测分数比较无往不利的王者荣耀法。",
+  "identification_features": [
+   "趋势法",
+   "差分法",
+   "比较大小"
+  ],
+  "applies_to": [
+   "比较类题型",
+   "计算题",
+   "资料分析通用"
+  ],
+  "must_preserve": [
+   "数值精度控制与公式适用前提条件"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "落入时间单位陷阱",
+   "混淆同比环比或百分点与百分数",
+   "不看选项盲目精算"
+  ],
+  "positive_example": {
+   "input": "符合分数大小比较三步走——趋势法与差分比较的标准典型题型情境",
+   "preferred": "由【L 老师】指导的标准化速算模型快速列式并锁定正确答案",
+   "reason": "高效简洁且不易出错"
+  },
+  "negative_example": {
+   "input": "学生习惯性列出长除法列竖式硬算",
+   "bad_output": "耗时2分钟且极易因退位借位出错",
+   "reason": "违背行测速算原则"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "DATA_POL_DATA11_001",
+  "teacher_id": "teacher_data",
+  "author_teacher": "L 老师",
+  "name": "贡献率与拉动增长率关系定理",
+  "status": "explicit",
+  "category": "特殊考点",
+  "trigger": "题目涉及资料分析特殊考点，出现贡献率相关指标或计算需求",
+  "rule": "拉动增长率 = 部分增量 / 总体基期量；贡献率 = 部分增量 / 总体增量。核心联系：拉动增长率 = 贡献率 × 总体增长率。",
+  "reasoning": "厘清宏观经济指标概念，公式一一代入。",
+  "identification_features": [
+   "贡献率",
+   "拉动增长",
+   "乘积关系"
+  ],
+  "applies_to": [
+   "特殊考点",
+   "计算题",
+   "资料分析通用"
+  ],
+  "must_preserve": [
+   "数值精度控制与公式适用前提条件"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "落入时间单位陷阱",
+   "混淆同比环比或百分点与百分数",
+   "不看选项盲目精算"
+  ],
+  "positive_example": {
+   "input": "符合贡献率与拉动增长率关系定理的标准典型题型情境",
+   "preferred": "由【L 老师】指导的标准化速算模型快速列式并锁定正确答案",
+   "reason": "高效简洁且不易出错"
+  },
+  "negative_example": {
+   "input": "学生习惯性列出长除法列竖式硬算",
+   "bad_output": "耗时2分钟且极易因退位借位出错",
+   "reason": "违背行测速算原则"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "DATA_POL_DATA12_001",
+  "teacher_id": "teacher_data",
+  "author_teacher": "S 老师老师",
+  "name": "选项差距决定精算法则",
+  "status": "explicit",
+  "category": "速算技巧",
+  "trigger": "题目涉及资料分析速算技巧，出现先看选项相关指标或计算需求",
+  "rule": "S 老师强调：算之前必须先看四个选项的差距！选项差距极大（首位都不同）直接粗放估算；选项差距极小（仅末位不同）才考虑精细截位或计算。",
+  "reasoning": "考场不浪费一秒钟的节约算力心法。",
+  "identification_features": [
+   "先看选项",
+   "选项差距",
+   "节约算力"
+  ],
+  "applies_to": [
+   "速算技巧",
+   "计算题",
+   "资料分析通用"
+  ],
+  "must_preserve": [
+   "数值精度控制与公式适用前提条件"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "落入时间单位陷阱",
+   "混淆同比环比或百分点与百分数",
+   "不看选项盲目精算"
+  ],
+  "positive_example": {
+   "input": "符合选项差距决定精算法则的标准典型题型情境",
+   "preferred": "由【S 老师老师】指导的标准化速算模型快速列式并锁定正确答案",
+   "reason": "高效简洁且不易出错"
+  },
+  "negative_example": {
+   "input": "学生习惯性列出长除法列竖式硬算",
+   "bad_output": "耗时2分钟且极易因退位借位出错",
+   "reason": "违背行测速算原则"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "DATA_POL_DATA13_001",
+  "teacher_id": "teacher_data",
+  "author_teacher": "L 老师",
+  "name": "做题三遍法则——先易后难扫盲点",
+  "status": "explicit",
+  "category": "考场策略与提速心法",
+  "trigger": "题目涉及资料分析考场策略与提速心法，出现综合分析相关指标或计算需求",
+  "rule": "做资料分析一篇材料5道题：前4道通常是独立单指标运算题，先做稳拿分；第5道综合分析题先挑简单选项（如纯读数、简单比大小、两期比重升降）验证，遇到繁琐大计算选项直接跳过。",
+  "reasoning": "综合分析题的避坑抢分核心技巧。",
+  "identification_features": [
+   "综合分析",
+   "先易后难",
+   "挑简单选项"
+  ],
+  "applies_to": [
+   "考场策略与提速心法",
+   "计算题",
+   "资料分析通用"
+  ],
+  "must_preserve": [
+   "数值精度控制与公式适用前提条件"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "落入时间单位陷阱",
+   "混淆同比环比或百分点与百分数",
+   "不看选项盲目精算"
+  ],
+  "positive_example": {
+   "input": "符合做题三遍法则——先易后难扫盲点的标准典型题型情境",
+   "preferred": "由【L 老师】指导的标准化速算模型快速列式并锁定正确答案",
+   "reason": "高效简洁且不易出错"
+  },
+  "negative_example": {
+   "input": "学生习惯性列出长除法列竖式硬算",
+   "bad_output": "耗时2分钟且极易因退位借位出错",
+   "reason": "违背行测速算原则"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "DATA_POL_DATA14_001",
+  "teacher_id": "teacher_data",
+  "author_teacher": "L 老师",
+  "name": "图表与文字结合材料的交叉锁定法",
+  "status": "explicit",
+  "category": "综合分析与思维陷阱",
+  "trigger": "题目涉及资料分析综合分析与思维陷阱，出现交叉锁定相关指标或计算需求",
+  "rule": "多材料题型：文字通常交代总体口径与政策背景，图表交代具体分项数值。看清图表标题、单位（万与亿）、时间轴（季度/月份/累计值）。",
+  "reasoning": "防止信息错位导致整题全军覆没。",
+  "identification_features": [
+   "交叉锁定",
+   "图表标题",
+   "口径与单位"
+  ],
+  "applies_to": [
+   "综合分析与思维陷阱",
+   "计算题",
+   "资料分析通用"
+  ],
+  "must_preserve": [
+   "数值精度控制与公式适用前提条件"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "落入时间单位陷阱",
+   "混淆同比环比或百分点与百分数",
+   "不看选项盲目精算"
+  ],
+  "positive_example": {
+   "input": "符合图表与文字结合材料的交叉锁定法的标准典型题型情境",
+   "preferred": "由【L 老师】指导的标准化速算模型快速列式并锁定正确答案",
+   "reason": "高效简洁且不易出错"
+  },
+  "negative_example": {
+   "input": "学生习惯性列出长除法列竖式硬算",
+   "bad_output": "耗时2分钟且极易因退位借位出错",
+   "reason": "违背行测速算原则"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "DATA_POL_DATA15_001",
+  "teacher_id": "teacher_data",
+  "author_teacher": "L 老师",
+  "name": "资料分析全景思维脉络串讲",
+  "status": "explicit",
+  "category": "考场策略与提速心法",
+  "trigger": "题目涉及资料分析考场策略与提速心法，出现全景思维相关指标或计算需求",
+  "rule": "资料分析是行测提分最稳的模块，目标是20题拿下17-18题。建立ABRX、比重、平均数、倍数全公式闭环。",
+  "reasoning": "35分钟稳定输出85%以上正确率的底气所在。",
+  "identification_features": [
+   "全景思维",
+   "公式闭环",
+   "拿分之王"
+  ],
+  "applies_to": [
+   "考场策略与提速心法",
+   "计算题",
+   "资料分析通用"
+  ],
+  "must_preserve": [
+   "数值精度控制与公式适用前提条件"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "落入时间单位陷阱",
+   "混淆同比环比或百分点与百分数",
+   "不看选项盲目精算"
+  ],
+  "positive_example": {
+   "input": "符合资料分析全景思维脉络串讲的标准典型题型情境",
+   "preferred": "由【L 老师】指导的标准化速算模型快速列式并锁定正确答案",
+   "reason": "高效简洁且不易出错"
+  },
+  "negative_example": {
+   "input": "学生习惯性列出长除法列竖式硬算",
+   "bad_output": "耗时2分钟且极易因退位借位出错",
+   "reason": "违背行测速算原则"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "DATA_POL_DATA16_001",
+  "teacher_id": "teacher_data",
+  "author_teacher": "L 老师",
+  "name": "题干关键词时序与范围雷达定位",
+  "status": "explicit",
+  "category": "考场策略与提速心法",
+  "trigger": "题目涉及资料分析考场策略与提速心法，出现审题雷达相关指标或计算需求",
+  "rule": "读题干先圈三点：时间（2023年还是2022年）、主体（规模以上工业还是高技术制造）、指标（增长量还是增长率）。雷达式快速定位原文段落。",
+  "reasoning": "审题3秒钟，省去回看半分钟。",
+  "identification_features": [
+   "审题雷达",
+   "时间主体指标",
+   "快速定位"
+  ],
+  "applies_to": [
+   "考场策略与提速心法",
+   "计算题",
+   "资料分析通用"
+  ],
+  "must_preserve": [
+   "数值精度控制与公式适用前提条件"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "落入时间单位陷阱",
+   "混淆同比环比或百分点与百分数",
+   "不看选项盲目精算"
+  ],
+  "positive_example": {
+   "input": "符合题干关键词时序与范围雷达定位的标准典型题型情境",
+   "preferred": "由【L 老师】指导的标准化速算模型快速列式并锁定正确答案",
+   "reason": "高效简洁且不易出错"
+  },
+  "negative_example": {
+   "input": "学生习惯性列出长除法列竖式硬算",
+   "bad_output": "耗时2分钟且极易因退位借位出错",
+   "reason": "违背行测速算原则"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "DATA_POL_DATA17_001",
+  "teacher_id": "teacher_data",
+  "author_teacher": "L 老师",
+  "name": "累计值与当月值陷阱防范",
+  "status": "explicit",
+  "category": "综合分析与思维陷阱",
+  "trigger": "题目涉及资料分析综合分析与思维陷阱，出现累计值相关指标或计算需求",
+  "rule": "题干问'6月份单月'，材料给出的是'1-6月累计'与'1-5月累计'：单月值 = 前期累计 - 本期前段累计。切勿把1-6月累计当成6月单月。",
+  "reasoning": "高频易错时间口径陷阱。",
+  "identification_features": [
+   "累计值",
+   "单月值",
+   "相减求单月"
+  ],
+  "applies_to": [
+   "综合分析与思维陷阱",
+   "计算题",
+   "资料分析通用"
+  ],
+  "must_preserve": [
+   "数值精度控制与公式适用前提条件"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "落入时间单位陷阱",
+   "混淆同比环比或百分点与百分数",
+   "不看选项盲目精算"
+  ],
+  "positive_example": {
+   "input": "符合累计值与当月值陷阱防范的标准典型题型情境",
+   "preferred": "由【L 老师】指导的标准化速算模型快速列式并锁定正确答案",
+   "reason": "高效简洁且不易出错"
+  },
+  "negative_example": {
+   "input": "学生习惯性列出长除法列竖式硬算",
+   "bad_output": "耗时2分钟且极易因退位借位出错",
+   "reason": "违背行测速算原则"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "DATA_POL_DATA18_001",
+  "teacher_id": "teacher_data",
+  "author_teacher": "L 老师",
+  "name": "增长率为负时415假设分配逆向微调",
+  "status": "explicit",
+  "category": "速算技巧",
+  "trigger": "题目涉及资料分析速算技巧，出现增长率为负相关指标或计算需求",
+  "rule": "当增长率 R < 0 时：分母变为 (1 - |R|)。415假设分配法逆向微调为 4(-1)3，拆分时注意符号变化与反向补齐。",
+  "reasoning": "攻克负增长率复杂除法的独家核武器。",
+  "identification_features": [
+   "增长率为负",
+   "负增长率假设分配",
+   "逆向微调"
+  ],
+  "applies_to": [
+   "速算技巧",
+   "计算题",
+   "资料分析通用"
+  ],
+  "must_preserve": [
+   "数值精度控制与公式适用前提条件"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "落入时间单位陷阱",
+   "混淆同比环比或百分点与百分数",
+   "不看选项盲目精算"
+  ],
+  "positive_example": {
+   "input": "符合增长率为负时415假设分配逆向微调的标准典型题型情境",
+   "preferred": "由【L 老师】指导的标准化速算模型快速列式并锁定正确答案",
+   "reason": "高效简洁且不易出错"
+  },
+  "negative_example": {
+   "input": "学生习惯性列出长除法列竖式硬算",
+   "bad_output": "耗时2分钟且极易因退位借位出错",
+   "reason": "违背行测速算原则"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "DATA_POL_DATA19_001",
+  "teacher_id": "teacher_data",
+  "author_teacher": "L 老师",
+  "name": "14大常见思维陷阱终极防御体系",
+  "status": "explicit",
+  "category": "综合分析与思维陷阱",
+  "trigger": "题目涉及资料分析综合分析与思维陷阱，出现14大思维陷阱相关指标或计算需求",
+  "rule": "四大致命陷阱：1. 时间陷阱（基期 vs 现期）；2. 单位陷阱（吨 vs 万吨，亿元 vs 百万元）；3. 概念偷换（环比 vs 同比，顺差 vs 逆差）；4. 百分率 vs 百分点。审题强制自检。",
+  "reasoning": "让会做的题绝不丢分的终极护甲。",
+  "identification_features": [
+   "14大思维陷阱",
+   "时间单位陷阱",
+   "同比环比",
+   "百分点"
+  ],
+  "applies_to": [
+   "综合分析与思维陷阱",
+   "计算题",
+   "资料分析通用"
+  ],
+  "must_preserve": [
+   "数值精度控制与公式适用前提条件"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "落入时间单位陷阱",
+   "混淆同比环比或百分点与百分数",
+   "不看选项盲目精算"
+  ],
+  "positive_example": {
+   "input": "符合14大常见思维陷阱终极防御体系的标准典型题型情境",
+   "preferred": "由【L 老师】指导的标准化速算模型快速列式并锁定正确答案",
+   "reason": "高效简洁且不易出错"
+  },
+  "negative_example": {
+   "input": "学生习惯性列出长除法列竖式硬算",
+   "bad_output": "耗时2分钟且极易因退位借位出错",
+   "reason": "违背行测速算原则"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "DATA_POL_DATA20_001",
+  "teacher_id": "teacher_data",
+  "author_teacher": "L 老师",
+  "name": "结构图表极值快速比对法",
+  "status": "explicit",
+  "category": "比较类题型",
+  "trigger": "题目涉及资料分析比较类题型，出现柱状图高度相关指标或计算需求",
+  "rule": "柱状图看柱体绝对高度比较现期量，看折线起伏斜率比较增长速度。利用直尺或铅笔对齐辅助判断紧邻柱体高低。",
+  "reasoning": "视觉与算术结合的物理提速技巧。",
+  "identification_features": [
+   "柱状图高度",
+   "折线斜率",
+   "图表速看"
+  ],
+  "applies_to": [
+   "比较类题型",
+   "计算题",
+   "资料分析通用"
+  ],
+  "must_preserve": [
+   "数值精度控制与公式适用前提条件"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "落入时间单位陷阱",
+   "混淆同比环比或百分点与百分数",
+   "不看选项盲目精算"
+  ],
+  "positive_example": {
+   "input": "符合结构图表极值快速比对法的标准典型题型情境",
+   "preferred": "由【L 老师】指导的标准化速算模型快速列式并锁定正确答案",
+   "reason": "高效简洁且不易出错"
+  },
+  "negative_example": {
+   "input": "学生习惯性列出长除法列竖式硬算",
+   "bad_output": "耗时2分钟且极易因退位借位出错",
+   "reason": "违背行测速算原则"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "DATA_POL_DATA21_001",
+  "teacher_id": "teacher_data",
+  "author_teacher": "L 老师",
+  "name": "跨期复合增长与断崖式下跌判定",
+  "status": "explicit",
+  "category": "综合分析与思维陷阱",
+  "trigger": "题目涉及资料分析综合分析与思维陷阱，出现增速回落相关指标或计算需求",
+  "rule": "遇到折线图波谷波峰：注意正负转换点。增长率虽然持续下滑，但只要仍在0以上，现期量依然处于增长状态！只有增速由正转负才是总量见顶。",
+  "reasoning": "严防将'增速回落'误判为'总量减少'。",
+  "identification_features": [
+   "增速回落",
+   "总量增长",
+   "拐点判断"
+  ],
+  "applies_to": [
+   "综合分析与思维陷阱",
+   "计算题",
+   "资料分析通用"
+  ],
+  "must_preserve": [
+   "数值精度控制与公式适用前提条件"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "落入时间单位陷阱",
+   "混淆同比环比或百分点与百分数",
+   "不看选项盲目精算"
+  ],
+  "positive_example": {
+   "input": "符合跨期复合增长与断崖式下跌判定的标准典型题型情境",
+   "preferred": "由【L 老师】指导的标准化速算模型快速列式并锁定正确答案",
+   "reason": "高效简洁且不易出错"
+  },
+  "negative_example": {
+   "input": "学生习惯性列出长除法列竖式硬算",
+   "bad_output": "耗时2分钟且极易因退位借位出错",
+   "reason": "违背行测速算原则"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "DATA_POL_DATA22_001",
+  "teacher_id": "teacher_data",
+  "author_teacher": "L 老师",
+  "name": "多部分混合增长率十字交叉定向法",
+  "status": "explicit",
+  "category": "比重专题",
+  "trigger": "题目涉及资料分析比重专题，出现进出口总额相关指标或计算需求",
+  "rule": "进口增长率 + 出口增长率 混合为进出口总额增长率。总增速必介于进出口两者之间，且偏向基期体量更大的一方。",
+  "reasoning": "整体介于部分之间，偏向基期体量大者。",
+  "identification_features": [
+   "进出口总额",
+   "混合增长率",
+   "偏向大体量"
+  ],
+  "applies_to": [
+   "比重专题",
+   "计算题",
+   "资料分析通用"
+  ],
+  "must_preserve": [
+   "数值精度控制与公式适用前提条件"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "落入时间单位陷阱",
+   "混淆同比环比或百分点与百分数",
+   "不看选项盲目精算"
+  ],
+  "positive_example": {
+   "input": "符合多部分混合增长率十字交叉定向法的标准典型题型情境",
+   "preferred": "由【L 老师】指导的标准化速算模型快速列式并锁定正确答案",
+   "reason": "高效简洁且不易出错"
+  },
+  "negative_example": {
+   "input": "学生习惯性列出长除法列竖式硬算",
+   "bad_output": "耗时2分钟且极易因退位借位出错",
+   "reason": "违背行测速算原则"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "DATA_POL_DATA23_001",
+  "teacher_id": "teacher_data",
+  "author_teacher": "L 老师",
+  "name": "结构化跳读与分段标号阅读法",
+  "status": "explicit",
+  "category": "考场策略与提速心法",
+  "trigger": "题目涉及资料分析考场策略与提速心法，出现结构化跳读相关指标或计算需求",
+  "rule": "纯文字材料五大段：第一段划第一句（交代农业），第二段划第一句（交代工业），第三段服务业。读题干直接按行业直达对应自然段。",
+  "reasoning": "不读全篇直接精确定位的段落导航术。",
+  "identification_features": [
+   "结构化跳读",
+   "分段标号",
+   "行业直达"
+  ],
+  "applies_to": [
+   "考场策略与提速心法",
+   "计算题",
+   "资料分析通用"
+  ],
+  "must_preserve": [
+   "数值精度控制与公式适用前提条件"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "落入时间单位陷阱",
+   "混淆同比环比或百分点与百分数",
+   "不看选项盲目精算"
+  ],
+  "positive_example": {
+   "input": "符合结构化跳读与分段标号阅读法的标准典型题型情境",
+   "preferred": "由【L 老师】指导的标准化速算模型快速列式并锁定正确答案",
+   "reason": "高效简洁且不易出错"
+  },
+  "negative_example": {
+   "input": "学生习惯性列出长除法列竖式硬算",
+   "bad_output": "耗时2分钟且极易因退位借位出错",
+   "reason": "违背行测速算原则"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "DATA_POL_DATA24_001",
+  "teacher_id": "teacher_data",
+  "author_teacher": "X 老师老师",
+  "name": "X 老师老师全真思维链路与冲刺易错点",
+  "status": "explicit",
+  "category": "考场策略与提速心法",
+  "trigger": "题目涉及资料分析考场策略与提速心法，出现X 老师老师相关指标或计算需求",
+  "rule": "X 老师老师特别强调：考前冲刺必须把公式表默写3遍；拿到卷子先看是否有大篇幅负增长，心态放平；错位排列和隔板题数量如果不会，资料分析一定要多抢5分补回来！",
+  "reasoning": "协作组教学团队多教师联合护航冲刺心得。",
+  "identification_features": [
+   "X 老师老师",
+   "公式默写",
+   "冲刺大盘点",
+   "心态稳定"
+  ],
+  "applies_to": [
+   "考场策略与提速心法",
+   "计算题",
+   "资料分析通用"
+  ],
+  "must_preserve": [
+   "数值精度控制与公式适用前提条件"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "落入时间单位陷阱",
+   "混淆同比环比或百分点与百分数",
+   "不看选项盲目精算"
+  ],
+  "positive_example": {
+   "input": "符合X 老师老师全真思维链路与冲刺易错点的标准典型题型情境",
+   "preferred": "由【X 老师老师】指导的标准化速算模型快速列式并锁定正确答案",
+   "reason": "高效简洁且不易出错"
+  },
+  "negative_example": {
+   "input": "学生习惯性列出长除法列竖式硬算",
+   "bad_output": "耗时2分钟且极易因退位借位出错",
+   "reason": "违背行测速算原则"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "DATA_POL_DATA25_001",
+  "teacher_id": "teacher_data",
+  "author_teacher": "L 老师",
+  "name": "压轴大题长算式拆步验算法",
+  "status": "explicit",
+  "category": "综合分析与思维陷阱",
+  "trigger": "题目涉及资料分析综合分析与思维陷阱，出现压轴大题相关指标或计算需求",
+  "rule": "压轴复杂算式（如三部分加权平均）：先估算权重最大的核心项，看选项差距，若前两项已能确定唯一选项，果断终止计算。",
+  "reasoning": "考场压轴题截断计算止血心法。",
+  "identification_features": [
+   "压轴大题",
+   "权重预估",
+   "终止计算"
+  ],
+  "applies_to": [
+   "综合分析与思维陷阱",
+   "计算题",
+   "资料分析通用"
+  ],
+  "must_preserve": [
+   "数值精度控制与公式适用前提条件"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "落入时间单位陷阱",
+   "混淆同比环比或百分点与百分数",
+   "不看选项盲目精算"
+  ],
+  "positive_example": {
+   "input": "符合压轴大题长算式拆步验算法的标准典型题型情境",
+   "preferred": "由【L 老师】指导的标准化速算模型快速列式并锁定正确答案",
+   "reason": "高效简洁且不易出错"
+  },
+  "negative_example": {
+   "input": "学生习惯性列出长除法列竖式硬算",
+   "bad_output": "耗时2分钟且极易因退位借位出错",
+   "reason": "违背行测速算原则"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "DATA_POL_DATA26_001",
+  "teacher_id": "teacher_data",
+  "author_teacher": "L 老师",
+  "name": "年均增长量与年均增长率的年份差计算",
+  "status": "explicit",
+  "category": "ABRX 基础指标",
+  "trigger": "题目涉及资料分析ABRX 基础指标，出现年均增长量相关指标或计算需求",
+  "rule": "年均增长量 = (末期量 - 初期量) / 年份差 n。注意：'十二五'或'十三五'规划期间，初期量必须往前推一年作为基期！年份差 n = 末期年份 - 初期年份。",
+  "reasoning": "规划期间初期量取值的经典易错点。",
+  "identification_features": [
+   "年均增长量",
+   "年份差",
+   "规划期间初期推一年"
+  ],
+  "applies_to": [
+   "ABRX 基础指标",
+   "计算题",
+   "资料分析通用"
+  ],
+  "must_preserve": [
+   "数值精度控制与公式适用前提条件"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "落入时间单位陷阱",
+   "混淆同比环比或百分点与百分数",
+   "不看选项盲目精算"
+  ],
+  "positive_example": {
+   "input": "符合年均增长量与年均增长率的年份差计算的标准典型题型情境",
+   "preferred": "由【L 老师】指导的标准化速算模型快速列式并锁定正确答案",
+   "reason": "高效简洁且不易出错"
+  },
+  "negative_example": {
+   "input": "学生习惯性列出长除法列竖式硬算",
+   "bad_output": "耗时2分钟且极易因退位借位出错",
+   "reason": "违背行测速算原则"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "DATA_POL_DATA27_001",
+  "teacher_id": "teacher_data",
+  "author_teacher": "L 老师",
+  "name": "心流做题状态与节奏感掌控",
+  "status": "explicit",
+  "category": "考场策略与提速心法",
+  "trigger": "题目涉及资料分析考场策略与提速心法，出现做题节奏相关指标或计算需求",
+  "rule": "考场保持平稳心流：一道题超过60秒无清晰算式立即标记并跳过，绝不在任何一道泥潭题上死磕超过1分半钟。四篇材料节奏均匀推进。",
+  "reasoning": "考场时间与心理管理至上法则。",
+  "identification_features": [
+   "做题节奏",
+   "60秒止损",
+   "心流状态"
+  ],
+  "applies_to": [
+   "考场策略与提速心法",
+   "计算题",
+   "资料分析通用"
+  ],
+  "must_preserve": [
+   "数值精度控制与公式适用前提条件"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "落入时间单位陷阱",
+   "混淆同比环比或百分点与百分数",
+   "不看选项盲目精算"
+  ],
+  "positive_example": {
+   "input": "符合心流做题状态与节奏感掌控的标准典型题型情境",
+   "preferred": "由【L 老师】指导的标准化速算模型快速列式并锁定正确答案",
+   "reason": "高效简洁且不易出错"
+  },
+  "negative_example": {
+   "input": "学生习惯性列出长除法列竖式硬算",
+   "bad_output": "耗时2分钟且极易因退位借位出错",
+   "reason": "违背行测速算原则"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "DATA_POL_DATA28_001",
+  "teacher_id": "teacher_data",
+  "author_teacher": "L 老师",
+  "name": "收官套题全真模拟检验法",
+  "status": "explicit",
+  "category": "考场策略与提速心法",
+  "trigger": "题目涉及资料分析考场策略与提速心法，出现收官全真模拟相关指标或计算需求",
+  "rule": "最后一次全真模拟：严格限定32分钟完成20道题，填涂答题卡2分钟。检查涂卡顺序，确保资料分析成为行测高分坚固基石。",
+  "reasoning": "大考前的全要素实战演练与心态定格。",
+  "identification_features": [
+   "收官全真模拟",
+   "时间限定",
+   "涂卡规范"
+  ],
+  "applies_to": [
+   "考场策略与提速心法",
+   "计算题",
+   "资料分析通用"
+  ],
+  "must_preserve": [
+   "数值精度控制与公式适用前提条件"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "落入时间单位陷阱",
+   "混淆同比环比或百分点与百分数",
+   "不看选项盲目精算"
+  ],
+  "positive_example": {
+   "input": "符合收官套题全真模拟检验法的标准典型题型情境",
+   "preferred": "由【L 老师】指导的标准化速算模型快速列式并锁定正确答案",
+   "reason": "高效简洁且不易出错"
+  },
+  "negative_example": {
+   "input": "学生习惯性列出长除法列竖式硬算",
+   "bad_output": "耗时2分钟且极易因退位借位出错",
+   "reason": "违背行测速算原则"
+  },
+  "confidence": 1.0
+ }
+]

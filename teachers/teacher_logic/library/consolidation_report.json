@@ -1,0 +1,27 @@
+{
+ "teacher_id": "teacher_logic",
+ "total_policies": 24,
+ "total_question_cases": 157,
+ "total_critique_cases": 0,
+ "categories": [],
+ "courses_covered": [
+  "LOGIC01",
+  "LOGIC02",
+  "LOGIC03",
+  "LOGIC04",
+  "LOGIC05",
+  "LOGIC06",
+  "LOGIC07",
+  "LOGIC08",
+  "LOGIC09",
+  "LOGIC10",
+  "LOGIC11",
+  "LOGIC12",
+  "LOGIC13"
+ ],
+ "quarantined_original_question_cases": 13,
+ "case_coverage_status": "partial_source_verified",
+ "pending_visual_review": 0,
+ "audit_status": "REMEDIATED_WITH_DISCLOSED_GAPS",
+ "coverage_status": "SOURCE_CHAPTER_CASES_RECONSTRUCTED"
+}

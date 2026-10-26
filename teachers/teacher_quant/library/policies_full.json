@@ -1,0 +1,1097 @@
+[
+ {
+  "policy_id": "QUANT_POL_QUANT01_001",
+  "teacher_id": "teacher_quant",
+  "name": "不定方程求解三板斧——奇偶倍数尾数法",
+  "status": "explicit",
+  "category": "方程与代数",
+  "trigger": "题目涉及数量关系方程与代数题型，出现不定方程相关题干表述",
+  "rule": "当未知数个数大于方程个数时（如 ax + by = c），利用奇偶性（奇+奇=偶、奇+偶=奇）、倍数特性（若c是b的倍数，则ax必为b的倍数）、尾数特性（5或0结尾），快速锁定整数解。",
+  "reasoning": "整数未知数限定是不定方程的命门，无需强行解方程，用数字特性排除选项即可秒杀。",
+  "identification_features": [
+   "不定方程",
+   "奇偶性",
+   "倍数特性",
+   "尾数法"
+  ],
+  "applies_to": [
+   "方程与代数",
+   "计算题",
+   "通用"
+  ],
+  "must_preserve": [
+   "公式计算边界与特值设定的公倍数整数约束"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "盲目设多个未知数导致列出无解高阶方程",
+   "算错奇偶倍数特性"
+  ],
+  "positive_example": {
+   "input": "符合不定方程求解三板斧——奇偶倍数尾数法的标准典型题型情境",
+   "preferred": "运用特定法则与口诀特值快速列式求解",
+   "reason": "算术极其简洁快速"
+  },
+  "negative_example": {
+   "input": "学生死板设未知数解多重复杂方程",
+   "bad_output": "耗时3分钟且极易发生计算失误",
+   "reason": "缺乏行测套路思维"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "QUANT_POL_QUANT01_002",
+  "teacher_id": "teacher_quant",
+  "name": "和差倍比设未知数原则——设小不设大、设基准量",
+  "status": "explicit",
+  "category": "方程与代数",
+  "trigger": "题目涉及数量关系方程与代数题型，出现设未知数相关题干表述",
+  "rule": "列方程时优先设比例中的最小基准量或倍数份数为x，避免列出带有分数的复杂方程，降低计算失误率。",
+  "reasoning": "简化方程形式等于提高解题速度与正确率。",
+  "identification_features": [
+   "设未知数",
+   "设小不设大",
+   "避免分数"
+  ],
+  "applies_to": [
+   "方程与代数",
+   "计算题",
+   "通用"
+  ],
+  "must_preserve": [
+   "公式计算边界与特值设定的公倍数整数约束"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "盲目设多个未知数导致列出无解高阶方程",
+   "算错奇偶倍数特性"
+  ],
+  "positive_example": {
+   "input": "符合和差倍比设未知数原则——设小不设大、设基准量的标准典型题型情境",
+   "preferred": "运用特定法则与口诀特值快速列式求解",
+   "reason": "算术极其简洁快速"
+  },
+  "negative_example": {
+   "input": "学生死板设未知数解多重复杂方程",
+   "bad_output": "耗时3分钟且极易发生计算失误",
+   "reason": "缺乏行测套路思维"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "QUANT_POL_QUANT02_001",
+  "teacher_id": "teacher_quant",
+  "name": "工程问题给时间型——设工作总量为公倍数",
+  "status": "explicit",
+  "category": "工程问题",
+  "trigger": "题目涉及数量关系工程问题题型，出现给时间相关题干表述",
+  "rule": "题干只给出各主体单独完成的工作时间：设工作总量为各时间的最小公倍数，求出各自效率，再按合作或交替规则计算。",
+  "reasoning": "经典标准化解法，化抽象为具体整数。",
+  "identification_features": [
+   "给时间",
+   "最小公倍数",
+   "求效率"
+  ],
+  "applies_to": [
+   "工程问题",
+   "计算题",
+   "通用"
+  ],
+  "must_preserve": [
+   "公式计算边界与特值设定的公倍数整数约束"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "盲目设多个未知数导致列出无解高阶方程",
+   "算错奇偶倍数特性"
+  ],
+  "positive_example": {
+   "input": "符合工程问题给时间型——设工作总量为公倍数的标准典型题型情境",
+   "preferred": "运用特定法则与口诀特值快速列式求解",
+   "reason": "算术极其简洁快速"
+  },
+  "negative_example": {
+   "input": "学生死板设未知数解多重复杂方程",
+   "bad_output": "耗时3分钟且极易发生计算失误",
+   "reason": "缺乏行测套路思维"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "QUANT_POL_QUANT02_002",
+  "teacher_id": "teacher_quant",
+  "name": "工程问题给效率型——直接按比例设效率为具体值",
+  "status": "explicit",
+  "category": "工程问题",
+  "trigger": "题目涉及数量关系工程问题题型，出现给效率相关题干表述",
+  "rule": "题干给出各主体的效率比（如甲乙效率比为3:4）：直接设甲效率为3、乙效率为4，反求工作总量，再求解目标问题。",
+  "reasoning": "消除未知数，直奔数值运算。",
+  "identification_features": [
+   "给效率",
+   "效率比",
+   "直接设效率"
+  ],
+  "applies_to": [
+   "工程问题",
+   "计算题",
+   "通用"
+  ],
+  "must_preserve": [
+   "公式计算边界与特值设定的公倍数整数约束"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "盲目设多个未知数导致列出无解高阶方程",
+   "算错奇偶倍数特性"
+  ],
+  "positive_example": {
+   "input": "符合工程问题给效率型——直接按比例设效率为具体值的标准典型题型情境",
+   "preferred": "运用特定法则与口诀特值快速列式求解",
+   "reason": "算术极其简洁快速"
+  },
+  "negative_example": {
+   "input": "学生死板设未知数解多重复杂方程",
+   "bad_output": "耗时3分钟且极易发生计算失误",
+   "reason": "缺乏行测套路思维"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "QUANT_POL_QUANT03_001",
+  "teacher_id": "teacher_quant",
+  "name": "十字交叉法与杠杆原理求解溶液混合",
+  "status": "explicit",
+  "category": "溶液与浓度",
+  "trigger": "题目涉及数量关系溶液与浓度题型，出现十字交叉相关题干表述",
+  "rule": "两种不同浓度的溶液混合得到中间浓度：浓度差之比等于质量的反比（高浓度-中间浓度）与（中间浓度-低浓度）之比等于（低浓度质量比高浓度质量）。",
+  "reasoning": "数学物理统一的杠杆平衡模型，秒杀混合浓度。",
+  "identification_features": [
+   "十字交叉",
+   "杠杆平衡",
+   "浓度差反比"
+  ],
+  "applies_to": [
+   "溶液与浓度",
+   "计算题",
+   "通用"
+  ],
+  "must_preserve": [
+   "公式计算边界与特值设定的公倍数整数约束"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "盲目设多个未知数导致列出无解高阶方程",
+   "算错奇偶倍数特性"
+  ],
+  "positive_example": {
+   "input": "符合十字交叉法与杠杆原理求解溶液混合的标准典型题型情境",
+   "preferred": "运用特定法则与口诀特值快速列式求解",
+   "reason": "算术极其简洁快速"
+  },
+  "negative_example": {
+   "input": "学生死板设未知数解多重复杂方程",
+   "bad_output": "耗时3分钟且极易发生计算失误",
+   "reason": "缺乏行测套路思维"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "QUANT_POL_QUANT04_001",
+  "teacher_id": "teacher_quant",
+  "name": "整除特性秒杀法——抓题干倍数比例直接定答案",
+  "status": "explicit",
+  "category": "考场秒杀与策略",
+  "trigger": "题目涉及数量关系考场秒杀与策略题型，出现整除特性相关题干表述",
+  "rule": "题干出现'男女人数比为3:5'、'平均分配给7个人'等描述：结果必然是相关数字的整数倍，直接结合选项整除性排除3个干扰项。",
+  "reasoning": "公考行测数量关系提速第一神器。",
+  "identification_features": [
+   "整除特性",
+   "比例倍数",
+   "选项秒杀"
+  ],
+  "applies_to": [
+   "考场秒杀与策略",
+   "计算题",
+   "通用"
+  ],
+  "must_preserve": [
+   "公式计算边界与特值设定的公倍数整数约束"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "盲目设多个未知数导致列出无解高阶方程",
+   "算错奇偶倍数特性"
+  ],
+  "positive_example": {
+   "input": "符合整除特性秒杀法——抓题干倍数比例直接定答案的标准典型题型情境",
+   "preferred": "运用特定法则与口诀特值快速列式求解",
+   "reason": "算术极其简洁快速"
+  },
+  "negative_example": {
+   "input": "学生死板设未知数解多重复杂方程",
+   "bad_output": "耗时3分钟且极易发生计算失误",
+   "reason": "缺乏行测套路思维"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "QUANT_POL_QUANT05_001",
+  "teacher_id": "teacher_quant",
+  "name": "等差数列中项求和公式——和等于中项乘项数",
+  "status": "explicit",
+  "category": "趣味杂题",
+  "trigger": "题目涉及数量关系趣味杂题题型，出现等差数列相关题干表述",
+  "rule": "奇数项等差数列求和：总和等于正中间那一项乘项数；偶数项等差数列总和等于中间两项平均值乘项数。",
+  "reasoning": "无需套用复杂求和公式，一眼定答案。",
+  "identification_features": [
+   "等差数列",
+   "中项求和",
+   "项数乘中项"
+  ],
+  "applies_to": [
+   "趣味杂题",
+   "计算题",
+   "通用"
+  ],
+  "must_preserve": [
+   "公式计算边界与特值设定的公倍数整数约束"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "盲目设多个未知数导致列出无解高阶方程",
+   "算错奇偶倍数特性"
+  ],
+  "positive_example": {
+   "input": "符合等差数列中项求和公式——和等于中项乘项数的标准典型题型情境",
+   "preferred": "运用特定法则与口诀特值快速列式求解",
+   "reason": "算术极其简洁快速"
+  },
+  "negative_example": {
+   "input": "学生死板设未知数解多重复杂方程",
+   "bad_output": "耗时3分钟且极易发生计算失误",
+   "reason": "缺乏行测套路思维"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "QUANT_POL_QUANT06_001",
+  "teacher_id": "teacher_quant",
+  "name": "两集合与三集合标准型容斥公式",
+  "status": "explicit",
+  "category": "容斥与最值",
+  "trigger": "题目涉及数量关系容斥与最值题型，出现容斥原理相关题干表述",
+  "rule": "两集合：A + B - A∩B = 总数 - 都不；三集合核心公式：A + B + C - (只满足两项之和) - 2(三项都满足) = 总数 - 都不满足。",
+  "reasoning": "重叠区域去重原则，精准画韦恩图。",
+  "identification_features": [
+   "容斥原理",
+   "两集合",
+   "三集合",
+   "去重"
+  ],
+  "applies_to": [
+   "容斥与最值",
+   "计算题",
+   "通用"
+  ],
+  "must_preserve": [
+   "公式计算边界与特值设定的公倍数整数约束"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "盲目设多个未知数导致列出无解高阶方程",
+   "算错奇偶倍数特性"
+  ],
+  "positive_example": {
+   "input": "符合两集合与三集合标准型容斥公式的标准典型题型情境",
+   "preferred": "运用特定法则与口诀特值快速列式求解",
+   "reason": "算术极其简洁快速"
+  },
+  "negative_example": {
+   "input": "学生死板设未知数解多重复杂方程",
+   "bad_output": "耗时3分钟且极易发生计算失误",
+   "reason": "缺乏行测套路思维"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "QUANT_POL_QUANT06_002",
+  "teacher_id": "teacher_quant",
+  "name": "两集合容斥极值公式——两集合都满足的最小值",
+  "status": "explicit",
+  "category": "容斥与最值",
+  "trigger": "题目涉及数量关系容斥与最值题型，出现容斥极值相关题干表述",
+  "rule": "满足A和满足B的重叠部分最小值等于 A + B - 总数。推广到多集合：全满足最小值等于各项之和减去(n-1)倍总数。",
+  "reasoning": "极值相加取补集法，直接套公式秒杀。",
+  "identification_features": [
+   "容斥极值",
+   "反向相加取补",
+   "最小值"
+  ],
+  "applies_to": [
+   "容斥与最值",
+   "计算题",
+   "通用"
+  ],
+  "must_preserve": [
+   "公式计算边界与特值设定的公倍数整数约束"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "盲目设多个未知数导致列出无解高阶方程",
+   "算错奇偶倍数特性"
+  ],
+  "positive_example": {
+   "input": "符合两集合容斥极值公式——两集合都满足的最小值的标准典型题型情境",
+   "preferred": "运用特定法则与口诀特值快速列式求解",
+   "reason": "算术极其简洁快速"
+  },
+  "negative_example": {
+   "input": "学生死板设未知数解多重复杂方程",
+   "bad_output": "耗时3分钟且极易发生计算失误",
+   "reason": "缺乏行测套路思维"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "QUANT_POL_QUANT07_001",
+  "teacher_id": "teacher_quant",
+  "name": "溶液变化抓不变量原则——溶质守恒或溶剂守恒",
+  "status": "explicit",
+  "category": "溶液与浓度",
+  "trigger": "题目涉及数量关系溶液与浓度题型，出现溶质守恒相关题干表述",
+  "rule": "加水稀释溶质质量不变；蒸发溶剂溶质质量不变；加糖加盐溶剂（水）质量不变。以不变量为桥梁列等式求解。",
+  "reasoning": "变中有不变，抓住守恒量迎刃而解。",
+  "identification_features": [
+   "溶质守恒",
+   "加水稀释",
+   "抓不变量"
+  ],
+  "applies_to": [
+   "溶液与浓度",
+   "计算题",
+   "通用"
+  ],
+  "must_preserve": [
+   "公式计算边界与特值设定的公倍数整数约束"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "盲目设多个未知数导致列出无解高阶方程",
+   "算错奇偶倍数特性"
+  ],
+  "positive_example": {
+   "input": "符合溶液变化抓不变量原则——溶质守恒或溶剂守恒的标准典型题型情境",
+   "preferred": "运用特定法则与口诀特值快速列式求解",
+   "reason": "算术极其简洁快速"
+  },
+  "negative_example": {
+   "input": "学生死板设未知数解多重复杂方程",
+   "bad_output": "耗时3分钟且极易发生计算失误",
+   "reason": "缺乏行测套路思维"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "QUANT_POL_QUANT08_001",
+  "teacher_id": "teacher_quant",
+  "name": "相遇与追及标准公式与运动图景",
+  "status": "explicit",
+  "category": "基础行程与比例",
+  "trigger": "题目涉及数量关系基础行程与比例题型，出现相遇问题相关题干表述",
+  "rule": "相遇问题：路程和 = 速度和 × 相遇时间；追及问题：路程差 = 速度差 × 追及时间。抓住同时出发或先后出发的时间差节点。",
+  "reasoning": "行程问题的两大基石公式。",
+  "identification_features": [
+   "相遇问题",
+   "追及问题",
+   "速度和",
+   "速度差"
+  ],
+  "applies_to": [
+   "基础行程与比例",
+   "计算题",
+   "通用"
+  ],
+  "must_preserve": [
+   "公式计算边界与特值设定的公倍数整数约束"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "盲目设多个未知数导致列出无解高阶方程",
+   "算错奇偶倍数特性"
+  ],
+  "positive_example": {
+   "input": "符合相遇与追及标准公式与运动图景的标准典型题型情境",
+   "preferred": "运用特定法则与口诀特值快速列式求解",
+   "reason": "算术极其简洁快速"
+  },
+  "negative_example": {
+   "input": "学生死板设未知数解多重复杂方程",
+   "bad_output": "耗时3分钟且极易发生计算失误",
+   "reason": "缺乏行测套路思维"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "QUANT_POL_QUANT09_001",
+  "teacher_id": "teacher_quant",
+  "name": "比例法解行程——时间相同路程比等于速度比",
+  "status": "explicit",
+  "category": "基础行程与比例",
+  "trigger": "题目涉及数量关系基础行程与比例题型，出现比例行程相关题干表述",
+  "rule": "当运动时间相同时，路程之比等于速度之比；当路程相同时，时间之比等于速度的反比。多次折返相遇利用每次相遇走过的路程和规律（1倍路程、3倍路程、5倍路程）。",
+  "reasoning": "用比例关系替代冗长的方程运算，大幅提速。",
+  "identification_features": [
+   "比例行程",
+   "时间相同",
+   "折返相遇"
+  ],
+  "applies_to": [
+   "基础行程与比例",
+   "计算题",
+   "通用"
+  ],
+  "must_preserve": [
+   "公式计算边界与特值设定的公倍数整数约束"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "盲目设多个未知数导致列出无解高阶方程",
+   "算错奇偶倍数特性"
+  ],
+  "positive_example": {
+   "input": "符合比例法解行程——时间相同路程比等于速度比的标准典型题型情境",
+   "preferred": "运用特定法则与口诀特值快速列式求解",
+   "reason": "算术极其简洁快速"
+  },
+  "negative_example": {
+   "input": "学生死板设未知数解多重复杂方程",
+   "bad_output": "耗时3分钟且极易发生计算失误",
+   "reason": "缺乏行测套路思维"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "QUANT_POL_QUANT10_001",
+  "teacher_id": "teacher_quant",
+  "name": "经济利润核心公式体系与设特值法",
+  "status": "explicit",
+  "category": "经济利润",
+  "trigger": "题目涉及数量关系经济利润题型，出现利润率相关题干表述",
+  "rule": "利润 = 售价 - 成本；利润率 = 利润 / 成本；打折售价 = 原价 × 折扣率。未知成本或销量时，直接设成本为100或件数为10。",
+  "reasoning": "以具体数值代替抽象百分比，算术清晰直观。",
+  "identification_features": [
+   "利润率",
+   "打折",
+   "设成本为100"
+  ],
+  "applies_to": [
+   "经济利润",
+   "计算题",
+   "通用"
+  ],
+  "must_preserve": [
+   "公式计算边界与特值设定的公倍数整数约束"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "盲目设多个未知数导致列出无解高阶方程",
+   "算错奇偶倍数特性"
+  ],
+  "positive_example": {
+   "input": "符合经济利润核心公式体系与设特值法的标准典型题型情境",
+   "preferred": "运用特定法则与口诀特值快速列式求解",
+   "reason": "算术极其简洁快速"
+  },
+  "negative_example": {
+   "input": "学生死板设未知数解多重复杂方程",
+   "bad_output": "耗时3分钟且极易发生计算失误",
+   "reason": "缺乏行测套路思维"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "QUANT_POL_QUANT11_001",
+  "teacher_id": "teacher_quant",
+  "name": "相邻问题捆绑法与不相邻问题插空法",
+  "status": "explicit",
+  "category": "排列组合与概率",
+  "trigger": "题目涉及数量关系排列组合与概率题型，出现捆绑法相关题干表述",
+  "rule": "要求元素必须相邻：将相邻元素'捆绑'视为一个大元素参与排列，注意内部自排；要求元素互不相邻：先排其余元素，再在生成的空档中'插空'排列。",
+  "reasoning": "排列组合最核心的两大经典模型。",
+  "identification_features": [
+   "捆绑法",
+   "插空法",
+   "相邻与不相邻"
+  ],
+  "applies_to": [
+   "排列组合与概率",
+   "计算题",
+   "通用"
+  ],
+  "must_preserve": [
+   "公式计算边界与特值设定的公倍数整数约束"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "盲目设多个未知数导致列出无解高阶方程",
+   "算错奇偶倍数特性"
+  ],
+  "positive_example": {
+   "input": "符合相邻问题捆绑法与不相邻问题插空法的标准典型题型情境",
+   "preferred": "运用特定法则与口诀特值快速列式求解",
+   "reason": "算术极其简洁快速"
+  },
+  "negative_example": {
+   "input": "学生死板设未知数解多重复杂方程",
+   "bad_output": "耗时3分钟且极易发生计算失误",
+   "reason": "缺乏行测套路思维"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "QUANT_POL_QUANT11_002",
+  "teacher_id": "teacher_quant",
+  "name": "相同名额分配问题——隔板法",
+  "status": "explicit",
+  "category": "排列组合与概率",
+  "trigger": "题目涉及数量关系排列组合与概率题型，出现隔板法相关题干表述",
+  "rule": "将n个相同的元素分给m个不同对象，且每人至少分得1个：在n个元素形成的n-1个空隙中插入m-1个隔板，方法数为 C(n-1, m-1)。",
+  "reasoning": "同质元素分配的标准范式。",
+  "identification_features": [
+   "隔板法",
+   "相同元素分配",
+   "至少一个"
+  ],
+  "applies_to": [
+   "排列组合与概率",
+   "计算题",
+   "通用"
+  ],
+  "must_preserve": [
+   "公式计算边界与特值设定的公倍数整数约束"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "盲目设多个未知数导致列出无解高阶方程",
+   "算错奇偶倍数特性"
+  ],
+  "positive_example": {
+   "input": "符合相同名额分配问题——隔板法的标准典型题型情境",
+   "preferred": "运用特定法则与口诀特值快速列式求解",
+   "reason": "算术极其简洁快速"
+  },
+  "negative_example": {
+   "input": "学生死板设未知数解多重复杂方程",
+   "bad_output": "耗时3分钟且极易发生计算失误",
+   "reason": "缺乏行测套路思维"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "QUANT_POL_QUANT12_001",
+  "teacher_id": "teacher_quant",
+  "name": "几何图形面积比例放大模型与割补转化",
+  "status": "explicit",
+  "category": "几何模型",
+  "trigger": "题目涉及数量关系几何模型题型，出现割补法相关题干表述",
+  "rule": "相似图形对应边长之比为k，则周长之比为k，面积之比为k²；不规则阴影面积优先转化为规则图形相加减（割补平移法）。",
+  "reasoning": "几何题重在图形转化而非死记复杂积分。",
+  "identification_features": [
+   "割补法",
+   "相似比",
+   "面积平方比"
+  ],
+  "applies_to": [
+   "几何模型",
+   "计算题",
+   "通用"
+  ],
+  "must_preserve": [
+   "公式计算边界与特值设定的公倍数整数约束"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "盲目设多个未知数导致列出无解高阶方程",
+   "算错奇偶倍数特性"
+  ],
+  "positive_example": {
+   "input": "符合几何图形面积比例放大模型与割补转化的标准典型题型情境",
+   "preferred": "运用特定法则与口诀特值快速列式求解",
+   "reason": "算术极其简洁快速"
+  },
+  "negative_example": {
+   "input": "学生死板设未知数解多重复杂方程",
+   "bad_output": "耗时3分钟且极易发生计算失误",
+   "reason": "缺乏行测套路思维"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "QUANT_POL_QUANT13_001",
+  "teacher_id": "teacher_quant",
+  "name": "立体几何表面积变化与体积等积变形",
+  "status": "explicit",
+  "category": "几何模型",
+  "trigger": "题目涉及数量关系几何模型题型，出现每切一刀相关题干表述",
+  "rule": "切割立体图形：每切一刀增加两个截面面积；拼接立体图形：每拼接一次减少两个接触面面积。长方体、圆柱、圆锥体积公式熟记。",
+  "reasoning": "三维空间表面积增减的确定性规律。",
+  "identification_features": [
+   "每切一刀",
+   "增加两个面",
+   "等积变形"
+  ],
+  "applies_to": [
+   "几何模型",
+   "计算题",
+   "通用"
+  ],
+  "must_preserve": [
+   "公式计算边界与特值设定的公倍数整数约束"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "盲目设多个未知数导致列出无解高阶方程",
+   "算错奇偶倍数特性"
+  ],
+  "positive_example": {
+   "input": "符合立体几何表面积变化与体积等积变形的标准典型题型情境",
+   "preferred": "运用特定法则与口诀特值快速列式求解",
+   "reason": "算术极其简洁快速"
+  },
+  "negative_example": {
+   "input": "学生死板设未知数解多重复杂方程",
+   "bad_output": "耗时3分钟且极易发生计算失误",
+   "reason": "缺乏行测套路思维"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "QUANT_POL_QUANT14_001",
+  "teacher_id": "teacher_quant",
+  "name": "概率基础——古典概型与正难则反思维",
+  "status": "explicit",
+  "category": "排列组合与概率",
+  "trigger": "题目涉及数量关系排列组合与概率题型，出现古典概型相关题干表述",
+  "rule": "古典概型概率 P = 满足条件的情况数 / 总情况数。当正面情况繁琐时，采用'正难则反'策略：P = 1 - 对立事件概率。",
+  "reasoning": "反向思维是攻克概率大题的捷径。",
+  "identification_features": [
+   "古典概型",
+   "正难则反",
+   "对立事件"
+  ],
+  "applies_to": [
+   "排列组合与概率",
+   "计算题",
+   "通用"
+  ],
+  "must_preserve": [
+   "公式计算边界与特值设定的公倍数整数约束"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "盲目设多个未知数导致列出无解高阶方程",
+   "算错奇偶倍数特性"
+  ],
+  "positive_example": {
+   "input": "符合概率基础——古典概型与正难则反思维的标准典型题型情境",
+   "preferred": "运用特定法则与口诀特值快速列式求解",
+   "reason": "算术极其简洁快速"
+  },
+  "negative_example": {
+   "input": "学生死板设未知数解多重复杂方程",
+   "bad_output": "耗时3分钟且极易发生计算失误",
+   "reason": "缺乏行测套路思维"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "QUANT_POL_QUANT15_001",
+  "teacher_id": "teacher_quant",
+  "name": "独立重复试验伯努利模型公式",
+  "status": "explicit",
+  "category": "排列组合与概率",
+  "trigger": "题目涉及数量关系排列组合与概率题型，出现独立重复试验相关题干表述",
+  "rule": "在n次独立重复试验中，事件A发生k次的概率为 P = C(n, k) * p^k * (1-p)^(n-k)。判定单次成功率不变与各次独立性。",
+  "reasoning": "多次投篮、射击、抽检的标准模型。",
+  "identification_features": [
+   "独立重复试验",
+   "伯努利",
+   "成功率"
+  ],
+  "applies_to": [
+   "排列组合与概率",
+   "计算题",
+   "通用"
+  ],
+  "must_preserve": [
+   "公式计算边界与特值设定的公倍数整数约束"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "盲目设多个未知数导致列出无解高阶方程",
+   "算错奇偶倍数特性"
+  ],
+  "positive_example": {
+   "input": "符合独立重复试验伯努利模型公式的标准典型题型情境",
+   "preferred": "运用特定法则与口诀特值快速列式求解",
+   "reason": "算术极其简洁快速"
+  },
+  "negative_example": {
+   "input": "学生死板设未知数解多重复杂方程",
+   "bad_output": "耗时3分钟且极易发生计算失误",
+   "reason": "缺乏行测套路思维"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "QUANT_POL_QUANT16_001",
+  "teacher_id": "teacher_quant",
+  "name": "错位排列与环形排列公式",
+  "status": "explicit",
+  "category": "排列组合与概率",
+  "trigger": "题目涉及数量关系排列组合与概率题型，出现错位排列相关题干表述",
+  "rule": "错位排列（所有人都不拿自己东西）：D1=0, D2=1, D3=2, D4=9, D5=44。n人环形排列方法数为 (n-1)!。",
+  "reasoning": "特定场景牢记数值，无需考场推导。",
+  "identification_features": [
+   "错位排列",
+   "环形排列",
+   "D4等于9"
+  ],
+  "applies_to": [
+   "排列组合与概率",
+   "计算题",
+   "通用"
+  ],
+  "must_preserve": [
+   "公式计算边界与特值设定的公倍数整数约束"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "盲目设多个未知数导致列出无解高阶方程",
+   "算错奇偶倍数特性"
+  ],
+  "positive_example": {
+   "input": "符合错位排列与环形排列公式的标准典型题型情境",
+   "preferred": "运用特定法则与口诀特值快速列式求解",
+   "reason": "算术极其简洁快速"
+  },
+  "negative_example": {
+   "input": "学生死板设未知数解多重复杂方程",
+   "bad_output": "耗时3分钟且极易发生计算失误",
+   "reason": "缺乏行测套路思维"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "QUANT_POL_QUANT17_001",
+  "teacher_id": "teacher_quant",
+  "name": "趣味爬井问题与空瓶换酒等价交换模型",
+  "status": "explicit",
+  "category": "趣味杂题",
+  "trigger": "题目涉及数量关系趣味杂题题型，出现爬井问题相关题干表述",
+  "rule": "蜗牛爬井问题：注意'最后一周期前提前爬出不再下滑'，总高度减去单日上升最大值后除以净上升高度；空瓶换酒：m个空瓶换1瓶酒，实际相当于 m-1 个空瓶喝到1瓶酒（不含瓶）。",
+  "reasoning": "打破传统思维死角，建立等价置换模型。",
+  "identification_features": [
+   "爬井问题",
+   "空瓶换酒",
+   "等价交换"
+  ],
+  "applies_to": [
+   "趣味杂题",
+   "计算题",
+   "通用"
+  ],
+  "must_preserve": [
+   "公式计算边界与特值设定的公倍数整数约束"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "盲目设多个未知数导致列出无解高阶方程",
+   "算错奇偶倍数特性"
+  ],
+  "positive_example": {
+   "input": "符合趣味爬井问题与空瓶换酒等价交换模型的标准典型题型情境",
+   "preferred": "运用特定法则与口诀特值快速列式求解",
+   "reason": "算术极其简洁快速"
+  },
+  "negative_example": {
+   "input": "学生死板设未知数解多重复杂方程",
+   "bad_output": "耗时3分钟且极易发生计算失误",
+   "reason": "缺乏行测套路思维"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "QUANT_POL_QUANT18_001",
+  "teacher_id": "teacher_quant",
+  "name": "日期推算与平闰年周期规律",
+  "status": "explicit",
+  "category": "趣味杂题",
+  "trigger": "题目涉及数量关系趣味杂题题型，出现日期推算相关题干表述",
+  "rule": "平年365天是52周余1天，闰年366天是52周余2天（过一年星期加1或加2）；钟表问题：分针速度6°/分，时针速度0.5°/分，相对追及速度5.5°/分。",
+  "reasoning": "常识与数学周期的严谨结合。",
+  "identification_features": [
+   "日期推算",
+   "平闰年",
+   "钟表追及"
+  ],
+  "applies_to": [
+   "趣味杂题",
+   "计算题",
+   "通用"
+  ],
+  "must_preserve": [
+   "公式计算边界与特值设定的公倍数整数约束"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "盲目设多个未知数导致列出无解高阶方程",
+   "算错奇偶倍数特性"
+  ],
+  "positive_example": {
+   "input": "符合日期推算与平闰年周期规律的标准典型题型情境",
+   "preferred": "运用特定法则与口诀特值快速列式求解",
+   "reason": "算术极其简洁快速"
+  },
+  "negative_example": {
+   "input": "学生死板设未知数解多重复杂方程",
+   "bad_output": "耗时3分钟且极易发生计算失误",
+   "reason": "缺乏行测套路思维"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "QUANT_POL_QUANT19_001",
+  "teacher_id": "teacher_quant",
+  "name": "最不利原则——倒霉透顶加一法",
+  "status": "explicit",
+  "category": "容斥与最值",
+  "trigger": "题目涉及数量关系容斥与最值题型，出现最不利原则相关题干表述",
+  "rule": "保证某种结果必然发生的最少抽取次数：先考虑最倒霉、最极端的情况（把所有不符合要求的情况全抽完），最后再加上 1 即为保证达成的临界值。",
+  "reasoning": "行测最值问题最具辨识度的解法。",
+  "identification_features": [
+   "最不利原则",
+   "倒霉透顶",
+   "最差情况加一"
+  ],
+  "applies_to": [
+   "容斥与最值",
+   "计算题",
+   "通用"
+  ],
+  "must_preserve": [
+   "公式计算边界与特值设定的公倍数整数约束"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "盲目设多个未知数导致列出无解高阶方程",
+   "算错奇偶倍数特性"
+  ],
+  "positive_example": {
+   "input": "符合最不利原则——倒霉透顶加一法的标准典型题型情境",
+   "preferred": "运用特定法则与口诀特值快速列式求解",
+   "reason": "算术极其简洁快速"
+  },
+  "negative_example": {
+   "input": "学生死板设未知数解多重复杂方程",
+   "bad_output": "耗时3分钟且极易发生计算失误",
+   "reason": "缺乏行测套路思维"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "QUANT_POL_QUANT19_002",
+  "teacher_id": "teacher_quant",
+  "name": "数列极值问题——均分构造法",
+  "status": "explicit",
+  "category": "容斥与最值",
+  "trigger": "题目涉及数量关系容斥与最值题型，出现和定极值相关题干表述",
+  "rule": "若几项之和固定，求某项最大/最小：其余项尽可能小/大，形成紧凑的递推排列，利用均分构造方程求解。",
+  "reasoning": "和定极值的标准构造策略。",
+  "identification_features": [
+   "和定极值",
+   "均分构造",
+   "递推紧凑"
+  ],
+  "applies_to": [
+   "容斥与最值",
+   "计算题",
+   "通用"
+  ],
+  "must_preserve": [
+   "公式计算边界与特值设定的公倍数整数约束"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "盲目设多个未知数导致列出无解高阶方程",
+   "算错奇偶倍数特性"
+  ],
+  "positive_example": {
+   "input": "符合数列极值问题——均分构造法的标准典型题型情境",
+   "preferred": "运用特定法则与口诀特值快速列式求解",
+   "reason": "算术极其简洁快速"
+  },
+  "negative_example": {
+   "input": "学生死板设未知数解多重复杂方程",
+   "bad_output": "耗时3分钟且极易发生计算失误",
+   "reason": "缺乏行测套路思维"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "QUANT_POL_QUANT20_001",
+  "teacher_id": "teacher_quant",
+  "name": "流水行船顺流逆流与扶梯相对运动",
+  "status": "explicit",
+  "category": "基础行程与比例",
+  "trigger": "题目涉及数量关系基础行程与比例题型，出现流水行船相关题干表述",
+  "rule": "顺流速度 = 船速 + 水速；逆流速度 = 船速 - 水速；船速 = (顺水速+逆水速)/2；水速 = (顺水速-逆水速)/2。自动扶梯问题完全等价于流水行船。",
+  "reasoning": "多介质相对运动的同一模型复用。",
+  "identification_features": [
+   "流水行船",
+   "顺流逆流",
+   "扶梯问题"
+  ],
+  "applies_to": [
+   "基础行程与比例",
+   "计算题",
+   "通用"
+  ],
+  "must_preserve": [
+   "公式计算边界与特值设定的公倍数整数约束"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "盲目设多个未知数导致列出无解高阶方程",
+   "算错奇偶倍数特性"
+  ],
+  "positive_example": {
+   "input": "符合流水行船顺流逆流与扶梯相对运动的标准典型题型情境",
+   "preferred": "运用特定法则与口诀特值快速列式求解",
+   "reason": "算术极其简洁快速"
+  },
+  "negative_example": {
+   "input": "学生死板设未知数解多重复杂方程",
+   "bad_output": "耗时3分钟且极易发生计算失误",
+   "reason": "缺乏行测套路思维"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "QUANT_POL_QUANT21_001",
+  "teacher_id": "teacher_quant",
+  "name": "选项极限代入与矛盾排除法",
+  "status": "explicit",
+  "category": "考场秒杀与策略",
+  "trigger": "题目涉及数量关系考场秒杀与策略题型，出现代入验算相关题干表述",
+  "rule": "对于题干条件极为晦涩的题目，直接将中间选项（居中数值）代入题干进行验算，根据偏大或偏小直接二分排除，考场最高效得分技巧。",
+  "reasoning": "做出来与选出来一样拿分。",
+  "identification_features": [
+   "代入验算",
+   "居中代入",
+   "二分排除"
+  ],
+  "applies_to": [
+   "考场秒杀与策略",
+   "计算题",
+   "通用"
+  ],
+  "must_preserve": [
+   "公式计算边界与特值设定的公倍数整数约束"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "盲目设多个未知数导致列出无解高阶方程",
+   "算错奇偶倍数特性"
+  ],
+  "positive_example": {
+   "input": "符合选项极限代入与矛盾排除法的标准典型题型情境",
+   "preferred": "运用特定法则与口诀特值快速列式求解",
+   "reason": "算术极其简洁快速"
+  },
+  "negative_example": {
+   "input": "学生死板设未知数解多重复杂方程",
+   "bad_output": "耗时3分钟且极易发生计算失误",
+   "reason": "缺乏行测套路思维"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "QUANT_POL_QUANT22_001",
+  "teacher_id": "teacher_quant",
+  "name": "五秒识别套路母题与舍九放弃原则",
+  "status": "explicit",
+  "category": "考场秒杀与策略",
+  "trigger": "题目涉及数量关系考场秒杀与策略题型，出现套路母题相关题干表述",
+  "rule": "考场数量关系策略：前15秒扫题，一眼认出母题套路（工程、溶液、容斥、倍数）的立即动手做，40秒拿下一道；读了两遍没思路的立即蒙一个选项跳过，把时间留给送分题。",
+  "reasoning": "考场得分最大化核心心法。",
+  "identification_features": [
+   "套路母题",
+   "舍九放弃",
+   "时间分配"
+  ],
+  "applies_to": [
+   "考场秒杀与策略",
+   "计算题",
+   "通用"
+  ],
+  "must_preserve": [
+   "公式计算边界与特值设定的公倍数整数约束"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "盲目设多个未知数导致列出无解高阶方程",
+   "算错奇偶倍数特性"
+  ],
+  "positive_example": {
+   "input": "符合五秒识别套路母题与舍九放弃原则的标准典型题型情境",
+   "preferred": "运用特定法则与口诀特值快速列式求解",
+   "reason": "算术极其简洁快速"
+  },
+  "negative_example": {
+   "input": "学生死板设未知数解多重复杂方程",
+   "bad_output": "耗时3分钟且极易发生计算失误",
+   "reason": "缺乏行测套路思维"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "QUANT_POL_QUANT23_001",
+  "teacher_id": "teacher_quant",
+  "name": "全真套题冲刺实战得分体系",
+  "status": "explicit",
+  "category": "考场秒杀与策略",
+  "trigger": "题目涉及数量关系考场秒杀与策略题型，出现保底分相关题干表述",
+  "rule": "数量关系在行测中的终极目标不是拿满分，而是拿稳保底分（10题对7题，15题对10题）。严格执行'先套路后代入最后蒙'三级跳流程。",
+  "reasoning": "务实考场拿分哲学。",
+  "identification_features": [
+   "保底分",
+   "三级跳流程",
+   "得分最大化"
+  ],
+  "applies_to": [
+   "考场秒杀与策略",
+   "计算题",
+   "通用"
+  ],
+  "must_preserve": [
+   "公式计算边界与特值设定的公倍数整数约束"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "盲目设多个未知数导致列出无解高阶方程",
+   "算错奇偶倍数特性"
+  ],
+  "positive_example": {
+   "input": "符合全真套题冲刺实战得分体系的标准典型题型情境",
+   "preferred": "运用特定法则与口诀特值快速列式求解",
+   "reason": "算术极其简洁快速"
+  },
+  "negative_example": {
+   "input": "学生死板设未知数解多重复杂方程",
+   "bad_output": "耗时3分钟且极易发生计算失误",
+   "reason": "缺乏行测套路思维"
+  },
+  "confidence": 1.0
+ }
+]

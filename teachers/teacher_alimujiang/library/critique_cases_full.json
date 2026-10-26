@@ -1,0 +1,130 @@
+[
+ {
+  "critique_id": "ALIMU_CRITIQUE_001",
+  "lecture_id": "7.1",
+  "source_raw_line": 264,
+  "student_misconception": "做言语题时习惯一口气读完整段凭感觉选，不知道怎么预判",
+  "teacher_refutation": "读完一句后要主动问自己下一句怎么推，自问自答。很多题目套路都是引出、夸赞、转折、分析问题、给出对策，预判清楚行文骨架就不容易被末尾细枝末节带偏。",
+  "counter_strategy": "逐句分析 + 自问自答预判行文脉络，戒除通读盲猜习惯"
+ },
+ {
+  "critique_id": "ALIMU_CRITIQUE_002",
+  "lecture_id": "7.1",
+  "source_raw_line": 164,
+  "student_misconception": "看到文段最后一句话很长，就直接以为最后一句话是文章主旨",
+  "teacher_refutation": "转折后已经点出了主旨，最后一句话只是作者补充说明或客观举例。盲目抓尾句会把举例论证当成中心思想。",
+  "counter_strategy": "看准转折与主观评价位置，不唯尾句论"
+ },
+ {
+  "critique_id": "ALIMU_CRITIQUE_003",
+  "lecture_id": "7.2",
+  "source_raw_line": 6,
+  "student_misconception": "文段讲的是对策，但选项里没有‘应该/必须’这种对策动词，就觉得题目出错了或者不敢选",
+  "teacher_refutation": "没有形式化的对策句时，可以试着将对策改写为意义！让他去做正是因为很有意义，意义表述与对策落实实质等价。",
+  "counter_strategy": "选项无显式对策时，寻找对策的等价‘意义/重要性/价值’表述"
+ },
+ {
+  "critique_id": "ALIMU_CRITIQUE_004",
+  "lecture_id": "7.5",
+  "source_raw_line": 5,
+  "student_misconception": "文段通篇在用‘如果……不……就会带来严重后果’，学员误把假设的消极后果当作中心主旨",
+  "teacher_refutation": "反面论证是通过消极后果倒逼你去行动。不去做后果很严重，真实意图是希望你赶紧去落实、去做好这件事情。",
+  "counter_strategy": "遇反面论证，将消极后果逆向提炼为正面必须落实的积极对策"
+ },
+ {
+  "critique_id": "ALIMU_CRITIQUE_005",
+  "lecture_id": "7.5",
+  "source_raw_line": 286,
+  "student_misconception": "分不清选项是‘高度概括’还是‘笼统宽泛’，误把核心主体删减的错误选项当成高度概括",
+  "teacher_refutation": "高度概括可以去除修饰性的形容词定语，但核心中心语名词绝不能少！比如‘戏剧作品的主要人物’，去掉了主要留下人物尚可，但绝不能把人物主体直接去掉。",
+  "counter_strategy": "核查核心名词是否存在，丢掉论述主体的选项是笼统干扰，保留中心语的才是合理概括"
+ },
+ {
+  "critique_id": "ALIMU_CRITIQUE_006",
+  "lecture_id": "7.6",
+  "source_raw_line": 296,
+  "student_misconception": "标题添加题喜欢选文采飞扬、辞藻华丽的选项，忽略了文段的核心关键词",
+  "teacher_refutation": "标题的核心是契合主旨，两个对策中都提到的核心字必须在标题中有对应，比如讲网红城市如何长久认同，长虹的‘长’字必须体现。",
+  "counter_strategy": "标题选项必须包含文段高频核心词，拒绝华而不实"
+ },
+ {
+  "critique_id": "ALIMU_CRITIQUE_007",
+  "lecture_id": "7.7",
+  "source_raw_line": 4,
+  "student_misconception": "语句填空横线在开头时，直接去选项里找对策或者结论",
+  "teacher_refutation": "横线在开头绝大多数是总领全文、引出话题。结论往往在结尾，首句如果直接下过细的结论，后文的展开就会显得脱节。",
+  "counter_strategy": "横线居首看话题引出与总领功能，横线居末才看总结与结论"
+ },
+ {
+  "critique_id": "ALIMU_CRITIQUE_008",
+  "lecture_id": "7.8",
+  "source_raw_line": 10,
+  "student_misconception": "做代词指代题时，以为‘就近原则’就是盲目看离代词物理距离最近的一个词",
+  "teacher_refutation": "就近不是指物理字数最近的那一个词，而是需要把代词所在句子的完整前半句结构看完整，找到语义所指的完整陈述主体。",
+  "counter_strategy": "就近原则结合前半句完整句法结构，代回原句检验语义通顺度"
+ },
+ {
+  "critique_id": "ALIMU_CRITIQUE_009",
+  "lecture_id": "7.8",
+  "source_raw_line": 269,
+  "student_misconception": "语句排序题直接通读6句话排顺序，耗时几分钟还容易混乱",
+  "teacher_refutation": "排序题卷面有序号，是唯一不用看提问方式的题。先看选项首句排除2个，再找下定义与展开介绍的捆绑，三下五除二锁定答案。",
+  "counter_strategy": "选项入手排除首句 -> 抓定义与指代捆绑，严禁盲目手排"
+ },
+ {
+  "critique_id": "ALIMU_CRITIQUE_010",
+  "lecture_id": "7.9",
+  "source_raw_line": 9,
+  "student_misconception": "细节判断题中，把文段说的‘可能存在某原因’直接等同于‘必然发生’",
+  "teacher_refutation": "有发生的可能性不等于必然如此。我可以吃掉这块面包，但面包没了不能一定说是我吃的，选项把可能性偷换成必然性是高频考点陷阱。",
+  "counter_strategy": "高度警惕可能/或许向必定/绝对的逻辑偷换"
+ },
+ {
+  "critique_id": "ALIMU_CRITIQUE_011",
+  "lecture_id": "7.10",
+  "source_raw_line": 288,
+  "student_misconception": "逻辑填空全凭嘴巴读着顺不顺来选词，不看文段提示线索",
+  "teacher_refutation": "技巧仅仅是用来辅助文段理解的。逻辑填空不是考你嘴皮子顺畅，文段前后一定有对应的线索词、对应关系或反义转折，必须在文段中找证据。",
+  "counter_strategy": "强行抑制主观语感冲动，养成在文段中寻找客观呼应点的证据意识"
+ },
+ {
+  "critique_id": "ALIMU_CRITIQUE_012",
+  "lecture_id": "7.10",
+  "source_raw_line": 7,
+  "student_misconception": "遇到逻辑填空题第一空卡壳，反复读第一空纠结几分钟",
+  "teacher_refutation": "第一空难以仔细判断时，不要死磕，第二空直接就锁定了答案！两空题往往第二空差异大、线索直接，倒推第一空最省力。",
+  "counter_strategy": "首空纠结立即战略转移，看第二空搭配与语境快速破局"
+ },
+ {
+  "critique_id": "ALIMU_CRITIQUE_013",
+  "lecture_id": "7.11",
+  "source_raw_line": 290,
+  "student_misconception": "文段使用了强烈生动的比喻，选项却选了一个平淡中性的常规格局词汇",
+  "teacher_refutation": "文段起了比喻，你必须伺候好这个比喻！选词必须配合比喻的形象与气势，不配合的话整篇文章的意境就会断崖式跌落。",
+  "counter_strategy": "遇到形象修辞与比喻句，选项选词必须在气势与意象上融洽配合"
+ },
+ {
+  "critique_id": "ALIMU_CRITIQUE_014",
+  "lecture_id": "7.11",
+  "source_raw_line": 289,
+  "student_misconception": "成语只要大概意思沾边就盲目选，忽视文段落地的精准侧重点",
+  "teacher_refutation": "成语含义往往有多个侧面，必须看文段最终强调的落地焦点是什么。比如闭门造车文段落地强调的是脱离实际，还是主观自为，必须精准对齐。",
+  "counter_strategy": "拆解成语语素侧重点，与文段具体上下文落地焦点严密对照"
+ },
+ {
+  "critique_id": "ALIMU_CRITIQUE_015",
+  "lecture_id": "7.12",
+  "source_raw_line": 6,
+  "student_misconception": "面对篇章阅读几千字长文，从头到尾一字不漏精读一遍再去做题",
+  "teacher_refutation": "千万不能通读完全文再做题！先标注自然段序号，余光扫两眼建立整体感觉，直接去看后面的问题提问方式，带着具体题目回段定向定位。",
+  "counter_strategy": "先标段落 -> 直接看题型 -> 定向回段精读，杜绝无目的长文通读"
+ },
+ {
+  "critique_id": "ALIMU_CRITIQUE_016",
+  "lecture_id": "7.12",
+  "source_raw_line": 9,
+  "student_misconception": "认为篇章阅读需要全新的神秘做题方法，产生畏难情绪",
+  "teacher_refutation": "篇章阅读根本不是新题型，就是把中心理解、语句填空、逻辑填空、细节判断组合在长文章里，化整为零按片段题方法各个击破即可。",
+  "counter_strategy": "将篇章阅读拆解为片段阅读题型组合，利用各题型成熟技巧逐一化解"
+ }
+]

@@ -1,0 +1,896 @@
+[
+ {
+  "policy_id": "LOGIC_POL_LOGIC01_001",
+  "teacher_id": "teacher_logic",
+  "name": "归因论证识别——既成事实归于一因",
+  "status": "explicit",
+  "category": "归因论证",
+  "trigger": "题干中存在已发生的不同寻常或过往的既成事实，结论将其归结于某一特定原因",
+  "rule": "归因论证的核心特征是'既成事实归于一因'。必须首先识别题干中的既成事实（事件已经发生），然后找出作者推断的单一原因。解题焦点始终围绕该原因是否成立展开。",
+  "reasoning": "很多原因都可以导致同一结果，题干在众多可能的原因当中归于一因，这种推论天然存在漏洞，是公考论证题最高频的命题方式。",
+  "identification_features": [
+   "既成事实",
+   "对比实验结果",
+   "有人认为...是导致...的原因",
+   "归结于"
+  ],
+  "applies_to": [
+   "削弱题",
+   "加强题",
+   "通用"
+  ],
+  "must_preserve": [
+   "必须区分既成事实与原因推论，不能混淆已发生的事实与假设"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "试图否认已经发生的既成事实本身（事实不可否认，只能否定原因与事实间的联系）"
+  ],
+  "positive_example": {
+   "input": "某地今年感冒人数激增，专家认为是因为近期气温剧烈下降所致",
+   "preferred": "抓住既成事实（感冒激增）与归因（气温剧烈下降），针对该归因寻找另有他因或否定此因",
+   "reason": "符合归因论证标准模型"
+  },
+  "negative_example": {
+   "input": "选项称：感冒人数其实并没有激增",
+   "bad_output": "选此项作为削弱",
+   "reason": "属于否定既成事实，在公考逻辑中既成事实视为真实前提，不可直接否定"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "LOGIC_POL_LOGIC01_002",
+  "teacher_id": "teacher_logic",
+  "name": "对比实验削弱——初态不一致与另有他因",
+  "status": "explicit",
+  "category": "归因论证",
+  "trigger": "题干采用两组对象对比实验（实验组 vs 对照组），并得出因果关系结论",
+  "rule": "对比实验削弱的两大黄金武器：1. 初态不一致（两组对象在实验前自身基础条件就存在决定性差异）；2. 另有他因（实验过程中存在除自变量之外的显著干扰变量导致结果不同）。",
+  "reasoning": "控制变量法是对比实验的基石，一旦破坏单一变量原则，实验结论便不攻自破。",
+  "identification_features": [
+   "选取两组被试者",
+   "第一组...第二组...",
+   "实验组",
+   "对照组"
+  ],
+  "applies_to": [
+   "削弱题",
+   "归因论证"
+  ],
+  "must_preserve": [
+   "指出实验组与对照组初始条件差异或过程干扰因素"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "仅泛泛说明其他群体情况而未针对实验两组变量"
+  ],
+  "positive_example": {
+   "input": "喝咖啡组比不喝咖啡组心脏病高，结论是咖啡导致心脏病",
+   "preferred": "指出喝咖啡组原本大多长期熬夜且吸烟，初始健康状况严重差于对照组",
+   "reason": "直接指出初态不一致与另有他因，力度最强"
+  },
+  "negative_example": {
+   "input": "指出喝茶的人没有得心脏病",
+   "bad_output": "选为主要削弱项",
+   "reason": "茶与咖啡非同一实验对象，属于无关比较"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "LOGIC_POL_LOGIC01_003",
+  "teacher_id": "teacher_logic",
+  "name": "归因削弱力度王炸——因果倒置",
+  "status": "explicit",
+  "category": "归因论证",
+  "trigger": "题干结论将A作为B的原因（A导致B），而选项指出实际上是B导致了A",
+  "rule": "因果倒置是归因论证中削弱力度最强的选项形式（秒杀级）。只要选项明确指出'不是因为A才导致B，而是因为B才导致A'，直接锁定为最强削弱项。",
+  "reasoning": "因果倒置彻底颠覆了题干的因果时序与作用机制，比另有他因更彻底。",
+  "identification_features": [
+   "因果倒置",
+   "本末倒置",
+   "不是...导致...，而是...导致..."
+  ],
+  "applies_to": [
+   "削弱题",
+   "归因论证"
+  ],
+  "must_preserve": [
+   "严谨核实两者的先后顺序与因果逻辑倒置关系"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "将并存关系误判为因果倒置"
+  ],
+  "positive_example": {
+   "input": "调查发现经常参加体育锻炼的人心情更开朗，结论：体育锻炼让人开朗",
+   "preferred": "实际上是因为那些心情原本开朗的人更愿意走出门参加体育锻炼",
+   "reason": "典型因果倒置，一击毙命"
+  },
+  "negative_example": {
+   "input": "有的人锻炼后感到疲倦",
+   "bad_output": "选为最强削弱",
+   "reason": "个例或微弱削弱，无法匹敌因果倒置"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "LOGIC_POL_LOGIC02_001",
+  "teacher_id": "teacher_logic",
+  "name": "伪他因识别——伴随现象与非本质因果",
+  "status": "explicit",
+  "category": "归因论证",
+  "trigger": "削弱题中出现疑似'另有他因'的选项，但该因素仅是伴随现象或表面关联",
+  "rule": "必须区分'真他因'与'伪他因'。真正的他因必须能独立解释既成事实的产生机制；而伪他因往往只是该环境下的伴生副产物、或者只是原因的原因，无法切断题干核心因果链条。",
+  "reasoning": "很多同学一看到选项提到其他事情就盲目当成'另有他因'，出题人正是利用这一点设置高难度陷阱。",
+  "identification_features": [
+   "伴随因素",
+   "非直接成因",
+   "表面相关",
+   "伪他因"
+  ],
+  "applies_to": [
+   "削弱题",
+   "归因论证"
+  ],
+  "must_preserve": [
+   "检验该因素是否具有独立的因果解释力"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "将没有独立因果机制的伴随现象误判为另有他因"
+  ],
+  "positive_example": {
+   "input": "今夏雨水多导致蚊子暴增，选项说今夏西瓜销量也暴增",
+   "preferred": "判定西瓜销量只是夏季伴生现象，对蚊子数量无因果作用，是典型的伪他因排除项",
+   "reason": "没有生物学生殖机制联系"
+  },
+  "negative_example": {
+   "input": "学生选西瓜销量暴增作为他因削弱",
+   "bad_output": "误判为另有他因",
+   "reason": "荒谬的表面关联"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "LOGIC_POL_LOGIC03_001",
+  "teacher_id": "teacher_logic",
+  "name": "反因代入支持法",
+  "status": "explicit",
+  "category": "归因论证",
+  "trigger": "题目涉及归因论证模块，出现没有A就没有B相关标志",
+  "rule": "题干通过原因A推导结果B，选项证明在没有A的情况下结果B也没有出现（无因无果），强力支持A是B的原因。",
+  "reasoning": "反因代入等于做反向对照实验，验证了因果必然性。",
+  "identification_features": [
+   "没有A就没有B",
+   "反向对照",
+   "无因无果"
+  ],
+  "applies_to": [
+   "归因论证",
+   "通用"
+  ],
+  "must_preserve": [
+   "遵循该法则的逻辑边界与推导规则"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "主观臆造前提或违背逆否等价逻辑定律"
+  ],
+  "positive_example": {
+   "input": "符合反因代入支持法的正向题型情境",
+   "preferred": "严格运用该规则定位核心突破口并排除干扰项",
+   "reason": "严谨无漏洞"
+  },
+  "negative_example": {
+   "input": "学生常犯的粗心或反向理解",
+   "bad_output": "被表面字面重合迷惑导致误选",
+   "reason": "违背规则核心约束"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "LOGIC_POL_LOGIC03_002",
+  "teacher_id": "teacher_logic",
+  "name": "排除他因支持法",
+  "status": "explicit",
+  "category": "一般支持",
+  "trigger": "题目涉及一般支持模块，出现并未存在其他相关标志",
+  "rule": "题干认为A是导致B的原因，选项明确排除其他可能导致B的竞争性潜在因素C、D。",
+  "reasoning": "扫清其他怀疑路径，使A成为唯一合理解释。",
+  "identification_features": [
+   "并未存在其他",
+   "排除外部干扰",
+   "唯一变量"
+  ],
+  "applies_to": [
+   "一般支持",
+   "通用"
+  ],
+  "must_preserve": [
+   "遵循该法则的逻辑边界与推导规则"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "主观臆造前提或违背逆否等价逻辑定律"
+  ],
+  "positive_example": {
+   "input": "符合排除他因支持法的正向题型情境",
+   "preferred": "严格运用该规则定位核心突破口并排除干扰项",
+   "reason": "严谨无漏洞"
+  },
+  "negative_example": {
+   "input": "学生常犯的粗心或反向理解",
+   "bad_output": "被表面字面重合迷惑导致误选",
+   "reason": "违背规则核心约束"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "LOGIC_POL_LOGIC04_001",
+  "teacher_id": "teacher_logic",
+  "name": "三圈质疑法——第一圈直接否定论点",
+  "status": "explicit",
+  "category": "一般质疑",
+  "trigger": "题目涉及一般质疑模块，出现直接否定论点相关标志",
+  "rule": "三圈质疑法之第一圈（最核心圈）：选项直接指出论点不成立或与论点直接相悖，削弱力度最强、最直接。",
+  "reasoning": "直接命中靶心，无需迂回推导。",
+  "identification_features": [
+   "直接否定论点",
+   "与论点相反",
+   "论点不成立"
+  ],
+  "applies_to": [
+   "一般质疑",
+   "通用"
+  ],
+  "must_preserve": [
+   "遵循该法则的逻辑边界与推导规则"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "主观臆造前提或违背逆否等价逻辑定律"
+  ],
+  "positive_example": {
+   "input": "符合三圈质疑法——第一圈直接否定论点的正向题型情境",
+   "preferred": "严格运用该规则定位核心突破口并排除干扰项",
+   "reason": "严谨无漏洞"
+  },
+  "negative_example": {
+   "input": "学生常犯的粗心或反向理解",
+   "bad_output": "被表面字面重合迷惑导致误选",
+   "reason": "违背规则核心约束"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "LOGIC_POL_LOGIC04_002",
+  "teacher_id": "teacher_logic",
+  "name": "三圈质疑法——第二圈拆桥切断联系",
+  "status": "explicit",
+  "category": "一般质疑",
+  "trigger": "题目涉及一般质疑模块，出现切断联系相关标志",
+  "rule": "三圈质疑法之第二圈：论据与论点之间存在跳跃概念，选项切断论据推向论点的逻辑桥梁（证明由论据推不出论点）。",
+  "reasoning": "论据虽真，但到不了论点。",
+  "identification_features": [
+   "切断联系",
+   "无关概念",
+   "推不出"
+  ],
+  "applies_to": [
+   "一般质疑",
+   "通用"
+  ],
+  "must_preserve": [
+   "遵循该法则的逻辑边界与推导规则"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "主观臆造前提或违背逆否等价逻辑定律"
+  ],
+  "positive_example": {
+   "input": "符合三圈质疑法——第二圈拆桥切断联系的正向题型情境",
+   "preferred": "严格运用该规则定位核心突破口并排除干扰项",
+   "reason": "严谨无漏洞"
+  },
+  "negative_example": {
+   "input": "学生常犯的粗心或反向理解",
+   "bad_output": "被表面字面重合迷惑导致误选",
+   "reason": "违背规则核心约束"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "LOGIC_POL_LOGIC04_003",
+  "teacher_id": "teacher_logic",
+  "name": "三圈质疑法——第三圈质疑论据",
+  "status": "explicit",
+  "category": "一般质疑",
+  "trigger": "题目涉及一般质疑模块，出现论据不真实相关标志",
+  "rule": "三圈质疑法之第三圈：直接反驳论据本身的真实性或代表性。削弱力度相对最弱，但在无前两圈选项时依然是有效削弱。",
+  "reasoning": "地基不稳则大厦倾塌，但力度弱于否定论点。",
+  "identification_features": [
+   "论据不真实",
+   "样本不具代表性",
+   "数据错误"
+  ],
+  "applies_to": [
+   "一般质疑",
+   "通用"
+  ],
+  "must_preserve": [
+   "遵循该法则的逻辑边界与推导规则"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "主观臆造前提或违背逆否等价逻辑定律"
+  ],
+  "positive_example": {
+   "input": "符合三圈质疑法——第三圈质疑论据的正向题型情境",
+   "preferred": "严格运用该规则定位核心突破口并排除干扰项",
+   "reason": "严谨无漏洞"
+  },
+  "negative_example": {
+   "input": "学生常犯的粗心或反向理解",
+   "bad_output": "被表面字面重合迷惑导致误选",
+   "reason": "违背规则核心约束"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "LOGIC_POL_LOGIC05_001",
+  "teacher_id": "teacher_logic",
+  "name": "搭桥法——建立论据与论点的必要纽带",
+  "status": "explicit",
+  "category": "一般支持",
+  "trigger": "题目涉及一般支持模块，出现搭桥相关标志",
+  "rule": "当题干论据与论点出现概念跳跃（如论据讲A，论点突然跳到B），正确选项必须在A与B之间建立直接联系（搭桥）。",
+  "reasoning": "弥合逻辑缝隙，是支持题与前提假设题的最经典解法。",
+  "identification_features": [
+   "搭桥",
+   "建立联系",
+   "概念对接"
+  ],
+  "applies_to": [
+   "一般支持",
+   "通用"
+  ],
+  "must_preserve": [
+   "遵循该法则的逻辑边界与推导规则"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "主观臆造前提或违背逆否等价逻辑定律"
+  ],
+  "positive_example": {
+   "input": "符合搭桥法——建立论据与论点的必要纽带的正向题型情境",
+   "preferred": "严格运用该规则定位核心突破口并排除干扰项",
+   "reason": "严谨无漏洞"
+  },
+  "negative_example": {
+   "input": "学生常犯的粗心或反向理解",
+   "bad_output": "被表面字面重合迷惑导致误选",
+   "reason": "违背规则核心约束"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "LOGIC_POL_LOGIC05_002",
+  "teacher_id": "teacher_logic",
+  "name": "前提假设验证——否定代入必死法",
+  "status": "explicit",
+  "category": "前提假设",
+  "trigger": "题目涉及前提假设模块，出现否定代入相关标志",
+  "rule": "验证选项是否为题干不可或缺的前提：将该选项取非（否定），代入题干，若题干论点立即无法成立（必死），则该选项就是真正前提；若依然可能成立，则非必要前提。",
+  "reasoning": "必要条件的基本属性：无之必不然。",
+  "identification_features": [
+   "否定代入",
+   "无之必不然",
+   "必不可少的前提"
+  ],
+  "applies_to": [
+   "前提假设",
+   "通用"
+  ],
+  "must_preserve": [
+   "遵循该法则的逻辑边界与推导规则"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "主观臆造前提或违背逆否等价逻辑定律"
+  ],
+  "positive_example": {
+   "input": "符合前提假设验证——否定代入必死法的正向题型情境",
+   "preferred": "严格运用该规则定位核心突破口并排除干扰项",
+   "reason": "严谨无漏洞"
+  },
+  "negative_example": {
+   "input": "学生常犯的粗心或反向理解",
+   "bad_output": "被表面字面重合迷惑导致误选",
+   "reason": "违背规则核心约束"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "LOGIC_POL_LOGIC06_001",
+  "teacher_id": "teacher_logic",
+  "name": "原因的原因非直接他因",
+  "status": "explicit",
+  "category": "归因论证",
+  "trigger": "题目涉及归因论证模块，出现深层原因相关标志",
+  "rule": "当一个因素只是原主因的深层诱因或上游环节时，它不是独立他因，而是因果链条中的延展，不能削弱原主因。",
+  "reasoning": "上游原因其实从根本上承认了该因果链条的存在。",
+  "identification_features": [
+   "深层原因",
+   "上游诱因",
+   "同一链条"
+  ],
+  "applies_to": [
+   "归因论证",
+   "通用"
+  ],
+  "must_preserve": [
+   "遵循该法则的逻辑边界与推导规则"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "主观臆造前提或违背逆否等价逻辑定律"
+  ],
+  "positive_example": {
+   "input": "符合原因的原因非直接他因的正向题型情境",
+   "preferred": "严格运用该规则定位核心突破口并排除干扰项",
+   "reason": "严谨无漏洞"
+  },
+  "negative_example": {
+   "input": "学生常犯的粗心或反向理解",
+   "bad_output": "被表面字面重合迷惑导致误选",
+   "reason": "违背规则核心约束"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "LOGIC_POL_LOGIC07_001",
+  "teacher_id": "teacher_logic",
+  "name": "一二三四五大口诀收官法则",
+  "status": "explicit",
+  "category": "解题流程",
+  "trigger": "题目涉及解题流程模块，出现12345口诀相关标志",
+  "rule": "一抓题干论点核心；二看论据有无概念跳跃；三圈审视削弱选项力度层级；四种归因反驳模式（他因/倒置/反因/初态）；五大常考经典陷阱（偷换概念/诉诸权威/主观臆断/因果混淆/极端词）。",
+  "reasoning": "L 老师逻辑收官核心思维导图，融会贯通论证大题。",
+  "identification_features": [
+   "12345口诀",
+   "收官法则",
+   "做题流程"
+  ],
+  "applies_to": [
+   "解题流程",
+   "通用"
+  ],
+  "must_preserve": [
+   "遵循该法则的逻辑边界与推导规则"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "主观臆造前提或违背逆否等价逻辑定律"
+  ],
+  "positive_example": {
+   "input": "符合一二三四五大口诀收官法则的正向题型情境",
+   "preferred": "严格运用该规则定位核心突破口并排除干扰项",
+   "reason": "严谨无漏洞"
+  },
+  "negative_example": {
+   "input": "学生常犯的粗心或反向理解",
+   "bad_output": "被表面字面重合迷惑导致误选",
+   "reason": "违背规则核心约束"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "LOGIC_POL_LOGIC08_001",
+  "teacher_id": "teacher_logic",
+  "name": "充分条件与必要条件判定法则",
+  "status": "explicit",
+  "category": "翻译推理",
+  "trigger": "题目涉及翻译推理模块，出现如果那么相关标志",
+  "rule": "如果...那么...、只要...就...为前推后（A→B）；只有...才...、必须...才...为后推前（B→A）；除非A否则B翻译为：非B→A。",
+  "reasoning": "逻辑连接词的精准翻译是形式逻辑题的生命线。",
+  "identification_features": [
+   "如果那么",
+   "只有才",
+   "前推后",
+   "后推前"
+  ],
+  "applies_to": [
+   "翻译推理",
+   "通用"
+  ],
+  "must_preserve": [
+   "遵循该法则的逻辑边界与推导规则"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "主观臆造前提或违背逆否等价逻辑定律"
+  ],
+  "positive_example": {
+   "input": "符合充分条件与必要条件判定法则的正向题型情境",
+   "preferred": "严格运用该规则定位核心突破口并排除干扰项",
+   "reason": "严谨无漏洞"
+  },
+  "negative_example": {
+   "input": "学生常犯的粗心或反向理解",
+   "bad_output": "被表面字面重合迷惑导致误选",
+   "reason": "违背规则核心约束"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "LOGIC_POL_LOGIC08_002",
+  "teacher_id": "teacher_logic",
+  "name": "逆否命题等价定律与假言连锁",
+  "status": "explicit",
+  "category": "翻译推理",
+  "trigger": "题目涉及翻译推理模块，出现肯前必肯后相关标志",
+  "rule": "原命题 A→B 等价于逆否命题 非B→非A。肯前必肯后，否后必否前，否前肯后推不出任何确定结论。多个推理关系连锁串联：A→B 且 B→C 推出 A→C。",
+  "reasoning": "形式逻辑不可违背的铁律。",
+  "identification_features": [
+   "肯前必肯后",
+   "否后必否前",
+   "逆否等价",
+   "递推链"
+  ],
+  "applies_to": [
+   "翻译推理",
+   "通用"
+  ],
+  "must_preserve": [
+   "遵循该法则的逻辑边界与推导规则"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "主观臆造前提或违背逆否等价逻辑定律"
+  ],
+  "positive_example": {
+   "input": "符合逆否命题等价定律与假言连锁的正向题型情境",
+   "preferred": "严格运用该规则定位核心突破口并排除干扰项",
+   "reason": "严谨无漏洞"
+  },
+  "negative_example": {
+   "input": "学生常犯的粗心或反向理解",
+   "bad_output": "被表面字面重合迷惑导致误选",
+   "reason": "违背规则核心约束"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "LOGIC_POL_LOGIC08_003",
+  "teacher_id": "teacher_logic",
+  "name": "德摩根定律与且或转换",
+  "status": "explicit",
+  "category": "翻译推理",
+  "trigger": "题目涉及翻译推理模块，出现德摩根相关标志",
+  "rule": "非(A 且 B) 等价于 (非A 或 非B)；非(A 或 B) 等价于 (非A 且 非B)。否定进入括号，且变或，或变且。",
+  "reasoning": "否定词分配的经典数学逻辑定律。",
+  "identification_features": [
+   "德摩根",
+   "且变或",
+   "或变且"
+  ],
+  "applies_to": [
+   "翻译推理",
+   "通用"
+  ],
+  "must_preserve": [
+   "遵循该法则的逻辑边界与推导规则"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "主观臆造前提或违背逆否等价逻辑定律"
+  ],
+  "positive_example": {
+   "input": "符合德摩根定律与且或转换的正向题型情境",
+   "preferred": "严格运用该规则定位核心突破口并排除干扰项",
+   "reason": "严谨无漏洞"
+  },
+  "negative_example": {
+   "input": "学生常犯的粗心或反向理解",
+   "bad_output": "被表面字面重合迷惑导致误选",
+   "reason": "违背规则核心约束"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "LOGIC_POL_LOGIC09_001",
+  "teacher_id": "teacher_logic",
+  "name": "解释说明题两全其美兼顾双方",
+  "status": "explicit",
+  "category": "解释说明",
+  "trigger": "题目涉及解释说明模块，出现解释反常相关标志",
+  "rule": "解释题核心是题干给出了看似反常或矛盾的两个事实（A 与 反常B）。正确选项必须能合理解释为什么在A发生的同时B也会发生，做到兼顾双方、两全其美，绝不能否定任何一方。",
+  "reasoning": "化解矛盾而非否定事实。",
+  "identification_features": [
+   "解释反常",
+   "兼顾双方",
+   "两全法"
+  ],
+  "applies_to": [
+   "解释说明",
+   "通用"
+  ],
+  "must_preserve": [
+   "遵循该法则的逻辑边界与推导规则"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "主观臆造前提或违背逆否等价逻辑定律"
+  ],
+  "positive_example": {
+   "input": "符合解释说明题两全其美兼顾双方的正向题型情境",
+   "preferred": "严格运用该规则定位核心突破口并排除干扰项",
+   "reason": "严谨无漏洞"
+  },
+  "negative_example": {
+   "input": "学生常犯的粗心或反向理解",
+   "bad_output": "被表面字面重合迷惑导致误选",
+   "reason": "违背规则核心约束"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "LOGIC_POL_LOGIC09_002",
+  "teacher_id": "teacher_logic",
+  "name": "推出推理日常推理从弱原则",
+  "status": "explicit",
+  "category": "推出推理",
+  "trigger": "题目涉及推出推理模块，出现从弱原则相关标志",
+  "rule": "日常结论推理题（从题干能推出什么）：选项中包含'可能'、'或许'、'某些'、'在一定程度上'等弱化词的往往是正确答案；包含'所有'、'必须'、'必然'、'绝不'等绝对化词汇的极大概率是错误选项。",
+  "reasoning": "行测严谨逻辑讲究证据边界，断言越绝对越容易错。",
+  "identification_features": [
+   "从弱原则",
+   "可能或许",
+   "绝对词陷阱"
+  ],
+  "applies_to": [
+   "推出推理",
+   "通用"
+  ],
+  "must_preserve": [
+   "遵循该法则的逻辑边界与推导规则"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "主观臆造前提或违背逆否等价逻辑定律"
+  ],
+  "positive_example": {
+   "input": "符合推出推理日常推理从弱原则的正向题型情境",
+   "preferred": "严格运用该规则定位核心突破口并排除干扰项",
+   "reason": "严谨无漏洞"
+  },
+  "negative_example": {
+   "input": "学生常犯的粗心或反向理解",
+   "bad_output": "被表面字面重合迷惑导致误选",
+   "reason": "违背规则核心约束"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "LOGIC_POL_LOGIC10_001",
+  "teacher_id": "teacher_logic",
+  "name": "三类矛盾关系判定",
+  "status": "explicit",
+  "category": "真假话分析",
+  "trigger": "题目涉及真假话分析模块，出现三类矛盾相关标志",
+  "rule": "真假话核心在于找矛盾（一真一假）：1. A 与 非A；2. 所有都是 与 有的不是；3. A且B 与 非A或非B。互为矛盾的两句话必定一真一假。",
+  "reasoning": "找到矛盾即可锁定真话或假话的所在区间。",
+  "identification_features": [
+   "三类矛盾",
+   "所有与有的非",
+   "必定一真一假"
+  ],
+  "applies_to": [
+   "真假话分析",
+   "通用"
+  ],
+  "must_preserve": [
+   "遵循该法则的逻辑边界与推导规则"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "主观臆造前提或违背逆否等价逻辑定律"
+  ],
+  "positive_example": {
+   "input": "符合三类矛盾关系判定的正向题型情境",
+   "preferred": "严格运用该规则定位核心突破口并排除干扰项",
+   "reason": "严谨无漏洞"
+  },
+  "negative_example": {
+   "input": "学生常犯的粗心或反向理解",
+   "bad_output": "被表面字面重合迷惑导致误选",
+   "reason": "违背规则核心约束"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "LOGIC_POL_LOGIC10_002",
+  "teacher_id": "teacher_logic",
+  "name": "一真一假绕开矛盾看其余",
+  "status": "explicit",
+  "category": "真假话分析",
+  "trigger": "题目涉及真假话分析模块，出现绕开矛盾相关标志",
+  "rule": "真假话解题四步走：一找矛盾（确定矛盾对）；二绕开矛盾看其余（根据其余命题的真假推知确定事实）；三回溯矛盾定乾坤；四若无矛盾则用假设代入法。",
+  "reasoning": "真假话题目的通用确定性破题法。",
+  "identification_features": [
+   "绕开矛盾",
+   "看其余",
+   "假设代入"
+  ],
+  "applies_to": [
+   "真假话分析",
+   "通用"
+  ],
+  "must_preserve": [
+   "遵循该法则的逻辑边界与推导规则"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "主观臆造前提或违背逆否等价逻辑定律"
+  ],
+  "positive_example": {
+   "input": "符合一真一假绕开矛盾看其余的正向题型情境",
+   "preferred": "严格运用该规则定位核心突破口并排除干扰项",
+   "reason": "严谨无漏洞"
+  },
+  "negative_example": {
+   "input": "学生常犯的粗心或反向理解",
+   "bad_output": "被表面字面重合迷惑导致误选",
+   "reason": "违背规则核心约束"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "LOGIC_POL_LOGIC11_001",
+  "teacher_id": "teacher_logic",
+  "name": "最大信息法与确定信息优先突破",
+  "status": "explicit",
+  "category": "分析推理",
+  "trigger": "题目涉及分析推理模块，出现最大信息法相关标志",
+  "rule": "做分析推理（排列组合、匹配题），首先寻找题干中出现频次最高的信息（最大信息），或者确定性最强的信息（如'张三不是第一且不是第三'），以此为锚点顺藤摸瓜展开推导。",
+  "reasoning": "抓住突破口是提速秒杀的关键。",
+  "identification_features": [
+   "最大信息法",
+   "确定信息",
+   "突破口"
+  ],
+  "applies_to": [
+   "分析推理",
+   "通用"
+  ],
+  "must_preserve": [
+   "遵循该法则的逻辑边界与推导规则"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "主观臆造前提或违背逆否等价逻辑定律"
+  ],
+  "positive_example": {
+   "input": "符合最大信息法与确定信息优先突破的正向题型情境",
+   "preferred": "严格运用该规则定位核心突破口并排除干扰项",
+   "reason": "严谨无漏洞"
+  },
+  "negative_example": {
+   "input": "学生常犯的粗心或反向理解",
+   "bad_output": "被表面字面重合迷惑导致误选",
+   "reason": "违背规则核心约束"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "LOGIC_POL_LOGIC11_002",
+  "teacher_id": "teacher_logic",
+  "name": "分析推理代入排除秒杀法则",
+  "status": "explicit",
+  "category": "分析推理",
+  "trigger": "题目涉及分析推理模块，出现代入排除相关标志",
+  "rule": "当题干信息复杂或选项信息充分全面时，切勿盲目在草稿纸上画图推导，直接将选项代入题干已知条件，发现矛盾立即排除，往往30秒即可锁定唯一答案。",
+  "reasoning": "考场争分夺秒的最佳实战策略。",
+  "identification_features": [
+   "代入排除",
+   "秒杀",
+   "选项反推"
+  ],
+  "applies_to": [
+   "分析推理",
+   "通用"
+  ],
+  "must_preserve": [
+   "遵循该法则的逻辑边界与推导规则"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "主观臆造前提或违背逆否等价逻辑定律"
+  ],
+  "positive_example": {
+   "input": "符合分析推理代入排除秒杀法则的正向题型情境",
+   "preferred": "严格运用该规则定位核心突破口并排除干扰项",
+   "reason": "严谨无漏洞"
+  },
+  "negative_example": {
+   "input": "学生常犯的粗心或反向理解",
+   "bad_output": "被表面字面重合迷惑导致误选",
+   "reason": "违背规则核心约束"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "LOGIC_POL_LOGIC12_001",
+  "teacher_id": "teacher_logic",
+  "name": "论证推出分析三位一体认知",
+  "status": "explicit",
+  "category": "解题流程",
+  "trigger": "题目涉及解题流程模块，出现三位一体相关标志",
+  "rule": "逻辑模块三大支柱：论证题拼思维敏感度与因果模型；推出题拼公式熟练度与逆否翻译；分析题拼做题策略与代入突破口。考场上按题型标签秒切对应解题状态。",
+  "reasoning": "建立模块全局观，考场不慌不乱。",
+  "identification_features": [
+   "三位一体",
+   "题型标签",
+   "思维模式切换"
+  ],
+  "applies_to": [
+   "解题流程",
+   "通用"
+  ],
+  "must_preserve": [
+   "遵循该法则的逻辑边界与推导规则"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "主观臆造前提或违背逆否等价逻辑定律"
+  ],
+  "positive_example": {
+   "input": "符合论证推出分析三位一体认知的正向题型情境",
+   "preferred": "严格运用该规则定位核心突破口并排除干扰项",
+   "reason": "严谨无漏洞"
+  },
+  "negative_example": {
+   "input": "学生常犯的粗心或反向理解",
+   "bad_output": "被表面字面重合迷惑导致误选",
+   "reason": "违背规则核心约束"
+  },
+  "confidence": 1.0
+ },
+ {
+  "policy_id": "LOGIC_POL_LOGIC13_001",
+  "teacher_id": "teacher_logic",
+  "name": "题干事实与选项情境的严密贴合",
+  "status": "explicit",
+  "category": "考场策略",
+  "trigger": "题目涉及考场策略模块，出现严密贴合相关标志",
+  "rule": "争议题破局核心在于：永远不选脱离题干论述具体场景的泛化选项；优先选择直接作用于题干论证核心传导机制的深水区选项。",
+  "reasoning": "高难度题目考察的是理解深度与细节匹配精度。",
+  "identification_features": [
+   "严密贴合",
+   "传导机制",
+   "深水区选项"
+  ],
+  "applies_to": [
+   "考场策略",
+   "通用"
+  ],
+  "must_preserve": [
+   "遵循该法则的逻辑边界与推导规则"
+  ],
+  "may_remove": [],
+  "forbidden_transformations": [
+   "主观臆造前提或违背逆否等价逻辑定律"
+  ],
+  "positive_example": {
+   "input": "符合题干事实与选项情境的严密贴合的正向题型情境",
+   "preferred": "严格运用该规则定位核心突破口并排除干扰项",
+   "reason": "严谨无漏洞"
+  },
+  "negative_example": {
+   "input": "学生常犯的粗心或反向理解",
+   "bad_output": "被表面字面重合迷惑导致误选",
+   "reason": "违背规则核心约束"
+  },
+  "confidence": 1.0
+ }
+]

@@ -1,0 +1,156 @@
+{
+ "teacher_id": "teacher_longfei",
+ "input": {
+  "policies": 424,
+  "question_cases": 574,
+  "critique_cases": 327
+ },
+ "output": {
+  "policies": 419,
+  "question_cases": 574,
+  "critique_cases": 327
+ },
+ "merged_policies": [
+  {
+   "merged_into": "LONGFEI_POL_WB01_003",
+   "merged_from": "LONGFEI_POL_WB13_007"
+  },
+  {
+   "merged_into": "LONGFEI_POL_WB15_003",
+   "merged_from": "LONGFEI_POL_ZJ05_004"
+  },
+  {
+   "merged_into": "LONGFEI_POL_WB13_006",
+   "merged_from": "LONGFEI_POL_ZJ05_005"
+  },
+  {
+   "merged_into": "LONGFEI_POL_WB07_007",
+   "merged_from": "LONGFEI_POL_ZJ08_015"
+  },
+  {
+   "merged_into": "LONGFEI_POL_WB17_008",
+   "merged_from": "LONGFEI_POL_ZJ11_013"
+  }
+ ],
+ "dropped_cases": {
+  "question": [],
+  "critique": []
+ },
+ "policy_categories": {
+  "解题流程": 108,
+  "命题思路": 47,
+  "规律-元素": 47,
+  "规律-线": 35,
+  "考场策略": 30,
+  "立体-截面": 26,
+  "立体-展开图": 25,
+  "立体-三视图": 22,
+  "规律-点角": 22,
+  "规律-面": 20,
+  "其他": 17,
+  "立体-拼合": 15,
+  "规律-点": 5
+ },
+ "policy_status": {
+  "explicit": 419
+ },
+ "question_formats": {
+  "一段式": 227,
+  "两组式": 77,
+  "分类分组": 62,
+  "九宫格": 52,
+  "unknown": 45,
+  "立体拼合": 38,
+  "空间重构": 27,
+  "截面图": 26,
+  "三视图": 18,
+  "一组": 2
+ },
+ "policies_by_course": {
+  "ZJ02": 89,
+  "ZJ03": 87,
+  "ZJ09": 83,
+  "ZJ01": 77,
+  "ZJ08": 70,
+  "WB07": 69,
+  "LT08": 65,
+  "ZJ11": 65,
+  "WB17": 61,
+  "WB09": 58,
+  "WB08": 55,
+  "ZJ10": 50,
+  "LT02": 46,
+  "WB16": 45,
+  "LT10": 37,
+  "LT09": 34,
+  "LT01": 33,
+  "LT06": 33,
+  "LT11": 33,
+  "LT05": 32,
+  "ZJ07": 31,
+  "LT07": 28,
+  "WB05": 28,
+  "WB01": 26,
+  "WB15": 26,
+  "LT12": 24,
+  "WB02": 24,
+  "WB03": 23,
+  "WB04": 23,
+  "ZJ04": 22,
+  "LT13": 21,
+  "WB13": 21,
+  "WB06": 21,
+  "WB11": 21,
+  "ZJ06": 21,
+  "WB12": 20,
+  "WB14": 20,
+  "WB10": 19,
+  "ZJ05": 18
+ },
+ "cases_by_course": {
+  "ZJ11": 25,
+  "WB10": 21,
+  "WB01": 20,
+  "WB02": 20,
+  "WB03": 20,
+  "WB04": 20,
+  "WB05": 20,
+  "WB06": 20,
+  "WB07": 20,
+  "WB08": 20,
+  "WB09": 20,
+  "WB11": 20,
+  "WB12": 20,
+  "WB13": 20,
+  "WB14": 20,
+  "WB15": 20,
+  "ZJ08": 20,
+  "LT05": 17,
+  "LT10": 15,
+  "ZJ04": 15,
+  "ZJ05": 15,
+  "LT12": 14,
+  "ZJ07": 14,
+  "ZJ10": 14,
+  "LT07": 12,
+  "LT11": 12,
+  "ZJ06": 12,
+  "LT02": 10,
+  "ZJ09": 10,
+  "WB17": 9,
+  "ZJ03": 9,
+  "LT13": 8,
+  "ZJ01": 8,
+  "ZJ02": 8,
+  "LT09": 7,
+  "LT06": 6,
+  "LT08": 6,
+  "WB16": 5,
+  "LT01": 2
+ },
+ "total_policies": 418,
+ "total_question_cases": 574,
+ "total_critique_cases": 0,
+ "coverage_status": "SOURCE_INDEXED_METHOD_REFERENCES",
+ "case_scope": "partial_classroom_transcript_excerpts_not_full_figures"
+}

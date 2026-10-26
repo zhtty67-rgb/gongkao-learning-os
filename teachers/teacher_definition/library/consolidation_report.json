@@ -1,0 +1,17 @@
+{
+ "teacher_id": "teacher_definition",
+ "total_policies": 5,
+ "total_question_cases": 39,
+ "total_critique_cases": 0,
+ "categories": [],
+ "courses_covered": [
+  "DEF01",
+  "DEF02",
+  "DEF03"
+ ],
+ "quarantined_original_question_cases": 3,
+ "case_coverage_status": "partial_source_verified",
+ "pending_visual_review": 0,
+ "audit_status": "REMEDIATED_WITH_DISCLOSED_GAPS",
+ "coverage_status": "SOURCE_CHAPTER_CASES_RECONSTRUCTED"
+}

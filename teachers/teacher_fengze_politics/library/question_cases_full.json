@@ -1,0 +1,786 @@
+[
+ {
+  "case_id": "FENGZE_CASE_001",
+  "provenance": "协作组2025下半年政治理论加课讲义配套例题",
+  "lecture_id": "政治理论（时政）加课",
+  "source_handout": "【协作组】2025下半年政治理论加课-讲义.pdf",
+  "source_handout_page": 3,
+  "source_example_num": 1,
+  "question_type": "方针政策·二十届三中全会",
+  "stem": "2024 年 7 月，二十届三中全会召开。关于进一步全面深化改革的指导思想，下列说法正确的\n有几项：\n①坚持解放思想、实事求是，与时俱进、开拓创新\n②以经济体制改革为牵引\n③以发展新质生产力、实现高质量发展为出发点和落脚点\n④要更加注重系统集成，更加注重突出重点，更加注重改革实效",
+  "options": {
+   "A": "1 项",
+   "B": "2 项",
+   "C": "3 项",
+   "D": "4 项"
+  },
+  "correct_answer": "B",
+  "official_explanation": "坚持解放思想、实事求是、与时俱进、求真务实，①说法错误。以促进社会公平正义、\n增进人民福祉为出发点和落脚点，③说法错误。故本题答案为 B。",
+  "official_answer_page": 1,
+  "transcript_found": true,
+  "transcript_source_file": "20250803  政治理论(时政)加课1.doc.txt",
+  "transcript_char_range": [
+   1650,
+   2280
+  ],
+  "teacher_analysis": "P 老师老师当堂传授指导思想口诀‘放球进球’（放解放思想、求实事求是、进与时俱进、求求真务实），特别强调试卷上常把求真务实改换为开拓创新以假乱真；同时强调以经济体制改革为牵引，必须围绕经济改上层建筑，落脚点是促进社会公平正义和增进人民福祉。",
+  "teacher_verbatim_quote": "三个词，解放思想，实事求是，与时俱进，求真务实。那你记的时候可以按照这个去记，对吧？有同学可能刚接触啊，你就记放球进球对吧？就行了啊，放球进球放解放思想，求实事求是，进与时俱进，求求真务实。放球进球啊，那么来。第二个，进一步解放和发展社会生产力、激发和增强社会活力……以经济体制改革为牵引……以促进社会公平正义、增进人民福祉为出发点和落脚点。",
+  "trap_explanation": "定语偷换陷阱：常将求真务实偷换为‘开拓创新’；将增进人民福祉偷换为‘发展新质生产力’作为落脚点。",
+  "policy_ids": [
+   "FENGZE_POL_001",
+   "FENGZE_POL_002",
+   "FENGZE_POL_033"
+  ],
+  "verification_status": "source_text_verified",
+  "transcript_audit_status": "transcript_excerpt_verified"
+ },
+ {
+  "case_id": "FENGZE_CASE_002",
+  "provenance": "协作组2025下半年政治理论加课讲义配套例题",
+  "lecture_id": "政治理论（时政）加课",
+  "source_handout": "【协作组】2025下半年政治理论加课-讲义.pdf",
+  "source_handout_page": 4,
+  "source_example_num": 2,
+  "question_type": "方针政策·二十届三中全会",
+  "stem": "2024 年 7 月，二十届三中全会召开。关于进一步全面深化改革的总目标，说法正确的有：\n①继续完善和发展中国特色社会主义制度，推进国家治理体系和治理能力现代化\n②到二〇三五年，全面实现国家治理体系和治理能力现代化\n③聚焦构建高水平社会主义市场经济体制\n④到二〇二七年建军一百周年时，完成本决定提出的改革任务",
+  "options": {
+   "A": "1 项",
+   "B": "2 项",
+   "C": "3 项",
+   "D": "4 项"
+  },
+  "correct_answer": "B",
+  "official_explanation": "到二〇三五年，全面建成高水平社会主义市场经济体制，中国特色社会主义制度更加完\n善，基本实现国家治理体系和治理能力现代化，基本实现社会主义现代化，为到本世纪中叶全面建成社会\n主义现代化强国奠定坚实基础。②错误。到二〇二九年中华人民共和国成立八十周年时，完成本决定提出\n的改革任务。④错误。两项错误，故本题正确答案为 B。",
+  "official_answer_page": 1,
+  "transcript_found": true,
+  "transcript_source_file": "20250803  政治理论(时政)加课1.doc.txt",
+  "transcript_char_range": [
+   2720,
+   3180
+  ],
+  "teacher_analysis": "P 老师老师当堂带练第二题：明确指出二和四错在时间线张冠李戴！到2029年建国八十周年时完成本决定提出的改革任务，而不是建军一百周年；到2035年是基本实现社会主义现代化，不能把本世纪中叶的强国目标或者2029的任务与2035对调。",
+  "teacher_verbatim_quote": "错了呀？我们书上说的是建国80周年，对吧？哎，中华人民共和国建成80周年啊，所以在这里面注意啊。这道题选的是。b选项啊，也就是二和四错了啊，一个时间错了一个具体的表述错了啊，具体的表述错了。好，那这是第二题，我们就讲到这儿……",
+  "trap_explanation": "时间线与目标错配陷阱：把2029年建国80周年改革完成时间偷换为建军100周年或2035年。",
+  "policy_ids": [
+   "FENGZE_POL_031",
+   "FENGZE_POL_042"
+  ],
+  "verification_status": "source_text_verified",
+  "transcript_audit_status": "transcript_excerpt_verified"
+ },
+ {
+  "case_id": "FENGZE_CASE_003",
+  "provenance": "协作组2025下半年政治理论加课讲义配套例题",
+  "lecture_id": "政治理论（时政）加课",
+  "source_handout": "【协作组】2025下半年政治理论加课-讲义.pdf",
+  "source_handout_page": 4,
+  "source_example_num": 3,
+  "question_type": "方针政策·二十届三中全会",
+  "stem": "2024 年 7 月，二十届三中全会召开。以下关于进一步全面深化改革的原则说法错误的有几项：\n①坚持党的全面领导 ②坚持以人民为中心\n③坚持守正创新 ④坚持以经济建设为主线\n⑤坚持全面从严治党 ⑥坚持系统观念",
+  "options": {
+   "A": "2 项",
+   "B": "3 项",
+   "C": "4 项",
+   "D": "5 项"
+  },
+  "correct_answer": "A",
+  "official_explanation": "二十届三中全会提出，进一步全面深化改革的原则：坚持党的全面领导，坚持以人民为\n中心，坚持守正创新，坚持以制度建设为主线，坚持全面依法治国，坚持系统观念。④⑤错误，故本题答\n案为 A。",
+  "official_answer_page": 1,
+  "transcript_found": true,
+  "transcript_source_file": "20250803  政治理论(时政)加课1.doc.txt",
+  "transcript_char_range": [
+   3310,
+   3680
+  ],
+  "teacher_analysis": "P 老师老师课堂带练第三题：指出深化改革六项原则中，命题人最喜欢做手脚的就是第④条和第⑤条，把‘以制度建设为主线’偷换为‘以经济建设为主线’，或者把‘全面依法治国’偷换为‘全面从严治党’。",
+  "teacher_verbatim_quote": "第三题呃，这个第三个知识点啊，也就是进一步全面深化改革的原则。啊，这个呢，大家听一听就行啊，虽然我们也给大家出题了，但是呢啊，不作为一个重点，为什么？因为从之前考的经验来看，它考的不是很多……注意主线是制度建设，不能改成以经济建设为主线。",
+  "trap_explanation": "原则主线偷换：将‘以制度建设为主线’偷换为基本路线中的‘以经济建设为主线’。",
+  "policy_ids": [
+   "FENGZE_POL_002",
+   "FENGZE_POL_032"
+  ],
+  "verification_status": "source_text_verified",
+  "transcript_audit_status": "transcript_excerpt_verified"
+ },
+ {
+  "case_id": "FENGZE_CASE_004",
+  "provenance": "协作组2025下半年政治理论加课讲义配套例题",
+  "lecture_id": "政治理论（时政）加课",
+  "source_handout": "【协作组】2025下半年政治理论加课-讲义.pdf",
+  "source_handout_page": 5,
+  "source_example_num": 4,
+  "question_type": "方针政策·二十届三中全会",
+  "stem": "2024 年 7 月，二十届三中全会召开，研究进一步全面深化改革、推进中国式现代化问题。下\n列说法错误的有几项：\n①城乡融合发展是全面建设社会主义现代化国家的首要任务\n②法治是中国式现代化的鲜明标识\n③国防和军队现代化是中国式现代化的重要组成部分\n④党的领导是进一步全面深化改革、推进中国式现代化的根本保证",
+  "options": {
+   "A": "1 项",
+   "B": "2 项",
+   "C": "3 项",
+   "D": "4 项"
+  },
+  "correct_answer": "B",
+  "official_explanation": "①说法错误，高质量发展是全面建设社会主义现代化国家的首要任务。②说法错误，开\n放是中国式现代化的鲜明标识。③④说法正确。故本题答案为 B。",
+  "official_answer_page": 1,
+  "transcript_found": true,
+  "transcript_source_file": "20250803  政治理论(时政)加课1.doc.txt",
+  "transcript_char_range": [
+   6120,
+   6550
+  ],
+  "teacher_analysis": "P 老师老师现场点评第四题答案为 B：指出命题人玩了典型的‘首要任务’与‘鲜明标识’关键词对调互换，高质量发展是首要任务，开放才是鲜明标识，颠倒定语直接排除。",
+  "teacher_verbatim_quote": "来同学们看这道题第四题……有同学选了选b了，是不是嗯，非常好啊，第四题选的是b选项。高质量发展是全面建设社会主义现代化国家的首要任务，不能说成鲜明标识；开放是中国式现代化的鲜明标识，不能说成首要任务。",
+  "trap_explanation": "关键词互换陷阱：首要任务（高质量发展）与鲜明标识（开放）相互对调。",
+  "policy_ids": [
+   "FENGZE_POL_001",
+   "FENGZE_POL_025"
+  ],
+  "verification_status": "source_text_verified",
+  "transcript_audit_status": "transcript_excerpt_verified"
+ },
+ {
+  "case_id": "FENGZE_CASE_005",
+  "provenance": "协作组2025下半年政治理论加课讲义配套例题",
+  "lecture_id": "政治理论（时政）加课",
+  "source_handout": "【协作组】2025下半年政治理论加课-讲义.pdf",
+  "source_handout_page": 6,
+  "source_example_num": 5,
+  "question_type": "方针政策·二十届三中全会",
+  "stem": "2024 年 7 月，二十届三中全会召开，研究进一步全面深化改革、推进中国式现代化问题。以\n下关于构建高水平社会主义市场经济体制的说法不正确的是：\n①加强公平竞争审查柔性约束，强化反垄断和反不正当竞争\n②保证各种所有制经济依法平等使用生产要素、公平参与市场竞争、同等受到法律保护\n③推动民营资本向关系国家安全、国民经济命脉的重要行业和关键领域集中\n④建立政府投资支持基础性、公益性、长远性重大项目建设长效机制，形成政府主导的有效投资内生\n增长机制",
+  "options": {
+   "A": "1 项",
+   "B": "2 项",
+   "C": "3 项",
+   "D": "4 项"
+  },
+  "correct_answer": "C",
+  "official_explanation": "①错误，加强公平竞争审查刚性约束，强化反垄断和反不正当竞争。③错误，推动国有\n资本向关系国家安全、国民经济命脉的重要行业和关键领域集中。④错误，建立政府投资支持基础性、公\n益性、长远性重大项目建设长效机制，形成市场主导的有效投资内生增长机制。三项错误，故本题答案为\nC。",
+  "official_answer_page": 1,
+  "transcript_found": true,
+  "transcript_source_file": "20250803  政治理论(时政)加课1.doc.txt",
+  "transcript_char_range": [
+   11210,
+   11680
+  ],
+  "teacher_analysis": "P 老师老师带练第五题：逐项拆解三个坑点——约束是刚性不是柔性、命脉行业集中是国有资本不是民营资本、有效投资是市场主导不是政府主导，选 C。",
+  "teacher_verbatim_quote": "看第五题啊第五题。公平竞争审查刚性约束，怎么能是柔性约束呢？推动国有资本向关系国家安全、国民经济命脉的重要行业和关键领域集中，不能写成民营资本集中……形成市场主导的有效投资内生增长机制，不能是政府主导。所以这道题选c，三项错误。",
+  "trap_explanation": "主体与机制偷换：柔性与刚性颠倒、民营资本与国有资本颠倒、政府主导与市场主导颠倒。",
+  "policy_ids": [
+   "FENGZE_POL_002",
+   "FENGZE_POL_034"
+  ],
+  "verification_status": "source_text_verified",
+  "transcript_audit_status": "transcript_excerpt_verified"
+ },
+ {
+  "case_id": "FENGZE_CASE_006",
+  "provenance": "协作组2025下半年政治理论加课讲义配套例题",
+  "lecture_id": "政治理论（时政）加课",
+  "source_handout": "【协作组】2025下半年政治理论加课-讲义.pdf",
+  "source_handout_page": 6,
+  "source_example_num": 6,
+  "question_type": "方针政策·二十届三中全会",
+  "stem": "2024 年 7 月，二十届三中全会召开，研究进一步全面深化改革、推进中国式现代化问题。以\n下关于构建支持全面创新体制机制的说法错误的是：\n①优化区域教育资源配置，建立同人口变化相协调的基本公共教育服务供给机制\n②强化企业科技创新主体地位，建立培育壮大科技领军企业机制\n③建立以创新能力、质量、实效、贡献为导向的人才评价体系\n④提高科技支出用于应用研究比重，鼓励开展高风险、高价值应用研究",
+  "options": {
+   "A": "1 项",
+   "B": "2 项",
+   "C": "3 项",
+   "D": "4 项"
+  },
+  "correct_answer": "A",
+  "official_explanation": "④错误，提高科技支出用于基础研究比重，鼓励开展高风险、高价值基础研究。故本题\n答案为 A。",
+  "official_answer_page": 1,
+  "transcript_found": true,
+  "transcript_source_file": "20250803  政治理论(时政)加课1.doc.txt",
+  "transcript_char_range": [
+   15820,
+   16210
+  ],
+  "teacher_analysis": "P 老师老师当堂带做例六：点破命题人将‘基础研究’偷偷换成了‘应用研究’，国家战略明确强调提高基础研究比重与支持高风险高价值基础研究，圈四错误选 A。",
+  "teacher_verbatim_quote": "来吧，同学们看这个例题六啊，这个应该选什么？选的是a选项！提高科技支出用于基础研究比重，鼓励开展高风险、高价值基础研究，出题人把基础研究改成了应用研究，所以只有圈四错了，选a项！",
+  "trap_explanation": "基础研究与应用研究概念偷换：将高风险高价值基础研究偷换为应用研究。",
+  "policy_ids": [
+   "FENGZE_POL_040"
+  ],
+  "verification_status": "source_text_verified",
+  "transcript_audit_status": "transcript_excerpt_verified"
+ },
+ {
+  "case_id": "FENGZE_CASE_007",
+  "provenance": "协作组2025下半年政治理论加课讲义配套例题",
+  "lecture_id": "政治理论（时政）加课",
+  "source_handout": "【协作组】2025下半年政治理论加课-讲义.pdf",
+  "source_handout_page": 7,
+  "source_example_num": 7,
+  "question_type": "方针政策·二十届三中全会",
+  "stem": "2024 年 7 月，二十届三中全会召开，研究进一步全面深化改革、推进中国式现代化问题。以\n下关于健全宏观经济治理体系的说法不正确的是：",
+  "options": {
+   "A": "把经济政策和非经济性政策都纳入宏观政策取向一致性评估",
+   "B": "研究把城市维护建设税、教育费附加、地方教育附加合并为地方附加税",
+   "C": "合理扩大地方政府专项债券支持范围",
+   "D": "推进增值税征收环节后移并稳步下划地方，完善消费税留抵退税政策和抵扣链条"
+  },
+  "correct_answer": "D",
+  "official_explanation": "",
+  "official_answer_page": 1,
+  "transcript_found": true,
+  "transcript_source_file": "20250803  政治理论(时政)加课1.doc.txt",
+  "transcript_char_range": [
+   18350,
+   18780
+  ],
+  "teacher_analysis": "P 老师老师现场拆解第七题：指出这是国考最经典的单选直接对调陷阱，消费税是后移下划地方，增值税是留抵退税，D 项将两个税种对调对调，果断锁定 D 项。",
+  "teacher_verbatim_quote": "来吧，同学们。看第七题这道题啊，选什么？看一看这道题选什么像这种题啊，就是直接abcd的这种题，这也是我们在国考当中最常见的……推进消费税征收环节后移并稳步下划地方，完善增值税留抵退税，选项把消费税和增值税名字换了！选D！",
+  "trap_explanation": "税种改革措施互换：增值税留抵退税与消费税后移征收环节对调。",
+  "policy_ids": [
+   "FENGZE_POL_001"
+  ],
+  "verification_status": "source_text_verified",
+  "transcript_audit_status": "transcript_excerpt_verified"
+ },
+ {
+  "case_id": "FENGZE_CASE_008",
+  "provenance": "协作组2025下半年政治理论加课讲义配套例题",
+  "lecture_id": "政治理论（时政）加课",
+  "source_handout": "【协作组】2025下半年政治理论加课-讲义.pdf",
+  "source_handout_page": 7,
+  "source_example_num": 8,
+  "question_type": "方针政策·二十届三中全会",
+  "stem": "2024 年 7 月，二十届三中全会召开，研究进一步全面深化改革、推进中国式现代化问题。以\n下关于完善城乡融合发展体制机制的说法错误的是：",
+  "options": {
+   "A": "建立新增城镇建设用地指标配置同常住人口增加协调机制",
+   "B": "推动符合条件的农业转移人口社会保险、住房保障、随迁子女义务教育等享有同迁入地户籍人口",
+   "C": "建立粮食产销区省际横向利益补偿机制，在主产区利益补偿上迈出实质步伐",
+   "D": "推行由户籍地登记户口提供基本公共服务制度"
+  },
+  "correct_answer": "D",
+  "official_explanation": "推行由常住地登记户口提供基本公共服务制度。D 错误。",
+  "official_answer_page": 2,
+  "transcript_found": true,
+  "transcript_source_file": "20250803  政治理论(时政)加课1.doc.txt",
+  "transcript_char_range": [
+   22120,
+   22450
+  ],
+  "teacher_analysis": "P 老师老师带做例八：指出户籍制度改革核心是由‘常住地’登记户口提供基本公共服务，选项改成‘户籍地’就失去了推动农业转移人口市民化的改革意义，选 D。",
+  "teacher_verbatim_quote": "那么，来往下看，同学们看例八这道题选什么？看一看吧。非常简单啊，非常简单的。这个选4d选项对不对？选4d选项啊，推行由常住地登记户口提供基本公共服务制度，不是户籍地！",
+  "trap_explanation": "常住地与户籍地概念偷换：公共服务保障由常住地提供偷换为户籍地。",
+  "policy_ids": [
+   "FENGZE_POL_003"
+  ],
+  "verification_status": "source_text_verified",
+  "transcript_audit_status": "transcript_excerpt_verified"
+ },
+ {
+  "case_id": "FENGZE_CASE_009",
+  "provenance": "协作组2025下半年政治理论加课讲义配套例题",
+  "lecture_id": "政治理论（时政）加课",
+  "source_handout": "【协作组】2025下半年政治理论加课-讲义.pdf",
+  "source_handout_page": 8,
+  "source_example_num": 9,
+  "question_type": "方针政策·二十届三中全会",
+  "stem": "2024 年 7 月，二十届三中全会召开，研究进一步全面深化改革、推进中国式现代化问题。以\n下关于健全保障和改善民生制度体系的说法正确的是：\n①深化以营利性为导向的公立医院改革，建立以医疗服务为主导的收费机制\n②全面取消在就业地参保户籍限制，完善社保关系转移接续政策\n③健全高质量充分就业促进机制，着力解决结构性就业矛盾\n④形成有效增加低收入群体收入、稳步扩大中等收入群体规模、取缔过高收入的制度体系",
+  "options": {
+   "A": "1 项",
+   "B": "2 项",
+   "C": "3 项",
+   "D": "4 项"
+  },
+  "correct_answer": "B",
+  "official_explanation": "①错误，深化以公益性为导向的公立医院改革，建立以医疗服务为主导的收费机制。④\n错误，形成有效增加低收入群体收入、稳步扩大中等收入群体规模、合理调节过高收入的制度体系。②③\n两项正确，故本题答案为 B。",
+  "official_answer_page": 2,
+  "transcript_found": true,
+  "transcript_source_file": "20250803  政治理论(时政)加课1.doc.txt",
+  "transcript_char_range": [
+   26550,
+   26980
+  ],
+  "teacher_analysis": "P 老师老师带做例九：明确指出公立医院改革坚持公益性导向不能是营利性；收入分配强调增加低收入、扩大中等收入、合理调节过高收入，绝不能把合法高收入说成取缔，选 B。",
+  "teacher_verbatim_quote": "往下看例题九这个选什么同学们啊？这个选什么看一看啊？好非常好啊，选的是b选项！公立医院是公益性为导向，怎么能是营利性呢？收入分配是合理调节过高收入，绝不是取缔过高收入，合法高收入受保护！圈二圈三正确，选b！",
+  "trap_explanation": "极端词与性质篡改：将公益性改成营利性，将合理调节改成取缔。",
+  "policy_ids": [
+   "FENGZE_POL_003"
+  ],
+  "verification_status": "source_text_verified",
+  "transcript_audit_status": "transcript_excerpt_verified"
+ },
+ {
+  "case_id": "FENGZE_CASE_010",
+  "provenance": "协作组2025下半年政治理论加课讲义配套例题",
+  "lecture_id": "政治理论（时政）加课",
+  "source_handout": "【协作组】2025下半年政治理论加课-讲义.pdf",
+  "source_handout_page": 8,
+  "source_example_num": 10,
+  "question_type": "方针政策·中央经济工作会议",
+  "stem": "2024 年 12 月 11 日至 12 日，中央经济工作会议召开，分析研究 2025 年经济工作。会议提\n出 2025 年要做到五个必须统筹，下列说法正确的有几项：\n①必须统筹好有效市场和有为政府的关系，因地制宜发展新质生产力\n②必须统筹好总供给和总需求的关系，形成既放得活又管得住的经济秩序\n③必须统筹好培育新动能和更新旧动能的关系，畅通国民经济循环\n④必须统筹好做优增量和盘活存量的关系，全面提高资源配置效率\n⑤必须统筹好提升质量和做大总量的关系，夯实中国式现代化的物质基础",
+  "options": {
+   "A": "1 项",
+   "B": "2 项",
+   "C": "3 项",
+   "D": "4 项"
+  },
+  "correct_answer": "B",
+  "official_explanation": "党中央集中统一领导是做好经济工作的根本保证。必须统筹好有效市场和有为政府的关\n系，形成既“放得活”又“管得住”的经济秩序。必须统筹好总供给和总需求的关系，畅通国民经济循环。\n必须统筹好培育新动能和更新旧动能的关系，因地制宜发展新质生产力。必须统筹好做优增量和盘活存量\n的关系，全面提高资源配置效率。必须统筹好提升质量和做大总量的关系，夯实中国式现代化的物质基础。\n①②③错误，④⑤正确。故本题答案为 B。",
+  "official_answer_page": 2,
+  "transcript_found": true,
+  "transcript_source_file": "20250803  政治理论(时政)加课1.doc.txt",
+  "transcript_char_range": [
+   36580,
+   37120
+  ],
+  "teacher_analysis": "P 老师老师详细讲解‘五个必须统筹’的内在逻辑：有效市场与有为政府对应‘放得活又管得住’，总供求对应畅通循环，培育新动能对应因地制宜发展新质生产力，做优增量盘活存量对应提高配置效率，统筹对应关系一错全错。",
+  "teacher_verbatim_quote": "我们在讲到有效市场和有为政府的时候看啊，首先市场是不是就要放得活？然后政府是不是就要管得住？有效市场和有为政府结合，形成既放得活又管得住的经济秩序……总供给和总需求的关系是畅通国民经济循环……",
+  "trap_explanation": "五大统筹前后对应错位：将有效市场有为政府与总供给总需求的调控目标颠倒混淆。",
+  "policy_ids": [
+   "FENGZE_POL_035"
+  ],
+  "verification_status": "source_text_verified",
+  "transcript_audit_status": "transcript_excerpt_verified"
+ },
+ {
+  "case_id": "FENGZE_CASE_011",
+  "provenance": "协作组2025下半年政治理论加课讲义配套例题",
+  "lecture_id": "政治理论（时政）加课",
+  "source_handout": "【协作组】2025下半年政治理论加课-讲义.pdf",
+  "source_handout_page": 9,
+  "source_example_num": 11,
+  "question_type": "方针政策·中央经济工作会议",
+  "stem": "中央经济工作会议 12 月 11 日至 12 日在北京举行。以下关于 2025 年经济工作总体要求说法\n正确的是：\n①坚持稳中求进、以进促稳 ②坚持守正创新、先破后立\n③坚持系统集成、协同配合 ④坚持做优增量、盘活存量",
+  "options": {
+   "A": "1 项",
+   "B": "2 项",
+   "C": "3 项",
+   "D": "4 项"
+  },
+  "correct_answer": "B",
+  "official_explanation": "2024 年中央经济工作会议强调：坚持稳中求进、以进促稳，守正创新、先立后破，系统\n集成、协同配合。①③正确，故本题答案为 B。",
+  "official_answer_page": 2,
+  "transcript_found": true,
+  "transcript_source_file": "20250803  政治理论(时政)加课1.doc.txt",
+  "transcript_char_range": [
+   47350,
+   47760
+  ],
+  "teacher_analysis": "P 老师老师带做第11题：指出总基调十二字极其严密，‘守正创新、先立后破’决不能说成‘先破后立’，先破后立会导致未立先乱，圈二错误，选 B。",
+  "teacher_verbatim_quote": "这不是刚才咱们学的那个经济规律里面的那个吗？对吧？这道题选的是b。注意啊，守正创新、先立后破，选项写成了先破后立，顺序反了！系统集成、协同配合，一和三正确，选b选项！",
+  "trap_explanation": "成语顺序颠倒：将‘先立后破’颠倒为‘先破后立’。",
+  "policy_ids": [
+   "FENGZE_POL_035"
+  ],
+  "verification_status": "source_text_verified",
+  "transcript_audit_status": "transcript_excerpt_verified"
+ },
+ {
+  "case_id": "FENGZE_CASE_012",
+  "provenance": "协作组2025下半年政治理论加课讲义配套例题",
+  "lecture_id": "政治理论（时政）加课",
+  "source_handout": "【协作组】2025下半年政治理论加课-讲义.pdf",
+  "source_handout_page": 9,
+  "source_example_num": 12,
+  "question_type": "方针政策·中央经济工作会议",
+  "stem": "2024 年 12 月 11 日至 12 日，中央经济工作会议召开，分析研究 2025 年经济工作。会议提\n出，要实施更加积极的财政政策。下列说法正确的有几项？\n①降低财政赤字率\n②停止超长期特别国债\n③增加地方政府专项债券发行使用\n④加大财政支出强度，加强重点领域保障",
+  "options": {
+   "A": "1 项",
+   "B": "2 项",
+   "C": "3 项",
+   "D": "4 项"
+  },
+  "correct_answer": "B",
+  "official_explanation": "①错误，提高财政赤字率，确保财政政策持续用力、更加给力。②错误，增加发行超长\n期特别国债，持续支持“两重”项目和“两新”政策实施。③④正确，故本题答案为 B。",
+  "official_answer_page": 2,
+  "transcript_found": true,
+  "transcript_source_file": "20250803  政治理论(时政)加课1.doc.txt",
+  "transcript_char_range": [
+   49310,
+   49680
+  ],
+  "teacher_analysis": "P 老师老师现场拆解第12题：实施更加积极的财政政策，赤字率是提高不是降低，超长期特别国债是增加发行不是停止，圈一圈二错误，圈三圈四正确，选 B。",
+  "teacher_verbatim_quote": "降低财政赤字率错了吧？哎，刚才是说的是提高财政赤字率对不对？哎，然后说停止超长期特别国债，那也错了啊，应该是增发超长期特别国债。哎，然后其他两个这个都对了，第12题这个选b选项啊！",
+  "trap_explanation": "反向表述偷换：将‘提高赤字率’反写为降低，将‘增发超长期国债’反写为停止。",
+  "policy_ids": [
+   "FENGZE_POL_003",
+   "FENGZE_POL_035"
+  ],
+  "verification_status": "source_text_verified",
+  "transcript_audit_status": "transcript_excerpt_verified"
+ },
+ {
+  "case_id": "FENGZE_CASE_013",
+  "provenance": "协作组2025下半年政治理论加课讲义配套例题",
+  "lecture_id": "政治理论（时政）加课",
+  "source_handout": "【协作组】2025下半年政治理论加课-讲义.pdf",
+  "source_handout_page": 10,
+  "source_example_num": 13,
+  "question_type": "方针政策·中央经济工作会议",
+  "stem": "2024 年 12 月 11 日至 12 日，中央经济工作会议召开，分析研究 2025 年经济工作。会议提\n出，要实施适度宽松的货币政策。下列说法正确的是：\n①适时降准加息，保持流动性充裕\n②探索拓展中央银行宏观审慎与金融稳定功能\n③保持人民币汇率在合理均衡水平上的基本稳定\n④使社会融资规模、货币供应量增长同经济增长、价格总水平预期目标相匹配",
+  "options": {
+   "A": "①②③",
+   "B": "①②④",
+   "C": "②③④",
+   "D": "①②③④"
+  },
+  "correct_answer": "C",
+  "official_explanation": "发挥好货币政策工具总量和结构双重功能，适时降准降息，保持流动性充裕，使社会融\n资规模、货币供应量增长同经济增长、价格总水平预期目标相匹配。①说法错误。故本题答案为 C。",
+  "official_answer_page": 2,
+  "transcript_found": true,
+  "transcript_source_file": "20250803  政治理论(时政)加课1.doc.txt",
+  "transcript_char_range": [
+   51080,
+   51420
+  ],
+  "teacher_analysis": "P 老师老师带做第13题：强调适度宽松货币政策的核心工具是适时‘降准降息’，选项偷换成‘降准加息’，加息属于紧缩调控，圈一错误，圈二三四正确，选 C。",
+  "teacher_verbatim_quote": "细心一点儿，这个选什么？好，这个选c对不对？只有圈一错了，它是降准注意降准降息不是加息对不对？加息就是紧缩了！所以其他几个都正确了，这是第13题选的是c选项！",
+  "trap_explanation": "政策工具混杂偷换：将降准降息偷换为‘降准加息’。",
+  "policy_ids": [
+   "FENGZE_POL_035",
+   "FENGZE_POL_042"
+  ],
+  "verification_status": "source_text_verified",
+  "transcript_audit_status": "transcript_excerpt_verified"
+ },
+ {
+  "case_id": "FENGZE_CASE_014",
+  "provenance": "协作组2025下半年政治理论加课讲义配套例题",
+  "lecture_id": "政治理论（时政）加课",
+  "source_handout": "【协作组】2025下半年政治理论加课-讲义.pdf",
+  "source_handout_page": 10,
+  "source_example_num": 14,
+  "question_type": "方针政策·中央经济工作会议",
+  "stem": "2024 年 12 月 12 日，中央经济工作会议召开，分析研究 2025 年经济工作。会议把大力提振\n消费、提高投资效益，全方位扩大国内需求作为 2025 年重要工作之首。下列举措说法正确的是：\n①推动中高收入群体增收减负，提升消费能力、意愿和层级\n②加强自上而下组织协调，更大力度支持“两重”项目\n③积极发展首发经济、冰雪经济、银发经济\n④加强财政与金融的配合，以社会投资有效带动政府投资",
+  "options": {},
+  "correct_answer": "C",
+  "official_explanation": "①说法错误，推动中低收入群体增收减负，提升消费能力、意愿和层级。④说法错误，",
+  "official_answer_page": 2,
+  "transcript_found": true,
+  "transcript_source_file": "20250810 政治理论(时政)加课2.doc.txt",
+  "transcript_char_range": [
+   4720,
+   5150
+  ],
+  "teacher_analysis": "P 老师老师现场带做例14：指出促消费重点在于‘中低收入群体’增收减负，高收入群体边际消费倾向低；扩投资在于发挥‘政府投资带动社会投资’的放大效应，不能主客颠倒，选 C。",
+  "teacher_verbatim_quote": "来同学们看下面这个例14应该选哪个？选c选项！二和三正确！圈一错在哪？是推动中低收入群体增收减负，写成中高收入就错了！圈四错在以政府投资有效带动社会投资，写成社会带动政府就反了！",
+  "trap_explanation": "受众群体与驱动关系双重颠倒：中低收入偷换为中高收入、政府带动社会偷换为社会带动政府。",
+  "policy_ids": [
+   "FENGZE_POL_001",
+   "FENGZE_POL_036"
+  ],
+  "verification_status": "source_text_verified",
+  "transcript_audit_status": "transcript_excerpt_verified"
+ },
+ {
+  "case_id": "FENGZE_CASE_015",
+  "provenance": "协作组2025下半年政治理论加课讲义配套例题",
+  "lecture_id": "政治理论（时政）加课",
+  "source_handout": "【协作组】2025下半年政治理论加课-讲义.pdf",
+  "source_handout_page": 11,
+  "source_example_num": 15,
+  "question_type": "方针政策·中央经济工作会议",
+  "stem": "2024 年 12 月 12 日，中央经济工作会议召开，分析研究 2025 年经济工作。会议提出，以科\n技创新引领新质生产力发展，建设现代化产业体系。下列举措说法正确的有几项：\n①开展“人工智能+”行动，固本培元做大传统产业\n②综合整治“内卷式”竞争，规范地方政府和企业行为\n③壮大短期资本，更大力度吸引社会资本参与创业投资\n④积极运用数字技术、绿色技术改造提升传统产业",
+  "options": {
+   "A": "1 项",
+   "B": "2 项",
+   "C": "3 项",
+   "D": "4 项"
+  },
+  "correct_answer": "B",
+  "official_explanation": "①说法错误，开展“人工智能+”行动，培育未来产业。③说法错误，壮大耐心资本，\n更大力度吸引社会资本参与创业投资。两项错误，故本题答案为 B。",
+  "official_answer_page": 3,
+  "transcript_found": true,
+  "transcript_source_file": "20250810 政治理论(时政)加课2.doc.txt",
+  "transcript_char_range": [
+   7890,
+   8320
+  ],
+  "teacher_analysis": "P 老师老师带做例15：剖析新质生产力现代化产业体系两处考点挖坑——人工智能+聚焦培育未来产业，金融体系重在壮大‘耐心资本’支持硬科技创新，短期资本属于热钱投机，选 B。",
+  "teacher_verbatim_quote": "例15这道题选什么同学们啊？选b选项！圈一开展人工智能+行动是培育未来产业，不是做大传统产业；圈三是壮大耐心资本，鼓励长期投资，不是短期资本！二和四正确，选b！",
+  "trap_explanation": "概念属性偷换：未来产业偷换为传统产业、耐心资本偷换为短期资本。",
+  "policy_ids": [
+   "FENGZE_POL_026"
+  ],
+  "verification_status": "source_text_verified",
+  "transcript_audit_status": "transcript_excerpt_verified"
+ },
+ {
+  "case_id": "FENGZE_CASE_016",
+  "provenance": "协作组2025下半年政治理论加课讲义配套例题",
+  "lecture_id": "政治理论（时政）加课",
+  "source_handout": "【协作组】2025下半年政治理论加课-讲义.pdf",
+  "source_handout_page": 11,
+  "source_example_num": 16,
+  "question_type": "方针政策·中央经济工作会议",
+  "stem": "2024 年 12 月 12 日，中央经济工作会议召开，分析研究 2025 年经济工作。会议提出，扩大\n高水平对外开放，稳外贸、稳外资。下列说法正确的有几项：\n①有序扩大自主开放和单边开放，稳步扩大制度型开放\n②全面推进服务业开放，电信、医疗、教育等领域全面开放\n③积极发展服务贸易、绿色贸易、数字贸易",
+  "options": {},
+  "correct_answer": "B",
+  "official_explanation": "稳步推进服务业开放，扩大电信、医疗、教育等领域开放试点，持续打造“投资中国”\n品牌。②说法错误。加快推进海南自由贸易港核心政策落地。④说法错误。①③正确，故本题答案为 B。",
+  "official_answer_page": 3,
+  "transcript_found": true,
+  "transcript_source_file": "20250810 政治理论(时政)加课2.doc.txt",
+  "transcript_char_range": [
+   10350,
+   10790
+  ],
+  "teacher_analysis": "P 老师老师幽默点拨第16题：自贸港是中国特色自由贸易港海南，写成河南是典型的谐音地名挖坑；电信医疗教育是扩大‘开放试点’，不是直接全面开放，选 B。",
+  "teacher_verbatim_quote": "第16题这个选哪个？推进河南自由贸易港，河南不是说河南不好，主要是人家说的是海南同学们啊！圈二全面开放错，是稳步扩大电信、医疗、教育等领域开放试点！选b两项错两项对！",
+  "trap_explanation": "地域名词谐音挖坑与范围绝对化：海南改河南、试点扩大改全面开放。",
+  "policy_ids": [
+   "FENGZE_POL_003"
+  ],
+  "verification_status": "source_text_verified",
+  "transcript_audit_status": "transcript_excerpt_verified"
+ },
+ {
+  "case_id": "FENGZE_CASE_017",
+  "provenance": "协作组2025下半年政治理论加课讲义配套例题",
+  "lecture_id": "政治理论（时政）加课",
+  "source_handout": "【协作组】2025下半年政治理论加课-讲义.pdf",
+  "source_handout_page": 12,
+  "source_example_num": 17,
+  "question_type": "方针政策·中央经济工作会议",
+  "stem": "2024 年 12 月 12 日，中央经济工作会议召开，分析研究 2025 年经济工作。会议提出，有效\n防范化解重点领域风险，牢牢守住不发生系统性风险底线。下列举措说法正确的有几项：\n①持续用力推动房地产市场止跌回升\n②加力实施城中村和危旧房改造，充分释放刚性和投资性住房需求潜力\n③扩大新增房地产用地供应，推进处置存量商品房工作\n④推动构建房地产发展新模式，有序搭建相关基础性制度",
+  "options": {
+   "A": "1 项",
+   "B": "2 项",
+   "C": "3 项",
+   "D": "4 项"
+  },
+  "correct_answer": "A",
+  "official_explanation": "持续用力推动房地产市场止跌回稳。①说法错误。加力实施城中村和危旧房改造，充分\n释放刚性和改善性住房需求潜力。②说法错误。合理控制新增房地产用地供应。③说法错误。④正确，故\n本题答案为 A。",
+  "official_answer_page": 3,
+  "transcript_found": true,
+  "transcript_source_file": "20250810 政治理论(时政)加课2.doc.txt",
+  "transcript_char_range": [
+   12820,
+   13350
+  ],
+  "teacher_analysis": "P 老师老师深度剖析第17题三大挖坑点：政策基调是止跌回稳（防大起大落）不是止跌回升；房住不炒释放刚性和改善性需求不是投资性需求；控制新增用地供应不是扩大供应，只有圈四正确，选 A。",
+  "teacher_verbatim_quote": "持续用力推动房地产市场叫止跌回稳，重点在这儿同学们挖坑的点就在这个词上，不是止跌回升！加力实施城中村危旧房改造释放刚性和改善性需求，不是投资性需求！合理控制新增房地产用地供应！选A只有圈四对！",
+  "trap_explanation": "词汇精微辨析：止跌回稳偷换为止跌回升、改善性偷换为投资性、控制新增偷换为扩大新增。",
+  "policy_ids": [
+   "FENGZE_POL_035"
+  ],
+  "verification_status": "source_text_verified",
+  "transcript_audit_status": "transcript_excerpt_verified"
+ },
+ {
+  "case_id": "FENGZE_CASE_018",
+  "provenance": "协作组2025下半年政治理论加课讲义配套例题",
+  "lecture_id": "政治理论（时政）加课",
+  "source_handout": "【协作组】2025下半年政治理论加课-讲义.pdf",
+  "source_handout_page": 12,
+  "source_example_num": 18,
+  "question_type": "方针政策·中央经济工作会议",
+  "stem": "2024 年 12 月 12 日，中央经济工作会议召开，分析研究 2025 年经济工作。会议提出，加大\n区域战略实施力度，增强区域发展活力。下列说法正确的有几项：\n①发挥区域协调发展战略、区域重大战略、主体功能区战略的叠加效应\n②提升西部地区的创新能力和辐射带动作用\n③支持面积大省挑大梁，鼓励其他地区因地制宜、各展所长\n④大力发展海洋经济和湾区经济",
+  "options": {},
+  "correct_answer": "B",
+  "official_explanation": "②说法错误，提升经济发展优势区域的创新能力和辐射带动作用。③说法错误，支持经\n济大省挑大梁，鼓励其他地区因地制宜、各展所长。①④正确，故本题答案为 B。",
+  "official_answer_page": 3,
+  "transcript_found": true,
+  "transcript_source_file": "20250810 政治理论(时政)加课2.doc.txt",
+  "transcript_char_range": [
+   15950,
+   16380
+  ],
+  "teacher_analysis": "P 老师老师现场拆解第18题：区域战略要求发挥比较优势，辐射带动靠‘经济发展优势区域’；中央明确提出‘经济大省挑大梁’，出题人改成面积大省纯属搞笑，选 B。",
+  "teacher_verbatim_quote": "第18题选哪个？选b选项！第二个刚才说了提升经济发展优势区域的创新能力，不是西部地区；第三个是支持经济大省挑大梁，不是面积大省挑大梁！一和四正确，选b！",
+  "trap_explanation": "定语偷换搞笑坑：经济发展优势区域换为西部、经济大省挑大梁换为面积大省。",
+  "policy_ids": [
+   "FENGZE_POL_003"
+  ],
+  "verification_status": "source_text_verified",
+  "transcript_audit_status": "transcript_excerpt_verified"
+ },
+ {
+  "case_id": "FENGZE_CASE_019",
+  "provenance": "协作组2025下半年政治理论加课讲义配套例题",
+  "lecture_id": "政治理论（时政）加课",
+  "source_handout": "【协作组】2025下半年政治理论加课-讲义.pdf",
+  "source_handout_page": 13,
+  "source_example_num": 19,
+  "question_type": "方针政策·中央经济工作会议",
+  "stem": "2024 年 12 月 12 日，中央经济工作会议召开，分析研究 2025 年经济工作。会议提出，协同\n推进降碳减污扩绿增长，加紧经济社会发展全面绿色转型。下列说法正确的有几项：\n①营造绿色低碳产业健康发展生态，培育绿色建筑等新增长点\n②推动“三北”工程标志性战役取得重要成果，加快四川盆地新能源基地建设\n③建立一批零碳园区\n④推动全国碳市场建设，建立产品碳足迹管理体系、碳标识认证制度",
+  "options": {
+   "A": "1 项",
+   "B": "2 项",
+   "C": "3 项",
+   "D": "4 项"
+  },
+  "correct_answer": "C",
+  "official_explanation": "②说法错误，加快“沙戈荒”新能源基地建设。其余三项正确，故本题答案为 C。",
+  "official_answer_page": 3,
+  "transcript_found": true,
+  "transcript_source_file": "20250810 政治理论(时政)加课2.doc.txt",
+  "transcript_char_range": [
+   17260,
+   17620
+  ],
+  "teacher_analysis": "P 老师老师现场带做第19题：指出大型风电光伏基地建设重点在‘沙戈荒’（沙漠、戈壁、荒漠地区），选项偷换为四川盆地地理常识错误，选 C。",
+  "teacher_verbatim_quote": "第19题选的就是c选项，只有圈二错了！沙戈荒新能源基地不是四川盆地对不对？沙漠戈壁荒漠是西北地区，怎么跑四川盆地去了？其他一三四全正确，选c！",
+  "trap_explanation": "地理布局名词偷换：‘沙戈荒’大型风光电基地偷换为四川盆地。",
+  "policy_ids": [
+   "FENGZE_POL_035"
+  ],
+  "verification_status": "source_text_verified",
+  "transcript_audit_status": "transcript_excerpt_verified"
+ },
+ {
+  "case_id": "FENGZE_CASE_020",
+  "provenance": "协作组2025下半年政治理论加课讲义配套例题",
+  "lecture_id": "政治理论（时政）加课",
+  "source_handout": "【协作组】2025下半年政治理论加课-讲义.pdf",
+  "source_handout_page": 13,
+  "source_example_num": 20,
+  "question_type": "方针政策·中央经济工作会议",
+  "stem": "2024 年 12 月 12 日，中央经济工作会议召开，分析研究 2025 年经济工作。会议提出，加大\n保障和改善民生力度，增强人民群众获得感幸福感安全感。下列说法正确的有几项：\n①实施重点领域、重点行业、城乡基层和大型国企就业支持计划\n②加强灵活就业和新就业形态劳动者权益保障\n③推动义务教育优质均衡发展，扎实推进本科学校扩容\n④发展社区支持的居家养老，扩大普惠养老服务",
+  "options": {
+   "A": "1 项",
+   "B": "2 项",
+   "C": "3 项",
+   "D": "4 项"
+  },
+  "correct_answer": "B",
+  "official_explanation": "①说法错误，实施重点领域、重点行业、城乡基层和中小微企业就业支持计划。③说法\n错误，推动义务教育优质均衡发展，扎实推进优质本科扩容。②④正确，故本题答案为 B。",
+  "official_answer_page": 3,
+  "transcript_found": true,
+  "transcript_source_file": "20250810 政治理论(时政)加课2.doc.txt",
+  "transcript_char_range": [
+   17920,
+   18450
+  ],
+  "teacher_analysis": "P 老师老师带做第20题：强调就业支持重点在于吸纳就业主力的‘中小微企业’，常挖坑为大型国企；高等教育推进‘优质本科扩容’，不是盲目全盘扩容本科高校，选 B。",
+  "teacher_verbatim_quote": "实施重点领域、重点行业、城乡基层以及中小微企业的就业支持计划，之前我也说过，中小微很有可能给你改成大型国企！圈三推进优质本科扩容，不是普通本科院校扩容！二和四正确，选b！",
+  "trap_explanation": "就业支持对象与高等教育扩容定语偷换：中小微企业偷换为大型国企、优质本科偷换为本科院校。",
+  "policy_ids": [
+   "FENGZE_POL_004"
+  ],
+  "verification_status": "source_text_verified",
+  "transcript_audit_status": "transcript_excerpt_verified"
+ },
+ {
+  "case_id": "FENGZE_CASE_021",
+  "provenance": "协作组2025下半年政治理论加课讲义配套例题",
+  "lecture_id": "政治理论（时政）加课",
+  "source_handout": "【协作组】2025下半年政治理论加课-讲义.pdf",
+  "source_handout_page": 14,
+  "source_example_num": 21,
+  "question_type": "方针政策·政治局第十九次集体学习",
+  "stem": "中共中央政治局 2 月 28 日上午就建设更高水平平安中国进行第十九次集体学习。以下相关\n说法中正确的是：\n①习近平新时代中国特色主义思想是建设更高水平平安中国的重要遵循\n②平安中国建设为了人民，也依靠人民\n③各级党委和政府要坚持系统思维，进一步树立发展是硬道理、安全也是硬道理的理念\n④建设人人有责、人人尽责、人人享有的社会治理共同体",
+  "options": {
+   "A": "1",
+   "B": "2",
+   "C": "3",
+   "D": "4"
+  },
+  "correct_answer": "C",
+  "official_explanation": "①错误，总体国家安全观是建设更高水平平安中国的重要遵循。",
+  "official_answer_page": 3,
+  "transcript_found": true,
+  "transcript_source_file": "20250810 政治理论(时政)加课2.doc.txt",
+  "transcript_char_range": [
+   33150,
+   33620
+  ],
+  "teacher_analysis": "P 老师老师解析第21题：指出平安中国建设的专项重要遵循是‘总体国家安全观’，选项换成大帽子新思想属于典型的命题拔高偷换，选 C。",
+  "teacher_verbatim_quote": "中共中央政治局第19次集体学习，建设更高水平的平安中国。注意根本遵循是什么？总体国家安全观是建设更高水平平安中国的重要遵循！选项写成习近平新时代中国特色社会主义思想，虽然立意高但文件对不上！圈一错，二三四对，选c！",
+  "trap_explanation": "指导思想与遵循专项偷换：总体国家安全观偷换为宏观新思想。",
+  "policy_ids": [
+   "FENGZE_POL_002"
+  ],
+  "verification_status": "source_text_verified",
+  "transcript_audit_status": "transcript_excerpt_verified"
+ },
+ {
+  "case_id": "FENGZE_CASE_022",
+  "provenance": "协作组2025下半年政治理论加课讲义配套例题",
+  "lecture_id": "政治理论（时政）加课",
+  "source_handout": "【协作组】2025下半年政治理论加课-讲义.pdf",
+  "source_handout_page": 15,
+  "source_example_num": 22,
+  "question_type": "方针政策·政治局第十九次集体学习",
+  "stem": "中共中央政治局 2 月 28 日上午就建设更高水平平安中国进行第十九次集体学习。以下相关\n说法中不正确的是：\n①培育自尊自信、理性平和、积极向上的社会心态\n②弘扬锐意进取、甘于奉献、崇尚法治、文明礼让的时代新风\n③防范化解各类风险是平安中国建设的一项重要任务\n④把捍卫国家人民安全摆在首位",
+  "options": {
+   "A": "1",
+   "B": "2",
+   "C": "3",
+   "D": "4"
+  },
+  "correct_answer": "A",
+  "official_explanation": "④错误，把捍卫国家政治安全摆在首位。",
+  "official_answer_page": 3,
+  "transcript_found": true,
+  "transcript_source_file": "20250810 政治理论(时政)加课2.doc.txt",
+  "transcript_char_range": [
+   34250,
+   34720
+  ],
+  "teacher_analysis": "P 老师老师重点强调第22题大坑：总体国家安全观中以人民安全为宗旨、以政治安全为根本，平安中国建设明确把‘捍卫国家政治安全摆在首位’，错选人民安全的同学就是宗旨和根本没分清，选 A。",
+  "teacher_verbatim_quote": "第九个一定要记住挖坑的点，把捍卫国家政治安全摆在首位！为什么政治安全摆在首位？政权稳固是根本！选项写成把人民安全摆在首位就错了，人民安全是宗旨，政治安全才是根本和首位！只有圈四错，选A！",
+  "trap_explanation": "宗旨与根本混淆：将捍卫国家‘政治安全’摆在首位偷换为‘人民安全’。",
+  "policy_ids": [
+   "FENGZE_POL_001"
+  ],
+  "verification_status": "source_text_verified",
+  "transcript_audit_status": "transcript_excerpt_verified"
+ },
+ {
+  "case_id": "FENGZE_CASE_023",
+  "provenance": "协作组2025下半年政治理论加课讲义配套例题",
+  "lecture_id": "政治理论（时政）加课",
+  "source_handout": "【协作组】2025下半年政治理论加课-讲义.pdf",
+  "source_handout_page": 15,
+  "source_example_num": 23,
+  "question_type": "方针政策·政治局第十九次集体学习",
+  "stem": "中共中央政治局 2 月 28 日上午就建设更高水平平安中国进行第十九次集体学习。以下相关\n说法中不正确的是：\n①完善公共安全体系，推动公共安全治理模式向事后预防转型\n②把专项治理和系统治理、依法治理、综合治理、源头治理结合起来\n③坚持和发展新时代“枫桥经验”，推进信访工作法治化，及时有效化解各种矛盾纠纷\n④以人民为中心是平安中国建设的根本保证",
+  "options": {
+   "A": "1",
+   "B": "2",
+   "C": "3",
+   "D": "4"
+  },
+  "correct_answer": "B",
+  "official_explanation": "",
+  "official_answer_page": 3,
+  "transcript_found": true,
+  "transcript_source_file": "20250810 政治理论(时政)加课2.doc.txt",
+  "transcript_char_range": [
+   35120,
+   35680
+  ],
+  "teacher_analysis": "P 老师老师幽默带做第23题：拆解两处大坑——安全治理向事前预防转型而非事后救火；根本保证永远是‘党的领导’，写成以人民为中心是把立场和保证张冠李戴，选 B。",
+  "teacher_verbatim_quote": "23题虚晃一枪，不一定全选b！圈一公共安全治理模式向事前预防转型，不能写成事后！圈四党的领导是平安中国建设的根本保证，写成以人民为中心就错了，以人民为中心是根本立场，党的领导才是根本保证！选b！",
+  "trap_explanation": "转型方向与政治保证偷换：向事前预防偷换为事后、党的领导根本保证偷换为以人民为中心。",
+  "policy_ids": [
+   "FENGZE_POL_001",
+   "FENGZE_POL_002"
+  ],
+  "verification_status": "source_text_verified",
+  "transcript_audit_status": "transcript_excerpt_verified"
+ },
+ {
+  "case_id": "FENGZE_CASE_024",
+  "provenance": "协作组2025下半年政治理论加课讲义配套例题",
+  "lecture_id": "政治理论（时政）加课",
+  "source_handout": "【协作组】2025下半年政治理论加课-讲义.pdf",
+  "source_handout_page": 16,
+  "source_example_num": 24,
+  "question_type": "方针政策·政治局第二十次集体学习",
+  "stem": "中共中央政治局 4 月 25 日下午就加强人工智能发展和监管进行第二十次集体学习。以下相\n关说法正确的是：\n①人工智能作为引领新一轮科技革命和产业变革的战略性技术，深刻改变人类生产生活方式\n②人工智能领域要占领先机、赢得优势，必须在基础理论、方法、工具等方面取得突破\n③我国数据资源丰富，产业体系完备，应用场景广阔，市场空间巨大\n④人工智能作为新技术新领域，政策支持很重要\n⑤人工智能带来前所未有发展机遇，也带来前所未遇风险挑战\n⑥人工智能可以是造福人类的国际公共产品",
+  "options": {
+   "A": "3",
+   "B": "4",
+   "C": "5",
+   "D": "6"
+  },
+  "correct_answer": "D",
+  "official_explanation": "全部正确。",
+  "official_answer_page": 4,
+  "transcript_found": true,
+  "transcript_source_file": "课堂未独立精讲（加课2授课于第19次集体学习处结课）",
+  "transcript_char_range": [],
+  "teacher_analysis": "【课堂录音未独立精讲 / 仅讲义配套例题】（P 老师课堂录音讲法待补，仅提供讲义官方解析，严禁伪称课堂精讲）",
+  "teacher_verbatim_quote": "",
+  "trap_explanation": "本题考查中共中央政治局第二十次集体学习关于人工智能发展和监管论述，原卷四项表述均正确，答案为 D。课堂教学因课时安排未展开口播精讲。",
+  "policy_ids": [
+   "FENGZE_POL_026"
+  ],
+  "verification_status": "source_text_verified",
+  "transcript_audit_status": "transcript_excerpt_verified"
+ }
+]
