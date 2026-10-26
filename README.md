@@ -27,11 +27,20 @@
 
 详见 [docs/mcp-server.md](docs/mcp-server.md)、[docs/lingshu-integration.md](docs/lingshu-integration.md)。
 
-## 数据边界
+## 数据边界与内容声明
 
-仓库只含源码与题库结构；`data/gongkao.db` 中 35 张个人数据表（作答、笔记、掌握度、
-复习卡、学习任务、教学对话等）在发布前已全部清空。教师语料（`teachers/`）与题图资产
-（`data/assets/`）不随仓库发布。
+- `data/gongkao.db` 中 35 张个人数据表（作答、笔记、掌握度、复习卡、学习任务、
+  教学对话等）在发布前已全部清空；仓库不含任何个人学习数据。
+- `teachers/` 为**方法提炼层**：规则、判题要点、纠偏案例，共 41 个 JSON / 2371 条。
+  已剔除全部课堂原话引用与逐字稿定位（原话摘录、字符区间、讲次文件指针），
+  不含逐字稿本体。教师署名以代号呈现（L / G / W / A / P 老师、协作组）。
+  脱敏导出器 `scripts/sanitize_teacher_corpus.py` 可复跑并自带校验。
+- 题图资源不随仓库发布，见 [Releases](https://github.com/zhtty67-rgb/gongkao-learning-os/releases)
+  的 `question-assets.zip`（2860 张 PNG），解压到项目根即可。
+- 题库 `source` 字段保留原书名称（如「2026龙飞平面图推500题」）——这是「按原书找题」
+  功能的溯源依据，属公开出版练习册名称，不做替换。
+
+许可证与生态署名见 [LICENSE](LICENSE)、[ECOSYSTEM.md](ECOSYSTEM.md)。
 
 ## 当前版本
 
