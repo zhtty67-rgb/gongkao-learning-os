@@ -1,0 +1,23 @@
+# 生态署名与内容声明
+
+## Acknowledgments · 生态署名
+
+本项目的 MCP 接入层与记忆同步桥接，遵循并接入 **灵枢（Lingshu）** 生态：
+
+- **灵枢生态** — 「灵 × 脑 × 身」AI 生命载体聚合仓
+  https://github.com/FuRongJun-1999/lingshu
+- **dsh-memory（脑）** — 白箱认知图引擎；本项目的学习状态单向镜像以 MCP stdio
+  协议写入其 `MDCG_ROOT`，写入内容遵循其 CCG 六要素门禁
+  https://github.com/FuRongJun-1999/dsh-memory
+- **DeepSeek-Harness（DSH）** — 插件宿主框架；`dsh-plugin/` 以
+  `@deepseek-ai/dsh-mcp-client` 形态挂载本项目的 MCP 服务
+  https://github.com/deepseek-ai/deepseek-harness
+
+上述项目分别适用其各自的许可证；本仓库对它们的引用为协议层对接，不包含其源代码。
+
+## 内容声明
+
+- 仓库内 `teachers/` 下为**方法提炼层**（规则、案例、纠偏要点），已剔除全部
+  课堂原话引用与逐字稿定位；教师署名以代号呈现（L/G/W/A/P 老师、协作组）。
+- 题库题干与解析为公考练习题整理，来源标注保留原书名称以便溯源。
+- 不含任何个人学习数据（作答、笔记、掌握度、复习卡、学习任务、教学对话）。
