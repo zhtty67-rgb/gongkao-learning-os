@@ -2,6 +2,37 @@
 
 本地优先的公考学习系统：做题、查看原解析、AI 复盘、记录感悟，再根据学习记录安排训练和复习。
 
+
+## 对灵枢 / DSH 生态的接入点
+
+本系统对外的主接入面是一个**标准 MCP stdio 服务**，与 DSH/灵枢解耦——任何支持 MCP 的客户端都能直连，无需安装插件。
+
+```
+公考系统（gongkao.db，物理只读）
+   └─ 公考 MCP 服务（9 个 gk_* 只读工具）
+        ├─ 任意 MCP 客户端直连（ZCode / Claude Desktop / Cursor / …）
+        ├─ DSH 插件壳（可选，dsh-plugin/，自动挂载）
+        └─ 灵枢脑同步（可选，单向 dsh-memory）
+```
+
+- **MCP 工具**：`gk_overview / gk_mastery / gk_due_reviews / gk_wrong_book /
+  gk_knowledge_tree / gk_node_detail / gk_recent_attempts / gk_notes / gk_ask_teacher`
+  （掌握度、FSRS 到期复习、错题本与十维错因、知识树、个人笔记、名师方法检索）
+- **启动**：`python scripts/gongkao_mcp_server.py`（自带 sys.path，无需 PYTHONPATH）
+- **协议**：版本协商（2024-11-05 / 2025-03-26 / 2025-06-18 / 2025-11-25）、
+  初始化门禁、标准错误分级；已通过官方 python-sdk 1.6.0 与 Node SDK 真实客户端握手验证
+- **可选**：`dsh-plugin/` 一键挂进 DSH profile；`scripts/sync_lingshu_memory.py`
+  把知识树/掌握度/作答摘要单向写入 [dsh-memory](https://github.com/FuRongJun-1999/dsh-memory)
+  白盒认知图（CCG 六要素门禁），并支持把脑端 agent 原生记忆反向回流为学习笔记
+
+详见 [docs/mcp-server.md](docs/mcp-server.md)、[docs/lingshu-integration.md](docs/lingshu-integration.md)。
+
+## 数据边界
+
+仓库只含源码与题库结构；`data/gongkao.db` 中 35 张个人数据表（作答、笔记、掌握度、
+复习卡、学习任务、教学对话等）在发布前已全部清空。教师语料（`teachers/`）与题图资产
+（`data/assets/`）不随仓库发布。
+
 ## 当前版本
 
 2026-10-04 对齐文档审计 12 项发现，见 [修订记录](docs/DOCUMENT_AUDIT_REPAIR_20261004.md)、[验证索引](docs/VERIFICATION_INDEX.md)。旧升级包不可直接用于当前版本，见 [迁移兼容](docs/MIGRATION_COMPATIBILITY.md)。
